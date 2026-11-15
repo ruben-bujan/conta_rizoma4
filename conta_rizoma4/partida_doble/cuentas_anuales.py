@@ -23,50 +23,60 @@ def _grupo(cuenta: str) -> int:
     return int(cuenta[0])
 
 
-def balance_situacion(repo, desde=None, hasta=None):
-    """Balance de situación: activo vs pasivo + PN + resultado.
+_CORRECTORES_ACTIVO_PREFIJOS = ("28", "29", "39", "49", "59")
 
-    Devuelve:
-      {
-        "activo": {cuenta: importe_centimos},
-        "pasivo": {cuenta: importe_centimos},
-        "resultado_ejercicio": int,
-        "total_activo": int,
-        "total_pasivo": int,
-        "total_pasivo_mas_resultado": int,
-        "cuadra": bool,
-      }
+
+def _es_corrector_activo(cuenta: str) -> bool:
+    return any(cuenta.startswith(p) for p in _CORRECTORES_ACTIVO_PREFIJOS)
+
+
+def balance_situacion(repo, desde=None, hasta=None):
+    """Balance de situación: activo (neto) vs pasivo + PN + resultado.
+
+    Los correctores del activo (281, 291, 391, 491, 591) se restan del
+    activo bruto. No aparecen como pasivo.
     """
     mayor_data = mayor(repo, desde, hasta)
-    activo = {}
+    activo_bruto = {}
+    correctores = {}
     pasivo = {}
     gastos_total = 0
     ingresos_total = 0
+
     for cuenta, datos in mayor_data.items():
         grupo = _grupo(cuenta)
         saldo = datos["saldo"]
         if grupo in (1, 2, 3, 4, 5):
-            if saldo > 0:
-                activo[cuenta] = saldo
-            elif saldo < 0:
-                pasivo[cuenta] = -saldo
+            if _es_corrector_activo(cuenta):
+                if saldo != 0:
+                    correctores[cuenta] = abs(saldo)
+            else:
+                if saldo > 0:
+                    activo_bruto[cuenta] = saldo
+                elif saldo < 0:
+                    pasivo[cuenta] = -saldo
         elif grupo == 6:
-            # Gasto: saldo deudor positivo
             gastos_total += saldo
         elif grupo == 7:
-            # Ingreso: saldo acreedor negativo → convertir a positivo
             ingresos_total += -saldo
+
     resultado = ingresos_total - gastos_total
-    total_activo = sum(activo.values())
+    total_activo_bruto = sum(activo_bruto.values())
+    total_correctores = sum(correctores.values())
+    total_activo_neto = total_activo_bruto - total_correctores
     total_pasivo = sum(pasivo.values())
+
     return {
-        "activo": activo,
+        "activo": activo_bruto,
+        "correctores": correctores,
         "pasivo": pasivo,
         "resultado_ejercicio": resultado,
-        "total_activo": total_activo,
+        "total_activo_bruto": total_activo_bruto,
+        "total_correctores": total_correctores,
+        "total_activo": total_activo_neto,
         "total_pasivo": total_pasivo,
         "total_pasivo_mas_resultado": total_pasivo + resultado,
-        "cuadra": total_activo == total_pasivo + resultado,
+        "cuadra": total_activo_neto == total_pasivo + resultado,
     }
 
 

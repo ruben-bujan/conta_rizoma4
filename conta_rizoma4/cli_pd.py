@@ -197,16 +197,20 @@ def _cmd_pd_situacion(args) -> int:
     print("-" * 40)
     for c in sorted(b["activo"]):
         print(f"  {c:>8}  {_fmt_eur(b['activo'][c]):>14}")
+    if b.get("correctores"):
+        print()
+        print("  Correctores del activo (se restan):")
+        for c in sorted(b["correctores"]):
+            print(f"  ({c:>7})  {_fmt_eur(-b['correctores'][c]):>13}")
     print(f"  {'Total':>8}  {_fmt_eur(b['total_activo']):>14}")
     print()
-    print("PASIVO")
+    print("PASIVO + PN")
     print("-" * 40)
     for c in sorted(b["pasivo"]):
         print(f"  {c:>8}  {_fmt_eur(b['pasivo'][c]):>14}")
-    print(f"  {'Total':>8}  {_fmt_eur(b['total_pasivo']):>14}")
+    print(f"  {'Resultado':>8}  {_fmt_eur(b['resultado_ejercicio']):>14}")
+    print(f"  {'Total':>8}  {_fmt_eur(b['total_pasivo_mas_resultado']):>14}")
     print()
-    print(f"Resultado del ejercicio: {_fmt_eur(b['resultado_ejercicio']):>14}")
-    print(f"Pasivo + Resultado:      {_fmt_eur(b['total_pasivo_mas_resultado']):>14}")
     print(f"Cuadre: {'✓' if b['cuadra'] else '✗'}")
     return 0
 

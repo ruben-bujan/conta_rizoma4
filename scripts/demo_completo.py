@@ -203,6 +203,10 @@ def main() -> int:
     print("ACTIVO:")
     for c in sorted(s["activo"]):
         print(f"  {c:>8}  {_fmt(s['activo'][c]):>14}")
+    if s.get("correctores"):
+        print("  Correctores (se restan):")
+        for c in sorted(s["correctores"]):
+            print(f"  ({c:>7})  {_fmt(-s['correctores'][c]):>13}")
     print(f"  {'Total':>8}  {_fmt(s['total_activo']):>14}")
     print("\nPASIVO + PN:")
     for c in sorted(s["pasivo"]):
@@ -211,7 +215,6 @@ def main() -> int:
     print(f"  {'Total':>8}  {_fmt(s['total_pasivo_mas_resultado']):>14}")
     print(f"\nCuadre: {'✓' if s['cuadra'] else '✗'}")
 
-    # ─── Verificación ────────────────────────────────────────
     _header("VERIFICACIÓN DE CADENA")
     rep = repo.verificar_cadena()
     print(f"Asientos: {rep.total}")
