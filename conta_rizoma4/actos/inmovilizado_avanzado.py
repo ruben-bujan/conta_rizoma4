@@ -19,20 +19,33 @@ def _asiento(*, indice, hash_previo, fecha, concepto, lineas, metadatos=None):
 
 def leasing_financiero_inicio(
     *, indice, hash_previo, fecha, valor_razonable_centimos,
-    iva_pct, cuota_largo_plazo_centimos, cuota_corto_plazo_centimos,
+    cuota_largo_plazo_centimos, cuota_corto_plazo_centimos,
     cuenta_inmov, proveedor_nif, concepto="Leasing financiero - inicio",
+    iva_pct=None,  # deprecated, ignorado (el IVA se devenga en cada cuota)
 ) -> Asiento:
     """A_LEASING_FINANCIERO_INICIO.
 
-    Debe:  {cuenta_inmov}, 472
+    Debe:  {cuenta_inmov}
     Haber: 174 (acreedor L/P), 524 (acreedor C/P)
+
+    Nota contable: el IVA del leasing se devenga en cada cuota
+    (leasing_financiero_cuota). Al inicio solo se activa el inmovilizado
+    por el valor razonable y se reconoce la deuda por el principal.
+
+    La suma de cuota_largo_plazo + cuota_corto_plazo debe ser igual a
+    valor_razonable_centimos (sin IVA).
     """
-    iva = _pct(valor_razonable_centimos, iva_pct)
+    total_deuda = cuota_largo_plazo_centimos + cuota_corto_plazo_centimos
+    if total_deuda != valor_razonable_centimos:
+        raise ValueError(
+            f"descuadre leasing: valor_razonable={valor_razonable_centimos} "
+            f"!= L/P ({cuota_largo_plazo_centimos}) + "
+            f"C/P ({cuota_corto_plazo_centimos}) = {total_deuda}"
+        )
     return _asiento(
         indice=indice, hash_previo=hash_previo, fecha=fecha, concepto=concepto,
         lineas=[
             Linea(cuenta_inmov, debe_centimos=valor_razonable_centimos),
-            Linea("472", debe_centimos=iva),
             Linea("174", haber_centimos=cuota_largo_plazo_centimos),
             Linea("524", haber_centimos=cuota_corto_plazo_centimos),
         ],
