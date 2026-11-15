@@ -10,6 +10,7 @@ from . import (
     existencias, existencias_avanzado,
     societarias, societarias_avanzado,
     ajustes, ajustes_avanzado,
+    operaciones_especiales,
 )
 
 
@@ -27,6 +28,7 @@ _GRUPOS = {
     "societarias_avanzado": societarias_avanzado.ACTOS,
     "ajustes": ajustes.ACTOS,
     "ajustes_avanzado": ajustes_avanzado.ACTOS,
+    "operaciones_especiales": operaciones_especiales.ACTOS,
 }
 
 

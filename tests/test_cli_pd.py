@@ -20,7 +20,7 @@ class TestCatalogo:
         rc = main(["pd-acto", "listar"])
         out = capsys.readouterr().out
         assert rc == 0
-        assert "51" in out
+        assert "115" in out
         assert "A_FACT_EMIT_SERV_NAC_SIN_RET" in out
 
     def test_listar_por_grupo(self, capsys):
