@@ -19,6 +19,7 @@ from decimal import Decimal, InvalidOperation
 from .actos.catalogo import CATALOGO, listar_grupos, listar_por_grupo, obtener
 from .partida_doble import (
     crear_asiento, guardar_asiento, borrar_asiento, RepositorioAsiento,
+    ReporteCadenaAsientos,
     listar_diario, totales_diario,
     mayor, balance_comprobacion,
     balance_situacion, cuenta_pyg,
@@ -210,6 +211,42 @@ def _cmd_pd_situacion(args) -> int:
     return 0
 
 
+def _cmd_pd_verificar(args) -> int:
+    """Verifica la cadena de asientos (partida doble)."""
+    repo = RepositorioAsiento()
+    rep = repo.verificar_cadena(desde=args.desde, hasta=args.hasta)
+    print(f"Asientos verificados: {rep.total}")
+    print(f"Rango:               [{rep.desde}, {rep.hasta}]")
+    print()
+    if rep.cadena_valida:
+        print("✓ Cadena VÁLIDA (partida doble)")
+        return 0
+    print(f"✗ Cadena ROTA ({len(rep.roturas)} rotura(s)):")
+    for r in rep.roturas:
+        print(f"  - asiento #{r['indice']}: {r['tipo']}")
+        if "esperado" in r:
+            print(f"    esperado: {r['esperado'][:32]}...")
+            print(f"    guardado: {r['guardado'][:32]}...")
+    return 1
+
+
+def _cmd_pd_reset(args) -> int:
+    """Borra todos los asientos y líneas (partida doble)."""
+    import psycopg
+    from .partida_doble.persistencia import PG_URL
+    if not args.yes:
+        print("ADVERTENCIA: esto borra TODOS los asientos y líneas.")
+        print("Para confirmar: conta pd-reset --yes")
+        return 1
+    with psycopg.connect(PG_URL) as conn:
+        with conn.cursor() as cur:
+            cur.execute("DELETE FROM linea_asiento")
+            cur.execute("DELETE FROM asiento_contable")
+        conn.commit()
+    print("Base de datos de partida doble limpia.")
+    return 0
+
+
 # ─── Parser ────────────────────────────────────────────────────
 
 def registrar_subcomandos(sub) -> None:
@@ -251,3 +288,11 @@ def registrar_subcomandos(sub) -> None:
     p_s.add_argument("--desde", type=int)
     p_s.add_argument("--hasta", type=int)
     p_s.set_defaults(handler=_cmd_pd_situacion)
+    p_v = sub.add_parser("pd-verificar", help="Verifica la cadena de asientos")
+    p_v.add_argument("--desde", type=int)
+    p_v.add_argument("--hasta", type=int)
+    p_v.set_defaults(handler=_cmd_pd_verificar)
+
+    p_r = sub.add_parser("pd-reset", help="Borra todos los asientos (partida doble)")
+    p_r.add_argument("--yes", action="store_true", help="Confirmar borrado")
+    p_r.set_defaults(handler=_cmd_pd_reset)
