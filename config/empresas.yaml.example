@@ -1,0 +1,55 @@
+# config/empresas.yaml.example
+# Copia a config/empresas.yaml y adapta.
+# El fichero real NO se versiona (está en .gitignore).
+# Cambios: editar + reiniciar servicio. No hay endpoint para editarlo.
+
+version: 1
+moneda_grupo: EUR
+marco_contable_default: PGC_ES
+
+# Marcos contables soportados (referencia).
+# Solo PGC_ES cargado. Los demás: cuando lleguen filiales reales.
+marcos_contables:
+  PGC_ES:
+    nombre: "Plan General de Contabilidad (España)"
+    pais: ES
+    moneda_default: EUR
+  NIIF:
+    nombre: "Normas Internacionales de Información Financiera"
+    pais: INTL
+    moneda_default: EUR
+  US_GAAP:
+    nombre: "US Generally Accepted Accounting Principles"
+    pais: US
+    moneda_default: USD
+
+# Empresas del grupo
+empresas:
+  - empresa_id: "default"
+    nombre: "Empresa por defecto (demo)"
+    moneda_funcional: EUR
+    marco_contable: PGC_ES
+    pais: ES
+    grupo: "JV_VECTOR"
+    participacion_matriz: 100.0
+    ejercicio_fiscal:
+      inicio: "01-01"
+      fin: "12-31"
+
+  - empresa_id: "matriz_jv"
+    nombre: "JV-VECTOR Matriz SL"
+    moneda_funcional: EUR
+    marco_contable: PGC_ES
+    pais: ES
+    grupo: "JV_VECTOR"
+    participacion_matriz: 100.0
+    ejercicio_fiscal:
+      inicio: "01-01"
+      fin: "12-31"
+
+# Tipos de cambio manuales (fallback si el BCE falla o no hay red)
+# Los automáticos se descargan del BCE y se cachean en config/cache/
+tipos_cambio_manuales:
+  "2025-12-31":
+    USD_EUR: 0.92
+    GBP_EUR: 1.17

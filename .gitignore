@@ -37,3 +37,8 @@ data/seed/*.json
 
 # Logs
 *.log
+
+
+# Config local (no versionar)
+config/empresas.yaml
+config/cache/
