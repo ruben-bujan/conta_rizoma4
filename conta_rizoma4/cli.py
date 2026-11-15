@@ -44,6 +44,15 @@ from .operativo.repositorio_acto import RepositorioActoEconomico
 from .cli_pd import registrar_subcomandos
 
 
+def _aviso_deprecated(nombre_antiguo: str, nombre_nuevo: str) -> None:
+    """Aviso a stderr cuando se usa un comando del POC."""
+    print(
+        f"[DEPRECATED] '{nombre_antiguo}' usa el modelo antiguo. "
+        f"Usa '{nombre_nuevo}' (partida doble).",
+        file=sys.stderr,
+    )
+
+
 # ─── Utilidades ────────────────────────────────────────────────────
 
 def _parse_importe(s: str) -> int:
@@ -298,14 +307,14 @@ def _construir_parser() -> argparse.ArgumentParser:
     sub = p.add_subparsers(dest="cmd", required=True)
 
     # sugerir
-    sp = sub.add_parser("sugerir", help="Sugiere cuenta PGC desde A+B+C")
+    sp = sub.add_parser("sugerir", help="[DEPRECATED] Usa pd-acto. Sugiere cuenta PGC")
     sp.add_argument("--doc", required=True, help="Tipo de documento (C)")
     sp.add_argument("--int", help="Tipo de interlocutor (B)", default=None)
     sp.add_argument("--actividad", help="Nivel1 (A)", default=None)
     sp.set_defaults(handler=_cmd_sugerir)
 
     # justificar
-    sp = sub.add_parser("justificar", help="Crea JustificacionInterna")
+    sp = sub.add_parser("justificar", help="[DEPRECATED] Crea JustificacionInterna")
     sp.add_argument("--cuenta", required=True)
     sp.add_argument("--importe", required=True, type=_parse_importe)
     sp.add_argument("--concepto", required=True)
@@ -316,7 +325,7 @@ def _construir_parser() -> argparse.ArgumentParser:
     sp.set_defaults(handler=_cmd_justificar)
 
     # crear
-    sp = sub.add_parser("crear", help="Crea ActoEconomico manual")
+    sp = sub.add_parser("crear", help="[DEPRECATED] Usa pd-acto crear")
     sp.add_argument("--cuenta", required=True)
     sp.add_argument("--importe", required=True, type=_parse_importe)
     sp.add_argument("--concepto", required=True)
@@ -328,7 +337,7 @@ def _construir_parser() -> argparse.ArgumentParser:
     sp.set_defaults(handler=_cmd_crear)
 
     # reclasificar
-    sp = sub.add_parser("reclasificar", help="Reclasifica una JustificacionInterna")
+    sp = sub.add_parser("reclasificar", help="[DEPRECATED] Reclasifica una JustificacionInterna")
     sp.add_argument("--justificacion", type=int, required=True)
     sp.add_argument("--por", required=True, dest="por")
     sp.add_argument("--cuenta", default="430")
@@ -336,7 +345,7 @@ def _construir_parser() -> argparse.ArgumentParser:
     sp.set_defaults(handler=_cmd_reclasificar)
 
     # listar
-    sp = sub.add_parser("listar", help="Lista actos")
+    sp = sub.add_parser("listar", help="[DEPRECATED] Usa pd-diario")
     sp.add_argument("--desde", type=int)
     sp.add_argument("--hasta", type=int)
     sp.add_argument("--cuenta")
@@ -344,22 +353,22 @@ def _construir_parser() -> argparse.ArgumentParser:
     sp.set_defaults(handler=_cmd_listar)
 
     # ver
-    sp = sub.add_parser("ver", help="Muestra un acto")
+    sp = sub.add_parser("ver", help="[DEPRECATED] Usa pd-diario")
     sp.add_argument("--indice", type=int, required=True)
     sp.set_defaults(handler=_cmd_ver)
 
     # verificar
-    sp = sub.add_parser("verificar", help="Verifica integridad de la cadena")
+    sp = sub.add_parser("verificar", help="[DEPRECATED] Usa pd-verificar")
     sp.add_argument("--desde", type=int)
     sp.add_argument("--hasta", type=int)
     sp.set_defaults(handler=_cmd_verificar)
 
     # pendientes
-    sp = sub.add_parser("pendientes", help="Justificaciones pendientes")
+    sp = sub.add_parser("pendientes", help="[DEPRECATED] Justificaciones pendientes")
     sp.set_defaults(handler=_cmd_pendientes)
 
     # reset
-    sp = sub.add_parser("reset", help="Borra todos los actos y justificaciones")
+    sp = sub.add_parser("reset", help="[DEPRECATED] Usa pd-reset")
     sp.add_argument("--yes", action="store_true", help="Confirmar borrado")
     sp.set_defaults(handler=_cmd_reset)
 
