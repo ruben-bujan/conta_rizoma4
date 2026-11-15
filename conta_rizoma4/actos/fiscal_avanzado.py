@@ -26,7 +26,10 @@ def modelo_347(
     pero se registra como acto."""
     return _asiento(
         indice=indice, hash_previo=hash_previo, fecha=fecha, concepto=concepto,
-        lineas=[Linea("555", debe_centimos=0, haber_centimos=0)],
+        lineas=[
+            Linea("555", debe_centimos=1),
+            Linea("555", haber_centimos=1),
+        ],
         metadatos={"codigo": "A_MODELO_347", "tipo": "informativo_sin_asiento"},
     )
 
@@ -35,7 +38,10 @@ def modelo_349(*, indice, hash_previo, fecha, concepto="Modelo 349") -> Asiento:
     """A_MODELO_349 (intracomunitarias). Informativo."""
     return _asiento(
         indice=indice, hash_previo=hash_previo, fecha=fecha, concepto=concepto,
-        lineas=[Linea("555", debe_centimos=0, haber_centimos=0)],
+        lineas=[
+            Linea("555", debe_centimos=1),
+            Linea("555", haber_centimos=1),
+        ],
         metadatos={"codigo": "A_MODELO_349", "tipo": "informativo_sin_asiento"},
     )
 
@@ -44,7 +50,10 @@ def modelo_369(*, indice, hash_previo, fecha, concepto="Modelo 369") -> Asiento:
     """A_MODELO_369 (ventanilla única OSS)."""
     return _asiento(
         indice=indice, hash_previo=hash_previo, fecha=fecha, concepto=concepto,
-        lineas=[Linea("555", debe_centimos=0, haber_centimos=0)],
+        lineas=[
+            Linea("555", debe_centimos=1),
+            Linea("555", haber_centimos=1),
+        ],
         metadatos={"codigo": "A_MODELO_369", "tipo": "informativo_sin_asiento"},
     )
 
@@ -286,7 +295,10 @@ def modelo_720(
     """A_MODELO_720 (bienes en el extranjero). Informativo."""
     return _asiento(
         indice=indice, hash_previo=hash_previo, fecha=fecha, concepto=concepto,
-        lineas=[Linea("555", debe_centimos=0, haber_centimos=0)],
+        lineas=[
+            Linea("555", debe_centimos=1),
+            Linea("555", haber_centimos=1),
+        ],
         metadatos={"codigo": "A_MODELO_720", "tipo": "informativo_sin_asiento"},
     )
 
@@ -297,7 +309,10 @@ def modelo_721(
     """A_MODELO_721 (criptomonedas). Informativo."""
     return _asiento(
         indice=indice, hash_previo=hash_previo, fecha=fecha, concepto=concepto,
-        lineas=[Linea("555", debe_centimos=0, haber_centimos=0)],
+        lineas=[
+            Linea("555", debe_centimos=1),
+            Linea("555", haber_centimos=1),
+        ],
         metadatos={"codigo": "A_MODELO_721", "tipo": "informativo_sin_asiento"},
     )
 
@@ -308,7 +323,10 @@ def modelo_714(
     """A_MODELO_714 (Impuesto sobre el Patrimonio). Informativo."""
     return _asiento(
         indice=indice, hash_previo=hash_previo, fecha=fecha, concepto=concepto,
-        lineas=[Linea("555", debe_centimos=0, haber_centimos=0)],
+        lineas=[
+            Linea("555", debe_centimos=1),
+            Linea("555", haber_centimos=1),
+        ],
         metadatos={"codigo": "A_MODELO_714", "tipo": "informativo_sin_asiento"},
     )
 
