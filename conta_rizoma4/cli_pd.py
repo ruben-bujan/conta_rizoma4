@@ -23,6 +23,7 @@ from .partida_doble import (
     listar_diario, totales_diario,
     mayor, balance_comprobacion,
     balance_situacion, cuenta_pyg,
+    balance_formateado, pyg_formateado,
 )
 from .operativo.asiento import GENESIS
 
@@ -251,6 +252,88 @@ def _cmd_pd_reset(args) -> int:
     return 0
 
 
+def _cmd_pd_balance_formateado(args) -> int:
+    """Balance agrupado por grupos PGC."""
+    from .partida_doble.presentacion import _GRUPOS_ACTIVO, _GRUPOS_PYG
+    repo = RepositorioAsiento()
+    b = balance_formateado(repo, desde=args.desde, hasta=args.hasta)
+
+    print("BALANCE DE SITUACIÓN (agrupado por grupos PGC)")
+    print("=" * 60)
+    print()
+    print("ACTIVO")
+    print("-" * 60)
+    for grupo_num in sorted(b["activo"].keys()):
+        cuentas = b["activo"][grupo_num]
+        if not cuentas:
+            continue
+        print(f"Grupo {grupo_num} - {_GRUPOS_ACTIVO[grupo_num]}:")
+        for c in sorted(cuentas.keys()):
+            print(f"  {c:>8}  {_fmt_eur(cuentas[c]):>14}")
+        print(f"  {'Subtotal':>8}  {_fmt_eur(sum(cuentas.values())):>14}")
+    if b["correctores"]:
+        print()
+        print("Correctores del activo (se restan):")
+        for c in sorted(b["correctores"].keys()):
+            print(f"  ({c:>7})  {_fmt_eur(-b['correctores'][c]):>13}")
+        print(f"  {'Subtotal':>8}  {_fmt_eur(-sum(b['correctores'].values())):>14}")
+    print("-" * 60)
+    print(f"{'TOTAL ACTIVO':>10}  {_fmt_eur(b['total_activo']):>14}")
+    print()
+
+    print("PASIVO + PN")
+    print("-" * 60)
+    for grupo_num in sorted(b["pasivo"].keys()):
+        cuentas = b["pasivo"][grupo_num]
+        if not cuentas:
+            continue
+        print(f"Grupo {grupo_num} - {_GRUPOS_ACTIVO[grupo_num]}:")
+        for c in sorted(cuentas.keys()):
+            print(f"  {c:>8}  {_fmt_eur(cuentas[c]):>14}")
+        print(f"  {'Subtotal':>8}  {_fmt_eur(sum(cuentas.values())):>14}")
+    print(f"  {'Resultado':>8}  {_fmt_eur(b['resultado_ejercicio']):>14}")
+    print("-" * 60)
+    print(f"{'TOTAL P+PN':>10}  {_fmt_eur(b['total_pasivo_mas_resultado']):>14}")
+    print()
+    print(f"Cuadre: {'✓' if b['cuadra'] else '✗'}")
+    return 0
+
+
+def _cmd_pd_pyg_formateado(args) -> int:
+    """PyG agrupada por grupos 6-7 del PGC."""
+    from .partida_doble.presentacion import _GRUPOS_PYG
+    repo = RepositorioAsiento()
+    p = pyg_formateado(repo, desde=args.desde, hasta=args.hasta)
+
+    print("CUENTA DE PÉRDIDAS Y GANANCIAS (agrupada por grupos PGC)")
+    print("=" * 60)
+    print()
+    print("GASTOS (grupo 6)")
+    print("-" * 60)
+    if p["gastos"]:
+        for c in sorted(p["gastos"].keys()):
+            print(f"  {c:>8}  {_fmt_eur(p['gastos'][c]):>14}")
+        print(f"  {'Total':>8}  {_fmt_eur(p['total_gastos']):>14}")
+    else:
+        print("  (sin gastos)")
+    print()
+
+    print("INGRESOS (grupo 7)")
+    print("-" * 60)
+    if p["ingresos"]:
+        for c in sorted(p["ingresos"].keys()):
+            print(f"  {c:>8}  {_fmt_eur(p['ingresos'][c]):>14}")
+        print(f"  {'Total':>8}  {_fmt_eur(p['total_ingresos']):>14}")
+    else:
+        print("  (sin ingresos)")
+    print()
+
+    print("=" * 60)
+    print(f"RESULTADO: {_fmt_eur(p['resultado']):>14}  "
+          f"({'beneficio' if p['resultado'] >= 0 else 'pérdida'})")
+    return 0
+
+
 # ─── Parser ────────────────────────────────────────────────────
 
 def registrar_subcomandos(sub) -> None:
@@ -292,6 +375,18 @@ def registrar_subcomandos(sub) -> None:
     p_s.add_argument("--desde", type=int)
     p_s.add_argument("--hasta", type=int)
     p_s.set_defaults(handler=_cmd_pd_situacion)
+    p_bf = sub.add_parser("pd-balance-formateado",
+        help="Balance agrupado por grupos PGC")
+    p_bf.add_argument("--desde", type=int)
+    p_bf.add_argument("--hasta", type=int)
+    p_bf.set_defaults(handler=_cmd_pd_balance_formateado)
+
+    p_pf = sub.add_parser("pd-pyg-formateado",
+        help="PyG agrupada por grupos PGC")
+    p_pf.add_argument("--desde", type=int)
+    p_pf.add_argument("--hasta", type=int)
+    p_pf.set_defaults(handler=_cmd_pd_pyg_formateado)
+
     p_v = sub.add_parser("pd-verificar", help="Verifica la cadena de asientos")
     p_v.add_argument("--desde", type=int)
     p_v.add_argument("--hasta", type=int)

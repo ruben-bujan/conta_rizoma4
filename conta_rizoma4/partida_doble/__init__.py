@@ -9,6 +9,7 @@ from .libro_diario import listar_diario, totales_diario
 from .libro_mayor import mayor, saldo_cuenta
 from .balance_comprobacion import balance_comprobacion
 from .cuentas_anuales import balance_situacion, cuenta_pyg
+from .presentacion import balance_formateado, pyg_formateado
 
 __all__ = [
     "Asiento", "Linea", "PartidaDobleError",
@@ -19,4 +20,5 @@ __all__ = [
     "mayor", "saldo_cuenta",
     "balance_comprobacion",
     "balance_situacion", "cuenta_pyg",
+    "balance_formateado", "pyg_formateado",
 ]
