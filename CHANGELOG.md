@@ -52,3 +52,24 @@ justificación doctrinal.
 tiene nada que justificar. Es el cimiento de todo lo demás.
 
 **Tests:** 5 passed.
+## v0.7.0 (2026-11-15) — Ciclo 7: Partida doble real
+
+**Qué:** `asiento_contable` + `linea_asiento` con validación de cuadre.
+
+- `partida_doble/modelo.py` — Linea, Asiento, validación (debe>0 XOR haber>0).
+- `partida_doble/creacion.py` — crear_asiento con validación SUM(debe)=SUM(haber).
+- `partida_doble/persistencia.py` — guardar_asiento, borrar_asiento.
+- `partida_doble/repositorio.py` — RepositorioAsiento + verificar_cadena.
+- `scripts/ddl_partida_doble.sql` — tablas + vista `v_asiento_cuadre`.
+- `docs/taxonomia_actos_economicos.md` — ~100 actos del PGC completo.
+- 13 tests nuevos.
+
+**Por qué:** el POC (v0.6.0) tenía actos con una cuenta principal y contrapartida opcional. No era partida doble: un acto con `cuenta_pgc=705, importe=1210` sin contrapartida era válido, lo que en contabilidad real sería un asiento que no cuadra. La partida doble es el cimiento de todo lo demás (libro diario, mayor, balance, PyG, cuentas anuales).
+
+**Ficheros:** 5 ficheros nuevos en `conta_rizoma4/partida_doble/`, 1 DDL, 1 test, 1 doc.
+
+**Tests:** 13 nuevos. Total: 85.
+
+**Cierra:** Ciclo 7. Base para los Ciclos 8-20 (IVA, cierre, retenciones, inmovilizado, etc.).
+
+---
