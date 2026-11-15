@@ -96,7 +96,7 @@ def _cmd_pd_acto_listar(args) -> int:
 
 
 def _cmd_pd_acto_crear(args) -> int:
-    repo = RepositorioAsiento()
+    repo = RepositorioAsiento('default')
     params = _parse_parametros_json(args.json)
     resultado = _crear_asiento_desde_acto(args.codigo, params, repo)
     print(f"✓ Asiento #{resultado['indice']} creado")
@@ -108,7 +108,7 @@ def _cmd_pd_acto_crear(args) -> int:
 
 
 def _cmd_pd_diario(args) -> int:
-    repo = RepositorioAsiento()
+    repo = RepositorioAsiento('default')
     asientos = listar_diario(repo, desde=args.desde, hasta=args.hasta)
     if not asientos:
         print("(diario vacío)")
@@ -129,7 +129,7 @@ def _cmd_pd_diario(args) -> int:
 
 
 def _cmd_pd_mayor(args) -> int:
-    repo = RepositorioAsiento()
+    repo = RepositorioAsiento('default')
     m = mayor(repo, desde=args.desde, hasta=args.hasta)
     if args.cuenta:
         if args.cuenta not in m:
@@ -154,7 +154,7 @@ def _cmd_pd_mayor(args) -> int:
 
 
 def _cmd_pd_balance(args) -> int:
-    repo = RepositorioAsiento()
+    repo = RepositorioAsiento('default')
     b = balance_comprobacion(repo, desde=args.desde, hasta=args.hasta)
     print(f"{'cuenta':>8}  {'debe':>12}  {'haber':>12}  {'saldo':>12}")
     print("-" * 54)
@@ -172,7 +172,7 @@ def _cmd_pd_balance(args) -> int:
 
 
 def _cmd_pd_pyg(args) -> int:
-    repo = RepositorioAsiento()
+    repo = RepositorioAsiento('default')
     p = cuenta_pyg(repo, desde=args.desde, hasta=args.hasta)
     print("GASTOS (grupo 6)")
     print("-" * 40)
@@ -192,7 +192,7 @@ def _cmd_pd_pyg(args) -> int:
 
 
 def _cmd_pd_situacion(args) -> int:
-    repo = RepositorioAsiento()
+    repo = RepositorioAsiento('default')
     b = balance_situacion(repo, desde=args.desde, hasta=args.hasta)
     print("ACTIVO")
     print("-" * 40)
@@ -218,7 +218,7 @@ def _cmd_pd_situacion(args) -> int:
 
 def _cmd_pd_verificar(args) -> int:
     """Verifica la cadena de asientos (partida doble)."""
-    repo = RepositorioAsiento()
+    repo = RepositorioAsiento('default')
     rep = repo.verificar_cadena(desde=args.desde, hasta=args.hasta)
     print(f"Asientos verificados: {rep.total}")
     print(f"Rango:               [{rep.desde}, {rep.hasta}]")
@@ -255,7 +255,7 @@ def _cmd_pd_reset(args) -> int:
 def _cmd_pd_balance_formateado(args) -> int:
     """Balance agrupado por grupos PGC."""
     from .partida_doble.presentacion import _GRUPOS_ACTIVO, _GRUPOS_PYG
-    repo = RepositorioAsiento()
+    repo = RepositorioAsiento('default')
     b = balance_formateado(repo, desde=args.desde, hasta=args.hasta)
 
     print("BALANCE DE SITUACIÓN (agrupado por grupos PGC)")
@@ -302,7 +302,7 @@ def _cmd_pd_balance_formateado(args) -> int:
 def _cmd_pd_pyg_formateado(args) -> int:
     """PyG agrupada por grupos 6-7 del PGC."""
     from .partida_doble.presentacion import _GRUPOS_PYG
-    repo = RepositorioAsiento()
+    repo = RepositorioAsiento('default')
     p = pyg_formateado(repo, desde=args.desde, hasta=args.hasta)
 
     print("CUENTA DE PÉRDIDAS Y GANANCIAS (agrupada por grupos PGC)")

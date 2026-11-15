@@ -51,7 +51,7 @@ def caso_simple():
 
 class TestBalanceFormateado:
     def test_activo_y_pasivo(self, caso_simple):
-        b = balance_formateado(RepositorioAsiento(), desde=8900, hasta=8903)
+        b = balance_formateado(RepositorioAsiento('default'), desde=8900, hasta=8903)
         # Activo grupo 2: 217=120k, 281=-7.5k (corrector)
         # Activo grupo 4: 430=121k, 472=25.2k+10.5k=35.7k
         # Activo grupo 5: 572=0 (no hay cobro)
@@ -62,7 +62,7 @@ class TestBalanceFormateado:
         assert b["cuadra"]
 
     def test_cuadra(self, caso_simple):
-        b = balance_formateado(RepositorioAsiento(), desde=8900, hasta=8903)
+        b = balance_formateado(RepositorioAsiento('default'), desde=8900, hasta=8903)
         assert b["cuadra"], (
             f"Activo={b['total_activo']} "
             f"Pasivo+R={b['total_pasivo_mas_resultado']}"
@@ -71,7 +71,7 @@ class TestBalanceFormateado:
 
 class TestPyGFormateado:
     def test_separa_gastos_e_ingresos(self, caso_simple):
-        p = pyg_formateado(RepositorioAsiento(), desde=8900, hasta=8903)
+        p = pyg_formateado(RepositorioAsiento('default'), desde=8900, hasta=8903)
         # Ingresos: 705=100k
         assert "705" in p["ingresos"]
         # Gastos: 600=50k, 681=7.5k
@@ -79,6 +79,6 @@ class TestPyGFormateado:
         assert "681" in p["gastos"]
 
     def test_resultado(self, caso_simple):
-        p = pyg_formateado(RepositorioAsiento(), desde=8900, hasta=8903)
+        p = pyg_formateado(RepositorioAsiento('default'), desde=8900, hasta=8903)
         # 100k - 57.5k = 42.5k
         assert p["resultado"] == 42_500

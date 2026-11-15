@@ -32,7 +32,7 @@ FECHA = date(2025, 4, 15)
 @pytest.fixture
 def caso_limpio():
     """Crea un caso sintético de 3 asientos y limpia al final."""
-    repo = RepositorioAsiento()
+    repo = RepositorioAsiento('default')
     # Limpiar cualquier residuo
     for i in (8000, 8001, 8002):
         borrar_asiento(i)

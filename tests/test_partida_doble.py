@@ -94,7 +94,7 @@ class TestPersistencia:
             ],
         )
         guardar_asiento(a)
-        d = RepositorioAsiento().obtener(9500)
+        d = RepositorioAsiento('default').obtener(9500)
         assert d is not None
         assert d["concepto"] == "Test"
         assert len(d["lineas"]) == 3
@@ -141,7 +141,7 @@ class TestRepositorio:
             hash_previo=a0.hash,
         )
         guardar_asiento(a0); guardar_asiento(a1)
-        rep = RepositorioAsiento().verificar_cadena(desde=9600, hasta=9601)
+        rep = RepositorioAsiento('default').verificar_cadena(desde=9600, hasta=9601)
         assert rep.cadena_valida, f"Roturas: {rep.roturas}"
         assert rep.total == 2
 
@@ -166,5 +166,5 @@ class TestFiscal:
         )
         assert a.cuadra
         guardar_asiento(a)
-        d = RepositorioAsiento().obtener(9700)
+        d = RepositorioAsiento('default').obtener(9700)
         assert len(d["lineas"]) == 3

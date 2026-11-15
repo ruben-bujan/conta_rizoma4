@@ -32,7 +32,7 @@ class TestCatalogo:
 
 class TestCrear:
     def test_crear_factura(self, capsys, limpio):
-        repo = RepositorioAsiento()
+        repo = RepositorioAsiento('default')
         indice_antes = repo.ultimo_indice()
         rc = main([
             "pd-acto", "crear", "A_FACT_EMIT_SERV_NAC_SIN_RET",

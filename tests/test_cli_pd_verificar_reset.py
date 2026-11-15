@@ -24,7 +24,7 @@ class TestReset:
         assert "pd-reset --yes" in out
 
     def test_reset_con_yes_limpia(self, capsys):
-        repo = RepositorioAsiento()
+        repo = RepositorioAsiento('default')
         # Crear un asiento si no hay ninguno
         from datetime import date
         from conta_rizoma4.actos.facturacion import fact_emit_serv_nac_sin_ret

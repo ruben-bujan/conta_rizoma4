@@ -1,9 +1,11 @@
 # -*- coding: utf-8 -*-
-"""RepositorioAsiento: lectura + verificación de la cadena."""
+"""RepositorioAsiento multi-tenant: cada contabilidad es de una empresa."""
 from __future__ import annotations
 
+import json
 import os
 from dataclasses import dataclass
+from datetime import date
 from typing import Optional
 
 import psycopg
@@ -20,6 +22,7 @@ PG_URL = os.environ.get(
 
 @dataclass
 class ReporteCadenaAsientos:
+    empresa_id: str
     desde: int
     hasta: int
     total: int
@@ -28,8 +31,18 @@ class ReporteCadenaAsientos:
 
 
 class RepositorioAsiento:
-    def __init__(self, pg_url: Optional[str] = None):
+    def __init__(self, empresa_id: str, pg_url: Optional[str] = None):
+        if not empresa_id or not empresa_id.strip():
+            raise ValueError(
+                "empresa_id es obligatorio. "
+                "Cada contabilidad es de una empresa distinta."
+            )
+        self._empresa_id = empresa_id
         self._url = pg_url or PG_URL
+
+    @property
+    def empresa_id(self) -> str:
+        return self._empresa_id
 
     def _conn(self):
         return psycopg.connect(self._url, row_factory=dict_row)
@@ -39,7 +52,9 @@ class RepositorioAsiento:
             with conn.cursor() as cur:
                 cur.execute(
                     "SELECT indice, fecha, concepto, hash_previo, hash, metadatos "
-                    "FROM asiento_contable WHERE indice = %s", (indice,),
+                    "FROM asiento_contable "
+                    "WHERE empresa_id = %s AND indice = %s",
+                    (self._empresa_id, indice),
                 )
                 cab = cur.fetchone()
                 if cab is None:
@@ -47,8 +62,10 @@ class RepositorioAsiento:
                 cur.execute(
                     "SELECT cuenta_pgc, debe_centimos, haber_centimos, "
                     "parrafo_pgc_id, concepto_linea "
-                    "FROM linea_asiento WHERE asiento_indice = %s ORDER BY id",
-                    (indice,),
+                    "FROM linea_asiento "
+                    "WHERE empresa_id = %s AND asiento_indice = %s "
+                    "ORDER BY id",
+                    (self._empresa_id, indice),
                 )
                 cab["lineas"] = cur.fetchall()
                 return cab
@@ -60,15 +77,17 @@ class RepositorioAsiento:
         indice_hasta: Optional[int] = None,
         limite: int = 100,
     ) -> list[dict]:
-        where, params = [], []
+        where = ["empresa_id = %s"]
+        params: list = [self._empresa_id]
         if indice_desde is not None:
             where.append("indice >= %s"); params.append(indice_desde)
         if indice_hasta is not None:
             where.append("indice <= %s"); params.append(indice_hasta)
-        sql = "SELECT indice, fecha, concepto, hash_previo, hash, metadatos FROM asiento_contable"
-        if where:
-            sql += " WHERE " + " AND ".join(where)
-        sql += " ORDER BY indice ASC LIMIT %s"
+        sql = (
+            "SELECT indice, fecha, concepto, hash_previo, hash, metadatos "
+            "FROM asiento_contable WHERE " + " AND ".join(where) +
+            " ORDER BY indice ASC LIMIT %s"
+        )
         params.append(limite)
         with self._conn() as conn:
             with conn.cursor() as cur:
@@ -78,14 +97,22 @@ class RepositorioAsiento:
     def ultimo_indice(self) -> int:
         with self._conn() as conn:
             with conn.cursor() as cur:
-                cur.execute("SELECT MAX(indice) AS m FROM asiento_contable")
+                cur.execute(
+                    "SELECT MAX(indice) AS m FROM asiento_contable "
+                    "WHERE empresa_id = %s",
+                    (self._empresa_id,),
+                )
                 m = cur.fetchone()["m"]
         return -1 if m is None else int(m)
 
     def contar(self) -> int:
         with self._conn() as conn:
             with conn.cursor() as cur:
-                cur.execute("SELECT COUNT(*) AS n FROM asiento_contable")
+                cur.execute(
+                    "SELECT COUNT(*) AS n FROM asiento_contable "
+                    "WHERE empresa_id = %s",
+                    (self._empresa_id,),
+                )
                 return cur.fetchone()["n"]
 
     def _huella_de(self, indice: int) -> str:
@@ -117,6 +144,7 @@ class RepositorioAsiento:
         )
         if not asientos:
             return ReporteCadenaAsientos(
+                empresa_id=self._empresa_id,
                 desde=desde or 0, hasta=hasta or 0,
                 total=0, cadena_valida=True, roturas=[],
             )
@@ -145,6 +173,7 @@ class RepositorioAsiento:
                         "guardado": a["hash_previo"],
                     })
         return ReporteCadenaAsientos(
+            empresa_id=self._empresa_id,
             desde=asientos[0]["indice"], hasta=asientos[-1]["indice"],
             total=len(asientos),
             cadena_valida=len(roturas) == 0, roturas=roturas,
