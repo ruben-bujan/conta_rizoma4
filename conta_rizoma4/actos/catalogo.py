@@ -1,22 +1,32 @@
 # -*- coding: utf-8 -*-
-"""Catálogo unificado de los 51 actos económicos."""
+"""Catálogo unificado de todos los actos económicos."""
 from __future__ import annotations
 
 from . import (
-    facturacion, fiscal, cierre, inmovilizado,
-    existencias, societarias, ajustes,
+    facturacion, facturacion_avanzada,
+    fiscal, fiscal_avanzado,
+    cierre,
+    inmovilizado, inmovilizado_avanzado,
+    existencias, existencias_avanzado,
+    societarias, societarias_avanzado,
+    ajustes, ajustes_avanzado,
 )
 
 
-# Mapa: {codigo: (modulo, funcion)}
 _GRUPOS = {
     "facturacion": facturacion.ACTOS,
+    "facturacion_avanzada": facturacion_avanzada.ACTOS,
     "fiscal": fiscal.ACTOS,
+    "fiscal_avanzado": fiscal_avanzado.ACTOS,
     "cierre": cierre.ACTOS,
     "inmovilizado": inmovilizado.ACTOS,
+    "inmovilizado_avanzado": inmovilizado_avanzado.ACTOS,
     "existencias": existencias.ACTOS,
+    "existencias_avanzado": existencias_avanzado.ACTOS,
     "societarias": societarias.ACTOS,
+    "societarias_avanzado": societarias_avanzado.ACTOS,
     "ajustes": ajustes.ACTOS,
+    "ajustes_avanzado": ajustes_avanzado.ACTOS,
 }
 
 
@@ -42,7 +52,6 @@ def listar_por_grupo(grupo: str) -> list[str]:
 
 
 def obtener(codigo: str):
-    """Devuelve (grupo, funcion) o levanta ValueError."""
     if codigo not in CATALOGO:
         raise ValueError(
             f"Acto desconocido: {codigo}. "
