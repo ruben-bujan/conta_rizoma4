@@ -41,6 +41,7 @@ from .operativo.reclasificacion import (
     reclasificar_justificacion,
 )
 from .operativo.repositorio_acto import RepositorioActoEconomico
+from .cli_pd import registrar_subcomandos
 
 
 # ─── Utilidades ────────────────────────────────────────────────────
@@ -362,6 +363,7 @@ def _construir_parser() -> argparse.ArgumentParser:
     sp.add_argument("--yes", action="store_true", help="Confirmar borrado")
     sp.set_defaults(handler=_cmd_reset)
 
+    registrar_subcomandos(sub)
     return p
 
 
