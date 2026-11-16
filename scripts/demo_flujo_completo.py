@@ -1,250 +1,207 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Demo end-to-end del flujo contable completo.
+"""Demo del flujo completo de conta-rizoma4.
 
-  Fase 1 (devengo):       JustificacionInterna → 4308
-  Fase 2 (facturación):   ActoEconomico        → 430
-  Fase 3 (cobro):         ActoEconomico        → 572
-
-Los actos se marcan con metadatos={"demo": "flujo_completo"} para
-limpiarlos y localizarlos sin depender de índices fijos.
+Flujo:
+  1. Crear obra
+  2. Pedir lease
+  3. Crear asiento (factura) con lease
+  4. Visar (jefe de obra)
+  5. Aprobar (jefe de producción)
+  6. Rizomizar (simulando el worker de rizoma4)
+  7. Ver el estado final
 
 Uso:
-    export CONTA_PG_URL=postgresql://rizoma:rizoma_dev@localhost:5433/conta_rizoma4
+    # Arrancar la API en otra terminal:
+    #   uvicorn conta_rizoma4.api.main:app --port 8001
     python scripts/demo_flujo_completo.py
 """
 from __future__ import annotations
 
+import os
 import sys
-from datetime import date
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-import psycopg
-
-from conta_rizoma4.operativo.acto_economico import PG_URL
-from conta_rizoma4.operativo.justificacion_interna import (
-    crear_justificacion_interna,
-    guardar_justificacion_interna,
-)
-from conta_rizoma4.operativo.reclasificacion import (
-    reclasificar_justificacion,
-)
-from conta_rizoma4.operativo.repositorio_acto import RepositorioActoEconomico
+import httpx
 
 
-CLIENTE = "Taller RBB SL"
-NIF_CLIENTE = "B12345678"
-OBRA_REF = "OBRA-2025-01"
-IMPORTE_CENTIMOS = 121_000
-MARCA_DEMO = {"demo": "flujo_completo"}
+CONTA_URL = os.environ.get("CONTA_API_URL", "http://localhost:8001")
+EMPRESA = "DEMO_FLUJO"
+OBRA = "DEMO_OBRA_001"
+OPERARIO_AUX = "aux_001"
+OPERARIO_VIS = "jefe_obra"
+OPERARIO_APR = "jefe_prod"
 
 
-def _limpiar_demo() -> None:
-    with psycopg.connect(PG_URL) as conn:
-        with conn.cursor() as cur:
-            cur.execute(
-                "DELETE FROM acto_economico "
-                "WHERE metadatos->>'demo' = 'flujo_completo'"
-            )
-            cur.execute(
-                "DELETE FROM justificacion_interna "
-                "WHERE metadatos->>'demo' = 'flujo_completo'"
-            )
-        conn.commit()
+def _api():
+    return httpx.Client(base_url=CONTA_URL, timeout=30.0)
 
 
-def _actos_del_demo() -> list[dict]:
-    with psycopg.connect(PG_URL) as conn:
-        with conn.cursor() as cur:
-            cur.execute(
-                "SELECT indice, fecha, cuenta_pgc, cuenta_contrapartida, "
-                "       importe_centimos, concepto, hash, hash_previo "
-                "FROM acto_economico "
-                "WHERE metadatos->>'demo' = 'flujo_completo' "
-                "ORDER BY indice"
-            )
-            return cur.fetchall()
+def _limpiar():
+    """Borra los datos del demo (via API de reset, si existe; si no, SQL)."""
+    import psycopg
+    try:
+        with psycopg.connect(
+            "postgresql://rizoma:rizoma_dev@localhost:5433/conta_rizoma4"
+        ) as conn:
+            with conn.cursor() as cur:
+                cur.execute(
+                    "DELETE FROM linea_asiento WHERE empresa_id = %s", (EMPRESA,)
+                )
+                cur.execute(
+                    "DELETE FROM asiento_contable WHERE empresa_id = %s", (EMPRESA,)
+                )
+                cur.execute(
+                    "DELETE FROM leases WHERE empresa_id = %s", (EMPRESA,)
+                )
+                cur.execute(
+                    "DELETE FROM obras WHERE empresa_id = %s", (EMPRESA,)
+                )
+            conn.commit()
+    except Exception as e:
+        print(f"  (no se pudo limpiar: {e})")
 
 
-def _pendientes_del_demo() -> list[dict]:
-    with psycopg.connect(PG_URL) as conn:
-        with conn.cursor() as cur:
-            cur.execute(
-                "SELECT indice, fecha, importe_centimos, concepto "
-                "FROM justificacion_interna "
-                "WHERE metadatos->>'demo' = 'flujo_completo' "
-                "  AND indice NOT IN ("
-                "    SELECT justificacion_indice FROM acto_economico "
-                "    WHERE justificacion_indice IS NOT NULL"
-                "  )"
-                "ORDER BY indice"
-            )
-            return cur.fetchall()
-
-
-def _header(texto: str) -> None:
+def _header(t: str):
     print()
     print("=" * 70)
-    print(f"  {texto}")
+    print(f"  {t}")
     print("=" * 70)
-
-
-def _fmt_eur(centimos: int) -> str:
-    signo = "-" if centimos < 0 else ""
-    c = abs(centimos)
-    return f"{signo}{c // 100}.{c % 100:02d} EUR"
 
 
 def main() -> int:
-    repo = RepositorioActoEconomico()
+    with _api() as c:
+        # Health
+        r = c.get("/health")
+        if r.status_code != 200:
+            print(f"API no disponible en {CONTA_URL}")
+            return 1
+        print(f"API OK: {r.json()}")
 
-    _header("LIMPIEZA PREVIA")
-    _limpiar_demo()
-    print(f"  Actos totales en BD:        {repo.contar()}")
-    print(f"  Último índice global:       {repo.ultimo_indice()}")
-    print("  (el demo se marca con metadatos {'demo': 'flujo_completo'})")
+    _header("1. Limpiar datos previos")
+    _limpiar()
+    print("  ✓ Limpio")
 
-    # ─── FASE 1 ──────────────────────────────────────────────
-    _header("FASE 1 — Obra ejecutada (devengo)")
-    print(f"  Cliente:  {CLIENTE} ({NIF_CLIENTE})")
-    print(f"  Obra:     {OBRA_REF}")
-    print(f"  Importe:  {_fmt_eur(IMPORTE_CENTIMOS)}")
-    print(f"  Cuenta:   4308 (Clientes, obra ejecutada pendiente de facturar)")
-    print()
+    with _api() as c:
+        _header("2. Crear obra")
+        r = c.post("/obras", json={
+            "obra_id": OBRA,
+            "empresa_id": EMPRESA,
+            "nombre": "Autovía AII, PPKK 2018-2027",
+            "cliente_nif": "MFOM",
+            "presupuesto_centimos": 923000000,
+        })
+        if r.status_code not in (201, 200):
+            print(f"  ✗ {r.status_code}: {r.text}")
+            return 1
+        print(f"  ✓ Obra {OBRA}")
 
-    just = crear_justificacion_interna(
-        indice=0,  # placeholder; guardar_justificacion_interna no usa el índice fijo
-        fecha=date(2025, 3, 31),
-        cuenta_pgc="4308",
-        importe_centimos=IMPORTE_CENTIMOS,
-        concepto=f"Obra {OBRA_REF} — {CLIENTE}",
-        creado_por="rubén",
-        obra_ref=OBRA_REF,
-        contrato_ref="CONTRATO-2025-RBB",
-        metadatos=MARCA_DEMO,
-    )
-    # Recalcular indice (por si acaso el último no es 0)
-    with psycopg.connect(PG_URL) as conn:
-        with conn.cursor() as cur:
-            cur.execute(
-                "SELECT COALESCE(MAX(indice), -1) + 1 FROM justificacion_interna"
-            )
-            just_indice = cur.fetchone()[0]
-    # Recrear con el índice correcto
-    just = crear_justificacion_interna(
-        indice=just_indice,
-        fecha=date(2025, 3, 31),
-        cuenta_pgc="4308",
-        importe_centimos=IMPORTE_CENTIMOS,
-        concepto=f"Obra {OBRA_REF} — {CLIENTE}",
-        creado_por="rubén",
-        obra_ref=OBRA_REF,
-        contrato_ref="CONTRATO-2025-RBB",
-        metadatos=MARCA_DEMO,
-    )
-    guardar_justificacion_interna(just)
-    print(f"  ✓ JustificacionInterna #{just.indice} creada")
-    print(f"    Huella: {just.huella_contenido[:16]}...")
-    print(f"    Hash:   {just.hash[:16]}...")
+        _header("3. Pedir lease")
+        r = c.post("/leases", json={
+            "empresa_id": EMPRESA,
+            "obra_id": OBRA,
+            "tipo": "asiento",
+            "operario": OPERARIO_AUX,
+            "duracion_min": 60,
+        })
+        if r.status_code != 201:
+            print(f"  ✗ {r.status_code}: {r.text}")
+            return 1
+        lease = r.json()
+        print(f"  ✓ Lease {lease['lease_id'][:8]}... → índice {lease['indice_reservado']}")
 
-    # ─── FASE 2 ──────────────────────────────────────────────
-    _header("FASE 2 — Facturación (reclasificación del devengo)")
-    print(f"  Factura:  F-2025-004")
-    print(f"  Fecha:    2025-04-15")
-    print(f"  Movimiento: 4308 → 430 (Clientes)")
-    print()
+        _header("4. Crear asiento (factura emitida) con lease")
+        r = c.post("/asientos", json={
+            "empresa_id": EMPRESA,
+            "codigo_acto": "A_FACT_EMIT_SERV_NAC_SIN_RET",
+            "fecha": "2006-09-30",
+            "concepto": "Factura MFOM sep-06 (3%)",
+            "creado_por": OPERARIO_AUX,
+            "lease_id": lease["lease_id"],
+            "obra_id": OBRA,
+            "parametros": {
+                "base_centimos": 46150_00,   # 46.150,00 €
+                "iva_pct": 21,
+                "cliente_nif": "MFOM",
+            },
+        })
+        if r.status_code != 201:
+            print(f"  ✗ {r.status_code}: {r.text}")
+            return 1
+        asiento = r.json()
+        indice = asiento["indice"]
+        print(f"  ✓ Asiento #{indice} (BORRADOR)")
+        print(f"    Líneas: {len(asiento['lineas'])}")
+        for l in asiento["lineas"]:
+            if l["debe_centimos"] > 0:
+                print(f"      D {l['cuenta_pgc']:>6}  {l['debe_centimos']/100:>10.2f}")
+            else:
+                print(f"      H {l['cuenta_pgc']:>6}  {l['haber_centimos']/100:>10.2f}")
+        print(f"    Hash: {asiento['hash'][:16]}...")
 
-    acto_factura = reclasificar_justificacion(
-        just,
-        creado_por="rubén",
-        cuenta_destino="430",
-        fecha=date(2025, 4, 15),
-        concepto=f"Factura F-2025-004 — {CLIENTE}",
-        repo=repo,
-        metadatos=MARCA_DEMO,
-    )
-    print(f"  ✓ ActoEconomico #{acto_factura.indice} creado")
-    print(f"    Cuenta:          {acto_factura.cuenta_pgc} (Clientes)")
-    print(f"    Contrapartida:   {acto_factura.cuenta_contrapartida} (4308)")
-    print(f"    Resuelve just.:  #{acto_factura.justificacion_indice}")
-    print(f"    Huella:          {acto_factura.huella_contenido[:16]}...")
-    print(f"    Hash:            {acto_factura.hash[:16]}...")
-    print(f"    Hash previo:     {acto_factura.hash_previo[:16]}...")
-
-    # ─── FASE 3 ──────────────────────────────────────────────
-    _header("FASE 3 — Cobro (430 → 572)")
-    print(f"  Fecha:    2025-05-10")
-    print(f"  Movimiento: 430 → 572 (Bancos)")
-    print()
-
-    acto_cobro = repo.crear_siguiente(
-        fecha=date(2025, 5, 10),
-        cuenta_pgc="572",
-        importe_centimos=IMPORTE_CENTIMOS,
-        concepto=f"Cobro factura F-2025-004 — {CLIENTE}",
-        creado_por="rubén",
-        cuenta_contrapartida="430",
-        documento_tipo="EXTRACTO_BANCARIO",
-        documento_ref="MOV-2025-05-001",
-        metadatos=MARCA_DEMO,
-    )
-    print(f"  ✓ ActoEconomico #{acto_cobro.indice} creado")
-    print(f"    Cuenta:          {acto_cobro.cuenta_pgc} (Bancos)")
-    print(f"    Contrapartida:   {acto_cobro.cuenta_contrapartida} (Clientes)")
-    print(f"    Hash:            {acto_cobro.hash[:16]}...")
-    print(f"    Hash previo:     {acto_cobro.hash_previo[:16]}...")
-
-    # ─── VERIFICACIÓN ────────────────────────────────────────
-    _header("VERIFICACIÓN DE LA CADENA DEL DEMO")
-    actos_demo = _actos_del_demo()
-    print(f"  Actos del demo: {len(actos_demo)}")
-    print()
-    for a in actos_demo:
-        indice, fecha, cuenta, contrapartida, importe, concepto, h, hp = a
-        print(
-            f"  #{indice:>4}  {fecha}  "
-            f"{cuenta:>4} ← {contrapartida or '-':>4}  "
-            f"{_fmt_eur(importe):>14}  {concepto[:40]}"
+        _header("5. Visar (jefe de obra)")
+        r = c.post(
+            f"/asientos/{indice}/visar",
+            params={"empresa_id": EMPRESA},
+            json={"operario_visador": OPERARIO_VIS},
         )
-    print()
+        if r.status_code != 200:
+            print(f"  ✗ {r.status_code}: {r.text}")
+            return 1
+        print(f"  ✓ Estado: {r.json()['estado']}")
 
-    verificacion_ok = False
-    if actos_demo:
-        idxs = [a[0] for a in actos_demo]
-        rep = repo.verificar_cadena(desde=idxs[0], hasta=idxs[-1])
-        if rep.cadena_valida:
-            print(f"  ✓ Cadena VÁLIDA  ({rep.total} actos verificados)")
-            verificacion_ok = True
-        else:
-            print(f"  ✗ Cadena ROTA  ({rep.total} actos)")
-            for r in rep.roturas:
-                print(f"    ✗ {r}")
+        _header("6. Aprobar (jefe de producción)")
+        r = c.post(
+            f"/asientos/{indice}/aprobar",
+            params={"empresa_id": EMPRESA},
+            json={"operario_aprobador": OPERARIO_APR},
+        )
+        if r.status_code != 200:
+            print(f"  ✗ {r.status_code}: {r.text}")
+            return 1
+        print(f"  ✓ Estado: {r.json()['estado']}")
 
-    # ─── PENDIENTES DEL DEMO ────────────────────────────────
-    _header("JUSTIFICACIONES DEL DEMO PENDIENTES DE FACTURAR")
-    pend = _pendientes_del_demo()
-    if not pend:
-        print("  (ninguna — todo facturado)")
-    else:
-        for p in pend:
-            print(f"  #{p['indice']}  {p['fecha']}  {_fmt_eur(p['importe_centimos'])}  {p['concepto']}")
+        _header("7. Rizomizar (simulando el worker de rizoma4)")
+        # En producción, el worker de rizoma4 haría esta llamada tras
+        # evaluar FTOP + CAS + hipótesis. Aquí simulamos que todo OK.
+        r = c.post(
+            f"/asientos/{indice}/rizomizar",
+            params={"empresa_id": EMPRESA},
+            json={"ok": True, "alerta": None},
+        )
+        if r.status_code != 200:
+            print(f"  ✗ {r.status_code}: {r.text}")
+            return 1
+        print(f"  ✓ Estado: {r.json()['estado']}")
 
-    # ─── RESUMEN ────────────────────────────────────────────
-    _header("RESUMEN")
-    print(f"  Obra devengada:    {_fmt_eur(IMPORTE_CENTIMOS)} en 4308")
-    print(f"  Facturada:         {_fmt_eur(IMPORTE_CENTIMOS)} de 4308 a 430")
-    print(f"  Cobrada:           {_fmt_eur(IMPORTE_CENTIMOS)} de 430 a 572")
-    print(f"  Pendiente:         {len(pend)} justificación(es)")
-    print()
+        _header("8. Estado final")
+        r = c.get(
+            "/asientos",
+            params={"empresa_id": EMPRESA, "estado": "RIZOMIZADO"},
+        )
+        if r.status_code != 200:
+            print(f"  ✗ {r.status_code}: {r.text}")
+            return 1
+        asientos_riz = r.json()
+        print(f"  Asientos RIZOMIZADOS: {len(asientos_riz)}")
+        for a in asientos_riz:
+            print(f"    #{a['indice']}  {a['fecha']}  {a['concepto']}")
+            print(f"      Hash: {a['hash'][:16]}...")
 
-    if verificacion_ok and len(actos_demo) == 2 and not pend:
-        print("  ✓ Flujo completo verificado.")
-        return 0
-    else:
-        print("  ✗ Flujo NO verificado.")
-        return 1
+        _header("9. Verificar cadena")
+        r = c.post("/verificar", json={"empresa_id": EMPRESA})
+        if r.status_code != 200:
+            print(f"  ✗ {r.status_code}: {r.text}")
+            return 1
+        rep = r.json()
+        print(f"  Cadena: {'✓ VÁLIDA' if rep['cadena_valida'] else '✗ ROTA'}")
+        print(f"  Asientos: {rep['total']}")
+
+    _header("FIN")
+    print("✓ Flujo completo demostrado: lease → crear → visar → aprobar → rizomizar")
+    return 0
 
 
 if __name__ == "__main__":

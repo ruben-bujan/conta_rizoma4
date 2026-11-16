@@ -1,26 +1,26 @@
 # conta-rizoma4
 
-Contabilidad doctrinal sobre el PGC espanol. Cada asiento se traza a un
-parrafo del Plan General de Contabilidad. La forma (el asiento) es el
-vehiculo de la sustancia (la realidad economica), como dice el PGC en su
-parrafo 4 y como rizoma4 formaliza en su regla 6 #37.
+Contabilidad doctrinal sobre el PGC español. Cada asiento se traza a
+un párrafo del Plan General de Contabilidad. La forma (el asiento) es
+el vehículo de la sustancia (la realidad económica).
 
-Cliente del kernel epistemico rizoma4. conta-rizoma4 sabe que existe
-rizoma4. rizoma4 no sabe que existe conta-rizoma4 (salvo por el cliente
-HTTP de la Fase 4a).
+Cliente del kernel epistémico rizoma4. conta-rizoma4 sabe que existe
+rizoma4. rizoma4 consume la API de conta (Fase 4a).
 
-## Estado (2026-11-15)
+## Estado (2026-11-16)
 
-- Actos implementados: 115
-- Tests: 303
-- Grupos: 14
-- Cobertura PGC: 100% de la taxonomia original
-- Multi-tenant: si (empresa_id en asientos)
-- Consolidacion: grupo clasico (suma, atribuye minoritarios)
-- API HTTP: FastAPI (asientos, verificar, empresas)
-- Tipos de cambio: BCE automatico + cache + manual
+- Actos: 115
+- Tests: 316
+- Grupos PGC: 14
+- Cobertura: 100%
+- Multi-tenant: si (empresa_id)
+- Consolidación: grupo clásico
+- API HTTP: FastAPI
+- Custodia: obras, operarios, leases, documentos (Fase 4b)
+- Flujo end-to-end: crear → visar → aprobar → rizomizar (Fase 4c)
+- Worker de rizomización: en rizoma4
 
-## Instalacion
+## Instalación
 
     cd ~/MyProyecto/rizoma4 && pip install -e .
     cd ~/MyProyecto/conta-rizoma4 && pip install -e '.[test]'
@@ -30,32 +30,26 @@ HTTP de la Fase 4a).
     docker exec -i rizoma4-postgres psql -U rizoma -d conta_rizoma4 < scripts/ddl_partida_doble.sql
     docker exec -i rizoma4-postgres psql -U rizoma -d conta_rizoma4 < scripts/ddl_multi_tenant.sql
     docker exec -i rizoma4-postgres psql -U rizoma -d conta_rizoma4 < scripts/ddl_consolidacion.sql
+    docker exec -i rizoma4-postgres psql -U rizoma -d conta_rizoma4 < scripts/ddl_custodia.sql
 
-## Configuracion multi-empresa
+## El flujo real (Fase 4)
 
-config/empresas.yaml (severamente restringido, no versionado):
+    1. Operario pide lease       → POST /leases
+    2. Operario crea asiento     → POST /asientos (con lease)      → BORRADOR
+    3. Jefe de obra visa         → POST /asientos/{id}/visar       → VISADO
+    4. Jefe de producción aprueba→ POST /asientos/{id}/aprobar     → APROBADO
+    5. Worker de rizoma4         → POST /asientos/{id}/rizomizar   → RIZOMIZADO
+                                   o EN_CUARENTENA
 
-    version: 1
-    moneda_grupo: EUR
-    marco_contable_default: PGC_ES
-    empresas:
-      - empresa_id: matriz_jv
-        nombre: JV-VECTOR Matriz SL
-        moneda_funcional: EUR
-        marco_contable: PGC_ES
-        pais: ES
-        grupo: JV_VECTOR
-        participacion_matriz: 100.0
+## Demo del flujo completo
 
-La config se carga al arrancar. Cambios: editar + reiniciar. No hay
-endpoint para editarla.
+    # Terminal A
+    uvicorn conta_rizoma4.api.main:app --port 8001
 
-## Quick start (CLI)
+    # Terminal B
+    python scripts/demo_flujo_completo.py
 
-    conta pd-acto crear A_FACT_EMIT_SERV_NAC_SIN_RET --json '{...}'
-    conta pd-diario
-    conta pd-balance-formateado
-    conta pd-verificar
+Hace los 5 pasos, muestra el estado final y verifica la cadena.
 
 ## API HTTP
 
@@ -63,69 +57,125 @@ endpoint para editarla.
 
 Endpoints:
 
-    GET  /health                        - health check
-    GET  /empresas                      - listado de empresas (config)
-    GET  /empresas/{empresa_id}         - detalle
-    GET  /asientos?empresa_id=...       - listado
-    GET  /asientos/{indice}?empresa_id= - obtener
-    POST /asientos                      - crear asiento
-    DELETE /asientos/{indice}?empresa_id= - borrar
-    POST /verificar                     - verificar cadena hash
+    GET  /health
+    GET  /empresas
+    GET  /empresas/{empresa_id}
+
+    POST /obras
+    GET  /obras
+    GET  /obras/{obra_id}
+
+    POST /operarios
+    GET  /operarios
+    GET  /operarios/{operario_id}
+
+    POST /leases
+    GET  /leases/{lease_id}
+    POST /leases/{lease_id}/renovar
+    POST /leases/{lease_id}/cancelar
+
+    POST /documentos (sube a CAS de rizoma4)
+    GET  /documentos/{hash_cas}
+
+    GET  /asientos?empresa_id=X&estado=Y
+    GET  /asientos/{indice}?empresa_id=X
+    POST /asientos (con lease_id, obra_id, documento_ref)
+    DELETE /asientos/{indice}?empresa_id=X
+
+    POST /asientos/{indice}/visar?empresa_id=X
+    POST /asientos/{indice}/aprobar?empresa_id=X
+    POST /asientos/{indice}/rizomizar?empresa_id=X
+
+    POST /verificar
 
 Docs: http://localhost:8001/docs
 
-## Consolidacion
+## Los 5 estados del asiento
+
+| Estado | Qué significa | Quién lo pone |
+|---|---|---|
+| BORRADOR | Creado por operario de obra | POST /asientos |
+| VISADO | Visado por jefe de obra | POST /asientos/{id}/visar |
+| APROBADO | Aprobado por jefe de producción | POST /asientos/{id}/aprobar |
+| RIZOMIZADO | Validado por rizoma4 (sin alertas) | Worker de rizoma4 |
+| EN_CUARENTENA | rizoma4 ha lanzado una alerta | Worker de rizoma4 |
+
+## Leases (reserva de índices)
+
+    POST /leases {empresa_id, obra_id, operario, duracion_min}
+    → {lease_id, indice_reservado, expira_en}
+
+    POST /asientos {empresa_id, lease_id, indice_reservado, ...}
+
+Si el lease expira, el asiento no se puede crear.
+
+## Consolidación
 
     python -c 'from datetime import date; from conta_rizoma4.consolidacion import consolidar_grupo; b = consolidar_grupo("JV_VECTOR", "matriz_jv", date(2025, 12, 31)); print(b.resultado_grupo)'
 
-## Demo reproducible
-
-    python scripts/demo_multitenant.py
-
-Crea 3 empresas, 4 asientos en cada una, consolida, muestra balance.
-
 ## Los 115 actos (14 grupos)
 
-- facturacion (14): facturas, cobros, pagos, nominas
+- facturacion (14): facturas, cobros, pagos, nóminas
 - facturacion_avanzada (7): simplificadas, autofactura, descuentos
 - fiscal (11): IVA, IRPF, IS
 - fiscal_avanzado (23): 347, 349, 369, 130, 131, IAE, IBI, ITP
-- cierre (3): regularizacion, cierre, apertura
-- inmovilizado (5): compra, venta, amortizacion, deterioro, baja
+- cierre (3): regularización, cierre, apertura
+- inmovilizado (5): compra, venta, amortización, deterioro, baja
 - inmovilizado_avanzado (6): leasing, permuta, activo venta
-- existencias (4): compra, venta, regularizacion, deterioro
-- existencias_avanzado (3): correccion, deterioro reversible, FIFO
-- societarias (5): constitucion, ampliacion, dividendo, reserva
+- existencias (4): compra, venta, regularización, deterioro
+- existencias_avanzado (3): corrección, deterioro reversible, FIFO
+- societarias (5): constitución, ampliación, dividendo, reserva
 - societarias_avanzado (7): autocartera, dividendo a cuenta
 - ajustes (9): subvenciones, periodificaciones, provisiones
 - ajustes_avanzado (5): desmantelamiento, coberturas, correcciones
-- operaciones_especiales (13): fusiones, consolidacion, derivados
+- operaciones_especiales (13): fusiones, consolidación, derivados
 
-Ver el catalogo: conta pd-acto listar
+Ver catálogo: conta pd-acto listar
 
 ## Lo que NO hace
 
-- Presentacion oficial de cuentas anuales (Registro Mercantil).
-- Pre-rellenado del modelo 200/303 para AEAT.
-- FIFO/PMP automatico (el acto FIFO existe, el calculo no).
-- Consolidacion multi-PGC (solo PGC_ES cargado).
-- Corpus forense (MIPYMEs + personas fisicas, 2027).
-- Autenticacion de la API (se anade cuando haya usuarios).
+- Frontend (PWA) para el operario. Se construye en Fase 4d.
+- FTOP + CAS + hipótesis en el worker (simulado como "ok=True" en el demo).
+- Presentación oficial de cuentas anuales (Registro Mercantil).
+- Modelos 200/303 con formato AEAT.
+- FIFO/PMP automático.
+- Consolidación multi-PGC (solo PGC_ES cargado).
+- Corpus forense (MIPYMEs + personas físicas sucesoras, 2027).
+
+## Arquitectura
+
+    conta_rizoma4/
+    ├── contratos/          A+B+C+D (declarativo)
+    ├── operativo/          hash chain + mapeo (POC legacy, deprecated)
+    ├── partida_doble/      partida doble real + libros
+    ├── actos/              115 actos en 14 grupos
+    ├── custodia/           obras, operarios, leases, documentos
+    ├── consolidacion/      grupo clásico
+    ├── config/             empresas.yaml + tipos de cambio BCE
+    ├── api/                FastAPI
+    │   └── routers/        asientos, empresas, verificar, leases,
+    │                       obras, operarios, documentos
+    ├── operaciones.py      helper crear_acto_por_codigo
+    ├── cli.py              CLI unificado (POC + partida doble)
+    └── cli_pd.py           comandos de partida doble
 
 ## Tests
 
     pytest tests/ -q
 
-Esperado: 303 passed.
+Esperado: 316 passed.
 
 ## Doctrina
 
-PGC parrafo 4: en la contabilizacion de las operaciones se atendera a
-su realidad economica y no solo a su forma juridica.
+PGC párrafo 4: en la contabilización de las operaciones se atenderá a
+su realidad económica y no sólo a su forma jurídica.
 
-Rizoma4 6 #37: La forma es el vehiculo de la sustancia. Sin forma no
+Rizoma4 §6 #37: La forma es el vehículo de la sustancia. Sin forma no
 hay sustancia procesable.
 
-conta-rizoma4 lo materializa: cada asiento tiene su parrafo del PGC que
+conta-rizoma4 lo materializa: cada asiento tiene su párrafo del PGC que
 lo justifica, su hash encadenado, y su cadena de mando. Si alguien
 manipula un acto, conta pd-verificar lo detecta.
+
+La cadena de custodia (obras, operarios, leases, estados) usa lo que
+rizoma4 ya tiene (CAS, ledger, PAdES, TSA, Merkle).
