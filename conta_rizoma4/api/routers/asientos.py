@@ -29,21 +29,9 @@ def listar_asientos(
         repo = RepositorioAsiento(empresa_id)
     except ValueError as e:
         raise HTTPException(status_code=400, detail=str(e))
-    asientos = repo.listar(indice_desde=desde, indice_hasta=hasta, limite=limite)
-    # Filtrar por estado si se pide
     if estado:
-        import psycopg
-        from ...partida_doble.persistencia import PG_URL
-        with psycopg.connect(PG_URL) as conn:
-            with conn.cursor() as cur:
-                cur.execute(
-                    "SELECT indice FROM asiento_contable "
-                    "WHERE empresa_id = %s AND estado = %s",
-                    (empresa_id, estado),
-                )
-                indices_ok = {row[0] for row in cur.fetchall()}
-        asientos = [a for a in asientos if a["indice"] in indices_ok]
-    return asientos
+        return repo.listar_por_estado(estado, limite=limite)
+    return repo.listar(indice_desde=desde, indice_hasta=hasta, limite=limite)
 
 
 @router.get("/{indice}", response_model=AsientoOut)

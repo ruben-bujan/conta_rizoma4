@@ -134,6 +134,32 @@ class RepositorioAsiento:
         }
         return calcular_huella(contenido)
 
+    def listar_por_estado(
+        self, estado: str, *, limite: int = 100,
+    ) -> list[dict]:
+        """Lista asientos filtrados por estado."""
+        with self._conn() as conn:
+            with conn.cursor() as cur:
+                cur.execute(
+                    "SELECT indice, fecha, concepto, hash_previo, hash, metadatos "
+                    "FROM asiento_contable "
+                    "WHERE empresa_id = %s AND estado = %s "
+                    "ORDER BY indice ASC LIMIT %s",
+                    (self._empresa_id, estado, limite),
+                )
+                asientos = cur.fetchall()
+                for a in asientos:
+                    cur.execute(
+                        "SELECT cuenta_pgc, debe_centimos, haber_centimos, "
+                        "parrafo_pgc_id, concepto_linea "
+                        "FROM linea_asiento "
+                        "WHERE empresa_id = %s AND asiento_indice = %s "
+                        "ORDER BY id",
+                        (self._empresa_id, a["indice"]),
+                    )
+                    a["lineas"] = cur.fetchall()
+        return asientos
+
     def verificar_cadena(
         self,
         desde: Optional[int] = None,
