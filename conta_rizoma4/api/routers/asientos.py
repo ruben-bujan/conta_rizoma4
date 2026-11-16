@@ -52,20 +52,38 @@ def crear_asiento(entrada: AsientoIn):
     except ValueError as e:
         raise HTTPException(status_code=400, detail=str(e))
 
-    # Verificar que el acto existe en el catálogo
     try:
         _, fn = obtener_acto(entrada.codigo_acto)
     except ValueError as e:
         raise HTTPException(status_code=400, detail=str(e))
 
-    # Calcular siguiente índice y hash previo
-    ultimo = repo.ultimo_indice()
-    ultimo_data = repo.obtener(ultimo) if ultimo >= 0 else None
+    # 1. Si hay lease, validarlo
+    lease = None
+    if entrada.lease_id:
+        from ...custodia.repositorios import RepositorioLease
+        from ...custodia.modelo import CustodiaError
+        try:
+            lease = RepositorioLease().obtener(entrada.lease_id)
+        except Exception:
+            lease = None
+        if lease is None:
+            raise HTTPException(status_code=409, detail="Lease no encontrado")
+        if lease["estado"] != "CONCEDIDO":
+            raise HTTPException(
+                status_code=409,
+                detail=f"Lease en estado {lease['estado']}",
+            )
+
+    # 2. Calcular índice y hash previo
+    if lease:
+        indice = lease["indice_reservado"]
+    else:
+        indice = repo.ultimo_indice() + 1
+    ultimo_data = repo.obtener(indice - 1) if indice > 0 else None
     from ...operativo.asiento import GENESIS
     hash_previo = ultimo_data["hash"] if ultimo_data else GENESIS
-    indice = ultimo + 1
 
-    # Crear el acto (el dispatcher del catálogo)
+    # 3. Crear acto
     params = dict(entrada.parametros)
     params.update({
         "indice": indice,
@@ -73,18 +91,40 @@ def crear_asiento(entrada: AsientoIn):
         "fecha": entrada.fecha,
         "concepto": entrada.concepto,
     })
-    # Añadir creado_por si el acto lo acepta
     try:
         acto = fn(**params, creado_por=entrada.creado_por)
     except TypeError:
-        # Algunos actos no aceptan creado_por
         acto = fn(**params)
     except ValueError as e:
         raise HTTPException(status_code=400, detail=str(e))
 
-    # Persistir
+    # 4. Persistir (con campos de custodia)
     from ...partida_doble.persistencia import guardar_asiento
     guardar_asiento(acto, empresa_id=entrada.empresa_id)
+
+    # 5. Actualizar campos de custodia en el asiento
+    import psycopg
+    from ...partida_doble.persistencia import PG_URL
+    with psycopg.connect(PG_URL) as conn:
+        with conn.cursor() as cur:
+            cur.execute(
+                """
+                UPDATE asiento_contable
+                SET obra_id = %s, operario_creador = %s,
+                    lease_id = %s, estado = %s,
+                    documento_ref = %s
+                WHERE empresa_id = %s AND indice = %s
+                """,
+                (entrada.obra_id, entrada.creado_por,
+                 entrada.lease_id, "BORRADOR",
+                 entrada.documento_ref, entrada.empresa_id, indice),
+            )
+        conn.commit()
+
+    # 6. Marcar lease como USADO
+    if lease:
+        from ...custodia.repositorios import RepositorioLease
+        RepositorioLease().marcar_usado(entrada.lease_id)
 
     return {
         "indice": acto.indice,

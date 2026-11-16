@@ -40,7 +40,7 @@ class AsientoOut(BaseModel):
 
 class AsientoIn(BaseModel):
     empresa_id: str
-    codigo_acto: str  # ej. A_FACT_EMIT_SERV_NAC_SIN_RET
+    codigo_acto: str
     fecha: date
     concepto: str
     creado_por: str
@@ -48,6 +48,10 @@ class AsientoIn(BaseModel):
         default_factory=dict,
         description="Parámetros del acto (base_centimos, iva_pct, etc.)",
     )
+    # Custodia (opcional; si se omite, se crea sin lease, BORRADOR)
+    lease_id: Optional[str] = None
+    obra_id: Optional[str] = None
+    documento_ref: Optional[str] = None
 
 
 class VerificarIn(BaseModel):
