@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>conta-rizoma4 — Flujo de asientos</title>
+  <link rel="stylesheet" href="/frontend/styles.css">
+</head>
+<body>
+  <header>
+    <h1>conta-rizoma4</h1>
+    <p class="subtitle">Flujo: obra → lease → crear → visar → aprobar → rizomizar</p>
+  </header>
+
+  <main>
+    <!-- Paso 1: Obra -->
+    <section class="paso" id="paso-obra">
+      <h2>1. Obra</h2>
+      <label>Obra ID: <input id="obra-id" value="AUTOVIA_AII"></label>
+      <label>Empresa ID: <input id="empresa-id" value="SINTETINCIVSA"></label>
+      <label>Nombre: <input id="obra-nombre" value="Autovía AII, PPKK 2018-2027"></label>
+      <label>Cliente NIF: <input id="obra-cliente" value="MFOM"></label>
+      <button onclick="crearObra()">Crear obra</button>
+      <div class="resultado" id="res-obra"></div>
+    </section>
+
+    <!-- Paso 2: Lease -->
+    <section class="paso" id="paso-lease">
+      <h2>2. Pedir lease</h2>
+      <label>Operario: <input id="lease-operario" value="aux_001"></label>
+      <label>Duración (min): <input id="lease-duracion" type="number" value="60"></label>
+      <button onclick="pedirLease()">Pedir lease</button>
+      <div class="resultado" id="res-lease"></div>
+    </section>
+
+    <!-- Paso 3: Asiento -->
+    <section class="paso" id="paso-asiento">
+      <h2>3. Crear asiento</h2>
+      <label>Código de acto:
+        <select id="asiento-codigo">
+          <option value="A_FACT_EMIT_SERV_NAC_SIN_RET">A_FACT_EMIT_SERV_NAC_SIN_RET</option>
+          <option value="A_COBRO_CLIENTE_TRANSF">A_COBRO_CLIENTE_TRANSF</option>
+          <option value="A_NOMINA_MENSUAL">A_NOMINA_MENSUAL</option>
+          <option value="A_FACT_REC_GASTO_NAC">A_FACT_REC_GASTO_NAC</option>
+        </select>
+      </label>
+      <label>Fecha: <input id="asiento-fecha" type="date" value="2006-09-30"></label>
+      <label>Concepto: <input id="asiento-concepto" value="Factura MFOM sep-06"></label>
+      <label>Creado por: <input id="asiento-creado-por" value="aux_001"></label>
+      <button onclick="crearAsiento()">Crear asiento</button>
+      <div class="resultado" id="res-asiento"></div>
+    </section>
+
+    <!-- Paso 4: Visar -->
+    <section class="paso" id="paso-visar">
+      <h2>4. Visar (jefe de obra)</h2>
+      <label>Operario visador: <input id="visar-operario" value="jefe_obra"></label>
+      <button onclick="visar()">Visar</button>
+      <div class="resultado" id="res-visar"></div>
+    </section>
+
+    <!-- Paso 5: Aprobar -->
+    <section class="paso" id="paso-aprobar">
+      <h2>5. Aprobar (jefe de producción)</h2>
+      <label>Operario aprobador: <input id="aprobar-operario" value="jefe_prod"></label>
+      <button onclick="aprobar()">Aprobar</button>
+      <div class="resultado" id="res-aprobar"></div>
+    </section>
+
+    <!-- Paso 6: Rizomizar -->
+    <section class="paso" id="paso-rizomizar">
+      <h2>6. Rizomizar</h2>
+      <label>OK: <input id="rizomizar-ok" type="checkbox" checked></label>
+      <label>Alerta: <input id="rizomizar-alerta" placeholder="(vacío si OK)"></label>
+      <button onclick="rizomizar()">Rizomizar</button>
+      <div class="resultado" id="res-rizomizar"></div>
+    </section>
+
+    <!-- Estado final -->
+    <section class="paso" id="paso-estado">
+      <h2>Estado final</h2>
+      <button onclick="verEstado()">Ver estado</button>
+      <div class="resultado" id="res-estado"></div>
+    </section>
+  </main>
+
+  <script src="/frontend/app.js"></script>
+</body>
+</html>
