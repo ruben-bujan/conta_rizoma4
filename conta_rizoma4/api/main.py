@@ -22,6 +22,7 @@ from __future__ import annotations
 import os
 
 from fastapi import FastAPI
+from fastapi.staticfiles import StaticFiles
 from fastapi.middleware.cors import CORSMiddleware
 
 from ..config import get_config
@@ -53,6 +54,20 @@ app.include_router(leases.router)
 app.include_router(obras.router)
 app.include_router(operarios.router)
 app.include_router(documentos.router)
+
+
+# Servir el frontend estático
+_frontend_dir = os.path.join(os.path.dirname(__file__), "..", "frontend")
+_frontend_dir = os.path.abspath(_frontend_dir)
+if os.path.isdir(_frontend_dir):
+    app.mount("/frontend", StaticFiles(directory=_frontend_dir), name="frontend")
+
+
+@app.get("/")
+def raiz():
+    """Redirige al frontend."""
+    from fastapi.responses import RedirectResponse
+    return RedirectResponse(url="/frontend/index.html")
 
 
 @app.get("/health")
