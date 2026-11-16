@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Corpus forense — conta-rizoma4</title>
+  <link rel="stylesheet" href="/frontend/styles.css">
+  <style>
+    table { width: 100%; border-collapse: collapse; margin: 1em 0; }
+    th, td { padding: 0.5em; text-align: left; border-bottom: 1px solid #ddd; }
+    th { background: #1a3a5c; color: white; }
+    tr:hover { background: #f0f0f0; }
+    .universo-U1 { background: #d4edda; }
+    .universo-U2 { background: #fff3cd; }
+    .universo-U3 { background: #f8d7da; }
+    .universo-no_victima { background: #e2e3e5; }
+    .totales { display: flex; gap: 1em; flex-wrap: wrap; }
+    .total-card { background: white; padding: 1em; border-radius: 8px; flex: 1; min-width: 150px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+    .total-card h3 { margin: 0 0 0.3em 0; font-size: 0.9em; color: #666; }
+    .total-card .valor { font-size: 1.3em; font-weight: bold; color: #1a3a5c; }
+    .alerta { background: #fff3cd; border-left: 4px solid #ffc107; padding: 1em; margin: 0.5em 0; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Corpus forense — JV-VECTOR</h1>
+    <p class="subtitle">Expedientes U1/U2/U3 · 1996-2015 · Procedimientos 2013-2015</p>
+    <p><a href="/" style="color:white;">← Volver al flujo contable</a></p>
+  </header>
+
+  <main>
+    <section class="paso">
+      <h2>Totales del corpus</h2>
+      <button onclick="cargarAgregado()">Cargar agregado</button>
+      <div id="totales" class="totales"></div>
+    </section>
+
+    <section class="paso">
+      <h2>Expedientes</h2>
+      <label>Filtrar por universo:
+        <select id="filtro-universo" onchange="cargarExpedientes()">
+          <option value="">Todos</option>
+          <option value="U1">U1 (víctimas perjudicadas)</option>
+          <option value="U2">U2 (muy dañados)</option>
+          <option value="U3">U3 (dañados no perjudicados)</option>
+          <option value="no_victima">No víctima</option>
+        </select>
+      </label>
+      <div id="expedientes"></div>
+    </section>
+
+    <section class="paso">
+      <h2>Patrones detectados</h2>
+      <button onclick="cargarPatrones()">Cargar patrones</button>
+      <div id="patrones"></div>
+    </section>
+  </main>
+
+  <script src="/frontend/corpus.js"></script>
+</body>
+</html>
