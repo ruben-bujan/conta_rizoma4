@@ -6,6 +6,7 @@ from datetime import date
 from typing import Optional
 
 from fastapi import APIRouter, HTTPException, Query
+from pydantic import BaseModel
 
 from ..schemas import AsientoIn, AsientoOut, LineaOut
 from ...partida_doble import RepositorioAsiento
@@ -21,13 +22,28 @@ def listar_asientos(
     empresa_id: str = Query(..., description="Empresa (obligatorio)"),
     desde: Optional[int] = None,
     hasta: Optional[int] = None,
+    estado: Optional[str] = Query(None, description="Filtrar por estado"),
     limite: int = 100,
 ):
     try:
         repo = RepositorioAsiento(empresa_id)
     except ValueError as e:
         raise HTTPException(status_code=400, detail=str(e))
-    return repo.listar(indice_desde=desde, indice_hasta=hasta, limite=limite)
+    asientos = repo.listar(indice_desde=desde, indice_hasta=hasta, limite=limite)
+    # Filtrar por estado si se pide
+    if estado:
+        import psycopg
+        from ...partida_doble.persistencia import PG_URL
+        with psycopg.connect(PG_URL) as conn:
+            with conn.cursor() as cur:
+                cur.execute(
+                    "SELECT indice FROM asiento_contable "
+                    "WHERE empresa_id = %s AND estado = %s",
+                    (empresa_id, estado),
+                )
+                indices_ok = {row[0] for row in cur.fetchall()}
+        asientos = [a for a in asientos if a["indice"] in indices_ok]
+    return asientos
 
 
 @router.get("/{indice}", response_model=AsientoOut)
@@ -144,6 +160,114 @@ def crear_asiento(entrada: AsientoIn):
         "hash": acto.hash,
         "metadatos": acto.metadatos,
     }
+
+
+class VisarIn(BaseModel):
+    operario_visador: str
+
+
+class AprobarIn(BaseModel):
+    operario_aprobador: str
+
+
+class RizomizarIn(BaseModel):
+    ok: bool
+    alerta: Optional[str] = None
+    documento_ref: Optional[str] = None
+
+
+@router.post("/{indice}/visar")
+def visar(indice: int, entrada: VisarIn, empresa_id: str = Query(...)):
+    import psycopg
+    from ...partida_doble.persistencia import PG_URL
+    with psycopg.connect(PG_URL) as conn:
+        with conn.cursor() as cur:
+            cur.execute(
+                "SELECT estado FROM asiento_contable "
+                "WHERE empresa_id = %s AND indice = %s",
+                (empresa_id, indice),
+            )
+            row = cur.fetchone()
+            if row is None:
+                raise HTTPException(status_code=404, detail="Asiento no encontrado")
+            if row[0] != "BORRADOR":
+                raise HTTPException(
+                    status_code=409,
+                    detail=f"Asiento en estado {row[0]}, no BORRADOR",
+                )
+            cur.execute(
+                "UPDATE asiento_contable SET estado = 'VISADO', "
+                "operario_visador = %s "
+                "WHERE empresa_id = %s AND indice = %s",
+                (entrada.operario_visador, empresa_id, indice),
+            )
+        conn.commit()
+    return {"ok": True, "estado": "VISADO"}
+
+
+@router.post("/{indice}/aprobar")
+def aprobar(indice: int, entrada: AprobarIn, empresa_id: str = Query(...)):
+    import psycopg
+    from ...partida_doble.persistencia import PG_URL
+    with psycopg.connect(PG_URL) as conn:
+        with conn.cursor() as cur:
+            cur.execute(
+                "SELECT estado FROM asiento_contable "
+                "WHERE empresa_id = %s AND indice = %s",
+                (empresa_id, indice),
+            )
+            row = cur.fetchone()
+            if row is None:
+                raise HTTPException(status_code=404, detail="Asiento no encontrado")
+            if row[0] != "VISADO":
+                raise HTTPException(
+                    status_code=409,
+                    detail=f"Asiento en estado {row[0]}, no VISADO",
+                )
+            cur.execute(
+                "UPDATE asiento_contable SET estado = 'APROBADO', "
+                "operario_aprobador = %s "
+                "WHERE empresa_id = %s AND indice = %s",
+                (entrada.operario_aprobador, empresa_id, indice),
+            )
+        conn.commit()
+    return {"ok": True, "estado": "APROBADO"}
+
+
+@router.post("/{indice}/rizomizar")
+def rizomizar(indice: int, entrada: RizomizarIn, empresa_id: str = Query(...)):
+    import psycopg
+    from ...partida_doble.persistencia import PG_URL
+    with psycopg.connect(PG_URL) as conn:
+        with conn.cursor() as cur:
+            cur.execute(
+                "SELECT estado FROM asiento_contable "
+                "WHERE empresa_id = %s AND indice = %s",
+                (empresa_id, indice),
+            )
+            row = cur.fetchone()
+            if row is None:
+                raise HTTPException(status_code=404, detail="Asiento no encontrado")
+            if row[0] != "APROBADO":
+                raise HTTPException(
+                    status_code=409,
+                    detail=f"Asiento en estado {row[0]}, no APROBADO",
+                )
+            if entrada.ok:
+                nuevo_estado = "RIZOMIZADO"
+                alerta = None
+            else:
+                nuevo_estado = "EN_CUARENTENA"
+                alerta = entrada.alerta or "Rizomización fallida"
+            cur.execute(
+                "UPDATE asiento_contable SET estado = %s, alerta = %s, "
+                "documento_ref = COALESCE(%s, documento_ref) "
+                "WHERE empresa_id = %s AND indice = %s",
+                (nuevo_estado, alerta, entrada.documento_ref,
+                 empresa_id, indice),
+            )
+        conn.commit()
+    return {"ok": True, "estado": nuevo_estado}
 
 
 @router.delete("/{indice}")
