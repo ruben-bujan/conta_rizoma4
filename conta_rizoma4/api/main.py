@@ -26,7 +26,7 @@ from fastapi.staticfiles import StaticFiles
 from fastapi.middleware.cors import CORSMiddleware
 
 from ..config import get_config
-from .routers import asientos, empresas, verificar, leases, obras, operarios, documentos, auth
+from .routers import asientos, empresas, verificar, leases, obras, operarios, documentos, auth, corpus_forense
 
 
 app = FastAPI(
@@ -51,6 +51,7 @@ app.include_router(asientos.router)
 app.include_router(verificar.router)
 app.include_router(empresas.router)
 app.include_router(auth.router)
+app.include_router(corpus_forense.router)
 app.include_router(leases.router)
 app.include_router(obras.router)
 app.include_router(operarios.router)
