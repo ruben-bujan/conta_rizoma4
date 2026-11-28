@@ -14,11 +14,13 @@ from ..operativo.asiento import GENESIS, calcular_hash, calcular_huella
 from .modelo import (
     Dano, Expediente, Flujo, Sujeto, clasificar_expediente,
 )
+from ..config.config_json import admin as _cfg_admin
 
 
+_cfg_pg = _cfg_admin().get("postgres", {})
 PG_URL = os.environ.get(
     "CONTA_PG_URL",
-    "postgresql://rizoma:rizoma_dev@localhost:5433/conta_rizoma4",
+    _cfg_pg.get("url") or "postgresql://rizoma:rizoma_dev@localhost:5433/conta_rizoma4",
 )
 
 
