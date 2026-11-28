@@ -179,3 +179,10 @@ manipula un acto, conta pd-verificar lo detecta.
 
 La cadena de custodia (obras, operarios, leases, estados) usa lo que
 rizoma4 ya tiene (CAS, ledger, PAdES, TSA, Merkle).
+
+## Configuración (JSON segmentado)
+
+Copia `config/conta_config.json.example` a `config/conta_config.json` y ajusta
+los bloques `admin` (infra, credenciales, JWT, integración RIZOMA4) y `user`
+(runtime cliente). El visado del superior controla cambios sensibles
+(`visado.requiere_aprobacion_superior`).
