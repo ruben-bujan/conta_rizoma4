@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Modelo de partida doble: Linea, Asiento, validación de cuadre."""
+"""Modelo de partida doble con referencia doctrinal PGC solo si se aporta."""
 from __future__ import annotations
 
 from dataclasses import dataclass, field
@@ -29,14 +29,23 @@ class Linea:
         if self.debe_centimos == 0 and self.haber_centimos == 0:
             raise PartidaDobleError(f"línea {self.cuenta_pgc}: debe y haber = 0")
 
+        # Un vínculo doctrinal solo se registra cuando se aporta explícitamente.
+        if self.parrafo_pgc_id is not None and (
+            type(self.parrafo_pgc_id) is not int or self.parrafo_pgc_id <= 0
+        ):
+            raise PartidaDobleError(
+                f"línea {self.cuenta_pgc}: parrafo_pgc_id debe ser un entero positivo o None"
+            )
+
     @property
     def importe_centimos(self) -> int:
         return self.debe_centimos + self.haber_centimos
 
     def __str__(self) -> str:
+        referencia = f" (PGC §{self.parrafo_pgc_id})" if self.parrafo_pgc_id is not None else ""
         if self.debe_centimos > 0:
-            return f"D {self.cuenta_pgc}: {self.debe_centimos}"
-        return f"H {self.cuenta_pgc}: {self.haber_centimos}"
+            return f"D {self.cuenta_pgc}: {self.debe_centimos}{referencia}"
+        return f"H {self.cuenta_pgc}: {self.haber_centimos}{referencia}"
 
 
 @dataclass(frozen=True)

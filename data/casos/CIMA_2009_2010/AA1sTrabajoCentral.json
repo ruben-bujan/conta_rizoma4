@@ -1,0 +1,137 @@
+[
+  {
+    "IDTrabajoCentral": "8",
+    "NºO": "1",
+    "TrabajoCentral": "Presidente"
+  },
+  {
+    "IDTrabajoCentral": "11",
+    "NºO": "4",
+    "TrabajoCentral": "Administrador Único"
+  },
+  {
+    "IDTrabajoCentral": "12",
+    "NºO": "5",
+    "TrabajoCentral": "Apoderado"
+  },
+  {
+    "IDTrabajoCentral": "13",
+    "NºO": "6",
+    "TrabajoCentral": "DirectorGral"
+  },
+  {
+    "IDTrabajoCentral": "14",
+    "NºO": "7",
+    "TrabajoCentral": "DirectorDptto"
+  },
+  {
+    "IDTrabajoCentral": "15",
+    "NºO": "8",
+    "TrabajoCentral": "DirectorDivisión"
+  },
+  {
+    "IDTrabajoCentral": "16",
+    "NºO": "9",
+    "TrabajoCentral": "DirectorArea"
+  },
+  {
+    "IDTrabajoCentral": "19",
+    "NºO": "10",
+    "TrabajoCentral": "JefeDptto"
+  },
+  {
+    "IDTrabajoCentral": "20",
+    "NºO": "11",
+    "TrabajoCentral": "JefeDivisión"
+  },
+  {
+    "IDTrabajoCentral": "21",
+    "NºO": "12",
+    "TrabajoCentral": "JefeArea"
+  },
+  {
+    "IDTrabajoCentral": "22",
+    "NºO": "13",
+    "TrabajoCentral": "TécnicoSuperior"
+  },
+  {
+    "IDTrabajoCentral": "24",
+    "NºO": "14",
+    "TrabajoCentral": "TécnicoMedio"
+  },
+  {
+    "IDTrabajoCentral": "25",
+    "NºO": "15",
+    "TrabajoCentral": "AuxiliarTécnico"
+  },
+  {
+    "IDTrabajoCentral": "29",
+    "NºO": "16",
+    "TrabajoCentral": "Administrativo"
+  },
+  {
+    "IDTrabajoCentral": "30",
+    "NºO": "17",
+    "TrabajoCentral": "AuxiliarAdministrativo"
+  },
+  {
+    "IDTrabajoCentral": "31",
+    "NºO": "18",
+    "TrabajoCentral": "Delegado"
+  },
+  {
+    "IDTrabajoCentral": "32",
+    "NºO": "19",
+    "TrabajoCentral": "JefeGrupoObras"
+  },
+  {
+    "IDTrabajoCentral": "33",
+    "NºO": "20",
+    "TrabajoCentral": "JefeObra"
+  },
+  {
+    "IDTrabajoCentral": "34",
+    "NºO": "21",
+    "TrabajoCentral": "JefeExplotación"
+  },
+  {
+    "IDTrabajoCentral": "35",
+    "NºO": "22",
+    "TrabajoCentral": "Encargado"
+  },
+  {
+    "IDTrabajoCentral": "36",
+    "NºO": "23",
+    "TrabajoCentral": "Capataz"
+  },
+  {
+    "IDTrabajoCentral": "37",
+    "NºO": "24",
+    "TrabajoCentral": "Oficial1ª"
+  },
+  {
+    "IDTrabajoCentral": "38",
+    "NºO": "25",
+    "TrabajoCentral": "Oficial2ª"
+  },
+  {
+    "IDTrabajoCentral": "39",
+    "NºO": "26",
+    "TrabajoCentral": "Controlador"
+  },
+  {
+    "IDTrabajoCentral": "40",
+    "NºO": "27",
+    "TrabajoCentral": "Vigilante"
+  },
+  {
+    "IDTrabajoCentral": "41",
+    "NºO": "28",
+    "TrabajoCentral": "Laborante"
+  },
+  {
+    "IDTrabajoCentral": "42",
+    "NºO": "29",
+    "TrabajoCentral": "Peón"
+  }
+]

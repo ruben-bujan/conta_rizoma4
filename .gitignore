@@ -1,44 +1,60 @@
-# Python
+# Entornos virtuales
+.venv/
+venv/
+env/
+*.egg-info/
 __pycache__/
 *.py[cod]
-*.egg-info/
-*.egg
-build/
+
+# Secretos
+.env
+*.env
+!*.env.example
+!*.env.template
+secrets.*
+*.pem
+*.key
+
+# Configuración local de empresas; sólo se versiona la plantilla .example
+config/empresas.yaml
+
+# Datos / backups
+*.bak
+*.bak_*
+*.bak.*
+backups/
+backup/
+*.sqlite
+*.sqlite3
+*.db
+*.mdb
+*.accdb
+*.dump
+
+# Artefactos de build / paquetes
 dist/
-.eggs/
-
-# Entornos virtuales
-venv/
-.venv/
-env/
-ENV/
-
-# Tests
-.pytest_cache/
-.coverage
-.coverage.*
+build/
+*.whl
+*.egg
+*.tar.gz
+*.tar.xz
+*.tar.zst
+*.zst
+*.pkg.tar.*
 htmlcov/
+.coverage
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
 
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
+# Dependencias vendored
+mdbtools/
+mdb_extraido*/
+mdb_extraido_InCiv2010/
 
-# OS
+# SO
 .DS_Store
 Thumbs.db
 
-# Datos locales
-*.db
-*.sqlite
-*.sqlite3
-data/seed/*.json
-
-# Logs
-*.log
-
-
-# Config local (no versionar)
-config/empresas.yaml
-config/cache/
+# Auditoría (no versionar salidas)
+extraccion_para_auditoria_*.md

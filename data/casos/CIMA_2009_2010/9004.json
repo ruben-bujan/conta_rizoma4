@@ -1,0 +1,22 @@
+[
+  {
+    "IdRegForProc": "31",
+    "DesForRec": "Scaneable"
+  },
+  {
+    "IdRegForProc": "32",
+    "DesForRec": "No scaneable"
+  },
+  {
+    "IdRegForProc": "33",
+    "DesForRec": "Magnético"
+  },
+  {
+    "IdRegForProc": "35",
+    "DesForRec": "Digital"
+  },
+  {
+    "IdRegForProc": "36",
+    "DesForRec": "Sin soporte"
+  }
+]

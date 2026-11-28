@@ -1,0 +1,66 @@
+[
+  {
+    "DesFormato": "10 Cajón A3",
+    "IdRegForFis": "1"
+  },
+  {
+    "DesFormato": "09 Cajón A4",
+    "IdRegForFis": "2"
+  },
+  {
+    "DesFormato": "13 Encuadernado A3",
+    "IdRegForFis": "3"
+  },
+  {
+    "DesFormato": "14 Encuadernado A4",
+    "IdRegForFis": "4"
+  },
+  {
+    "DesFormato": "11 Encarpetado A3",
+    "IdRegForFis": "5"
+  },
+  {
+    "DesFormato": "12 Encarpetado A4",
+    "IdRegForFis": "6"
+  },
+  {
+    "DesFormato": "06 AZ A3",
+    "IdRegForFis": "7"
+  },
+  {
+    "DesFormato": "04 AZ A4",
+    "IdRegForFis": "8"
+  },
+  {
+    "DesFormato": "03 Hojas sueltas A3",
+    "IdRegForFis": "9"
+  },
+  {
+    "DesFormato": "01 Hojas sueltas A4",
+    "IdRegForFis": "10"
+  },
+  {
+    "DesFormato": "08 CD;DVD",
+    "IdRegForFis": "11"
+  },
+  {
+    "DesFormato": "07 E-Mile;E-Fax",
+    "IdRegForFis": "13"
+  },
+  {
+    "DesFormato": "00 SisIC",
+    "IdRegForFis": "14"
+  },
+  {
+    "DesFormato": "99 Sin formato físico",
+    "IdRegForFis": "15"
+  },
+  {
+    "DesFormato": "02 Hojas sueltas A5",
+    "IdRegForFis": "16"
+  },
+  {
+    "DesFormato": "05 Hojas sueltas Menor",
+    "IdRegForFis": "17"
+  }
+]

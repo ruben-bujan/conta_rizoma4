@@ -1,0 +1,13 @@
+IDRPA,IDRCA,Activo?,Transacción,Orden
+20,11,1,"Recibir+VºVºFormal",1
+22,11,1,"VºBºContractual",2
+24,11,1,"VºBºCuantitativo",3
+25,11,1,"VºBºEstratégico",4
+26,11,1,"VºBªDefinitivo",5
+28,11,1,"RecibirConstataciónPago",6
+30,821,1,"Recibir+VºVºFormal",1
+31,821,1,"VºBºContractual",2
+32,821,1,"VºBºCuantitativo",3
+33,821,1,"VºBºEstratégico",4
+34,821,1,"VºBªDefinitivo",5
+35,821,1,"RecibirConstataciónPago",6

@@ -1,0 +1,163 @@
+[
+  {
+    "IdRegTipPreEle": "1",
+    "CódigoTPE": "MO",
+    "DescripciónTPE": "Mano de Obra",
+    "NroOrden": "1",
+    "Ahora": "11/02/01 09:53:14"
+  },
+  {
+    "IdRegTipPreEle": "2",
+    "CódigoTPE": "MA",
+    "DescripciónTPE": "Materiales",
+    "NroOrden": "2",
+    "Ahora": "11/02/01 09:53:14"
+  },
+  {
+    "IdRegTipPreEle": "3",
+    "CódigoTPE": "MQ",
+    "DescripciónTPE": "Maquinaria",
+    "NroOrden": "3",
+    "Ahora": "11/02/01 09:53:14"
+  },
+  {
+    "IdRegTipPreEle": "4",
+    "CódigoTPE": "MT",
+    "DescripciónTPE": "Movimiento de Tierras",
+    "NroOrden": "4",
+    "Ahora": "11/02/01 09:53:14"
+  },
+  {
+    "IdRegTipPreEle": "5",
+    "CódigoTPE": "FIR",
+    "DescripciónTPE": "Firmes",
+    "NroOrden": "5",
+    "Ahora": "11/02/01 09:53:14"
+  },
+  {
+    "IdRegTipPreEle": "8",
+    "CódigoTPE": "EST",
+    "DescripciónTPE": "Estructuras",
+    "NroOrden": "6",
+    "Ahora": "11/02/01 09:53:14"
+  },
+  {
+    "IdRegTipPreEle": "9",
+    "CódigoTPE": "DP",
+    "DescripciónTPE": "Drenaje Profundo",
+    "NroOrden": "7",
+    "Ahora": "11/02/01 09:53:14"
+  },
+  {
+    "IdRegTipPreEle": "10",
+    "CódigoTPE": "SEÑ",
+    "DescripciónTPE": "Señalizacion",
+    "NroOrden": "8",
+    "Ahora": "11/02/01 09:53:14"
+  },
+  {
+    "IdRegTipPreEle": "11",
+    "CódigoTPE": "BAL",
+    "DescripciónTPE": "Balizamiento",
+    "NroOrden": "9",
+    "Ahora": "11/07/01 13:56:11"
+  },
+  {
+    "IdRegTipPreEle": "12",
+    "CódigoTPE": "DEF",
+    "DescripciónTPE": "Defensas",
+    "NroOrden": "10",
+    "Ahora": "11/13/01 12:49:49"
+  },
+  {
+    "IdRegTipPreEle": "13",
+    "CódigoTPE": "RM",
+    "DescripciónTPE": "Reuperacion Medioamb.",
+    "NroOrden": "11",
+    "Ahora": "04/11/02 12:21:04"
+  },
+  {
+    "IdRegTipPreEle": "14",
+    "CódigoTPE": "ALU",
+    "DescripciónTPE": "Alumbrado",
+    "NroOrden": "12",
+    "Ahora": "05/27/02 13:01:32"
+  },
+  {
+    "IdRegTipPreEle": "15",
+    "CódigoTPE": "AT",
+    "DescripciónTPE": "Alta Tension",
+    "NroOrden": "13",
+    "Ahora": "05/28/02 11:00:26"
+  },
+  {
+    "IdRegTipPreEle": "16",
+    "CódigoTPE": "BT",
+    "DescripciónTPE": "Baja Tension",
+    "NroOrden": "14",
+    "Ahora": "05/28/02 11:02:44"
+  },
+  {
+    "IdRegTipPreEle": "17",
+    "CódigoTPE": "TLF",
+    "DescripciónTPE": "Telefonia",
+    "NroOrden": "15",
+    "Ahora": "05/28/02 11:02:52"
+  },
+  {
+    "IdRegTipPreEle": "18",
+    "CódigoTPE": "GAS",
+    "DescripciónTPE": "Gas",
+    "NroOrden": "16",
+    "Ahora": "05/28/02 11:03:03"
+  },
+  {
+    "IdRegTipPreEle": "19",
+    "CódigoTPE": "CF",
+    "DescripciónTPE": "Conducciones Forzadas",
+    "NroOrden": "17",
+    "Ahora": "05/28/02 11:03:11"
+  },
+  {
+    "IdRegTipPreEle": "20",
+    "CódigoTPE": "CG",
+    "DescripciónTPE": "Conducciones Gravedad",
+    "NroOrden": "18",
+    "Ahora": "05/28/02 11:03:17"
+  },
+  {
+    "IdRegTipPreEle": "21",
+    "CódigoTPE": "EE",
+    "DescripciónTPE": "Equipos electromecanicos",
+    "NroOrden": "19",
+    "Ahora": "05/28/02 11:03:28"
+  },
+  {
+    "IdRegTipPreEle": "22",
+    "CódigoTPE": "CI",
+    "DescripciónTPE": "Costes Indirectos",
+    "NroOrden": "23",
+    "Ahora": "05/28/02 11:03:41"
+  },
+  {
+    "IdRegTipPreEle": "23",
+    "CódigoTPE": "SD",
+    "DescripciónTPE": "Sin Descomposición",
+    "NroOrden": "20",
+    "Ahora": "05/28/02 11:04:24"
+  },
+  {
+    "IdRegTipPreEle": "24",
+    "CódigoTPE": "VAR",
+    "DescripciónTPE": "Varios",
+    "NroOrden": "21",
+    "Ahora": "05/28/02 11:05:35"
+  },
+  {
+    "IdRegTipPreEle": "25",
+    "CódigoTPE": "PAUX",
+    "DescripciónTPE": "Precio Auxiliar",
+    "NroOrden": "22",
+    "Ahora": "05/28/02 13:14:29"
+  }
+]

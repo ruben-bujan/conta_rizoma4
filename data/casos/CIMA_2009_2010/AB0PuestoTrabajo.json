@@ -1,0 +1,32 @@
+[
+  {
+    "IDPueTra": "2",
+    "IdDomPerJur": "5",
+    "IdFilPerFis": "1",
+    "Cargo": "Administrador",
+    "TlfDirecto": "",
+    "FaxParticular": "",
+    "TlfMovivl": "",
+    "Activo/Inactivo": "1"
+  },
+  {
+    "IDPueTra": "7",
+    "IdDomPerJur": "5",
+    "IdFilPerFis": "2",
+    "Cargo": "Apoderada",
+    "TlfDirecto": "",
+    "FaxParticular": "",
+    "TlfMovivl": "",
+    "Activo/Inactivo": "1"
+  },
+  {
+    "IDPueTra": "8",
+    "IdDomPerJur": "5",
+    "IdFilPerFis": "3",
+    "Cargo": "Director técnico",
+    "TlfDirecto": "",
+    "FaxParticular": "",
+    "TlfMovivl": "",
+    "Activo/Inactivo": "1"
+  }
+]

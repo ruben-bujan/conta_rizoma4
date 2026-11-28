@@ -1,0 +1,11 @@
+IDDepartamento,NºO,IdCentral,Departamento
+1,2,1,"Oficina Técnica"
+3,6,1,"Administración"
+4,5,1,"Jurídico"
+5,7,1,"Tecnología"
+6,3,1,"Producción"
+7,1,1,"Dirección"
+8,4,1,"Control"
+9,1,6,"Gestión"
+23,1,7,"Gestión"
+24,2,7,"Oficina Técnica"

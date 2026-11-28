@@ -1,0 +1,22 @@
+[
+  {
+    "IdRegTipAsiento": "2",
+    "DesAsientoDiario": "Ordinario"
+  },
+  {
+    "IdRegTipAsiento": "3",
+    "DesAsientoDiario": "Regularización"
+  },
+  {
+    "IdRegTipAsiento": "4",
+    "DesAsientoDiario": "Apertura"
+  },
+  {
+    "IdRegTipAsiento": "5",
+    "DesAsientoDiario": "Cierre"
+  },
+  {
+    "IdRegTipAsiento": "6",
+    "DesAsientoDiario": "Amortización"
+  }
+]

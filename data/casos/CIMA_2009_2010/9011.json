@@ -1,0 +1,38 @@
+[
+  {
+    "IdRegConceptoSinPrecio": "2",
+    "DesConceptoSinPrecio": "Comidas"
+  },
+  {
+    "IdRegConceptoSinPrecio": "3",
+    "DesConceptoSinPrecio": "Alojamiento"
+  },
+  {
+    "IdRegConceptoSinPrecio": "4",
+    "DesConceptoSinPrecio": "Transpòrte. Taxi"
+  },
+  {
+    "IdRegConceptoSinPrecio": "6",
+    "DesConceptoSinPrecio": "Transporte. Avión"
+  },
+  {
+    "IdRegConceptoSinPrecio": "7",
+    "DesConceptoSinPrecio": "Transporte. Tren"
+  },
+  {
+    "IdRegConceptoSinPrecio": "8",
+    "DesConceptoSinPrecio": "Transporte. Alquiler vehículo"
+  },
+  {
+    "IdRegConceptoSinPrecio": "9",
+    "DesConceptoSinPrecio": "Artículos de paplelería"
+  },
+  {
+    "IdRegConceptoSinPrecio": "10",
+    "DesConceptoSinPrecio": "Artículos de ferretería"
+  },
+  {
+    "IdRegConceptoSinPrecio": "11",
+    "DesConceptoSinPrecio": "Otros artículos"
+  }
+]

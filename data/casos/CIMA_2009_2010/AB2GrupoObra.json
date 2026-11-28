@@ -1,0 +1,22 @@
+[
+  {
+    "IDGrupObra": "3",
+    "IDDelegación": "5",
+    "GrupObra": "Madrid Norte"
+  },
+  {
+    "IDGrupObra": "4",
+    "IDDelegación": "5",
+    "GrupObra": "Madrid Sur"
+  },
+  {
+    "IDGrupObra": "5",
+    "IDDelegación": "9",
+    "GrupObra": "Toledo Greco"
+  },
+  {
+    "IDGrupObra": "6",
+    "IDDelegación": "11",
+    "GrupObra": "Aragón Norte"
+  }
+]

@@ -1,0 +1,4992 @@
+[
+  {
+    "IdRegBaseUniObr": "1",
+    "DescripciónLarUO": "Excavación en tierra vegetal incluido desbroce con trpte a caballero, posterior extendido en taludes y transporte de sobrantes a vertedero o lugar de empleo i/p.p. de formación y recuperación de vertederos",
+    "UdMediciónUO": "m3",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "0300124",
+    "CódigoSuUO": "0300124",
+    "ObservacionesUO": "Incluye el empuje a acopio provisioanl con bulldozer, nuevo empuje a taludes y posterior transporte de sobrantes a vertedero o lugar de empleo en regetaciones",
+    "Ahora": "03/17/04 13:08:45"
+  },
+  {
+    "IdRegBaseUniObr": "2",
+    "DescripciónLarUO": "Excavación de la explanación sin clasificar en terreno apto para rellenos incluso transporte a lugar de empleo",
+    "UdMediciónUO": "m3",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "300002",
+    "CódigoSuUO": "300002",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:45"
+  },
+  {
+    "IdRegBaseUniObr": "3",
+    "DescripciónLarUO": "Excavación de la explanación en terrenos inadecuados con transporte a vertedero o lugar de empleo i/p.p. de formación y recuperación de vertedero",
+    "UdMediciónUO": "m3",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "300003",
+    "CódigoSuUO": "300003",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:45"
+  },
+  {
+    "IdRegBaseUniObr": "4",
+    "DescripciónLarUO": "Excavación de fondo de caja en terreno inadecudo con empuje a acopio provisional a calzada contigua, para volver a empujar a la calzada original una vez estabilizada la superficie resultante. Éste precio no incluye el estabilizado.",
+    "UdMediciónUO": "m3",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "300004",
+    "CódigoSuUO": "300004",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:45"
+  },
+  {
+    "IdRegBaseUniObr": "5",
+    "DescripciónLarUO": "Formación de terraplén con material procedente de excavación con p.p. de ripado y compactado de cimiento hasta 40 cm. de profundidad, y coronación del último metro con suelo adecudo",
+    "UdMediciónUO": "m3",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "300005",
+    "CódigoSuUO": "300005",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:46"
+  },
+  {
+    "IdRegBaseUniObr": "6",
+    "DescripciónLarUO": "Formación de terraplén procedente de préstamos con suelo adecuado",
+    "UdMediciónUO": "m3",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "300006",
+    "CódigoSuUO": "300006",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:46"
+  },
+  {
+    "IdRegBaseUniObr": "7",
+    "DescripciónLarUO": "S-EST-3 con suelo adecuado procedente de préstamos o de la propia traza.",
+    "UdMediciónUO": "m3",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "300007",
+    "CódigoSuUO": "300007",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:46"
+  },
+  {
+    "IdRegBaseUniObr": "8",
+    "DescripciónLarUO": "S-EST-1 con suelos procedentes de excavación",
+    "UdMediciónUO": "m3",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "300008",
+    "CódigoSuUO": "300008",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:46"
+  },
+  {
+    "IdRegBaseUniObr": "9",
+    "DescripciónLarUO": "Demolición de firme i/ carga y transporte de sobrantes a vertedero",
+    "UdMediciónUO": "m3",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "300009",
+    "CódigoSuUO": "300009",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:46"
+  },
+  {
+    "IdRegBaseUniObr": "10",
+    "DescripciónLarUO": "Demolición de volumen aparente de obra de fábrica o edificación",
+    "UdMediciónUO": "m3",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "300010",
+    "CódigoSuUO": "300010",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:46"
+  },
+  {
+    "IdRegBaseUniObr": "11",
+    "DescripciónLarUO": "Excavación en zanjas, pozos o cimientos en cualquier tipo de terreno, incluyendo la entibación, agotamiento, carga y el transporte a vertedero o lugar de empleo",
+    "UdMediciónUO": "m3",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "321001",
+    "CódigoSuUO": "321001",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:46"
+  },
+  {
+    "IdRegBaseUniObr": "12",
+    "DescripciónLarUO": "Relleno localizado con suelo adecuado, incluyendo material procedente de préstamo, transporte al lugar de empleo, extendido y compactado.",
+    "UdMediciónUO": "m3",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "330001",
+    "CódigoSuUO": "330001",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:47"
+  },
+  {
+    "IdRegBaseUniObr": "13",
+    "DescripciónLarUO": "Geotextil, totalmente terminado",
+    "UdMediciónUO": "m2",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "422001",
+    "CódigoSuUO": "422001",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:47"
+  },
+  {
+    "IdRegBaseUniObr": "14",
+    "DescripciónLarUO": "Junta impermeable de PVC i/ p.p. de formación de llaga para impermeabilización c/ mastic asfáltico en carra de tierras y refuerzo de armadura",
+    "UdMediciónUO": "m",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "423000",
+    "CódigoSuUO": "423000",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:47"
+  },
+  {
+    "IdRegBaseUniObr": "15",
+    "DescripciónLarUO": "Tubo dren P.V.C.; Ø 110 mm. Incluso cama de hormigon, colocado",
+    "UdMediciónUO": "m",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "423001",
+    "CódigoSuUO": "423001",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:47"
+  },
+  {
+    "IdRegBaseUniObr": "16",
+    "DescripciónLarUO": "Acero B 500 S para armaduras, totalmente colocado, incluso parte proporcional de mermas y despuntes ",
+    "UdMediciónUO": "kg",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "600001",
+    "CódigoSuUO": "600001",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:47"
+  },
+  {
+    "IdRegBaseUniObr": "17",
+    "DescripciónLarUO": "Hormigón de limpieza con una resistencia característica mínima de 15 N/mm2, colocado.",
+    "UdMediciónUO": "m3",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "610001",
+    "CódigoSuUO": "610001",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:47"
+  },
+  {
+    "IdRegBaseUniObr": "18",
+    "DescripciónLarUO": "Hormigón para armar HA-25 en alzados, incluso fabricación, vibrado y curado totalmente colocado",
+    "UdMediciónUO": "m3",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "610003",
+    "CódigoSuUO": "610003",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:47"
+  },
+  {
+    "IdRegBaseUniObr": "19",
+    "DescripciónLarUO": "Encofrado visto en paramentos planos, incluso desencofrado, p.p. de apeos necesarios, arriostramientos, distanciadores, medios auxiliares y accesorios, totalmente ejecutado",
+    "UdMediciónUO": "m2",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "680001",
+    "CódigoSuUO": "680001",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:48"
+  },
+  {
+    "IdRegBaseUniObr": "20",
+    "DescripciónLarUO": "Apeos y cimbras, incluso preparación del cimiento, cimbrado y descimbrado.",
+    "UdMediciónUO": "m3",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "681001",
+    "CódigoSuUO": "681001",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:48"
+  },
+  {
+    "IdRegBaseUniObr": "21",
+    "DescripciónLarUO": "Impermeabilización de tableros o trasdoses de muros, totalmente terminado.",
+    "UdMediciónUO": "m2",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "690001",
+    "CódigoSuUO": "690001",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:48"
+  },
+  {
+    "IdRegBaseUniObr": "22",
+    "DescripciónLarUO": "Caño de hormigón armado enchufe campana con junta elástica clase D, incluida solera y riñones de hormigón HM-20-IIa-20 de 10 cm. espesor para caño Ø 1000 mm.",
+    "UdMediciónUO": "m",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "413001",
+    "CódigoSuUO": "413001",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:48"
+  },
+  {
+    "IdRegBaseUniObr": "23",
+    "DescripciónLarUO": "Caño de hormigón armado enchufe campana con junta elástica clase D, incluida solera y riñones de hormigón HM-20-IIa-20 de 25 cm. espesor para caño Ø 1200 mm.",
+    "UdMediciónUO": "m",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "413002",
+    "CódigoSuUO": "413002",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:48"
+  },
+  {
+    "IdRegBaseUniObr": "24",
+    "DescripciónLarUO": "Caño de hormigón armado enchufe campana con junta elástica clase D, incluida solera y riñones de hormigón HM-20-IIa-20 de 30 cm. espesor para caño Ø 1800 mm.",
+    "UdMediciónUO": "m",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "413003",
+    "CódigoSuUO": "413003",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:48"
+  },
+  {
+    "IdRegBaseUniObr": "25",
+    "DescripciónLarUO": "Embocadura prefabricada recta incluida solera, montaje, excavaciones y relleno, totalmente terminado para caño Ø 1000.",
+    "UdMediciónUO": "ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "416001",
+    "CódigoSuUO": "416001",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:48"
+  },
+  {
+    "IdRegBaseUniObr": "26",
+    "DescripciónLarUO": "Embocadura prefabricada esviada incluida solera, montaje, excavaciones y relleno, totalmente terminado para caño Ø 1000.",
+    "UdMediciónUO": "ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "416002",
+    "CódigoSuUO": "416002",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:49"
+  },
+  {
+    "IdRegBaseUniObr": "27",
+    "DescripciónLarUO": "Embocadura prefabricada recta incluida solera, montaje, excavaciones y relleno, totalmente terminado para caño Ø 1200.",
+    "UdMediciónUO": "ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "416003",
+    "CódigoSuUO": "416003",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:49"
+  },
+  {
+    "IdRegBaseUniObr": "28",
+    "DescripciónLarUO": "Embocadura prefabricada esviada incluida solera, montaje, excavaciones y relleno, totalmente terminado para caño Ø 1200.",
+    "UdMediciónUO": "ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "416004",
+    "CódigoSuUO": "416004",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:49"
+  },
+  {
+    "IdRegBaseUniObr": "29",
+    "DescripciónLarUO": "Embocadura prefabricada recta incluida solera, montaje, excavaciones y relleno, totalmente terminado para caño Ø 1800.",
+    "UdMediciónUO": "ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "416005",
+    "CódigoSuUO": "416005",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:49"
+  },
+  {
+    "IdRegBaseUniObr": "30",
+    "DescripciónLarUO": "Embocadura prefabricada esviada incluida solera, montaje, excavaciones y relleno, totalmente terminado para caño Ø 1800.",
+    "UdMediciónUO": "ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "416006",
+    "CódigoSuUO": "416006",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:49"
+  },
+  {
+    "IdRegBaseUniObr": "31",
+    "DescripciónLarUO": "Revestido en planta de cuneta e=10 cm con refino y fratasado, incluso p.p. de juntas, reglas y medios  auxiliares.",
+    "UdMediciónUO": "m2",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "400000",
+    "CódigoSuUO": "400000",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:49"
+  },
+  {
+    "IdRegBaseUniObr": "32",
+    "DescripciónLarUO": "Bordillo \"in situ\" 10x13 con hormigón HM-20 II a 12 en cabeza de terraplén, incluso p.p. de obra de acuerdo con bajante de bordillo prefabricado.",
+    "UdMediciónUO": "m",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "400001",
+    "CódigoSuUO": "400001",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:50"
+  },
+  {
+    "IdRegBaseUniObr": "33",
+    "DescripciónLarUO": "Formación y refino de cuneta sin revestir, medida en planta a partir de la intersección del derrame del firme.",
+    "UdMediciónUO": "m2",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "400002",
+    "CódigoSuUO": "400002",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:50"
+  },
+  {
+    "IdRegBaseUniObr": "34",
+    "DescripciónLarUO": "Bajante prefabricada de 60 cm de ancho, completamente colocada, s/planos",
+    "UdMediciónUO": "m",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "402000",
+    "CódigoSuUO": "402000",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:50"
+  },
+  {
+    "IdRegBaseUniObr": "35",
+    "DescripciónLarUO": "Bajante prefabricada de 40 cm de ancho, completamente colocado s/planos.",
+    "UdMediciónUO": "m",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "402001",
+    "CódigoSuUO": "402001",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:50"
+  },
+  {
+    "IdRegBaseUniObr": "36",
+    "DescripciónLarUO": "Obra de entrega de bajante a cuneta o terreno.",
+    "UdMediciónUO": "ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "402002",
+    "CódigoSuUO": "402002",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:50"
+  },
+  {
+    "IdRegBaseUniObr": "37",
+    "DescripciónLarUO": "Arqueta de colector 2x2x6 con HA-25 IIa 20, con tapa de hormigón armado, pletina, marco galvanizado, pasador y candado, s/planos.",
+    "UdMediciónUO": "ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "410000",
+    "CódigoSuUO": "410000",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:50"
+  },
+  {
+    "IdRegBaseUniObr": "38",
+    "DescripciónLarUO": "Arqueta de desagüe de mediana 3x1,2x1 con HA-25 II a 20 armadura Ø=10 cada 20 y reja sumidero de acero galvanizado s/planos.",
+    "UdMediciónUO": "ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "410001",
+    "CódigoSuUO": "410001",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:50"
+  },
+  {
+    "IdRegBaseUniObr": "39",
+    "DescripciónLarUO": "Pozo de registro o acometida a desagüe de mediana circular Ø 80 cm de diámetro, incluso p.p. de excéntrica Ø 800x600 mm y tapa de fundición recibida en anillo de hormigón HM-20 II a 20 de 20x20 cm s/planos",
+    "UdMediciónUO": "ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "410002",
+    "CódigoSuUO": "410002",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:51"
+  },
+  {
+    "IdRegBaseUniObr": "40",
+    "DescripciónLarUO": "Desagüe de mediana de Ø=600 mm de hormigón armado clase E, incluida p.p. de cama d asiento de hormigón HM--20 IIa 20 con 20 cm de espesor y recibido de riñones",
+    "UdMediciónUO": "m",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "413000",
+    "CódigoSuUO": "413000",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:51"
+  },
+  {
+    "IdRegBaseUniObr": "41",
+    "DescripciónLarUO": "Caño salvacunetas de hormigón vibroprensado de Ø 600, incluso solera y recubrimiento mínimo de 20 cm de espesor.",
+    "UdMediciónUO": "m",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "413004",
+    "CódigoSuUO": "413004",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:51"
+  },
+  {
+    "IdRegBaseUniObr": "42",
+    "DescripciónLarUO": "Caño salvacunetas de hormigón vibroprensado de Ø 800, incluso solera y recubrimiento mínimo de 20 cm de espesor.",
+    "UdMediciónUO": "m",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "413005",
+    "CódigoSuUO": "413005",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:51"
+  },
+  {
+    "IdRegBaseUniObr": "43",
+    "DescripciónLarUO": "Caño salvacunetas de hormigón vibroprensado de Ø1200, incluso solera y recubrimiento mínimo de 20 cm de espesor.",
+    "UdMediciónUO": "m",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "413006",
+    "CódigoSuUO": "413006",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:51"
+  },
+  {
+    "IdRegBaseUniObr": "44",
+    "DescripciónLarUO": "Embocadura prefabricada para salida de desagüe de mediana incluido obra de entrega a bajante.",
+    "UdMediciónUO": "ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "416000",
+    "CódigoSuUO": "416000",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:51"
+  },
+  {
+    "IdRegBaseUniObr": "45",
+    "DescripciónLarUO": "Embocadura prefabricada para caños salvacunetas de Ø 600",
+    "UdMediciónUO": "ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "416007",
+    "CódigoSuUO": "416007",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:51"
+  },
+  {
+    "IdRegBaseUniObr": "46",
+    "DescripciónLarUO": "Embocadura prefabricada para caños salvacunetas de Ø800",
+    "UdMediciónUO": "ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "416008",
+    "CódigoSuUO": "416008",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:52"
+  },
+  {
+    "IdRegBaseUniObr": "47",
+    "DescripciónLarUO": "Caz prefabricado de diámetro 300 mm totalmente terminado",
+    "UdMediciónUO": "m",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "416009",
+    "CódigoSuUO": "416009",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:52"
+  },
+  {
+    "IdRegBaseUniObr": "48",
+    "DescripciónLarUO": "Embocadura prefabricada para caños salvacunetas de Ø1200",
+    "UdMediciónUO": "ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "416010",
+    "CódigoSuUO": "416010",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:52"
+  },
+  {
+    "IdRegBaseUniObr": "49",
+    "DescripciónLarUO": "Drenaje profundo Ø=110 mm incluida p.p. de excavación y material filtro, con sellado superior mediante la UD.O. relleno en bermas con material plástico.",
+    "UdMediciónUO": "m",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "426000",
+    "CódigoSuUO": "426000",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:52"
+  },
+  {
+    "IdRegBaseUniObr": "50",
+    "DescripciónLarUO": "Proyección en planta de pavimento de hormigón HA-25 para camino o vado, incluso armadura de piel Ø 6 cada 30 cm, juntas cada 6 m., encofrados laterales y fratasado totalmente terminado.",
+    "UdMediciónUO": "m2",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "550000",
+    "CódigoSuUO": "550000",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:52"
+  },
+  {
+    "IdRegBaseUniObr": "51",
+    "DescripciónLarUO": "Hormigón en masa,HM-20, con una resistencia característica mínima de 20 N/mm2, colocado.",
+    "UdMediciónUO": "m3",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "610002",
+    "CódigoSuUO": "610002",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:52"
+  },
+  {
+    "IdRegBaseUniObr": "52",
+    "DescripciónLarUO": "Escollera de 100 a 250 kg en planos de inclinación inferior a 20º",
+    "UdMediciónUO": "m3",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "658000",
+    "CódigoSuUO": "658000",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:53"
+  },
+  {
+    "IdRegBaseUniObr": "53",
+    "DescripciónLarUO": "Escollera de 250 a 500 kg trabada con HM-20 II a 40 en planos de inclinación superior a 20º",
+    "UdMediciónUO": "m3",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "658001",
+    "CódigoSuUO": "658001",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:53"
+  },
+  {
+    "IdRegBaseUniObr": "54",
+    "DescripciónLarUO": "Escollera de 1000 a 1200 kg colocada s/planos",
+    "UdMediciónUO": "m3",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "658002",
+    "CódigoSuUO": "658002",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:53"
+  },
+  {
+    "IdRegBaseUniObr": "55",
+    "DescripciónLarUO": "Escollera de 100 a 250 kg trabada con HM-20 II a 40 en planos de inclinación superior a 20º",
+    "UdMediciónUO": "m3",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "658100",
+    "CódigoSuUO": "658100",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:53"
+  },
+  {
+    "IdRegBaseUniObr": "56",
+    "DescripciónLarUO": "Zahorra artificial, extendida y compactada ",
+    "UdMediciónUO": "m3",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "501001",
+    "CódigoSuUO": "501001",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:53"
+  },
+  {
+    "IdRegBaseUniObr": "57",
+    "DescripciónLarUO": "Doble Tratamiento Superficial Tipo A20/10 en primera aplicación y A10/5 en segunda, con emulsión tipo ERC1",
+    "UdMediciónUO": "m2",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "530000",
+    "CódigoSuUO": "530000",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:53"
+  },
+  {
+    "IdRegBaseUniObr": "58",
+    "DescripciónLarUO": "Emulsión ECI en riegos de imprimación, incluso transporte y extendido.",
+    "UdMediciónUO": "tn",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "530001",
+    "CódigoSuUO": "530001",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:53"
+  },
+  {
+    "IdRegBaseUniObr": "59",
+    "DescripciónLarUO": "Arido en riegos de imprimación, incluso transporte y extendido.",
+    "UdMediciónUO": "tn",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "530002",
+    "CódigoSuUO": "530002",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:54"
+  },
+  {
+    "IdRegBaseUniObr": "60",
+    "DescripciónLarUO": "Emulsión ECR-1 en riegos de adherencia, incluso transporte y extendido, completamente terminado",
+    "UdMediciónUO": "tn",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "531001",
+    "CódigoSuUO": "531001",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:54"
+  },
+  {
+    "IdRegBaseUniObr": "61",
+    "DescripciónLarUO": "Suelo cemento según norma OC 10/2002",
+    "UdMediciónUO": "m3",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "542000",
+    "CódigoSuUO": "542000",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:54"
+  },
+  {
+    "IdRegBaseUniObr": "62",
+    "DescripciónLarUO": "Mezcla bituminosa en caliente, tipo M discontinua, incluida fabricación y puesta en obra de materiales, excepto betún",
+    "UdMediciónUO": "tn",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "542001",
+    "CódigoSuUO": "542001",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:54"
+  },
+  {
+    "IdRegBaseUniObr": "63",
+    "DescripciónLarUO": "Mezcla bituminosa en caliente, tipo S-20, incluida fabricación y puesta en obra de materiales, excepto betún",
+    "UdMediciónUO": "tn",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "542002",
+    "CódigoSuUO": "542002",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:54"
+  },
+  {
+    "IdRegBaseUniObr": "64",
+    "DescripciónLarUO": "Betún en caliente B-60/70 empleado en mezclas bituminosas",
+    "UdMediciónUO": "tn",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "542003",
+    "CódigoSuUO": "542003",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:54"
+  },
+  {
+    "IdRegBaseUniObr": "65",
+    "DescripciónLarUO": "Filler de aportación calizo para mezclas tipo S",
+    "UdMediciónUO": "tn",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "542004",
+    "CódigoSuUO": "542004",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:54"
+  },
+  {
+    "IdRegBaseUniObr": "66",
+    "DescripciónLarUO": "Betún tipo BM empleado en mezclas bituminosas",
+    "UdMediciónUO": "tn",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "542005",
+    "CódigoSuUO": "542005",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:55"
+  },
+  {
+    "IdRegBaseUniObr": "67",
+    "DescripciónLarUO": "Fresado de pavimento asfáltico por medios mecánicos",
+    "UdMediciónUO": "m2xcm",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "542006",
+    "CódigoSuUO": "542006",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:55"
+  },
+  {
+    "IdRegBaseUniObr": "68",
+    "DescripciónLarUO": "Relleno en bermas con material plástico",
+    "UdMediciónUO": "m3",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "542007",
+    "CódigoSuUO": "542007",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:55"
+  },
+  {
+    "IdRegBaseUniObr": "69",
+    "DescripciónLarUO": "Filler de aportación cemento para mezcla tipo M",
+    "UdMediciónUO": "tn",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "542008",
+    "CódigoSuUO": "542008",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:55"
+  },
+  {
+    "IdRegBaseUniObr": "70",
+    "DescripciónLarUO": "Bordillo de hormigón prefabricado, montable colocado s/ el SC en glorietas y recibido con hormigón HM-20 y mortero M-40",
+    "UdMediciónUO": "m",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "570001",
+    "CódigoSuUO": "570001",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:55"
+  },
+  {
+    "IdRegBaseUniObr": "71",
+    "DescripciónLarUO": "Lámina Geodrén",
+    "UdMediciónUO": "m2",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "422000",
+    "CódigoSuUO": "422000",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:55"
+  },
+  {
+    "IdRegBaseUniObr": "72",
+    "DescripciónLarUO": "Desagüe para tableros, totalmente colocados",
+    "UdMediciónUO": "ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "423002",
+    "CódigoSuUO": "423002",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:55"
+  },
+  {
+    "IdRegBaseUniObr": "73",
+    "DescripciónLarUO": "Hormigón para armar HA-25 en cimientos, incluso fabricación, vibrado y curado totalmente colocado",
+    "UdMediciónUO": "m3",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "610004",
+    "CódigoSuUO": "610004",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:56"
+  },
+  {
+    "IdRegBaseUniObr": "74",
+    "DescripciónLarUO": "Hormigón para armar HA-25 en tableros, incluso fabricación, vibrado y curado totalmente colocado.",
+    "UdMediciónUO": "m3",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "610005",
+    "CódigoSuUO": "610005",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:56"
+  },
+  {
+    "IdRegBaseUniObr": "75",
+    "DescripciónLarUO": "Viga artesa prefabricada de hormigón pretensado, de 140 cm de canto, incluido transporte  y colocación definitiva sobre apoyos.",
+    "UdMediciónUO": "m",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "614001",
+    "CódigoSuUO": "614001",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:56"
+  },
+  {
+    "IdRegBaseUniObr": "76",
+    "DescripciónLarUO": "Pila prefabricada para sostenimiento de tablero con p.p. de capitel, vainas y resinas para encaje de la pila en la zapata medida desde base de zapata a parte superior de capitel.",
+    "UdMediciónUO": "m",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "614003",
+    "CódigoSuUO": "614003",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:56"
+  },
+  {
+    "IdRegBaseUniObr": "77",
+    "DescripciónLarUO": "Encofrado perdido biapoyado mediante placa prefabricada de hormigón,  en tableros de estructuras, s/planos.",
+    "UdMediciónUO": "m2",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "680003",
+    "CódigoSuUO": "680003",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:56"
+  },
+  {
+    "IdRegBaseUniObr": "78",
+    "DescripciónLarUO": "Encofrado perdido en voladizo mediante placa prefabricada de hormigón,  en tableros de estructuras, s/planos.",
+    "UdMediciónUO": "m2",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "680004",
+    "CódigoSuUO": "680004",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:56"
+  },
+  {
+    "IdRegBaseUniObr": "79",
+    "DescripciónLarUO": "Formación de junta plástica de continuidad.",
+    "UdMediciónUO": "m",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "694000",
+    "CódigoSuUO": "694000",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:57"
+  },
+  {
+    "IdRegBaseUniObr": "80",
+    "DescripciónLarUO": "Junta de dilatacion tipo transflex o similar de 65 mm de desplazamiento total, incluso transporte, montaje y colocacion, totalmente terminada",
+    "UdMediciónUO": "m",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "694001",
+    "CódigoSuUO": "694001",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:57"
+  },
+  {
+    "IdRegBaseUniObr": "81",
+    "DescripciónLarUO": "Prueba de carga en tablero de puentes, incluso proyecto, medicion y procesamiento de datos, ejecutada.",
+    "UdMediciónUO": "ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "695001",
+    "CódigoSuUO": "695001",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:57"
+  },
+  {
+    "IdRegBaseUniObr": "82",
+    "DescripciónLarUO": "Pretil incluido imposta, refuerzo de ferralla, pernos, acera, etc, totalmente terminado",
+    "UdMediciónUO": "m",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "705000",
+    "CódigoSuUO": "705000",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:57"
+  },
+  {
+    "IdRegBaseUniObr": "83",
+    "DescripciónLarUO": "Relleno localizado formado por piedra en rama",
+    "UdMediciónUO": "m3",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "330002",
+    "CódigoSuUO": "330002",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:57"
+  },
+  {
+    "IdRegBaseUniObr": "84",
+    "DescripciónLarUO": "Bajante prefabricada de 40 cm de ancho, completamente colocado s/planos.",
+    "UdMediciónUO": "m",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "420001",
+    "CódigoSuUO": "420001",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:57"
+  },
+  {
+    "IdRegBaseUniObr": "85",
+    "DescripciónLarUO": "Viga artesa prefabricada de hormigón pretensado, de 210 cm de canto, incluido transporte  y colocación definitiva sobre apoyos.",
+    "UdMediciónUO": "m",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "614002",
+    "CódigoSuUO": "614002",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:57"
+  },
+  {
+    "IdRegBaseUniObr": "86",
+    "DescripciónLarUO": "Barrera bionda BMSNA2/120a, pernos c/ anclaje expansivo sobre tablero de puente",
+    "UdMediciónUO": "m",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "703001",
+    "CódigoSuUO": "703001",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:58"
+  },
+  {
+    "IdRegBaseUniObr": "87",
+    "DescripciónLarUO": "Terminal de 12 m. de largo de barrera de  seguridad doble onda, colocado.",
+    "UdMediciónUO": "ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "703008",
+    "CódigoSuUO": "703008",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:58"
+  },
+  {
+    "IdRegBaseUniObr": "88",
+    "DescripciónLarUO": "Acero en perfiles hincado como sostenimiento de taludes para su excavación en vertical, en estructura del FFCC",
+    "UdMediciónUO": "kg",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "600002",
+    "CódigoSuUO": "600002",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:58"
+  },
+  {
+    "IdRegBaseUniObr": "89",
+    "DescripciónLarUO": "Tierra armada en estribos y aletas i/p.p. de flejes, cuñas y relleno seleccionado procedente de préstamo, totalmente terminada.",
+    "UdMediciónUO": "m2",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "614004",
+    "CódigoSuUO": "614004",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:58"
+  },
+  {
+    "IdRegBaseUniObr": "90",
+    "DescripciónLarUO": "Acero en cables de 4050 mm de sección para pretensado tipo Y 1860 S7 de acero super estabilizado de 170kg/mm2 de límite elástico y 190 Kg/mm2 de tensión de rotura, incluso p.p. de placas de anclaje, vainas, colocación, tesado e inyección.",
+    "UdMediciónUO": "kg",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "601001",
+    "CódigoSuUO": "601001",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:58"
+  },
+  {
+    "IdRegBaseUniObr": "91",
+    "DescripciónLarUO": "Hormigón para armar y pretensar HA-35 en tableros de puentes, incluso fabricación, colocación vibrado y curado totalmente colocado.",
+    "UdMediciónUO": "m3",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "610006",
+    "CódigoSuUO": "610006",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:58"
+  },
+  {
+    "IdRegBaseUniObr": "92",
+    "DescripciónLarUO": "Señal triangular reflexiva de 1750 mm. de lado, incluyendo poste de sujección, tornilleria y cimentación, completamente colocada",
+    "UdMediciónUO": "ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "701001",
+    "CódigoSuUO": "701001",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:58"
+  },
+  {
+    "IdRegBaseUniObr": "93",
+    "DescripciónLarUO": "Señal triangular reflexiva de 1350 mm. de lado, incluyendo poste de sujección, tornilleria y cimentación, completamente colocada",
+    "UdMediciónUO": "ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "701002",
+    "CódigoSuUO": "701002",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:59"
+  },
+  {
+    "IdRegBaseUniObr": "94",
+    "DescripciónLarUO": "Señal octogonal STOP reflexiva 900 mm. de apotema, incluyendo poste de sujección, tornillería y cimentación completamente colocada.",
+    "UdMediciónUO": "ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "701003",
+    "CódigoSuUO": "701003",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:59"
+  },
+  {
+    "IdRegBaseUniObr": "95",
+    "DescripciónLarUO": "Señal circular reflexiva de 900 mm. de diam. incluyendo poste de sujección, tornilleria y cimentación, completamente colocada",
+    "UdMediciónUO": "ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "701004",
+    "CódigoSuUO": "701004",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:59"
+  },
+  {
+    "IdRegBaseUniObr": "96",
+    "DescripciónLarUO": "Panel de aluminio extrusionado, incluso parte proporcional de elementos de sujeción, completamente terminado",
+    "UdMediciónUO": "m2",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "701005",
+    "CódigoSuUO": "701005",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:59"
+  },
+  {
+    "IdRegBaseUniObr": "97",
+    "DescripciónLarUO": "Panel de chapa de acero, incluso parte proporcional de elementos de sujeción, completamente terminado",
+    "UdMediciónUO": "m2",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "701006",
+    "CódigoSuUO": "701006",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:59"
+  },
+  {
+    "IdRegBaseUniObr": "98",
+    "DescripciónLarUO": "Señal cuadrada reflexiva de 900 x 900 mm., incluyendo poste de sujección, tornilleria y cimentación, completamente colocada",
+    "UdMediciónUO": "ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "701007",
+    "CódigoSuUO": "701007",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:08:59"
+  },
+  {
+    "IdRegBaseUniObr": "99",
+    "DescripciónLarUO": "Banderola para señalizacion vertical, totalmente colocada",
+    "UdMediciónUO": "ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "701008",
+    "CódigoSuUO": "701008",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:00"
+  },
+  {
+    "IdRegBaseUniObr": "100",
+    "DescripciónLarUO": "Estructura para Cartel Lateral, incluso parte proporcional de tornilleria y cimentacion, completamente colocado",
+    "UdMediciónUO": "ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "701009",
+    "CódigoSuUO": "701009",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:00"
+  },
+  {
+    "IdRegBaseUniObr": "101",
+    "DescripciónLarUO": "Señal circular reflexiva de 1200 mm. de diam. incluyendo poste de sujección, tornilleria y cimentación, completamente colocada",
+    "UdMediciónUO": "ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "701011",
+    "CódigoSuUO": "701011",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:00"
+  },
+  {
+    "IdRegBaseUniObr": "102",
+    "DescripciónLarUO": "Señal rectangular reflexiva de 1800 x 1200 mm., incluyendo poste de sujección, tornilleria y cimentación, completamente colocada",
+    "UdMediciónUO": "ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "701012",
+    "CódigoSuUO": "701012",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:00"
+  },
+  {
+    "IdRegBaseUniObr": "103",
+    "DescripciónLarUO": "Señal cuadrada reflexiva de 1200 x 1200 mm., incluyendo poste de sujección, tornilleria y cimentación, completamente colocada",
+    "UdMediciónUO": "ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "701013",
+    "CódigoSuUO": "701013",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:00"
+  },
+  {
+    "IdRegBaseUniObr": "104",
+    "DescripciónLarUO": "Marca vial  reflexiva, de 10 cm. de anchura con pintura termoplástica en caliente, aplicada en extrusión, ejecutada, incluso premarcaje.",
+    "UdMediciónUO": "m",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "700001",
+    "CódigoSuUO": "700001",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:00"
+  },
+  {
+    "IdRegBaseUniObr": "105",
+    "DescripciónLarUO": "Marca vial reflexiva, de 15 cm. de anchura con pintura termoplástica en caliente, aplicada por extrusión, ejecutada, incluido premarcaje.",
+    "UdMediciónUO": "m",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "700002",
+    "CódigoSuUO": "700002",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:01"
+  },
+  {
+    "IdRegBaseUniObr": "106",
+    "DescripciónLarUO": "Marca vial reflexiva, de 20 cm. de anchura con pintura en caliente, aplicada en extrusión, ejecutada, incluso premarcaje.",
+    "UdMediciónUO": "m",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "700003",
+    "CódigoSuUO": "700003",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:01"
+  },
+  {
+    "IdRegBaseUniObr": "107",
+    "DescripciónLarUO": "Marca vial reflexiva, de 40 cm. de anchura con pintura termoplástica en caliente, aplicada por extrusión, ejecutada, incluído premarcaje.",
+    "UdMediciónUO": "m",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "700004",
+    "CódigoSuUO": "700004",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:01"
+  },
+  {
+    "IdRegBaseUniObr": "108",
+    "DescripciónLarUO": "Superficie pintada sobre pavimento en letras, símbolos o cebreado, con pintura termoplástica en caliente, incluso premarcaje",
+    "UdMediciónUO": "m2",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "700005",
+    "CódigoSuUO": "700005",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:01"
+  },
+  {
+    "IdRegBaseUniObr": "109",
+    "DescripciónLarUO": "Banda sonora transversal, totalmente colocada.",
+    "UdMediciónUO": "m",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "700006",
+    "CódigoSuUO": "700006",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:01"
+  },
+  {
+    "IdRegBaseUniObr": "110",
+    "DescripciónLarUO": "Barrera metálica de seguridad BMSNA4/120, con poste tubular completamente colocada.",
+    "UdMediciónUO": "m",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "703002",
+    "CódigoSuUO": "703002",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:01"
+  },
+  {
+    "IdRegBaseUniObr": "111",
+    "DescripciónLarUO": "Barrera metálica de seguridad BMSNA2/120, con poste tubular completamente colocada.",
+    "UdMediciónUO": "m",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "703003",
+    "CódigoSuUO": "703003",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:02"
+  },
+  {
+    "IdRegBaseUniObr": "112",
+    "DescripciónLarUO": "Barrera metálica de seguridad BMDNA4/120, con poste tubular completamente colocada.",
+    "UdMediciónUO": "m",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "703004",
+    "CódigoSuUO": "703004",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:02"
+  },
+  {
+    "IdRegBaseUniObr": "113",
+    "DescripciónLarUO": "Barrera metálica de seguridad BMDDA4/120, con poste tubular completamente colocada.",
+    "UdMediciónUO": "m",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "703005",
+    "CódigoSuUO": "703005",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:02"
+  },
+  {
+    "IdRegBaseUniObr": "114",
+    "DescripciónLarUO": "Barrera metálica de seguridad BMSNC2/120, con poste tubular completamente colocada.",
+    "UdMediciónUO": "m",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "703006",
+    "CódigoSuUO": "703006",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:02"
+  },
+  {
+    "IdRegBaseUniObr": "115",
+    "DescripciónLarUO": "Terminal de defensa en barreras de  seguridad de doble onda, tipo cola de pez, colocado.",
+    "UdMediciónUO": "ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "703007",
+    "CódigoSuUO": "703007",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:02"
+  },
+  {
+    "IdRegBaseUniObr": "116",
+    "DescripciónLarUO": "Terminal de 4,32 m. de largo de barrera de seguridad doble onda, colocado.",
+    "UdMediciónUO": "ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "703011",
+    "CódigoSuUO": "703011",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:03"
+  },
+  {
+    "IdRegBaseUniObr": "117",
+    "DescripciónLarUO": "Barrera rígida tipo New Jersey a dos caras, incluso parte proporcional de abatimientos, totalmente instalada",
+    "UdMediciónUO": "ml",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "703012",
+    "CódigoSuUO": "703012",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:03"
+  },
+  {
+    "IdRegBaseUniObr": "118",
+    "DescripciónLarUO": "Panel direccional de 1,60 x 0,40 m2 de chapa de acero galvanizada, incluso parte proporcional de elementos de sujeción, mediante dos postes de acero galvanizado de 80 x 40 x 2, anclajes y cimentaciones de HM-20 de 0,40 x 0,40 x 0,60",
+    "UdMediciónUO": "ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "701010",
+    "CódigoSuUO": "701010",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:03"
+  },
+  {
+    "IdRegBaseUniObr": "119",
+    "DescripciónLarUO": "Captafaro completamente instalado. ",
+    "UdMediciónUO": "ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "702001",
+    "CódigoSuUO": "702001",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:03"
+  },
+  {
+    "IdRegBaseUniObr": "120",
+    "DescripciónLarUO": "Hito de arista, totalmente colocado. ",
+    "UdMediciónUO": "ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "702002",
+    "CódigoSuUO": "702002",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:03"
+  },
+  {
+    "IdRegBaseUniObr": "121",
+    "DescripciónLarUO": "Hito de vértice, totalmente colocado.",
+    "UdMediciónUO": "ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "702005",
+    "CódigoSuUO": "702005",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:03"
+  },
+  {
+    "IdRegBaseUniObr": "122",
+    "DescripciónLarUO": "Baliza Cilíndrica, totalmente colocada.",
+    "UdMediciónUO": "ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "702006",
+    "CódigoSuUO": "702006",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:03"
+  },
+  {
+    "IdRegBaseUniObr": "123",
+    "DescripciónLarUO": "Hito kilométrico reflexivo de 90x60, totalmente colocado.",
+    "UdMediciónUO": "ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "706001",
+    "CódigoSuUO": "706001",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:04"
+  },
+  {
+    "IdRegBaseUniObr": "124",
+    "DescripciónLarUO": "Hito miriamétrico reflexivo, totalmente colocado.",
+    "UdMediciónUO": "ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "706002",
+    "CódigoSuUO": "706002",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:04"
+  },
+  {
+    "IdRegBaseUniObr": "125",
+    "DescripciónLarUO": "Prospección arqueológica previa de los terrenos objeto de obras.",
+    "UdMediciónUO": "ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "803001",
+    "CódigoSuUO": "803001",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:04"
+  },
+  {
+    "IdRegBaseUniObr": "126",
+    "DescripciónLarUO": "Vigilancia Arqueológica de los movimientos de tierras",
+    "UdMediciónUO": "ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "803002",
+    "CódigoSuUO": "803002",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:04"
+  },
+  {
+    "IdRegBaseUniObr": "127",
+    "DescripciónLarUO": "Hidrosiembra",
+    "UdMediciónUO": "m2",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "805001",
+    "CódigoSuUO": "805001",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:04"
+  },
+  {
+    "IdRegBaseUniObr": "128",
+    "DescripciónLarUO": "Suministro, transporte y plantación de Q. Ilex de 14/16 cm de perímetro normal, en contenedor, i/ abonado, primer riego y mantenimiento en periodo de garantía.",
+    "UdMediciónUO": "ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "806001",
+    "CódigoSuUO": "806001",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:04"
+  },
+  {
+    "IdRegBaseUniObr": "129",
+    "DescripciónLarUO": "Suministro, transporte y plantación de P. Halepensis de 350/400 cm de altura total, en contenedor, incluso abonado, primer riego y mantenimiento en periodo de garantía.",
+    "UdMediciónUO": "ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "806002",
+    "CódigoSuUO": "806002",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:05"
+  },
+  {
+    "IdRegBaseUniObr": "130",
+    "DescripciónLarUO": "Suministro, transporte y plantación de P. Halepensis de 175/200 cm de altura total, en contenedor, incluso abonado, primer riego y mantenimiento en periodo de garantía.",
+    "UdMediciónUO": "ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "806003",
+    "CódigoSuUO": "806003",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:05"
+  },
+  {
+    "IdRegBaseUniObr": "131",
+    "DescripciónLarUO": "Suministro, transporte y plantación de C. Semperirens de 2,5/3 m de altura total, en contenedor, incluso abonado, primer riego y mantenimiento en periodo de garantía.",
+    "UdMediciónUO": "ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "806004",
+    "CódigoSuUO": "806004",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:05"
+  },
+  {
+    "IdRegBaseUniObr": "132",
+    "DescripciónLarUO": "Suministro, transporte y plantación de P. Alba, ó S. Alba, ó U. Minor, de 14/16 cm de perímetro normal, a raíz desnuda, incluso abonado, primer riego y mantenimiento en periodo de garantía.",
+    "UdMediciónUO": "ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "806005",
+    "CódigoSuUO": "806005",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:05"
+  },
+  {
+    "IdRegBaseUniObr": "133",
+    "DescripciónLarUO": "Suministro, transporte y plantación de Tamarix gallica de 100/150 cm de altura total, a raíz desnuda, incluso abonado, primer riego y mantenimiento en periodo de garantía.",
+    "UdMediciónUO": "ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "806006",
+    "CódigoSuUO": "806006",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:05"
+  },
+  {
+    "IdRegBaseUniObr": "134",
+    "DescripciónLarUO": "Suministro, transporte y plantación de S. Junceum, ó P. Tobira ó A. Allimus, de 60/80 cm de altura total, en contenedor, incluso abonado, primer riego y mantenimiento en periodo de garantía.",
+    "UdMediciónUO": "ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "806007",
+    "CódigoSuUO": "806007",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:05"
+  },
+  {
+    "IdRegBaseUniObr": "135",
+    "DescripciónLarUO": "Suministro, transporte y plantación de E. Angustifolia de 12/14 cm de perímetro normal, a raíz desnuda, incluso abonado, primer riego y mantenimiento en periodo de garantía.",
+    "UdMediciónUO": "ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "806008",
+    "CódigoSuUO": "806008",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:06"
+  },
+  {
+    "IdRegBaseUniObr": "136",
+    "DescripciónLarUO": "Suministro, transporte y plantación de L. Estrusca de 80/100 cm de longitud  total, en contenedor, incluso abonado, primer riego y mantenimiento en periodo de garantía.",
+    "UdMediciónUO": "ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "806009",
+    "CódigoSuUO": "806009",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:06"
+  },
+  {
+    "IdRegBaseUniObr": "137",
+    "DescripciónLarUO": "Suministro, transporte y plantación de Q. Coccifera de 60/80 cm de altura  total, en contenedor, incluso abonado, primer riego y mantenimiento en periodo de garantía.",
+    "UdMediciónUO": "ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "806010",
+    "CódigoSuUO": "806010",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:06"
+  },
+  {
+    "IdRegBaseUniObr": "138",
+    "DescripciónLarUO": "Suministro, transporte y plantación de T. Vulgaris, ó R. Officinalis, ó S. Chamaecyparissus de 30/50 cm de altura  total, en contenedor, incluso abonado, primer riego y mantenimiento en periodo de garantía.",
+    "UdMediciónUO": "ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "806011",
+    "CódigoSuUO": "806011",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:06"
+  },
+  {
+    "IdRegBaseUniObr": "139",
+    "DescripciónLarUO": "Suministro, transporte y plantación de J. Thurifera de 40/60 cm de altura  total, en contenedor, incluso abonado, primer riego y mantenimiento en periodo de garantía.",
+    "UdMediciónUO": "ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "806012",
+    "CódigoSuUO": "806012",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:06"
+  },
+  {
+    "IdRegBaseUniObr": "140",
+    "DescripciónLarUO": "Plantaciones lineales entre caminos de servicio y autovía",
+    "UdMediciónUO": "ml",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "806013",
+    "CódigoSuUO": "806013",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:06"
+  },
+  {
+    "IdRegBaseUniObr": "141",
+    "DescripciónLarUO": "Apantallamiento vegetal",
+    "UdMediciónUO": "ml",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "806014",
+    "CódigoSuUO": "806014",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:07"
+  },
+  {
+    "IdRegBaseUniObr": "142",
+    "DescripciónLarUO": "Riego de conservación de árboles de gran porte.",
+    "UdMediciónUO": "ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "807001",
+    "CódigoSuUO": "807001",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:07"
+  },
+  {
+    "IdRegBaseUniObr": "143",
+    "DescripciónLarUO": "Riego de conservación de árboles de porte medio.",
+    "UdMediciónUO": "ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "807002",
+    "CódigoSuUO": "807002",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:07"
+  },
+  {
+    "IdRegBaseUniObr": "144",
+    "DescripciónLarUO": "Riego de conservación de arbustos de porte medio.",
+    "UdMediciónUO": "ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "807003",
+    "CódigoSuUO": "807003",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:07"
+  },
+  {
+    "IdRegBaseUniObr": "145",
+    "DescripciónLarUO": "Riego de conservación de arbustos de pequeño porte.",
+    "UdMediciónUO": "ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "807004",
+    "CódigoSuUO": "807004",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:07"
+  },
+  {
+    "IdRegBaseUniObr": "146",
+    "DescripciónLarUO": "Acondicionamiento de mediana",
+    "UdMediciónUO": "ml",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "808001",
+    "CódigoSuUO": "808001",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:07"
+  },
+  {
+    "IdRegBaseUniObr": "147",
+    "DescripciónLarUO": "Restauracion de entornos de enlaces",
+    "UdMediciónUO": "m2",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "808002",
+    "CódigoSuUO": "808002",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:08"
+  },
+  {
+    "IdRegBaseUniObr": "148",
+    "DescripciónLarUO": "Restauracion de vertederos",
+    "UdMediciónUO": "m2",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "808003",
+    "CódigoSuUO": "808003",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:08"
+  },
+  {
+    "IdRegBaseUniObr": "149",
+    "DescripciónLarUO": "Acondicionamiento de entornos fluviales",
+    "UdMediciónUO": "m2",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "808004",
+    "CódigoSuUO": "808004",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:08"
+  },
+  {
+    "IdRegBaseUniObr": "150",
+    "DescripciónLarUO": "Puesta en práctica del Plan de Vigilancia Ambiental, durante la realización de las obras",
+    "UdMediciónUO": "ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "810001",
+    "CódigoSuUO": "810001",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:08"
+  },
+  {
+    "IdRegBaseUniObr": "151",
+    "DescripciónLarUO": "Desmontaje de apoyo",
+    "UdMediciónUO": "ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "910001",
+    "CódigoSuUO": "910001",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:08"
+  },
+  {
+    "IdRegBaseUniObr": "152",
+    "DescripciónLarUO": "Desmontaje conductor",
+    "UdMediciónUO": "m",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "910002",
+    "CódigoSuUO": "910002",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:08"
+  },
+  {
+    "IdRegBaseUniObr": "153",
+    "DescripciónLarUO": "Apoyo principio de línea aérea de MT de 15/20kV, totalmente instalado.",
+    "UdMediciónUO": "ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "910003",
+    "CódigoSuUO": "910003",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:08"
+  },
+  {
+    "IdRegBaseUniObr": "154",
+    "DescripciónLarUO": "Apoyo final de línea aérea de MT de 15/20kV, totalmente instalado.",
+    "UdMediciónUO": "ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "910004",
+    "CódigoSuUO": "910004",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:09"
+  },
+  {
+    "IdRegBaseUniObr": "155",
+    "DescripciónLarUO": "Línea aérea de MT 15/20KV, incluyendo apoyos intermedios, totalmente instalada",
+    "UdMediciónUO": "m",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "910005",
+    "CódigoSuUO": "910005",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:09"
+  },
+  {
+    "IdRegBaseUniObr": "156",
+    "DescripciónLarUO": "Entronque para paso de red aérea a red subterranéa en media tensión",
+    "UdMediciónUO": "ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "910006",
+    "CódigoSuUO": "910006",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:09"
+  },
+  {
+    "IdRegBaseUniObr": "157",
+    "DescripciónLarUO": "Canalización subterránea para red eléctrica en media tensión, incluyendo excavación en zanja y rellenos, montaje de conductores, p.p arquetas de registro y pruebas de rigidez dieléctrica, totalmente instalada, tte, montaje y conexionado.",
+    "UdMediciónUO": "m",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "910007",
+    "CódigoSuUO": "910007",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:09"
+  },
+  {
+    "IdRegBaseUniObr": "158",
+    "DescripciónLarUO": "Línea de distribución en baja tensión, enterrada bajo calzada entubada, incluyendo excavación en zanja y relleno de hormigón, incluso suministro y montaje de cables conductores, p.p de empalmes, totalmente instalada, tte, montaje y conexionado.",
+    "UdMediciónUO": "m",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "910008",
+    "CódigoSuUO": "910008",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:09"
+  },
+  {
+    "IdRegBaseUniObr": "159",
+    "DescripciónLarUO": "Entronque para paso de red aérea a red subterranéa en baja tensión",
+    "UdMediciónUO": "ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "910009",
+    "CódigoSuUO": "910009",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:09"
+  },
+  {
+    "IdRegBaseUniObr": "160",
+    "DescripciónLarUO": "P.A. para reposición de las instalaciones telefónicas afectadas, según presupesto de la compañía adjuntado en el anejo correspondiente de este proyecto.",
+    "UdMediciónUO": "ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "930001",
+    "CódigoSuUO": "930001",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:09"
+  },
+  {
+    "IdRegBaseUniObr": "161",
+    "DescripciónLarUO": "Transporte a vertedero, en reposición de abastecimiento, de los productos sobrante de la excavación, que incluye carga, transporte y canon de vertido.",
+    "UdMediciónUO": "m3",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "900001",
+    "CódigoSuUO": "900001",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:10"
+  },
+  {
+    "IdRegBaseUniObr": "162",
+    "DescripciónLarUO": "Excavación en zanja, en reposición deabastecimiento, por medios mecánicos para tuberías hasta 500mm, para culaquier tipo de terreno, incluso desbroce y agotamiento.",
+    "UdMediciónUO": "m3",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "900002",
+    "CódigoSuUO": "900002",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:10"
+  },
+  {
+    "IdRegBaseUniObr": "163",
+    "DescripciónLarUO": "Relleno en zanjas para tuberías, en reposición de abastecimiento, con materiales procedentes de la excavación, incluso compactación.",
+    "UdMediciónUO": "m3",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "900003",
+    "CódigoSuUO": "900003",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:10"
+  },
+  {
+    "IdRegBaseUniObr": "164",
+    "DescripciónLarUO": "Material granular no cohesivo, en reposición de abastecimiento, con un TMA inferior a 30",
+    "UdMediciónUO": "m3",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "900004",
+    "CódigoSuUO": "900004",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:10"
+  },
+  {
+    "IdRegBaseUniObr": "165",
+    "DescripciónLarUO": "Válvula compuerta, en reposición de abastecimiento, de diámetro 65mm de 25 bares de presión máxima admisible, de accionamiento manual, totalmente instalada y probada, incluso volante.",
+    "UdMediciónUO": "ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "900005",
+    "CódigoSuUO": "900005",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:10"
+  },
+  {
+    "IdRegBaseUniObr": "166",
+    "DescripciónLarUO": "Ventosa automática trifuncional, en reposición de abastecimiento, de 25 bares de presión máxima admisible, de 65 mm de diámetro, incluido transporte, instalación y pruebas.",
+    "UdMediciónUO": "ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "900006",
+    "CódigoSuUO": "900006",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:10"
+  },
+  {
+    "IdRegBaseUniObr": "167",
+    "DescripciónLarUO": "Codo de fundición dúctil, en reposición de abastecimiento, diámetro interior Ø 250 mm, incluso transporte, instalación y pruebas.",
+    "UdMediciónUO": "ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "900007",
+    "CódigoSuUO": "900007",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:10"
+  },
+  {
+    "IdRegBaseUniObr": "168",
+    "DescripciónLarUO": "Tubería de fundición ductil, en reposición de abastecimiento, de 250 mm de diámetro interior, revestida interiormente de mortero de cemento y barnizada exteriormente, con p.p de juntade junta automática flexible, que incluye suministro, montaje y pruebas.",
+    "UdMediciónUO": "m",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "900008",
+    "CódigoSuUO": "900008",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:11"
+  },
+  {
+    "IdRegBaseUniObr": "169",
+    "DescripciónLarUO": "Manga de polietileno de baja densidad, en reposición de abastecimiento, de 200 micras de espesor, en tuberías de DN 250 mm, para recubrimiento exterior, i/ p.p de juntas y codos, cinta adhesiva y ligaduras intermedias, totalmente colocada.",
+    "UdMediciónUO": "m",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "900009",
+    "CódigoSuUO": "900009",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:11"
+  },
+  {
+    "IdRegBaseUniObr": "170",
+    "DescripciónLarUO": "Arqueta de hormigón armado para desagüe de tuberias, en reposición de abastecimineto, de hasta 500mm de diámetro, con pozo de achique, hasta 2,5m de profundidad, s.p.",
+    "UdMediciónUO": "ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "900010",
+    "CódigoSuUO": "900010",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:11"
+  },
+  {
+    "IdRegBaseUniObr": "171",
+    "DescripciónLarUO": "Arqueta hormigón armado para  válvulas de compuerta, en reposición de abastecimiento, en tuberías de hasta 500 mm de diámetro y hasta 2,5m de prufundidad, s.p.",
+    "UdMediciónUO": "ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "900011",
+    "CódigoSuUO": "900011",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:11"
+  },
+  {
+    "IdRegBaseUniObr": "172",
+    "DescripciónLarUO": "Tubería de PVC 110, para desagüe, totalmente colocada.",
+    "UdMediciónUO": "m",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "930002",
+    "CódigoSuUO": "930002",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:11"
+  },
+  {
+    "IdRegBaseUniObr": "173",
+    "DescripciónLarUO": "Galería Visitable de hormigón armado, DN 1500.",
+    "UdMediciónUO": "m",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "900012",
+    "CódigoSuUO": "900012",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:11"
+  },
+  {
+    "IdRegBaseUniObr": "174",
+    "DescripciónLarUO": "Tubería enterrada de saneamiento de hormigón armado, sección ovoide, de altura 1,20m y anchura 1,00m, i/cama de arena, con p.p de medios auxiliares.",
+    "UdMediciónUO": "m",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "920001",
+    "CódigoSuUO": "920001",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:12"
+  },
+  {
+    "IdRegBaseUniObr": "175",
+    "DescripciónLarUO": "Cerramiento, totalmente terminado. ",
+    "UdMediciónUO": "ml",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "830001",
+    "CódigoSuUO": "830001",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:12"
+  },
+  {
+    "IdRegBaseUniObr": "176",
+    "DescripciónLarUO": "Plataforma y poste de SOS, totalmente instalado, incluida cimentación.",
+    "UdMediciónUO": "ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "840001",
+    "CódigoSuUO": "840001",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:12"
+  },
+  {
+    "IdRegBaseUniObr": "177",
+    "DescripciónLarUO": "Arqueta de canalización de líneas S.O.S., según planos.",
+    "UdMediciónUO": "ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "840002",
+    "CódigoSuUO": "840002",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:12"
+  },
+  {
+    "IdRegBaseUniObr": "178",
+    "DescripciónLarUO": "Zanja de canalización de líneas SOS, según planos.",
+    "UdMediciónUO": "m",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "840003",
+    "CódigoSuUO": "840003",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:12"
+  },
+  {
+    "IdRegBaseUniObr": "179",
+    "DescripciónLarUO": "Prisma de hormigón con canalización de líneas SOS, según planos.",
+    "UdMediciónUO": "m",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "840004",
+    "CódigoSuUO": "840004",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:12"
+  },
+  {
+    "IdRegBaseUniObr": "180",
+    "DescripciónLarUO": "Línea eléctrica SOS formada por conductor de cobre con aislamiento de PVC de 1 x 3 mm2 de sección.",
+    "UdMediciónUO": "m",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "840005",
+    "CódigoSuUO": "840005",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:13"
+  },
+  {
+    "IdRegBaseUniObr": "181",
+    "DescripciónLarUO": "Sondeo en estribo o pila de estructura incluida parte proporcional de ensayos para caracterización de materiales según Dirección de Obra",
+    "UdMediciónUO": "ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "840006",
+    "CódigoSuUO": "840006",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:13"
+  },
+  {
+    "IdRegBaseUniObr": "182",
+    "DescripciónLarUO": "Partida alzada de abono íntegro para limpieza y terminación de las obras",
+    "UdMediciónUO": "PA",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "840007",
+    "CódigoSuUO": "840007",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:13"
+  },
+  {
+    "IdRegBaseUniObr": "183",
+    "DescripciónLarUO": "Estudio de seguridad y salud en el trabajo",
+    "UdMediciónUO": "PA",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "ESS",
+    "CódigoSuUO": "ESS",
+    "ObservacionesUO": "",
+    "Ahora": "03/17/04 13:09:13"
+  },
+  {
+    "IdRegBaseUniObr": "184",
+    "DescripciónLarUO": "Despeje y desbroce del terreno por medios mecánicos, con tala y retirada de árboles, incluso arranque de raíces y transporte de productos a vertedero.",
+    "UdMediciónUO": "M2",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "001",
+    "CódigoSuUO": "001",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:45:56"
+  },
+  {
+    "IdRegBaseUniObr": "185",
+    "DescripciónLarUO": "Demolición de fábrica de hormigón o mampostería incluso carga y transporte de escombros a vertedero.",
+    "UdMediciónUO": "M3",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "002",
+    "CódigoSuUO": "002",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:47:10"
+  },
+  {
+    "IdRegBaseUniObr": "186",
+    "DescripciónLarUO": "Demolición de edificaciones en volumen aparente incluso carga, transporte a vertedero de los escombros y descarga.",
+    "UdMediciónUO": "M3",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "003",
+    "CódigoSuUO": "003",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:47:10"
+  },
+  {
+    "IdRegBaseUniObr": "187",
+    "DescripciónLarUO": "Demolición de firmes y pavimentos, incluso carga, descarga y transporte a vertedero o lugar de empleo del material demolido.",
+    "UdMediciónUO": "M2",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "004",
+    "CódigoSuUO": "004",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:47:10"
+  },
+  {
+    "IdRegBaseUniObr": "188",
+    "DescripciónLarUO": "Excavación en tierra vegetal, incluso carga, transporte y descarga hasta su lugar de empleo, acopio intermedio o vertedero.",
+    "UdMediciónUO": "M3",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "005",
+    "CódigoSuUO": "005",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:47:10"
+  },
+  {
+    "IdRegBaseUniObr": "189",
+    "DescripciónLarUO": "Excavación de desmonte en terreno suelto o de tránsito, incluso refino de taludes, carga, transporte y descarga hasta su lugar de empleo o vertedero.",
+    "UdMediciónUO": "M3",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "006",
+    "CódigoSuUO": "006",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:47:10"
+  },
+  {
+    "IdRegBaseUniObr": "190",
+    "DescripciónLarUO": "Excavación de desmonte en roca, incluso carga, descarga y transporte hasta la traza o vertedero.",
+    "UdMediciónUO": "M3",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "007",
+    "CódigoSuUO": "007",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:47:10"
+  },
+  {
+    "IdRegBaseUniObr": "191",
+    "DescripciónLarUO": "Excavación en zanjas, pozos y emplazamientos de cimientos en cualquier tipo de terreno, incluso entibación y agotamientos, carga, descarga, transporte de los productos sobrantes a vertedero o lugar de empleo.",
+    "UdMediciónUO": "M3",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "008",
+    "CódigoSuUO": "008",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:47:10"
+  },
+  {
+    "IdRegBaseUniObr": "192",
+    "DescripciónLarUO": "Terraplén o pedraplén con productos de la propia excavación, extendido y compactado.",
+    "UdMediciónUO": "M3",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "009",
+    "CódigoSuUO": "009",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:47:14"
+  },
+  {
+    "IdRegBaseUniObr": "193",
+    "DescripciónLarUO": "Terraplén con productos procedentes de préstamos, extendido y compactado, incluida la  obtención carga, descarga y transporte del material en el lugar de empleo.",
+    "UdMediciónUO": "M3",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "010",
+    "CódigoSuUO": "010",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:47:29"
+  },
+  {
+    "IdRegBaseUniObr": "194",
+    "DescripciónLarUO": "Relleno y compactación localizado en zanjas, pozos y cimientos con material seleccionado procedente de la excavación o de préstamos",
+    "UdMediciónUO": "M3",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "011",
+    "CódigoSuUO": "011",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:47:29"
+  },
+  {
+    "IdRegBaseUniObr": "195",
+    "DescripciónLarUO": "Explanada mejorada con suelo seleccionado de CBR> 20 en coronación de terraplenes y fondo de desmontes, procedente de la excavación o préstamos, extendida y compac-tada incluso obtención, carga, descarga y transporte del material en el lugar de empleo.",
+    "UdMediciónUO": "M3",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "012",
+    "CódigoSuUO": "012",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:47:34"
+  },
+  {
+    "IdRegBaseUniObr": "196",
+    "DescripciónLarUO": "Formación de vertedero con tierras de la explanación u otro material sobrante.",
+    "UdMediciónUO": "M3",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "013",
+    "CódigoSuUO": "013",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:48:00"
+  },
+  {
+    "IdRegBaseUniObr": "197",
+    "DescripciónLarUO": "Zahorra artificial, incluso extensión y compactación.",
+    "UdMediciónUO": "M3",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "014",
+    "CódigoSuUO": "014",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:48:00"
+  },
+  {
+    "IdRegBaseUniObr": "198",
+    "DescripciónLarUO": "Mezcla bituminosa en caliente tipo G-20 excepto betún y polvo mineral de aportación en capa de  base o intermedia, incluso fabricación.",
+    "UdMediciónUO": "T",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "015",
+    "CódigoSuUO": "015",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:48:00"
+  },
+  {
+    "IdRegBaseUniObr": "199",
+    "DescripciónLarUO": "Mezcla bituminosa en caliente tipo S-20 excepto ligante y polvo mineral de aportación en capa de rodadura, incluso fabricación, transporte y  colocación.",
+    "UdMediciónUO": "T",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "016",
+    "CódigoSuUO": "016",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:48:00"
+  },
+  {
+    "IdRegBaseUniObr": "200",
+    "DescripciónLarUO": "Tratamiento superficial bicapa, incluso materiales, transporte y ejecución.",
+    "UdMediciónUO": "M2",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "017",
+    "CódigoSuUO": "017",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:48:00"
+  },
+  {
+    "IdRegBaseUniObr": "201",
+    "DescripciónLarUO": "Betún asfáltico tipo B-60/70 empleado en mezclas bituminosas en caliente.",
+    "UdMediciónUO": "T",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "018",
+    "CódigoSuUO": "018",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:48:00"
+  },
+  {
+    "IdRegBaseUniObr": "202",
+    "DescripciónLarUO": "Emulsión en riegos de adherencia, incluso transporte y extendido.",
+    "UdMediciónUO": "T",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "019",
+    "CódigoSuUO": "019",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:48:00"
+  },
+  {
+    "IdRegBaseUniObr": "203",
+    "DescripciónLarUO": "Emulsión en riegos de imprimación, incluso transporte y extendido.",
+    "UdMediciónUO": "T",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "020",
+    "CódigoSuUO": "020",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:48:00"
+  },
+  {
+    "IdRegBaseUniObr": "204",
+    "DescripciónLarUO": "Cemento mixto usado como polvo mineral de aportación en mezclas asfálticas.",
+    "UdMediciónUO": "T",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "021",
+    "CódigoSuUO": "021",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:48:00"
+  },
+  {
+    "IdRegBaseUniObr": "205",
+    "DescripciónLarUO": "Formación de isleta con extendido de tierra vegetal.",
+    "UdMediciónUO": "M2",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "022",
+    "CódigoSuUO": "022",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:48:00"
+  },
+  {
+    "IdRegBaseUniObr": "206",
+    "DescripciónLarUO": "Formación de isleta con solera interior de hormigón.",
+    "UdMediciónUO": "M2",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "023",
+    "CódigoSuUO": "023",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:48:00"
+  },
+  {
+    "IdRegBaseUniObr": "207",
+    "DescripciónLarUO": "Acera con baldosa hidráulica, colocada con H-150 y mortero en las juntas.",
+    "UdMediciónUO": "M2",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "024",
+    "CódigoSuUO": "024",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:48:00"
+  },
+  {
+    "IdRegBaseUniObr": "208",
+    "DescripciónLarUO": "Bordillo de hormigón prefabricado de 35X15X12 cm, incluso cimentación de H-150 y mortero de unión M-450, colocado.",
+    "UdMediciónUO": "M",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "025",
+    "CódigoSuUO": "025",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:48:00"
+  },
+  {
+    "IdRegBaseUniObr": "209",
+    "DescripciónLarUO": "Bordillo de hormigón semimontable en isletas de 35X30X25 cm incluso cimentación de H-150 y mortero de unión M-450, colocado",
+    "UdMediciónUO": "M",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "026",
+    "CódigoSuUO": "026",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:48:00"
+  },
+  {
+    "IdRegBaseUniObr": "210",
+    "DescripciónLarUO": "Pavimento de resina epoxi en la pasarela metálica.",
+    "UdMediciónUO": "M2",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "027",
+    "CódigoSuUO": "027",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:48:00"
+  },
+  {
+    "IdRegBaseUniObr": "211",
+    "DescripciónLarUO": "Cuneta profunda triangular con revestimiento de hormigón H-150 de 2.00 m de ancho y 0.50 m de profundidad.",
+    "UdMediciónUO": "M",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "028",
+    "CódigoSuUO": "028",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:48:00"
+  },
+  {
+    "IdRegBaseUniObr": "212",
+    "DescripciónLarUO": "Cuneta profunda triangular con revestimiento de hormigón H-150 de 3.60 m de ancho y 0.30 m de profundidad.",
+    "UdMediciónUO": "M",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "029",
+    "CódigoSuUO": "029",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:48:00"
+  },
+  {
+    "IdRegBaseUniObr": "213",
+    "DescripciónLarUO": "Cuneta profunda triangular con revestimiento de hormigón H-150 de 1.60 m de ancho y 0.40 m de profundidad.",
+    "UdMediciónUO": "M",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "030",
+    "CódigoSuUO": "030",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:48:00"
+  },
+  {
+    "IdRegBaseUniObr": "214",
+    "DescripciónLarUO": "Cuneta trapecial con revestimiento de hormigón H-150 de 0.30 m de base y 0.30 m de profundidad con taludes 1H:1V, totalmente terminada.",
+    "UdMediciónUO": "M",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "031",
+    "CódigoSuUO": "031",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:48:00"
+  },
+  {
+    "IdRegBaseUniObr": "215",
+    "DescripciónLarUO": "Cuneta trapecial con revestimiento de hormigón H-150 de 0.30 m de base y 0.40 m de profundidad con taludes 1H:1V, totalmente terminada",
+    "UdMediciónUO": "M",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "032",
+    "CódigoSuUO": "032",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:48:00"
+  },
+  {
+    "IdRegBaseUniObr": "216",
+    "DescripciónLarUO": "Bordillo de hormigón prefabricado, de 20 X 35cm, tipo B-1 colocado sobre cama de hormigón, preparación de base y encintado.",
+    "UdMediciónUO": "M",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "033",
+    "CódigoSuUO": "033",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:48:00"
+  },
+  {
+    "IdRegBaseUniObr": "217",
+    "DescripciónLarUO": "Bajante prefabricado tipo B-1,sobre cama de hormigón colocada.",
+    "UdMediciónUO": "M",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "034",
+    "CódigoSuUO": "034",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:48:00"
+  },
+  {
+    "IdRegBaseUniObr": "218",
+    "DescripciónLarUO": "Dispositivo dren poroso diámetro 150 mm, incluso cama de mortero y relleno con material  filtrante.",
+    "UdMediciónUO": "M",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "035",
+    "CódigoSuUO": "035",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:48:06"
+  },
+  {
+    "IdRegBaseUniObr": "219",
+    "DescripciónLarUO": "Tubo P.V.C diámetro 110 colocado",
+    "UdMediciónUO": "M",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "036",
+    "CódigoSuUO": "036",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:48:21"
+  },
+  {
+    "IdRegBaseUniObr": "220",
+    "DescripciónLarUO": "Relleno del material filtrante, incluso materiales, transporte y ejecución.",
+    "UdMediciónUO": "M3",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "037",
+    "CódigoSuUO": "037",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:48:30"
+  },
+  {
+    "IdRegBaseUniObr": "221",
+    "DescripciónLarUO": "Caño de 60 cm de diámetro con tubo de hormigón vibroprensado, incluso recubrimiento de H-150.",
+    "UdMediciónUO": "M",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "038",
+    "CódigoSuUO": "038",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:48:38"
+  },
+  {
+    "IdRegBaseUniObr": "222",
+    "DescripciónLarUO": "Caño de 80 cm de diámetro con tubo de hormigón vibroprensado,incluso recubrimiento de H-150.",
+    "UdMediciónUO": "M",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "039",
+    "CódigoSuUO": "039",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:48:47"
+  },
+  {
+    "IdRegBaseUniObr": "223",
+    "DescripciónLarUO": "Caño de 100 cm de diámetro con tubo de hormigón vibroprensado, incluso recubrimiento de H-150.",
+    "UdMediciónUO": "M",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "040",
+    "CódigoSuUO": "040",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:49:06"
+  },
+  {
+    "IdRegBaseUniObr": "224",
+    "DescripciónLarUO": "Caño de 120 cm de diámetro con tubo de hormigón vibroprensado, incluso recubrimiento con H-150.",
+    "UdMediciónUO": "M",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "041",
+    "CódigoSuUO": "041",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:49:06"
+  },
+  {
+    "IdRegBaseUniObr": "225",
+    "DescripciónLarUO": "Caño de 150 cm de diámetro con tubo de hormigón vibroprensado, incluso revestimiento con H-150",
+    "UdMediciónUO": "M",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "042",
+    "CódigoSuUO": "042",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:49:06"
+  },
+  {
+    "IdRegBaseUniObr": "226",
+    "DescripciónLarUO": "Caño de 180 cm de diámetro con tubo de hormigón arma-do, colocado.",
+    "UdMediciónUO": "M",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "043",
+    "CódigoSuUO": "043",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:49:06"
+  },
+  {
+    "IdRegBaseUniObr": "227",
+    "DescripciónLarUO": "Arqueta de 1.00 X 1.00m y profundidad inferior a 1.50 m, incluso rejilla metálica,totalmente terminada.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "044",
+    "CódigoSuUO": "044",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:49:06"
+  },
+  {
+    "IdRegBaseUniObr": "228",
+    "DescripciónLarUO": "Boquilla con aletas en obra de fábrica para caño de 60 cm de diámetro, totalmente terminada.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "045",
+    "CódigoSuUO": "045",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:49:06"
+  },
+  {
+    "IdRegBaseUniObr": "229",
+    "DescripciónLarUO": "Boquilla con aletas en obra de fábrica para caño de 80 cm de diámetro, totalmente terminada.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "046",
+    "CódigoSuUO": "046",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:49:06"
+  },
+  {
+    "IdRegBaseUniObr": "230",
+    "DescripciónLarUO": "Boquilla con aletas en obra de fábrica para caño de 100 cm de diámetro, totalmente terminada.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "047",
+    "CódigoSuUO": "047",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:49:06"
+  },
+  {
+    "IdRegBaseUniObr": "231",
+    "DescripciónLarUO": "Boquilla con aletas en obra de fábrica para caño de 120 cm de diámetro, totalmente terminada.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "048",
+    "CódigoSuUO": "048",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:49:06"
+  },
+  {
+    "IdRegBaseUniObr": "232",
+    "DescripciónLarUO": "Boquilla con aletas en obra de fábrica para caño de 150 cm de diámetro, totalmente terminada.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "049",
+    "CódigoSuUO": "049",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:49:06"
+  },
+  {
+    "IdRegBaseUniObr": "233",
+    "DescripciónLarUO": "Boquilla con aletas en obra de fábrica para caño de 180 cm de diámetro, totalmente terminada.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "050",
+    "CódigoSuUO": "050",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:49:06"
+  },
+  {
+    "IdRegBaseUniObr": "234",
+    "DescripciónLarUO": "Boquilla con aletas en obra de fábrica para 2 caños de 180 cm de diámetro, totalmente terminada.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "051",
+    "CódigoSuUO": "051",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:49:06"
+  },
+  {
+    "IdRegBaseUniObr": "235",
+    "DescripciónLarUO": "Hormigón tipo H-150, incluso fabricación, transporte y colocación",
+    "UdMediciónUO": "M3",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "052",
+    "CódigoSuUO": "052",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:49:06"
+  },
+  {
+    "IdRegBaseUniObr": "236",
+    "DescripciónLarUO": "Impermeabilización asfáltica en trasdós de muros, estribos o marcos, terminada.",
+    "UdMediciónUO": "M2",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "053",
+    "CódigoSuUO": "053",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:49:09"
+  },
+  {
+    "IdRegBaseUniObr": "237",
+    "DescripciónLarUO": "Hormigón en masa tipo H-125. en capas de regularización y relleno, incluso suministro y  colocación.",
+    "UdMediciónUO": "M3",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "054",
+    "CódigoSuUO": "054",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:49:23"
+  },
+  {
+    "IdRegBaseUniObr": "238",
+    "DescripciónLarUO": "Hormigón para armar tipo H-250, incluso suministro, colocación y vibrado.",
+    "UdMediciónUO": "M3",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "055",
+    "CódigoSuUO": "055",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:49:26"
+  },
+  {
+    "IdRegBaseUniObr": "239",
+    "DescripciónLarUO": "Hormigón tipo H-200, incluso colocación, vibrado, curado y acabado.",
+    "UdMediciónUO": "M3",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "056",
+    "CódigoSuUO": "056",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:49:41"
+  },
+  {
+    "IdRegBaseUniObr": "240",
+    "DescripciónLarUO": "Encofrado en paramentos ocultos, incluso desencofrado.",
+    "UdMediciónUO": "M2",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "057",
+    "CódigoSuUO": "057",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:49:41"
+  },
+  {
+    "IdRegBaseUniObr": "241",
+    "DescripciónLarUO": "Encofrado visto de madera en paramentos planos, incluso desencofrado.",
+    "UdMediciónUO": "M2",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "058",
+    "CódigoSuUO": "058",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:49:58"
+  },
+  {
+    "IdRegBaseUniObr": "242",
+    "DescripciónLarUO": "Loseta prefabricada entre vigas de estructuras para enco-frado perdido, colocada.",
+    "UdMediciónUO": "M2",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "059",
+    "CódigoSuUO": "059",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:49:58"
+  },
+  {
+    "IdRegBaseUniObr": "243",
+    "DescripciónLarUO": "Encofrado visto curvo de madera, incluso desencofrado.",
+    "UdMediciónUO": "M2",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "060",
+    "CódigoSuUO": "060",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:50:13"
+  },
+  {
+    "IdRegBaseUniObr": "244",
+    "DescripciónLarUO": "Apeos y cimbras colocadas en obra para losas armadas, incluso preparación de apoyo y descimbrado.",
+    "UdMediciónUO": "M3",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "061",
+    "CódigoSuUO": "061",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:50:13"
+  },
+  {
+    "IdRegBaseUniObr": "245",
+    "DescripciónLarUO": "Acero AEH-500N para armar, incluso parte proporcional de cortes y despuntes, montaje y colocación.",
+    "UdMediciónUO": "KG",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "062",
+    "CódigoSuUO": "062",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:50:25"
+  },
+  {
+    "IdRegBaseUniObr": "246",
+    "DescripciónLarUO": "Acero estructural A-42b.",
+    "UdMediciónUO": "KG",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "063",
+    "CódigoSuUO": "063",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:50:25"
+  },
+  {
+    "IdRegBaseUniObr": "247",
+    "DescripciónLarUO": "Pintura sobre acero estructural en la pasarela  metálica.",
+    "UdMediciónUO": "M2",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "064",
+    "CódigoSuUO": "064",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:50:41"
+  },
+  {
+    "IdRegBaseUniObr": "248",
+    "DescripciónLarUO": "Viga prefabricada pretensada, con sección en doble \"T\", de 125 cm de canto, colocada, incluso parte proporcional de neoprenos de apoyo.",
+    "UdMediciónUO": "M",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "065",
+    "CódigoSuUO": "065",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:50:41"
+  },
+  {
+    "IdRegBaseUniObr": "249",
+    "DescripciónLarUO": "Viga prefabricada pretensada, con sección en artesa de 90 cm de canto, colocada, incluso parte proporcional de neoprenos de apoyo",
+    "UdMediciónUO": "M",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "066",
+    "CódigoSuUO": "066",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:50:41"
+  },
+  {
+    "IdRegBaseUniObr": "250",
+    "DescripciónLarUO": "Viga prefabricada pretensada, con sección en artesa de 130 cm de canto, colocada, incluso parte proporcional de neoprenos de apoyo.",
+    "UdMediciónUO": "M",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "067",
+    "CódigoSuUO": "067",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:50:41"
+  },
+  {
+    "IdRegBaseUniObr": "251",
+    "DescripciónLarUO": "Junta de calzada de aluminio-neopreno de 60 mm de desplazamiento máximo, incluso mortero epoxi de relleno, materiales de sellado y colocación  totalmente terminada.",
+    "UdMediciónUO": "M",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "068",
+    "CódigoSuUO": "068",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:50:55"
+  },
+  {
+    "IdRegBaseUniObr": "252",
+    "DescripciónLarUO": "Sumidero para desagüe en tablero, instalado según detalles en planos.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "069",
+    "CódigoSuUO": "069",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:50:55"
+  },
+  {
+    "IdRegBaseUniObr": "253",
+    "DescripciónLarUO": "Impermeabilización en tablero, con imprimación asfáltica.",
+    "UdMediciónUO": "M2",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "070",
+    "CódigoSuUO": "070",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:51:15"
+  },
+  {
+    "IdRegBaseUniObr": "254",
+    "DescripciónLarUO": "Barrera rígida en estructuras.",
+    "UdMediciónUO": "M",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "071",
+    "CódigoSuUO": "071",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:51:31"
+  },
+  {
+    "IdRegBaseUniObr": "255",
+    "DescripciónLarUO": "Sondeo a rotación para investigación geotécnica incluidos ensayos de laboratorio.",
+    "UdMediciónUO": "M",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "072",
+    "CódigoSuUO": "072",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:51:34"
+  },
+  {
+    "IdRegBaseUniObr": "256",
+    "DescripciónLarUO": "Partida alzada de abono íntegro para la prueba  de carga de la Estructura 1 Paso Superior del Enlace 1.",
+    "UdMediciónUO": "PA",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "073",
+    "CódigoSuUO": "073",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:51:50"
+  },
+  {
+    "IdRegBaseUniObr": "257",
+    "DescripciónLarUO": "Partida alzada de abono íntegro para la prueba de carga de la Estructura 2 Paso Superior del Camino de Chueca.",
+    "UdMediciónUO": "PA",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "074",
+    "CódigoSuUO": "074",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:52:38"
+  },
+  {
+    "IdRegBaseUniObr": "258",
+    "DescripciónLarUO": "Partida alzada de abono íntegro para la prueba  de carga de la Estructura 4 Paso Superior de Camino P.K 3+780.",
+    "UdMediciónUO": "PA",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "075",
+    "CódigoSuUO": "075",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:52:38"
+  },
+  {
+    "IdRegBaseUniObr": "259",
+    "DescripciónLarUO": "Partida de abono íntegro para la prueba de carga de la Estructura 5 Paso Superior del Enlace 2.",
+    "UdMediciónUO": "PA",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "076",
+    "CódigoSuUO": "076",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:52:38"
+  },
+  {
+    "IdRegBaseUniObr": "260",
+    "DescripciónLarUO": "Partida de abono íntegro para la prueba de carga de la Estructura 6 Paso Superior de Camino P.K 6+140.",
+    "UdMediciónUO": "PA",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "077",
+    "CódigoSuUO": "077",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:52:38"
+  },
+  {
+    "IdRegBaseUniObr": "261",
+    "DescripciónLarUO": "Partida alzada de abono íntegro para la prueba de carga de la Estructura 7 Paso Superior de Camino P.K 7+150.",
+    "UdMediciónUO": "PA",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "078",
+    "CódigoSuUO": "078",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:52:38"
+  },
+  {
+    "IdRegBaseUniObr": "262",
+    "DescripciónLarUO": "Partida alzada de abono íntegro para laprueba de carga de la Estructura 8 Paso Superior del Enlace 3.",
+    "UdMediciónUO": "PA",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "079",
+    "CódigoSuUO": "079",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:52:38"
+  },
+  {
+    "IdRegBaseUniObr": "263",
+    "DescripciónLarUO": "Partida alzada de abono íntegro para la prueba de carga de la Estructura 9 Puente sobre el arroyo de la Dehesa de Villaverde. P.K 8+115.",
+    "UdMediciónUO": "PA",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "080",
+    "CódigoSuUO": "080",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:52:38"
+  },
+  {
+    "IdRegBaseUniObr": "264",
+    "DescripciónLarUO": "Marca vial blanca reflexiva, realmente pintada, en flechas ,cebreados, rótulos y palabras incluso premarcaje.",
+    "UdMediciónUO": "M2",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "081",
+    "CódigoSuUO": "081",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:52:38"
+  },
+  {
+    "IdRegBaseUniObr": "265",
+    "DescripciónLarUO": "Marca vial blanca reflexiva de 0.10 m de ancho, incluso premarcaje.",
+    "UdMediciónUO": "M",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "082",
+    "CódigoSuUO": "082",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:52:38"
+  },
+  {
+    "IdRegBaseUniObr": "266",
+    "DescripciónLarUO": "Marca vial blanca reflexiva de 0.15 m de ancho, incluso premarcaje.",
+    "UdMediciónUO": "M",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "083",
+    "CódigoSuUO": "083",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:52:38"
+  },
+  {
+    "IdRegBaseUniObr": "267",
+    "DescripciónLarUO": "Marca vial blanca reflexiva de 0.30 m de ancho, incluso premarcaje.",
+    "UdMediciónUO": "M",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "084",
+    "CódigoSuUO": "084",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:52:38"
+  },
+  {
+    "IdRegBaseUniObr": "268",
+    "DescripciónLarUO": "Señal reflectante H.I triangular de peligro de 90 cm de lado, colocada.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "085",
+    "CódigoSuUO": "085",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:52:38"
+  },
+  {
+    "IdRegBaseUniObr": "269",
+    "DescripciónLarUO": "Señal reflectante E.G triangular de peligro de 135 cm de lado. colocada.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "086",
+    "CódigoSuUO": "086",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:52:38"
+  },
+  {
+    "IdRegBaseUniObr": "270",
+    "DescripciónLarUO": "Señal reflectante octogonal H.I de STOP de 60 cm, de doble apotema, colocada.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "087",
+    "CódigoSuUO": "087",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:52:38"
+  },
+  {
+    "IdRegBaseUniObr": "271",
+    "DescripciónLarUO": "Señal reflectante H.I circular de 90 cm de diámetro, colocada",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "088",
+    "CódigoSuUO": "088",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:52:38"
+  },
+  {
+    "IdRegBaseUniObr": "272",
+    "DescripciónLarUO": "Señal de destino con chapa galvanizada H.I. de tamaño hasta 1,50 m2, colocada.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "089",
+    "CódigoSuUO": "089",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:52:38"
+  },
+  {
+    "IdRegBaseUniObr": "273",
+    "DescripciónLarUO": "Panel complementario S-870, colocado.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "090",
+    "CódigoSuUO": "090",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:52:38"
+  },
+  {
+    "IdRegBaseUniObr": "274",
+    "DescripciónLarUO": "Panel complementario S-800, colocado.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "091",
+    "CódigoSuUO": "091",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:52:38"
+  },
+  {
+    "IdRegBaseUniObr": "275",
+    "DescripciónLarUO": "Panel en lamas de acero reflexivo H.I. en carteles, incluso sustentación y cimentación.",
+    "UdMediciónUO": "M2",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "092",
+    "CódigoSuUO": "092",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:52:38"
+  },
+  {
+    "IdRegBaseUniObr": "276",
+    "DescripciónLarUO": "Panel direccional Rf simple de 165X45 cm, colocado.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "093",
+    "CódigoSuUO": "093",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:52:38"
+  },
+  {
+    "IdRegBaseUniObr": "277",
+    "DescripciónLarUO": "Panel direccional Rf doble de 165X45 cm, colocado.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "094",
+    "CódigoSuUO": "094",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:52:38"
+  },
+  {
+    "IdRegBaseUniObr": "278",
+    "DescripciónLarUO": "Hito kilométrico reflexivo, de alta intensidad  y totalmente colocado.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "095",
+    "CódigoSuUO": "095",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:52:38"
+  },
+  {
+    "IdRegBaseUniObr": "279",
+    "DescripciónLarUO": "Hito miriamétrico, reflexivo de alta intensidad y totalmente colocado.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "096",
+    "CódigoSuUO": "096",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:52:38"
+  },
+  {
+    "IdRegBaseUniObr": "280",
+    "DescripciónLarUO": "Hito de vértice tipo H-75 reflexivo (blanco-verde, alto im-pacto).",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "097",
+    "CódigoSuUO": "097",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:52:38"
+  },
+  {
+    "IdRegBaseUniObr": "281",
+    "DescripciónLarUO": "Baliza de bifurcación de 2.00 m de diámetro.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "098",
+    "CódigoSuUO": "098",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:52:38"
+  },
+  {
+    "IdRegBaseUniObr": "282",
+    "DescripciónLarUO": "Baliza de bifurcación de 1.20 m de diámetro.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "099",
+    "CódigoSuUO": "099",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:52:38"
+  },
+  {
+    "IdRegBaseUniObr": "283",
+    "DescripciónLarUO": "Hito de arista para carreteras, tipo I, colocado.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "100",
+    "CódigoSuUO": "100",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:52:38"
+  },
+  {
+    "IdRegBaseUniObr": "284",
+    "DescripciónLarUO": "Hito de arista hectométrico para carreteras, tipo I, colocado.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "101",
+    "CódigoSuUO": "101",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:52:38"
+  },
+  {
+    "IdRegBaseUniObr": "285",
+    "DescripciónLarUO": "Loseta captaforos horizontal de una cara reflectante.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "102",
+    "CódigoSuUO": "102",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:52:38"
+  },
+  {
+    "IdRegBaseUniObr": "286",
+    "DescripciónLarUO": "Barrera de seguridad semirrígida de doble onda, incluso parte proporcional de poste C 120 cada 2 m, colocada.",
+    "UdMediciónUO": "M",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "103",
+    "CódigoSuUO": "103",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:52:38"
+  },
+  {
+    "IdRegBaseUniObr": "287",
+    "DescripciónLarUO": "Barrera de seguridad semirrígida simple de doble onda, con postes C-120 cada 2 metros y 2  filas de valla en pro-tección de pilas y soportes de pórticos y banderolas.",
+    "UdMediciónUO": "M",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "104",
+    "CódigoSuUO": "104",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:52:38"
+  },
+  {
+    "IdRegBaseUniObr": "288",
+    "DescripciónLarUO": "Barrera de seguridad rígida de hormigón H-200, ejecutada \"in situ\"",
+    "UdMediciónUO": "M",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "105",
+    "CódigoSuUO": "105",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:52:38"
+  },
+  {
+    "IdRegBaseUniObr": "289",
+    "DescripciónLarUO": "Terminal con abatimiento normal para barrera de seguridad semirígida, con postes C-100, colocado.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "106",
+    "CódigoSuUO": "106",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:52:38"
+  },
+  {
+    "IdRegBaseUniObr": "290",
+    "DescripciónLarUO": "Terminal con abatimiento normal para barrera de seguridad semirígida, con postes C-120, colocado.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "107",
+    "CódigoSuUO": "107",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:52:38"
+  },
+  {
+    "IdRegBaseUniObr": "291",
+    "DescripciónLarUO": "Terminal con abatimiento corto para barrera de  seguridad semirígida, con postes C-120, colocado.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "108",
+    "CódigoSuUO": "108",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:52:38"
+  },
+  {
+    "IdRegBaseUniObr": "292",
+    "DescripciónLarUO": "Tubería de PVC de diámetro 60 mm/Pt de 6 Atm. con junta elástica y accesorios de montaje, montaje y pruebas, totalmente terminada y probada.",
+    "UdMediciónUO": "M",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "109",
+    "CódigoSuUO": "109",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:52:38"
+  },
+  {
+    "IdRegBaseUniObr": "293",
+    "DescripciónLarUO": "Tubo de PVC diámetro 100 mm tendido en zanja.",
+    "UdMediciónUO": "M",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "110",
+    "CódigoSuUO": "110",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:52:38"
+  },
+  {
+    "IdRegBaseUniObr": "294",
+    "DescripciónLarUO": "Tubería de hormigón vibroprensado diamentro 300 mm serie C con junta elástica incluido p.p de accesorios o mon-taje, montaje colocación y pruebas.",
+    "UdMediciónUO": "M",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "111",
+    "CódigoSuUO": "111",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:52:38"
+  },
+  {
+    "IdRegBaseUniObr": "295",
+    "DescripciónLarUO": "Desmontaje de cable de pares en postes: 100 P/O.64.",
+    "UdMediciónUO": "HM",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "112",
+    "CódigoSuUO": "112",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:52:38"
+  },
+  {
+    "IdRegBaseUniObr": "296",
+    "DescripciónLarUO": "Desmontaje de cable de pares en postes: 25 P/O.405",
+    "UdMediciónUO": "HM",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "113",
+    "CódigoSuUO": "113",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:52:38"
+  },
+  {
+    "IdRegBaseUniObr": "297",
+    "DescripciónLarUO": "Desmontaje de cable de pares en postes: 25 P/O. 91.",
+    "UdMediciónUO": "HM",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "114",
+    "CódigoSuUO": "114",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:52:38"
+  },
+  {
+    "IdRegBaseUniObr": "298",
+    "DescripciónLarUO": "Desmontaje de postes de 8 y 9 m. Tipos: C- D, incluidos excavación relleno e izado totalmente acabado.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "115",
+    "CódigoSuUO": "115",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:52:47"
+  },
+  {
+    "IdRegBaseUniObr": "299",
+    "DescripciónLarUO": "Desmontaje de cable coaxial enterrado DN 8 T +  22 C.",
+    "UdMediciónUO": "HM",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "116",
+    "CódigoSuUO": "116",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:53:00"
+  },
+  {
+    "IdRegBaseUniObr": "300",
+    "DescripciónLarUO": "Desmontaje de cable coaxial enterrado DN 8T + 54 C.",
+    "UdMediciónUO": "HM",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "117",
+    "CódigoSuUO": "117",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:53:11"
+  },
+  {
+    "IdRegBaseUniObr": "301",
+    "DescripciónLarUO": "Desmontaje cable fibra óptica.",
+    "UdMediciónUO": "HM",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "118",
+    "CódigoSuUO": "118",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:53:11"
+  },
+  {
+    "IdRegBaseUniObr": "302",
+    "DescripciónLarUO": "Desmontaje cable fibra óptica en canalización.",
+    "UdMediciónUO": "HM",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "119",
+    "CódigoSuUO": "119",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:53:13"
+  },
+  {
+    "IdRegBaseUniObr": "303",
+    "DescripciónLarUO": "Instalación de cable de pares en canalización: 100 P/O.91. i/tendido. Totalmente acabado.",
+    "UdMediciónUO": "HM",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "120",
+    "CódigoSuUO": "120",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:53:24"
+  },
+  {
+    "IdRegBaseUniObr": "304",
+    "DescripciónLarUO": "Desmontaje de cable de pares en canalización: 100 P/O.91.",
+    "UdMediciónUO": "HM",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "121",
+    "CódigoSuUO": "121",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:53:24"
+  },
+  {
+    "IdRegBaseUniObr": "305",
+    "DescripciónLarUO": "Instalación de cable de pares en postes: 25 P/O 91, incluido amarre totalmente acabado.",
+    "UdMediciónUO": "HM",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "122",
+    "CódigoSuUO": "122",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:53:24"
+  },
+  {
+    "IdRegBaseUniObr": "306",
+    "DescripciónLarUO": "Instalación de camara registro tipo ABP, incluido excavación y relleno totalmente acabado.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "123",
+    "CódigoSuUO": "123",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:53:37"
+  },
+  {
+    "IdRegBaseUniObr": "307",
+    "DescripciónLarUO": "Instalación cable de pares en poste 25 P/O 64.",
+    "UdMediciónUO": "HM",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "124",
+    "CódigoSuUO": "124",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:53:37"
+  },
+  {
+    "IdRegBaseUniObr": "308",
+    "DescripciónLarUO": "Instalación cable de pares en postes: 100 P/O.64.",
+    "UdMediciónUO": "HM",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "125",
+    "CódigoSuUO": "125",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:53:51"
+  },
+  {
+    "IdRegBaseUniObr": "309",
+    "DescripciónLarUO": "Poste de 8 m incluyendo excavación, relleno y trazado, totalmente instalado. Tipo:D.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "126",
+    "CódigoSuUO": "126",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:53:51"
+  },
+  {
+    "IdRegBaseUniObr": "310",
+    "DescripciónLarUO": "Instalación de cable de fibra óptica en canalización, i/ tendi-do. Totalmente acabado.",
+    "UdMediciónUO": "HM",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "127",
+    "CódigoSuUO": "127",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:53:54"
+  },
+  {
+    "IdRegBaseUniObr": "311",
+    "DescripciónLarUO": "Instalación cable fibra óptica enterrado, incluso excavación, tendido cable y relleno, totalmente acabado",
+    "UdMediciónUO": "HM",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "128",
+    "CódigoSuUO": "128",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:54:03"
+  },
+  {
+    "IdRegBaseUniObr": "312",
+    "DescripciónLarUO": "Instalación de cable coaxial en canalización DN 8 T + 54 C. i/ tendido totalmente acabado.",
+    "UdMediciónUO": "HM",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "129",
+    "CódigoSuUO": "129",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:54:03"
+  },
+  {
+    "IdRegBaseUniObr": "313",
+    "DescripciónLarUO": "Instalación cable coaxial enterrado DN 8T + 22C i/ exca-vación tendido de cable y relleno, totalmente acabado.",
+    "UdMediciónUO": "HM",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "130",
+    "CódigoSuUO": "130",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:54:12"
+  },
+  {
+    "IdRegBaseUniObr": "315",
+    "DescripciónLarUO": "Canalización en tierra para futura colocación de cables de reposición de línea telegráfica, incluso excavación en zanja, 2 tubos P.V.C. 110 mm y relleno localizado totalmente terminada.",
+    "UdMediciónUO": "M",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "132",
+    "CódigoSuUO": "132",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:54:43"
+  },
+  {
+    "IdRegBaseUniObr": "316",
+    "DescripciónLarUO": "Canalización transversal para futura colocación de cables de línea telegráfica, incluso excavación en zanja. 2 tubos de P.V.C. 110 mm y envolvente de H-150., totalmente terminada.",
+    "UdMediciónUO": "M",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "133",
+    "CódigoSuUO": "133",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:54:43"
+  },
+  {
+    "IdRegBaseUniObr": "317",
+    "DescripciónLarUO": "Arqueta longitudinal o transversal de 1.66X1.41X1.94 m para reposición de cable de línea telegráfica, completamente terminado.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "134",
+    "CódigoSuUO": "134",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:54:52"
+  },
+  {
+    "IdRegBaseUniObr": "318",
+    "DescripciónLarUO": "Desmontaje de líneas aéreas telegráficas incluidos postes.",
+    "UdMediciónUO": "M",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "135",
+    "CódigoSuUO": "135",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:54:52"
+  },
+  {
+    "IdRegBaseUniObr": "319",
+    "DescripciónLarUO": "Desmontaje de líneas aéreas BT sobre postes de  hormigón, con recuperación de materiales clasificación y transporte a almacen de la Cía  afectada.",
+    "UdMediciónUO": "M",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "136",
+    "CódigoSuUO": "136",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:55:00"
+  },
+  {
+    "IdRegBaseUniObr": "320",
+    "DescripciónLarUO": "Línea aérea de BT de un circuito con cable trenzado RZ (hasta 3X95 mm2) sobre apoyos de hormigón (hasta HV-1000-13m). I/ excavación, hormigonado e izado de apoyo, amarres, tendido y conexionado en descarga.",
+    "UdMediciónUO": "M",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "137",
+    "CódigoSuUO": "137",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:55:03"
+  },
+  {
+    "IdRegBaseUniObr": "321",
+    "DescripciónLarUO": "Fuste i/ excavación, cimentación de apoyo AT- 14/ 5 TA. acopio e izado de acero, totalmente acabado.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "138",
+    "CódigoSuUO": "138",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:55:31"
+  },
+  {
+    "IdRegBaseUniObr": "322",
+    "DescripciónLarUO": "Fuste i/ excavación de apoyo AT-16 / 4 TA, acopio e izado de acero, totalmente acabado.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "139",
+    "CódigoSuUO": "139",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:55:31"
+  },
+  {
+    "IdRegBaseUniObr": "323",
+    "DescripciónLarUO": "Fuste i/ excavación, cimentación de apoyo AT-16 / 5 TA. acopio e izado de acero, totalmente acabado.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "140",
+    "CódigoSuUO": "140",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:55:31"
+  },
+  {
+    "IdRegBaseUniObr": "324",
+    "DescripciónLarUO": "Pica bimetálica lisa para toma de tierra PL 19-2000.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "141",
+    "CódigoSuUO": "141",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:55:31"
+  },
+  {
+    "IdRegBaseUniObr": "325",
+    "DescripciónLarUO": "Anillo A3. 5X0.6/T en tierra.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "142",
+    "CódigoSuUO": "142",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:55:31"
+  },
+  {
+    "IdRegBaseUniObr": "326",
+    "DescripciónLarUO": "Protección antiescalo apoyo serie 1/ tramo inferior 3.5-4.5 TA",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "143",
+    "CódigoSuUO": "143",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:55:31"
+  },
+  {
+    "IdRegBaseUniObr": "327",
+    "DescripciónLarUO": "Tendido conductor LA-175 (simple circuito).",
+    "UdMediciónUO": "KM",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "144",
+    "CódigoSuUO": "144",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:55:31"
+  },
+  {
+    "IdRegBaseUniObr": "328",
+    "DescripciónLarUO": "45 Kv cadena aisl. Amarre - nivel II (vidrio) ASS1S04/175.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "145",
+    "CódigoSuUO": "145",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:55:31"
+  },
+  {
+    "IdRegBaseUniObr": "329",
+    "DescripciónLarUO": "Manguito empalme compresión MC-LA-175",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "146",
+    "CódigoSuUO": "146",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:55:31"
+  },
+  {
+    "IdRegBaseUniObr": "330",
+    "DescripciónLarUO": "Protección para cruzamiento doble",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "147",
+    "CódigoSuUO": "147",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:55:31"
+  },
+  {
+    "IdRegBaseUniObr": "331",
+    "DescripciónLarUO": "Fuste i/excavación, cimentación de apoyo de celosia C-1000-14/E. acopio e izado de acero, totalmente acabado.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "148",
+    "CódigoSuUO": "148",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:55:31"
+  },
+  {
+    "IdRegBaseUniObr": "332",
+    "DescripciónLarUO": "Fuste i/ excavación, cimentación de apoyo de celosia C-2000-14/E, acopio e izado de acero, totalmente acabado.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "149",
+    "CódigoSuUO": "149",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:55:31"
+  },
+  {
+    "IdRegBaseUniObr": "333",
+    "DescripciónLarUO": "Fuste i/ excavación, cimentación de apoyo de celosia C-3000-14/ E. acopio e izado de acero totalmente acabado.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "150",
+    "CódigoSuUO": "150",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:55:31"
+  },
+  {
+    "IdRegBaseUniObr": "334",
+    "DescripciónLarUO": "Fuste i/ excavación, cimentación de apoyo de celosia C-4500-14/E, acopio e izado de acero, totalmente acabado.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "151",
+    "CódigoSuUO": "151",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:55:31"
+  },
+  {
+    "IdRegBaseUniObr": "335",
+    "DescripciónLarUO": "Protección antiescalo ANT/ 0.70-0.85-AH, para apoyo metálico de cimentación (C-1000/C-4500-12/14).",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "152",
+    "CódigoSuUO": "152",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:55:31"
+  },
+  {
+    "IdRegBaseUniObr": "336",
+    "DescripciónLarUO": "Protección antiescalo ANT (0.85-1.00-AH), para apoyo metálico de cimentación (C1-C45-16/18).",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "153",
+    "CódigoSuUO": "153",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:55:31"
+  },
+  {
+    "IdRegBaseUniObr": "337",
+    "DescripciónLarUO": "Electrodo básico o de hoyo PL 14-2000/T, puesto en tierra.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "154",
+    "CódigoSuUO": "154",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:55:31"
+  },
+  {
+    "IdRegBaseUniObr": "338",
+    "DescripciónLarUO": "Tendido conducto LA-110 (simple circuito)",
+    "UdMediciónUO": "KM",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "155",
+    "CódigoSuUO": "155",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:55:31"
+  },
+  {
+    "IdRegBaseUniObr": "339",
+    "DescripciónLarUO": "Manguito de emplame cable LA-110.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "156",
+    "CódigoSuUO": "156",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:55:31"
+  },
+  {
+    "IdRegBaseUniObr": "340",
+    "DescripciónLarUO": "Cruceta 2.0 m LA-110 aislador vidrio (II) AL.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "157",
+    "CódigoSuUO": "157",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:55:31"
+  },
+  {
+    "IdRegBaseUniObr": "341",
+    "DescripciónLarUO": "Cruceta 1.5 m LA-110 aislador vidrio (II) AN",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "158",
+    "CódigoSuUO": "158",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:55:31"
+  },
+  {
+    "IdRegBaseUniObr": "342",
+    "DescripciónLarUO": "Retirada de tierras a escombrera.",
+    "UdMediciónUO": "M3",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "159",
+    "CódigoSuUO": "159",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:55:31"
+  },
+  {
+    "IdRegBaseUniObr": "343",
+    "DescripciónLarUO": "PA de abono íntegro para costes de intervención de la Cía afectada.",
+    "UdMediciónUO": "PA",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "160",
+    "CódigoSuUO": "160",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:55:31"
+  },
+  {
+    "IdRegBaseUniObr": "344",
+    "DescripciónLarUO": "Instalación de cable de pares en poste 18P/0.91, colocado",
+    "UdMediciónUO": "M",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "161",
+    "CódigoSuUO": "161",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:55:31"
+  },
+  {
+    "IdRegBaseUniObr": "345",
+    "DescripciónLarUO": "Instalación de cable de pares en poste 12P/0.91, colocado",
+    "UdMediciónUO": "M",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "162",
+    "CódigoSuUO": "162",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:55:31"
+  },
+  {
+    "IdRegBaseUniObr": "346",
+    "DescripciónLarUO": "Instalación de cable de pare en poste 6P/ 0.91, colocado.",
+    "UdMediciónUO": "M",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "163",
+    "CódigoSuUO": "163",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:55:31"
+  },
+  {
+    "IdRegBaseUniObr": "347",
+    "DescripciónLarUO": "Apoyo tipo HORMELEC Hv400R11, incluido excavación izado de poste y hormigonado, totalmente instalado.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "164",
+    "CódigoSuUO": "164",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:55:31"
+  },
+  {
+    "IdRegBaseUniObr": "348",
+    "DescripciónLarUO": "Suministro montaje de arqueta con marco y tapa de hor-migón armado, prefabricada, del tipo DFO incluida exca-vación, totalmente acabada",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "165",
+    "CódigoSuUO": "165",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:58:59"
+  },
+  {
+    "IdRegBaseUniObr": "349",
+    "DescripciónLarUO": "Tendido eléctrico formado por dos conductores autosoportados de 2.5 mm2 de sección cada uno de cobre recubiero de polietileno reticulado.",
+    "UdMediciónUO": "M",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "166",
+    "CódigoSuUO": "166",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:59:16"
+  },
+  {
+    "IdRegBaseUniObr": "350",
+    "DescripciónLarUO": "Canalización en tierra compuesta por 6 conductos D=110 mm de PVC. incluido excavación y relleno, para IGN.",
+    "UdMediciónUO": "M",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "167",
+    "CódigoSuUO": "167",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:59:25"
+  },
+  {
+    "IdRegBaseUniObr": "351",
+    "DescripciónLarUO": "Desmontaje de poste de madera de 11 m.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "168",
+    "CódigoSuUO": "168",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:59:27"
+  },
+  {
+    "IdRegBaseUniObr": "352",
+    "DescripciónLarUO": "Desmontaje de poste de hormigón tipo Hv250R11",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "169",
+    "CódigoSuUO": "169",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:59:28"
+  },
+  {
+    "IdRegBaseUniObr": "353",
+    "DescripciónLarUO": "Desarrollo de pozo de registro hasta 2 m de altura formado por anillos prefabricados de hormigón armado y 1 m de diámetro interior, incluido brocal asimétrico, tapas y pates, totalmente terminado.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "170",
+    "CódigoSuUO": "170",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:59:56"
+  },
+  {
+    "IdRegBaseUniObr": "354",
+    "DescripciónLarUO": "Desarrollo de pozo de registro entre 2y 3 m de  altura, formado por anillos prefabricados de hormigón armado y 1 m de diámetro interior, incluido brocal asimétrico, tapas y pates, totalmente terminado.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "171",
+    "CódigoSuUO": "171",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:59:56"
+  },
+  {
+    "IdRegBaseUniObr": "355",
+    "DescripciónLarUO": "Recrecimiento de pozos de saneamiento hasta 25 cm de altura incluyendo levantamiento de cerco  y tapa, construcción de anillo con fábrica de ladrillo macizo de 1 pie, enfoscado y colocación de cerco y tapa.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "172",
+    "CódigoSuUO": "172",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:59:56"
+  },
+  {
+    "IdRegBaseUniObr": "356",
+    "DescripciónLarUO": "Valla de cerramiento.",
+    "UdMediciónUO": "M",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "173",
+    "CódigoSuUO": "173",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:59:56"
+  },
+  {
+    "IdRegBaseUniObr": "357",
+    "DescripciónLarUO": "Caja de conexión y protección, de poliester reforzado con fibra de vidrio o de policarbonato, con bornas y fusibles incorporados, instalado sobre muro exterior, palomilla o en el interior de básculos o columnas. Totalmente recibida y colocada.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "174",
+    "CódigoSuUO": "174",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:59:56"
+  },
+  {
+    "IdRegBaseUniObr": "358",
+    "DescripciónLarUO": "Toma de tierra realizada con pica de barra de acero cobrizada de 2 m de longitud y 14 mm de diámetro, con cable de cobre desnudo de 35 mm2  de sección y soldadura alumi-notérmica.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "175",
+    "CódigoSuUO": "175",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:59:56"
+  },
+  {
+    "IdRegBaseUniObr": "359",
+    "DescripciónLarUO": "Conexión a la red existente.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "176",
+    "CódigoSuUO": "176",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:59:56"
+  },
+  {
+    "IdRegBaseUniObr": "360",
+    "DescripciónLarUO": "Desmontaje de punto de luz existente, compuesto por báculo de 7 m y brazo de 1 m y luminaria tipo 335-CMR de indalux y posterior montaje nueva ubicación.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "177",
+    "CódigoSuUO": "177",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:59:56"
+  },
+  {
+    "IdRegBaseUniObr": "361",
+    "DescripciónLarUO": "Cimentación para columna o báculo de 7 a 10 m en cualquier clase de terreno de dimensiones según plano de detalle, con fijación de pernos  de anclaje debidamente nivela-dos. Incluso excavación y transportes de productos sobrante  al vertedero.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "178",
+    "CódigoSuUO": "178",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:59:56"
+  },
+  {
+    "IdRegBaseUniObr": "362",
+    "DescripciónLarUO": "Demolición de basamento existente y trasladado  de productos sobrantes a vertedero.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "179",
+    "CódigoSuUO": "179",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:59:56"
+  },
+  {
+    "IdRegBaseUniObr": "363",
+    "DescripciónLarUO": "Arqueta adosada a columna dim. int. 40X40X60 cm, realizada en fábrica de ladrillo perforado enfoscada interiormente provista de cerco y tapa de fundición de dim. 50X50 cm incluso reparación excavación y transporte de productos sobrantes a vertedero",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "180",
+    "CódigoSuUO": "180",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:59:56"
+  },
+  {
+    "IdRegBaseUniObr": "364",
+    "DescripciónLarUO": "Lámpara de vapor de mercurio color corregido de 125W.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "181",
+    "CódigoSuUO": "181",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:59:56"
+  },
+  {
+    "IdRegBaseUniObr": "365",
+    "DescripciónLarUO": "Luminaria formada por un acoplamiento inyectado en aleación ligera pintada en gris, con reflector de aluminio hidroconformado y anodizado, modelo 335- CMR o simi-lar, incluso equipo de encendido para lámpara de vapor de mercurio color corregido de 125W.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "182",
+    "CódigoSuUO": "182",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:59:56"
+  },
+  {
+    "IdRegBaseUniObr": "366",
+    "DescripciónLarUO": "Báculo troncocónico 7m de altura y brazo de 1m. tipo AM 10 en chapa de acero galvanizado de 3 mm de espesor y diámetro en punto de 60m i/ acoplamiento aluminaria, puerta de registro para accesorios, pernos de anclaje, tuercas y plantilla de montaje.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "183",
+    "CódigoSuUO": "183",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:59:56"
+  },
+  {
+    "IdRegBaseUniObr": "367",
+    "DescripciónLarUO": "Conductor de cobre tipo VV-o.6/1 KV de sección 1X6 mm2 colocado en tendido subterráneo canalizado bajo tubo, totalmente instalado.",
+    "UdMediciónUO": "M",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "184",
+    "CódigoSuUO": "184",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:59:56"
+  },
+  {
+    "IdRegBaseUniObr": "368",
+    "DescripciónLarUO": "Conductor de cobre aislado 16 mm2 de sección.",
+    "UdMediciónUO": "M",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "185",
+    "CódigoSuUO": "185",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:59:56"
+  },
+  {
+    "IdRegBaseUniObr": "369",
+    "DescripciónLarUO": "Conductor de cobre tipo VV-06/1 KV de sección 2X2.5 mm2 colocado en tendido subterráneo canalizado bajo tubo, totalmente instalado.",
+    "UdMediciónUO": "M",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "186",
+    "CódigoSuUO": "186",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:59:56"
+  },
+  {
+    "IdRegBaseUniObr": "370",
+    "DescripciónLarUO": "Modificación de centro de mando existente para  adecuarlo a la potencia instalada incluso materiales necesarios y mano de obra.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "187",
+    "CódigoSuUO": "187",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:59:56"
+  },
+  {
+    "IdRegBaseUniObr": "371",
+    "DescripciónLarUO": "Extendido y refino de la tierra vegetal en taludes, mediana, rotondas e isletas, incluidos carga y transporte desde acopio.",
+    "UdMediciónUO": "M3",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "188",
+    "CódigoSuUO": "188",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:59:56"
+  },
+  {
+    "IdRegBaseUniObr": "372",
+    "DescripciónLarUO": "Hidrosiembra sobre taludes de desmonte, con aportación de semillas, abonos, material estabilizador y pegantes.",
+    "UdMediciónUO": "M2",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "189",
+    "CódigoSuUO": "189",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:59:56"
+  },
+  {
+    "IdRegBaseUniObr": "373",
+    "DescripciónLarUO": "Hidrosiembra sobre taludes de terraplen, con aportación de semillas, abonos, material estabilizador y pegantes.",
+    "UdMediciónUO": "M2",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "190",
+    "CódigoSuUO": "190",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:59:56"
+  },
+  {
+    "IdRegBaseUniObr": "374",
+    "DescripciónLarUO": "Siembra manual o mecánica en zonas llanas o de escasa pendiente, con mezcla de especies leñosas y herbáceas, incluso rastrillado y aporte de mantillo.",
+    "UdMediciónUO": "M2",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "191",
+    "CódigoSuUO": "191",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:59:56"
+  },
+  {
+    "IdRegBaseUniObr": "375",
+    "DescripciónLarUO": "Suministro y colocación de Arbutus unedo (madroño), de 150 a 200 cm de altura con cepellón, incluido riego de implantación.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "192",
+    "CódigoSuUO": "192",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:59:56"
+  },
+  {
+    "IdRegBaseUniObr": "376",
+    "DescripciónLarUO": "Suministro y colocación de Pinus halapensis (pino carras-co) de 150 a 200 cm de altura, con cepellón, incluido riego de implantación.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "193",
+    "CódigoSuUO": "193",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:59:56"
+  },
+  {
+    "IdRegBaseUniObr": "377",
+    "DescripciónLarUO": "Suministro y colocación de olea europaea (olivo) de 8 a 10 cm de diámetro con cepellón,  incluido riego de implantación.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "194",
+    "CódigoSuUO": "194",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:59:56"
+  },
+  {
+    "IdRegBaseUniObr": "378",
+    "DescripciónLarUO": "Suministro y colocación de Chamaerops humilis (palmito), de 150 a 200 cm de altura, con cepellón,incluido riego de implantación.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "195",
+    "CódigoSuUO": "195",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:59:56"
+  },
+  {
+    "IdRegBaseUniObr": "379",
+    "DescripciónLarUO": "Suministro y colocación de amigdalus communis (almendro), de 150 a 200 cm de altura con cepellón, incluido riego de implantación.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "196",
+    "CódigoSuUO": "196",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:59:56"
+  },
+  {
+    "IdRegBaseUniObr": "380",
+    "DescripciónLarUO": "Suministro y colocación de tamarix gallica (taray) de 100 a 150 cm de altura, con cepellón incluido riego de implantación.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "197",
+    "CódigoSuUO": "197",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:59:56"
+  },
+  {
+    "IdRegBaseUniObr": "381",
+    "DescripciónLarUO": "Suministro y colocación de cistus monspeliensis (juguerzo negro), de 40 a 60 cm de altura, incluido riego de implantación.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "198",
+    "CódigoSuUO": "198",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:59:56"
+  },
+  {
+    "IdRegBaseUniObr": "382",
+    "DescripciónLarUO": "Suministro y colocación de genista hirsuta (tojo alfiletero), de 60 a 70 cm de altura, incluido riego de implantación.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "199",
+    "CódigoSuUO": "199",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:59:56"
+  },
+  {
+    "IdRegBaseUniObr": "383",
+    "DescripciónLarUO": "Suministro y colocación de retama sphaerocarpa (retama común) de 60 a 70 cm de altura, incluido riego de implantación.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "200",
+    "CódigoSuUO": "200",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:59:56"
+  },
+  {
+    "IdRegBaseUniObr": "384",
+    "DescripciónLarUO": "Suministro y colocación de Lavandula latifolia (espliego), de 20 a 40 cm de altura, incluido riego de implantación.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "201",
+    "CódigoSuUO": "201",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:59:56"
+  },
+  {
+    "IdRegBaseUniObr": "385",
+    "DescripciónLarUO": "Suministro y colocación de Thymus vulgaris (tomillo) de 20 a 40 cm de altura, incluido riego de implantación.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "202",
+    "CódigoSuUO": "202",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:59:56"
+  },
+  {
+    "IdRegBaseUniObr": "386",
+    "DescripciónLarUO": "Suministro y colocación de Rosmarinus officinalis (romero) de 20 a 40 cm de altura, en maceta, incluido riego de implantación.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "203",
+    "CódigoSuUO": "203",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:59:56"
+  },
+  {
+    "IdRegBaseUniObr": "387",
+    "DescripciónLarUO": "Unidad mensual para la vigilancia medioambiental en el cumplimiento de las medidas correctoras.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "204",
+    "CódigoSuUO": "204",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:59:56"
+  },
+  {
+    "IdRegBaseUniObr": "388",
+    "DescripciónLarUO": "P.A de abono íntegro para limpieza y terminación de las obras.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "205",
+    "CódigoSuUO": "205",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:59:56"
+  },
+  {
+    "IdRegBaseUniObr": "389",
+    "DescripciónLarUO": "Caz de sumidero continuo incluso rejilla de hormigón",
+    "UdMediciónUO": "M",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "206",
+    "CódigoSuUO": "206",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:59:56"
+  },
+  {
+    "IdRegBaseUniObr": "390",
+    "DescripciónLarUO": "Caño de 40 cm de diametro con tubo de hormigón vibroprensado. Incluso recubrimiento de H-150",
+    "UdMediciónUO": "M",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "207",
+    "CódigoSuUO": "207",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 18:59:56"
+  },
+  {
+    "IdRegBaseUniObr": "392",
+    "DescripciónLarUO": "Revestimiento de cuneta con hormigón H -150 de 10 cm de espesor",
+    "UdMediciónUO": "M2",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "PN001",
+    "CódigoSuUO": "PN001",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 19:00:00"
+  },
+  {
+    "IdRegBaseUniObr": "393",
+    "DescripciónLarUO": "Relleno de escollera en saneos, incluso obtencion, transporte extendido y rasanteo",
+    "UdMediciónUO": "M3",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "PN002",
+    "CódigoSuUO": "PN002",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 19:00:12"
+  },
+  {
+    "IdRegBaseUniObr": "394",
+    "DescripciónLarUO": "Geotextil no tejido, anticontaminante, de 1500 N de resist perforación.",
+    "UdMediciónUO": "M2",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "PN003",
+    "CódigoSuUO": "PN003",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 19:00:12"
+  },
+  {
+    "IdRegBaseUniObr": "395",
+    "DescripciónLarUO": "Tubo dren colector de PVC ranurado D300 mm, incluso geotextil y material filtro.",
+    "UdMediciónUO": "M",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "PN004",
+    "CódigoSuUO": "PN004",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 19:00:21"
+  },
+  {
+    "IdRegBaseUniObr": "396",
+    "DescripciónLarUO": "Dren en espina de pez con tubo de PVC ranurado D110 mm, incluso geotextil y material filtro",
+    "UdMediciónUO": "M",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "PN005",
+    "CódigoSuUO": "PN005",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 19:00:21"
+  },
+  {
+    "IdRegBaseUniObr": "397",
+    "DescripciónLarUO": "Viga prefabricada pretensada, con sección en artesa de 110 cm de canto, colocada, incluso parte proporcional de neoprenos de apoyo.",
+    "UdMediciónUO": "M",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "PN006",
+    "CódigoSuUO": "PN006",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 19:00:21"
+  },
+  {
+    "IdRegBaseUniObr": "398",
+    "DescripciónLarUO": "Loseta prefabricada en voladizo de estructuras para encofrado perdido, colocada",
+    "UdMediciónUO": "M2",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "PN007",
+    "CódigoSuUO": "PN007",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 19:00:21"
+  },
+  {
+    "IdRegBaseUniObr": "399",
+    "DescripciónLarUO": "Encachado con hormigón H-200-L, sobre loza de 20 cm de espesor con mallazo electrosoldado D=4 mm #15x15 cm, y cara vista de voladura 20/200 recibido con 10 cm de hormigón",
+    "UdMediciónUO": "m2",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "PN008",
+    "CódigoSuUO": "PN008",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 19:00:21"
+  },
+  {
+    "IdRegBaseUniObr": "400",
+    "DescripciónLarUO": "Pretil metalico en estructuras, incluso imposta metalica, placas y pernos de anclaje, totalmente acabada y pintada en azul.",
+    "UdMediciónUO": "M",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "PN009",
+    "CódigoSuUO": "PN009",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 19:00:30"
+  },
+  {
+    "IdRegBaseUniObr": "401",
+    "DescripciónLarUO": "Señal reflectante H.I. cuadrada de 90 cm de lado, colocada",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "PN010",
+    "CódigoSuUO": "PN010",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 19:00:30"
+  },
+  {
+    "IdRegBaseUniObr": "402",
+    "DescripciónLarUO": "Señal rectangular reflectante H.I. de 60 x 120 cm de lado, colocada",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "PN011",
+    "CódigoSuUO": "PN011",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 19:02:07"
+  },
+  {
+    "IdRegBaseUniObr": "403",
+    "DescripciónLarUO": "Barrera de seguridad semirigida de doble onda, incluso parte proporcional de poste  tubular de 120 mm., cada 2m, con conector, captafaros tornillería y separadores colocada",
+    "UdMediciónUO": "M",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "PN012",
+    "CódigoSuUO": "PN012",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 19:02:07"
+  },
+  {
+    "IdRegBaseUniObr": "404",
+    "DescripciónLarUO": "Barrera de seguridad semirigida de doble onda, incluso parte proporcional de poste CPN de 120 mm., cada 4m, con conector, captafaros, tornillería y separadores colocada",
+    "UdMediciónUO": "M",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "PN013",
+    "CódigoSuUO": "PN013",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 19:02:07"
+  },
+  {
+    "IdRegBaseUniObr": "405",
+    "DescripciónLarUO": "Barrera de seguridad semirigida de doble onda, incluso parte proporcional de poste  tubular de 120 mm., cada 4m, con conector, captafaros, tornillería y separadores colocada",
+    "UdMediciónUO": "M",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "PN014",
+    "CódigoSuUO": "PN014",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 19:02:07"
+  },
+  {
+    "IdRegBaseUniObr": "406",
+    "DescripciónLarUO": "Barrera de seguridad semirrígida simple de doble onda, con postes tubular 120 mm. cada 2 m y 2 filas de valla en protección de pilas y soportes de pórticos y banderolas",
+    "UdMediciónUO": "M",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "PN015",
+    "CódigoSuUO": "PN015",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 19:02:07"
+  },
+  {
+    "IdRegBaseUniObr": "407",
+    "DescripciónLarUO": "Terminal de abatimiento normal para barrera de seguridad semirrígida con postes tubular 120 mm., colocado.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "PN016",
+    "CódigoSuUO": "PN016",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 19:02:07"
+  },
+  {
+    "IdRegBaseUniObr": "408",
+    "DescripciónLarUO": "Terminal de abatimiento corto para barrera de seguridad semirrígida con postes tubular 120 mm., colocado.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "PN017",
+    "CódigoSuUO": "PN017",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 19:02:07"
+  },
+  {
+    "IdRegBaseUniObr": "409",
+    "DescripciónLarUO": "Terminal de abatimiento normal para barrera de seguridad semirrígida con postes tubular 100 mm., colocado.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "PN018",
+    "CódigoSuUO": "PN018",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 19:02:07"
+  },
+  {
+    "IdRegBaseUniObr": "410",
+    "DescripciónLarUO": "Arqueta prefabricada de hormigón, de 1.45x1x1.4 m., con ventanas para entrada de conductos, incluso excavación, 10 cm de hormigón de limpieza, embocadura de conductos, relleno de tierras y tapa de fundición con logo tipo memoria.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "PN019",
+    "CódigoSuUO": "PN019",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 19:02:07"
+  },
+  {
+    "IdRegBaseUniObr": "411",
+    "DescripciónLarUO": "Linea de B.T. Formada por conductor de 2x35 mm2 con recubrimiento de polietileno reticulado y cable pantalla, incluso sujección y montaje.",
+    "UdMediciónUO": "M",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "PN020",
+    "CódigoSuUO": "PN020",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 19:02:11"
+  },
+  {
+    "IdRegBaseUniObr": "412",
+    "DescripciónLarUO": "Tubería de PVC liso para canalizaciones colocada colocada en fondo de zanja de 110 mm de diámetro exterior, espesor de pared 3 mm, con p.p. De piezas especiales y de medios auxiliares, incluso hormigonado.",
+    "UdMediciónUO": "M",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "PN021",
+    "CódigoSuUO": "PN021",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 19:02:21"
+  },
+  {
+    "IdRegBaseUniObr": "413",
+    "DescripciónLarUO": "Tirante de poste formado por cable de acero de 9,5 mm de diámetro y 4190 kg de rotura, dado de hormigón de 75 x75x75 incluso excavación gancho de amarre y tensor colocado",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "PN022",
+    "CódigoSuUO": "PN022",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 19:02:21"
+  },
+  {
+    "IdRegBaseUniObr": "414",
+    "DescripciónLarUO": "Suministro y colocación de poste de hormigón armado vibrado tipo HV-630-13, formado por un poste de 13 m de altura y 630  kg de esfuerzo libre en punta, incluso cruceta, cadenas de suspensión, excavación, cimentación e izado",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "PN023",
+    "CódigoSuUO": "PN023",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 19:02:35"
+  },
+  {
+    "IdRegBaseUniObr": "415",
+    "DescripciónLarUO": "Entronque para paso de red aérea a red subterránea en baja tensión, con tubo de acero galvanizado de 6\" de diámetro, para protección mecánica de los cables, provisto de capuchón de protección en su parte superior, totalmente instalado.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "PN024",
+    "CódigoSuUO": "PN024",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 19:02:35"
+  },
+  {
+    "IdRegBaseUniObr": "416",
+    "DescripciónLarUO": "Chatarra de acero laminado",
+    "UdMediciónUO": "TN",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "PN025",
+    "CódigoSuUO": "PN025",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 19:02:54"
+  },
+  {
+    "IdRegBaseUniObr": "417",
+    "DescripciónLarUO": "Cabeza de 45 kv/SC 51T140",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "PN026",
+    "CódigoSuUO": "PN026",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 19:02:54"
+  },
+  {
+    "IdRegBaseUniObr": "418",
+    "DescripciónLarUO": "Cabeza de 45 kv/SC 51T170",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "PN027",
+    "CódigoSuUO": "PN027",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 19:02:54"
+  },
+  {
+    "IdRegBaseUniObr": "419",
+    "DescripciónLarUO": "Amarre preform. cobre nivel IV Composite con parte proporc de grilletes normal sencillo GN16S alargadera ALV16-470 manguitos empalme compresión MC-SA 8,5 aislador de vidrio templado U70 i/ AL-Ac de nivel II de vidrio o composite en susp y amarre norm",
+    "UdMediciónUO": "Ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "PN028",
+    "CódigoSuUO": "PN028",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 19:02:54"
+  },
+  {
+    "IdRegBaseUniObr": "420",
+    "DescripciónLarUO": "Regulador conductor de 125/200/mm2.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "PN029",
+    "CódigoSuUO": "PN029",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 19:02:54"
+  },
+  {
+    "IdRegBaseUniObr": "421",
+    "DescripciónLarUO": "Apoyo de celosia C 1000-16/E ( con excavación )",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "PN030",
+    "CódigoSuUO": "PN030",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 19:02:54"
+  },
+  {
+    "IdRegBaseUniObr": "422",
+    "DescripciónLarUO": "Apoyo de celosia C 2000-16/E ( con excavación )",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "PN031",
+    "CódigoSuUO": "PN031",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 19:02:54"
+  },
+  {
+    "IdRegBaseUniObr": "423",
+    "DescripciónLarUO": "Apoyo de celosia C 4500-16/E ( con excavación )",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "PN032",
+    "CódigoSuUO": "PN032",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 19:02:54"
+  },
+  {
+    "IdRegBaseUniObr": "424",
+    "DescripciónLarUO": "Desmontaje poste  de hormigón armado de 11 m, incluso excavación zapata y maquiaria de elevación",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "PN033",
+    "CódigoSuUO": "PN033",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 19:02:54"
+  },
+  {
+    "IdRegBaseUniObr": "425",
+    "DescripciónLarUO": "Suministro y colocación de poste de hormigón HV-400-13, formado por un poste de 13 m de altura y 400 kg de esfuerzo libre en punta, incluso cruceta, cadenas de suspensión, excavación, cimentación e izado.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "PN034",
+    "CódigoSuUO": "PN034",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 19:02:58"
+  },
+  {
+    "IdRegBaseUniObr": "426",
+    "DescripciónLarUO": "Linea de red de transmisión de datos con cable de pares de nucleo seco y cubierta EAPSP/8, incluso sujección y montaje.",
+    "UdMediciónUO": "M",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "PN035",
+    "CódigoSuUO": "PN035",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 19:03:08"
+  },
+  {
+    "IdRegBaseUniObr": "427",
+    "DescripciónLarUO": "Línea de cable desnudo para tierra aérea de acero de 1,35 mm, incluido sujección y montaje",
+    "UdMediciónUO": "M",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "PN036",
+    "CódigoSuUO": "PN036",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 19:03:08"
+  },
+  {
+    "IdRegBaseUniObr": "428",
+    "DescripciónLarUO": "Caja de bornas para cables de B.T. De conductor de 2x35 mm2 con recubrimiento de poliestireno reticulado, incluso sujección y montaje.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "PN037",
+    "CódigoSuUO": "PN037",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 19:03:19"
+  },
+  {
+    "IdRegBaseUniObr": "429",
+    "DescripciónLarUO": "Empalme de red de transmisión de datos con cable de pares de nucleo seco y cubierta EAPSP/8.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "PN038",
+    "CódigoSuUO": "PN038",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 19:03:19"
+  },
+  {
+    "IdRegBaseUniObr": "430",
+    "DescripciónLarUO": "Suministro, instalación y verificación de conjunto de tierra, compuesto por pica, cable de 60 mm de diámetro y grilletes de cobre, incluyendo tendido desde la base al extremo superior del poste y conexión con línea de aislamiento (pararrayos).",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "PN039",
+    "CódigoSuUO": "PN039",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 19:03:28"
+  },
+  {
+    "IdRegBaseUniObr": "431",
+    "DescripciónLarUO": "Desmontaje de linea de red de transmisión de datos .",
+    "UdMediciónUO": "M",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "PN040",
+    "CódigoSuUO": "PN040",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 19:03:28"
+  },
+  {
+    "IdRegBaseUniObr": "432",
+    "DescripciónLarUO": "Suministro y colocación de poste de hormigón HV-400-11, formado por un poste de 11 m de altura y 400 kg de esfuerzo libre en punta, incluso cruceta, cadenas de suspensión, excavación, cimentación e izado.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "PN041",
+    "CódigoSuUO": "PN041",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 19:03:41"
+  },
+  {
+    "IdRegBaseUniObr": "433",
+    "DescripciónLarUO": "Desmontaje poste  de madera y p.p. De medios auxiliares",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "PN042",
+    "CódigoSuUO": "PN042",
+    "ObservacionesUO": "",
+    "Ahora": "03/22/04 19:03:41"
+  },
+  {
+    "IdRegBaseUniObr": "434",
+    "DescripciónLarUO": "A descontar el 50% del importe de reposición telefónica según convenio entre Ministerio de Obras Públicas y la Telefónica.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "131",
+    "CódigoSuUO": "131",
+    "ObservacionesUO": "",
+    "Ahora": "03/23/04 18:44:58"
+  },
+  {
+    "IdRegBaseUniObr": "435",
+    "DescripciónLarUO": "Seguridad y Salud en las Obras según Anejo 26",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "208",
+    "CódigoSuUO": "208",
+    "ObservacionesUO": "",
+    "Ahora": "03/23/04 18:45:07"
+  },
+  {
+    "IdRegBaseUniObr": "436",
+    "DescripciónLarUO": "M3 Excavación a cielo abierto por medios manuales en terreno blando según NTE/ADV-1, incluso carga y transporte de los productos sobrantes a vertedero o lugar de empleo.",
+    "UdMediciónUO": "M3",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "D38AP017",
+    "CódigoSuUO": "D38AP017",
+    "ObservacionesUO": "",
+    "Ahora": "03/28/04 18:01:29"
+  },
+  {
+    "IdRegBaseUniObr": "437",
+    "DescripciónLarUO": "Despeje y desbroce de tierra vegetal por medios mecánicos, con acopio de tierra para su posterior extendido, incluso transporte sobrantes a vertedero",
+    "UdMediciónUO": "M2",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "D38AN016",
+    "CódigoSuUO": "D38AN016",
+    "ObservacionesUO": "",
+    "Ahora": "03/29/04 12:14:49"
+  },
+  {
+    "IdRegBaseUniObr": "438",
+    "DescripciónLarUO": "Excavación en zanja en terreno blando, según NTE-ADZ-4, medidos sobre perfil, incluso carga, y transporte de productos a vertedero o lugar de emleo con entibación media, agotamiento mediante grupo motobomba y p.p. De medios auxiliares.",
+    "UdMediciónUO": "M3",
+    "RdtoUO/H": "1",
+    "CódigoNueUO": "D38AP029",
+    "CódigoSuUO": "D38AP029",
+    "ObservacionesUO": "",
+    "Ahora": "03/29/04 12:18:54"
+  },
+  {
+    "IdRegBaseUniObr": "439",
+    "DescripciónLarUO": "Relleno de zanjas (con material silíceo) para asiento de tuberías, incluso aportación, extendido y nivelación sobre perfil.",
+    "UdMediciónUO": "M3",
+    "RdtoUO/H": "1",
+    "CódigoNueUO": "D38AR023",
+    "CódigoSuUO": "D38AR023",
+    "ObservacionesUO": "",
+    "Ahora": "03/29/04 12:37:08"
+  },
+  {
+    "IdRegBaseUniObr": "440",
+    "DescripciónLarUO": "Relleno de zanjas con suelo adecuados según Art. 330.3 del P.G3/75, procedentes de préstamos, incluso aportación, extendido y compactación, hasta una densidad de 95% PN, medido sobre perfil, seleccionado incluso compactación 95%P.M.",
+    "UdMediciónUO": "M3",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "D38AR021",
+    "CódigoSuUO": "D38AR021",
+    "ObservacionesUO": "",
+    "Ahora": "03/29/04 12:40:13"
+  },
+  {
+    "IdRegBaseUniObr": "441",
+    "DescripciónLarUO": "Relleno de zanjas con suelos adecuados según art. 330.3 del P.G.3/75 , procedentes de la propia excavación, i/extendido y compactado hasta una densidad del 95% P.N. Medido sobre perfil.",
+    "UdMediciónUO": "M3",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "D38AR025",
+    "CódigoSuUO": "D38AR025",
+    "ObservacionesUO": "",
+    "Ahora": "03/29/04 12:44:22"
+  },
+  {
+    "IdRegBaseUniObr": "442",
+    "DescripciónLarUO": "Suministro, extensión y compactación de garbancillo de canto rodado de 20 a 40 mm, colocado en zanja como superficie drenante en capa de 15 cm medido sobre perfil.",
+    "UdMediciónUO": "M3",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "D38AR029",
+    "CódigoSuUO": "D38AR029",
+    "ObservacionesUO": "",
+    "Ahora": "03/29/04 12:47:20"
+  },
+  {
+    "IdRegBaseUniObr": "443",
+    "DescripciónLarUO": "Mezcla bituminosa en caliente tipo D-12, incluso betún, filler y riego de adherencia, totalmente extendida y compactada.",
+    "UdMediciónUO": "TM",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "D38GJ310",
+    "CódigoSuUO": "D38GJ310",
+    "ObservacionesUO": "",
+    "Ahora": "03/29/04 12:56:11"
+  },
+  {
+    "IdRegBaseUniObr": "444",
+    "DescripciónLarUO": "demolición de pavimento de mezcla bituminosa de hasta 25 cm. De espesor, por medios mecánicos incluso carga y transporte de productos a vertedero.",
+    "UdMediciónUO": "M2",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "D38AD014",
+    "CódigoSuUO": "D38AD014",
+    "ObservacionesUO": "",
+    "Ahora": "03/29/04 13:15:29"
+  },
+  {
+    "IdRegBaseUniObr": "445",
+    "DescripciónLarUO": "Hormigón en masa, vibrado, de resistencia característica HM-20 N/mm2., tamaño máximo 40 mm. Y consistencia plástica, en pavimento de calzadas, acabado con textura superficial ranurada.",
+    "UdMediciónUO": "M3",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "D38GA005",
+    "CódigoSuUO": "D38GA005",
+    "ObservacionesUO": "",
+    "Ahora": "03/29/04 13:18:48"
+  },
+  {
+    "IdRegBaseUniObr": "446",
+    "DescripciónLarUO": "Perforación HINCA mediante TOPO, sistema HINCA-TUBO o similar con introducción de camisa de acero al carbono e=12 mm diámetro 1000 mm, para alojamiento en su interior de tubería de fundición D=800mm por empuje hidraúlico lateral i/p.p. Excavación, relleno de fosos de ataque y muros de hormigón armado de empuje. Totalmente terminado.",
+    "UdMediciónUO": "Ml",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "D38AN030",
+    "CódigoSuUO": "D38AN030",
+    "ObservacionesUO": "PERFORACIÓN HINCA MEDIANTE TOPO",
+    "Ahora": "03/29/04 13:57:53"
+  },
+  {
+    "IdRegBaseUniObr": "447",
+    "DescripciónLarUO": "Partida Alzada a justificar en reposición de cruces de acequias",
+    "UdMediciónUO": "Ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "P.A.1",
+    "CódigoSuUO": "P.A.",
+    "ObservacionesUO": "Partida Alzada",
+    "Ahora": "03/29/04 16:08:04"
+  },
+  {
+    "IdRegBaseUniObr": "448",
+    "DescripciónLarUO": "Tubería de fundición dúctil DN 800 mm serie K=9, con revestimiento interior de mortero de cemento blanco y exterior de zinc y barniz bituminoso , incluso parte proporcional de junta automática flexible, colocación y pruebas.",
+    "UdMediciónUO": "Ml",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "D03AE119",
+    "CódigoSuUO": "D03AE119",
+    "ObservacionesUO": "",
+    "Ahora": "03/29/04 16:10:58"
+  },
+  {
+    "IdRegBaseUniObr": "449",
+    "DescripciónLarUO": "Manga de polietileno de 200 micras de espesor para protección contra la corrosión de la tubería de fundición DN 800 mm, incluso p.p. De tiras adhesivas para unión entre mangas y entre tubo y manga, alambre de acero recocido galvanizado y plastificado para mantener la manga sobre el tubo, totalmente instalada.",
+    "UdMediciónUO": "Ml",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "D03AG521",
+    "CódigoSuUO": "D03AG521",
+    "ObservacionesUO": "",
+    "Ahora": "03/29/04 16:24:57"
+  },
+  {
+    "IdRegBaseUniObr": "450",
+    "DescripciónLarUO": "Partida Alzada redondeo presupuesto",
+    "UdMediciónUO": "Ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "A1",
+    "CódigoSuUO": "A1",
+    "ObservacionesUO": "Partida Alzada",
+    "Ahora": "03/29/04 16:29:25"
+  },
+  {
+    "IdRegBaseUniObr": "451",
+    "DescripciónLarUO": "Válvula de mariposa DN 800 mm, PN 16 Atm con mecanismo motorizable, incluso tornillería, juntas elastoméricas de estanqueidad, según normativa técnica del Canal Isabel II para elementos de maniobra y central, válvula de mariposa, colocación y pruebas.",
+    "UdMediciónUO": "Ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "D03DI106",
+    "CódigoSuUO": "D03DI106",
+    "ObservacionesUO": "",
+    "Ahora": "03/29/04 16:33:10"
+  },
+  {
+    "IdRegBaseUniObr": "452",
+    "DescripciónLarUO": "Manguito brida-enchufe de fundición de fundición dúctil DN=800 mm con revestimiento interior y exterior de pintura bituminosa, i/juntas, colocación y pruebas.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "D03DE033",
+    "CódigoSuUO": "D03DE033",
+    "ObservacionesUO": "MANGUITO BRIDA-ENCHUFE DN=800 mm",
+    "Ahora": "03/29/04 16:37:13"
+  },
+  {
+    "IdRegBaseUniObr": "453",
+    "DescripciónLarUO": "Junta de desmontaje de fundición ductil, DN 800 mm, formada por brida-enchufe y contrabrida de dicho material, bulones de acero y anillos de junta elastomérica, i/colocación y pruebas.",
+    "UdMediciónUO": "Ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "D03DD210",
+    "CódigoSuUO": "D03DD210",
+    "ObservacionesUO": "",
+    "Ahora": "03/29/04 16:40:14"
+  },
+  {
+    "IdRegBaseUniObr": "454",
+    "DescripciónLarUO": "Ventosa doble cuerpo y tres funciones DN 200 mm bridas, PN 16 ATM características según pliego, i/tornillería, juntas elastoméricas, colocación y pruebas.",
+    "UdMediciónUO": "Ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "D36RE021",
+    "CódigoSuUO": "D36RE021",
+    "ObservacionesUO": "",
+    "Ahora": "03/29/04 16:44:05"
+  },
+  {
+    "IdRegBaseUniObr": "455",
+    "DescripciónLarUO": "Derivación en T de fundición dúctil con dos enchufes D=800 mm y D=200 mm con revestimiento interior de mortero de cemento blanco y exterior de pintura bituminosa, i/juntas, colocación y pruebas.",
+    "UdMediciónUO": "Ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "D36RE030",
+    "CódigoSuUO": "D36RE030",
+    "ObservacionesUO": "",
+    "Ahora": "03/29/04 16:47:01"
+  },
+  {
+    "IdRegBaseUniObr": "456",
+    "DescripciónLarUO": "Válvula compuerta D=200 mm con unión mediante bridas, i/juntas elastoméricas, colocación y pruebas",
+    "UdMediciónUO": "Ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "D36PC714",
+    "CódigoSuUO": "D36PC714",
+    "ObservacionesUO": "",
+    "Ahora": "03/29/04 16:51:26"
+  },
+  {
+    "IdRegBaseUniObr": "457",
+    "DescripciónLarUO": "Junta de desmontaje D=200 de fundición dúctil formada por brida-enchufe, brida-liso y contrabrida de dicho material, bulones de acero y anillos de junta elastomérica, i/colocación y prueba",
+    "UdMediciónUO": "Ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "D03DD220",
+    "CódigoSuUO": "D03DD220",
+    "ObservacionesUO": "",
+    "Ahora": "03/29/04 16:53:34"
+  },
+  {
+    "IdRegBaseUniObr": "458",
+    "DescripciónLarUO": "Entronque tubería fundición D=800 mm, con tubería de hormigón pretensado D=800 mm existente, mediante pieza de acero carbono e=12 mm, con protección epoxi, i/material, tornillería, junta elastorérica, colocación, pruebas y anclajes. Totalmente instalada.",
+    "UdMediciónUO": "Ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "D03DE034",
+    "CódigoSuUO": "D03DE034",
+    "ObservacionesUO": "",
+    "Ahora": "03/29/04 16:56:08"
+  },
+  {
+    "IdRegBaseUniObr": "459",
+    "DescripciónLarUO": "Manguito brida-brida de fundición dúctil DN 200 mm, con revestimiento interior de cemento blanco y exterior de pintura bituminosa i/juntas, colocación y pruebas.",
+    "UdMediciónUO": "Ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "D03DD209",
+    "CódigoSuUO": "D03DD209",
+    "ObservacionesUO": "",
+    "Ahora": "03/29/04 17:00:33"
+  },
+  {
+    "IdRegBaseUniObr": "460",
+    "DescripciónLarUO": "Codo de 45º con dos bridas de fundición dúctil, D=800 mm con revestimiento interior de cemento blanco y exterior de pintura bituminosa i/juntas, colocación y pruebas.",
+    "UdMediciónUO": "Ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "D03DE030",
+    "CódigoSuUO": "D03DE030",
+    "ObservacionesUO": "",
+    "Ahora": "03/29/04 17:03:12"
+  },
+  {
+    "IdRegBaseUniObr": "461",
+    "DescripciónLarUO": "Codo de 90 º con dos bridas de fundición ductil, D= 200 mm, con revestimiento interior de cemento blanco y exterior de pintura bituminosa i/juntas, colocación y pruebas.",
+    "UdMediciónUO": "Ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "D03DE031",
+    "CódigoSuUO": "D03DE031",
+    "ObservacionesUO": "",
+    "Ahora": "03/29/04 18:05:11"
+  },
+  {
+    "IdRegBaseUniObr": "462",
+    "DescripciónLarUO": "Codo de 45º con dos bridas de fundición dúctil D=200 mm, con revestimiento interior de cemento blanco y exterior de pintura bituminosa i/juntas, colocación y pruebas.",
+    "UdMediciónUO": "Ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "D03DE032",
+    "CódigoSuUO": "D03DE032",
+    "ObservacionesUO": "",
+    "Ahora": "03/29/04 18:09:37"
+  },
+  {
+    "IdRegBaseUniObr": "463",
+    "DescripciónLarUO": "Medidor de caudal por ultrasonidos, sobre tubería de fundición dúctil D=800 mm, incluso carreter PN 16 Atm, toma 3/4\" y llave de corte, portasondas, sondeo, cable coaxial, instalación eléctrica, control de alineación, montaje, totalmente instalado, probado y uesta en servicio.",
+    "UdMediciónUO": "Ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "D03DE035",
+    "CódigoSuUO": "D03DE035",
+    "ObservacionesUO": "",
+    "Ahora": "03/29/04 18:13:32"
+  },
+  {
+    "IdRegBaseUniObr": "464",
+    "DescripciónLarUO": "Arqueta para alojamiento de válvula de ventosa de diámetro interior de 150 cm y 2,60 mm de profundidad, de hormigón armado HA-25 e=25 cm incluso marco y tapa de fundición de 600 mm, homologado por el CYII, totalmente instalado.",
+    "UdMediciónUO": "Ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "D36UA016",
+    "CódigoSuUO": "D36UA016",
+    "ObservacionesUO": "",
+    "Ahora": "03/29/04 18:18:37"
+  },
+  {
+    "IdRegBaseUniObr": "465",
+    "DescripciónLarUO": "Cámara de llaves para válvula de mariposa D=800 mm de 2x2x2,8 m de dimensiones interiores formada a base de solera de hormigón en masa H-250 de 30 cm de espesor, hormigón armado HA-25 de 25 cm de espesor i/tapa de fundición y losa de hormigón H-200",
+    "UdMediciónUO": "Ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "D36ZA025",
+    "CódigoSuUO": "D36ZA025",
+    "ObservacionesUO": "",
+    "Ahora": "03/29/04 18:50:57"
+  },
+  {
+    "IdRegBaseUniObr": "466",
+    "DescripciónLarUO": "Arqueta desagüe de tubería D=800 mm formada por doble cámara de 100x100x300 cm, y 150x150x300 cm respectivamente a base de cimentación de hormigón en masa HM-20/P/20, muros de hormigón armado HA-25 e=25 cm, i/tapa de fundición y losa de hormigón.",
+    "UdMediciónUO": "Ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "D36RA010",
+    "CódigoSuUO": "D36RA010",
+    "ObservacionesUO": "",
+    "Ahora": "03/29/04 18:56:34"
+  },
+  {
+    "IdRegBaseUniObr": "467",
+    "DescripciónLarUO": "ANCLAJE HORMIGÓN HA-25/P/20 PARA CODO 45º.Anclaje de hormigón armado HA-25/P/20 para codo de 45º en fundición y D=800 mm, i/materiales, encofrado, totalmente terminado.",
+    "UdMediciónUO": "Ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "D40GE021",
+    "CódigoSuUO": "D40GE021",
+    "ObservacionesUO": "ANCLAJE HORMIGÓN HA-25/P/20 PARA CODO 45º. En el proyecto base la descripción completa coincide con D40GE023",
+    "Ahora": "03/29/04 19:03:27"
+  },
+  {
+    "IdRegBaseUniObr": "468",
+    "DescripciónLarUO": "Anclaje de hormigón armado HA-25/p/20 para pieza en T D=800 mm i/p.p. Materiales, encofrado, totalmente terminado.",
+    "UdMediciónUO": "Ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "D40GE022",
+    "CódigoSuUO": "D40GE022",
+    "ObservacionesUO": "",
+    "Ahora": "03/29/04 19:07:01"
+  },
+  {
+    "IdRegBaseUniObr": "469",
+    "DescripciónLarUO": "Anclaje de hormigón armado HA-25/p/20 para codos de 45º en fundición y D=800 mm, i/materiales, encofrado, totalmente terminado.",
+    "UdMediciónUO": "Ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "D40 GE023",
+    "CódigoSuUO": "D40 GE023",
+    "ObservacionesUO": "ANCLAJE HORMIGÓN HA-25/P/20 VALV. MARIP. D=800mm",
+    "Ahora": "03/29/04 19:11:07"
+  },
+  {
+    "IdRegBaseUniObr": "470",
+    "DescripciónLarUO": "Vallado en zona deportiva (paseo, recinto,piscina ...etc) con enrejado metálico de 2 m. de altura a base de malla galvanizada simple torsión ST/40 -14 (trama 50 mm. de luces y 2,2 mm diámetro del alambre) adaptado sobre 3 filas de alambre liso (atado y cosido sobre los cables superiores y punteado sobre el inferior), postes intermedios (cada 3m.) centro y tiro (cada 33 m.) todos con diámetro 48/1,5 mm. en tubo de acero galvanizado en caliente empotrados 35 cms. y tornapuntas de refuerzo diámetro 40/1,5 mm., i/tensores cincados, cordones, ataduras grupillas, remates superiores tipo seta, puerta de 2x1 m. (cada 400 ml.), apertura y anclaje de postes en cualquier material y montaje de la malla.",
+    "UdMediciónUO": "Ml",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "D37JA110",
+    "CódigoSuUO": "D37JA110",
+    "ObservacionesUO": "",
+    "Ahora": "03/29/04 19:14:56"
+  },
+  {
+    "IdRegBaseUniObr": "471",
+    "DescripciónLarUO": "Puerta de paso en cerramiento construido por cerco de tubo metálico 40x20x1,5 y otro de 30x15x1,5, recibido mediante soldadura a poste 60x60x1,5, anclado a dado de hormigón HM-20 N/mm2 Tmax arido 20 mm. y bastidor de tubo 40x40x1,5 cm., con pletina 40x4 mm. para sujección de mallazo rizado de alambre de 2 mm. formando cuadrícula de 4x4 cm.,i/recibido de postes.",
+    "UdMediciónUO": "M2",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "D37JA300",
+    "CódigoSuUO": "D37JA300",
+    "ObservacionesUO": "",
+    "Ahora": "03/29/04 19:28:00"
+  },
+  {
+    "IdRegBaseUniObr": "472",
+    "DescripciónLarUO": "Hormigón en mas de resistencia H-200 según EH-91, con cemento CEM II/A-P 32,5 R, arena de río y árido tamaño máximo 20 mm. confeccionado con hormigonera de 250 l., para vibrar y consistencia plástica.",
+    "UdMediciónUO": "M3",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "A02AA501",
+    "CódigoSuUO": "A02AA501",
+    "ObservacionesUO": "",
+    "Ahora": "03/29/04 19:34:18"
+  },
+  {
+    "IdRegBaseUniObr": "473",
+    "DescripciónLarUO": "Hormigón en masa de resistencia H-200 según EH-91, con cemento CEM II/A-P 32,5 R, arena de río y árido rodado tamaño máximo 40 mm. Confeccionado con hormigonera de 250 l., para vibrar y consistencia plástica",
+    "UdMediciónUO": "M3",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "A02AA510",
+    "CódigoSuUO": "A02AA510",
+    "ObservacionesUO": "",
+    "Ahora": "03/29/04 19:39:18"
+  },
+  {
+    "IdRegBaseUniObr": "474",
+    "DescripciónLarUO": "Hormigón en masa, vibrado, de resistencia caraterística HM-20 N/mm2., tamaño máximo 40 mm. Y consistencia plástica, en pavimento de calzadas, acabado con textura superficial ranurada.",
+    "UdMediciónUO": "M3",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "D36GA005",
+    "CódigoSuUO": "D36GA005",
+    "ObservacionesUO": "",
+    "Ahora": "03/29/04 20:06:06"
+  },
+  {
+    "IdRegBaseUniObr": "475",
+    "DescripciónLarUO": "ANCLAJE HORMIGÓN HA-25/P/20 VALV. MARIP D=800 mm. Anclaje de hormigón armado HA-25/P/20 para codos de 45º en fundición y D=800 mm, i/materiales, encofrado, totalmente terminado",
+    "UdMediciónUO": "Ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "D40GE023",
+    "CódigoSuUO": "D40GE023",
+    "ObservacionesUO": "ANCLAJE HORMIGÓN HA-25/P/20 VALV. MARIP D=800 mm. La descripción completa coincide en pr. Base con D40GE021",
+    "Ahora": "03/29/04 20:50:30"
+  },
+  {
+    "IdRegBaseUniObr": "476",
+    "DescripciónLarUO": "Redondeo presupuesto al presupuesto base por redondeo del D03DE030",
+    "UdMediciónUO": "Ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "REdon2",
+    "CódigoSuUO": "Redon2",
+    "ObservacionesUO": "",
+    "Ahora": "03/29/04 21:46:19"
+  },
+  {
+    "IdRegBaseUniObr": "477",
+    "DescripciónLarUO": "Estudio de seguridad y salud",
+    "UdMediciónUO": "Ud",
+    "RdtoUO/H": "1",
+    "CódigoNueUO": "SEGSAL1",
+    "CódigoSuUO": "SEGSAL1",
+    "ObservacionesUO": "Mohernando",
+    "Ahora": "03/30/04 11:09:10"
+  },
+  {
+    "IdRegBaseUniObr": "478",
+    "DescripciónLarUO": "Acero A-42 de sección constante en tubería helicosoldada para una medición superior a 30000 Kg.",
+    "UdMediciónUO": "Kg",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "AUXN01",
+    "CódigoSuUO": "AUXN01",
+    "ObservacionesUO": "",
+    "Ahora": "03/30/04 12:32:38"
+  },
+  {
+    "IdRegBaseUniObr": "479",
+    "DescripciónLarUO": "Acero A-42 en calderería o bridas normalizadas i/p.p. De protección con pintura epoxi de 125 micras totalmente colocado",
+    "UdMediciónUO": "KG",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "AUXN02",
+    "CódigoSuUO": "AUXN02",
+    "ObservacionesUO": "",
+    "Ahora": "03/30/04 12:41:44"
+  },
+  {
+    "IdRegBaseUniObr": "480",
+    "DescripciónLarUO": "Ripado previo de légamo muy duro en fondo de excavaciones (Rdto = 10 m3/h)",
+    "UdMediciónUO": "M3",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "TIE001",
+    "CódigoSuUO": "TIE001",
+    "ObservacionesUO": "",
+    "Ahora": "03/30/04 12:46:19"
+  },
+  {
+    "IdRegBaseUniObr": "481",
+    "DescripciónLarUO": "Excavación en zanja de más de 3 m. en zona de polígono industrial",
+    "UdMediciónUO": "M3",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "TIE002",
+    "CódigoSuUO": "TIE002",
+    "ObservacionesUO": "",
+    "Ahora": "03/30/04 12:49:25"
+  },
+  {
+    "IdRegBaseUniObr": "482",
+    "DescripciónLarUO": "Tubería de acero helicosoldado de DN = 800 mm con espesor de 9,5 mm, sin tratamiento especial, para colocar embebida en hormigón armado,incluso colocación y pruebas.",
+    "UdMediciónUO": "Ml",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "COND001",
+    "CódigoSuUO": "COND001",
+    "ObservacionesUO": "",
+    "Ahora": "03/30/04 12:53:32"
+  },
+  {
+    "IdRegBaseUniObr": "483",
+    "DescripciónLarUO": "Tubería de acero helicosoldado de DN = 800 mm con espesor de 9,5 mm, con tratamiento especial, para contacto con tierras,incluso colocación y pruebas.",
+    "UdMediciónUO": "Ml",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "COND002",
+    "CódigoSuUO": "COND002",
+    "ObservacionesUO": "",
+    "Ahora": "03/30/04 12:57:41"
+  },
+  {
+    "IdRegBaseUniObr": "484",
+    "DescripciónLarUO": "Tubería de acero helicosoldado de DN = 800 mm con espesor de 9,5 mm, con tratamiento especial, para ambientes agresivos, incluso empuje, acoplamiento a camisa de hinca c/ soldadura interior.",
+    "UdMediciónUO": "Ml",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "COND003",
+    "CódigoSuUO": "COND003",
+    "ObservacionesUO": "",
+    "Ahora": "03/30/04 12:59:23"
+  },
+  {
+    "IdRegBaseUniObr": "485",
+    "DescripciónLarUO": "Lechada de cemento en inyección de conducciones de hinca con 800 kg/m3 de cemento",
+    "UdMediciónUO": "M3",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "COND004",
+    "CódigoSuUO": "COND004",
+    "ObservacionesUO": "",
+    "Ahora": "03/30/04 13:02:28"
+  },
+  {
+    "IdRegBaseUniObr": "486",
+    "DescripciónLarUO": "Manguito de desmontaje teléscópico con bridas PN16atm DN 800 mm",
+    "UdMediciónUO": "Ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "PIEZ001",
+    "CódigoSuUO": "PIEZ001",
+    "ObservacionesUO": "",
+    "Ahora": "03/30/04 13:07:31"
+  },
+  {
+    "IdRegBaseUniObr": "487",
+    "DescripciónLarUO": "Manguito de desmontaje teléscópico con bridas PN16atm DN 900 mm",
+    "UdMediciónUO": "Ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "PIEZ002",
+    "CódigoSuUO": "PIEZ002",
+    "ObservacionesUO": "",
+    "Ahora": "03/30/04 13:13:55"
+  },
+  {
+    "IdRegBaseUniObr": "488",
+    "DescripciónLarUO": "Válvula mariposa da DN 900 mm, PN 16Atm con mecanismo motorizable, incluso tornillería, juntas elastoméricas de estanqueidad, según normativa técnica del Canal de Isabel II para elementos de maniobra y control, válvula de mariposa, colocación y pruebas",
+    "UdMediciónUO": "Ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "PIEZ003",
+    "CódigoSuUO": "PIEZ003",
+    "ObservacionesUO": "",
+    "Ahora": "03/30/04 13:16:38"
+  },
+  {
+    "IdRegBaseUniObr": "489",
+    "DescripciónLarUO": "Acero corrugado colocado en armadura de prisma  de hormigón armado alrrededor de conducción de acero de 800 mm",
+    "UdMediciónUO": "Kg",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "ESTR001",
+    "CódigoSuUO": "ESTR001",
+    "ObservacionesUO": "",
+    "Ahora": "03/30/04 13:21:42"
+  },
+  {
+    "IdRegBaseUniObr": "490",
+    "DescripciónLarUO": "Acero corrugado colocado en armadura de arquetas",
+    "UdMediciónUO": "Kg",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "ESTR002",
+    "CódigoSuUO": "ESTR002",
+    "ObservacionesUO": "",
+    "Ahora": "03/30/04 13:24:17"
+  },
+  {
+    "IdRegBaseUniObr": "492",
+    "DescripciónLarUO": "Encofrado y desencofrado plano i/p.p. De medios de elevación",
+    "UdMediciónUO": "M2",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "ESTR003",
+    "CódigoSuUO": "ESTR003",
+    "ObservacionesUO": "",
+    "Ahora": "03/30/04 13:50:08"
+  },
+  {
+    "IdRegBaseUniObr": "493",
+    "DescripciónLarUO": "Hormigón para armar tipo HA-25-2a-20 plástico en elemntos estructurales",
+    "UdMediciónUO": "M3",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "ESTR004",
+    "CódigoSuUO": "ESTR004",
+    "ObservacionesUO": "",
+    "Ahora": "03/30/04 13:52:40"
+  },
+  {
+    "IdRegBaseUniObr": "494",
+    "DescripciónLarUO": "Hormigón para armar tipo HA-25-2a-40 plástico en elemntos estructurales",
+    "UdMediciónUO": "M3",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "ESTR005",
+    "CódigoSuUO": "ESTR005",
+    "ObservacionesUO": "",
+    "Ahora": "03/30/04 13:57:59"
+  },
+  {
+    "IdRegBaseUniObr": "495",
+    "DescripciónLarUO": "Redondeo para ajustar completamente la unidad D03DE030. En el proyecto base la unidad tiene un total un céntimo inferior al redondeo mas correcto.",
+    "UdMediciónUO": "Ud",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "R03DE030",
+    "CódigoSuUO": "R03DE030",
+    "ObservacionesUO": "Redondeo de la unidad D03DE030",
+    "Ahora": "03/31/04 09:32:22"
+  },
+  {
+    "IdRegBaseUniObr": "496",
+    "DescripciónLarUO": "Demolición y corte de tubería de hormigón camisa chapa Ø 900 mm i/p.p. de transporte de sobrantes a vertedero.",
+    "UdMediciónUO": "Ml",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "PNTIE004",
+    "CódigoSuUO": "PNTIE004",
+    "ObservacionesUO": "",
+    "Ahora": "04/01/04 16:45:45"
+  },
+  {
+    "IdRegBaseUniObr": "497",
+    "DescripciónLarUO": "Demolición de volumen aparente de obra de fábrica en masa o armada con martillo hidráulico  i/p.p. De transporte de sobrantes a vertedero.",
+    "UdMediciónUO": "M3",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "PNTIE005",
+    "CódigoSuUO": "PNTIE005",
+    "ObservacionesUO": "",
+    "Ahora": "04/01/04 16:56:54"
+  },
+  {
+    "IdRegBaseUniObr": "499",
+    "DescripciónLarUO": "Apertura con martillo y grupo eléctrico de junta y corte de codo de acero embebido en hormigón de tubería existente i/p.p.de transporte de sobrantes a vertedero.",
+    "UdMediciónUO": "M3",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "PNTIE006",
+    "CódigoSuUO": "PNTIE006",
+    "ObservacionesUO": "",
+    "Ahora": "04/01/04 17:00:24"
+  },
+  {
+    "IdRegBaseUniObr": "500",
+    "DescripciónLarUO": "Tapa para arqueta de entre 3 y 6 m de luz, i/p.p. De boca de hombre, cantos y asiento en acero A-42.",
+    "UdMediciónUO": "M2",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "PNOC001",
+    "CódigoSuUO": "PNOC001",
+    "ObservacionesUO": "",
+    "Ahora": "04/01/04 17:55:53"
+  },
+  {
+    "IdRegBaseUniObr": "501",
+    "DescripciónLarUO": "Tapa para arqueta de entre 2 y 3 m de luz, i/p.p. De boca de hombre, cantos y asiento en acero A-42",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "PNOC002",
+    "CódigoSuUO": "PNOC002",
+    "ObservacionesUO": "",
+    "Ahora": "04/01/04 18:07:52"
+  },
+  {
+    "IdRegBaseUniObr": "502",
+    "DescripciónLarUO": "Tapa para arqueta de entre 0 y 2 m de luz, i /p.p. De boca de hombre, cantos y asiento en acero A-42",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "PNOC003",
+    "CódigoSuUO": "PNOC003",
+    "ObservacionesUO": "",
+    "Ahora": "04/01/04 18:10:48"
+  },
+  {
+    "IdRegBaseUniObr": "503",
+    "DescripciónLarUO": "Pate de polipropileno totalmente colocado, recibido con resina.",
+    "UdMediciónUO": "UD",
+    "RdtoUO/H": "0",
+    "CódigoNueUO": "PNOC004",
+    "CódigoSuUO": "PNOC004",
+    "ObservacionesUO": "",
+    "Ahora": "04/01/04 18:13:12"
+  }
+]

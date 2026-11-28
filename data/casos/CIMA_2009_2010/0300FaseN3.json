@@ -1,0 +1,74 @@
+[
+  {
+    "IdFase3": "102",
+    "IdFase2": "",
+    "Nº": "1",
+    "Nivel 3 Fase": "Oferta"
+  },
+  {
+    "IdFase3": "126",
+    "IdFase2": "",
+    "Nº": "2",
+    "Nivel 3 Fase": "Estudio"
+  },
+  {
+    "IdFase3": "127",
+    "IdFase2": "",
+    "Nº": "3",
+    "Nivel 3 Fase": "Proyecto"
+  },
+  {
+    "IdFase3": "128",
+    "IdFase2": "",
+    "Nº": "4",
+    "Nivel 3 Fase": "Contrato"
+  },
+  {
+    "IdFase3": "129",
+    "IdFase2": "",
+    "Nº": "5",
+    "Nivel 3 Fase": "Ejecución"
+  },
+  {
+    "IdFase3": "130",
+    "IdFase2": "",
+    "Nº": "6",
+    "Nivel 3 Fase": "Compra"
+  },
+  {
+    "IdFase3": "131",
+    "IdFase2": "",
+    "Nº": "7",
+    "Nivel 3 Fase": "Venta"
+  },
+  {
+    "IdFase3": "132",
+    "IdFase2": "",
+    "Nº": "8",
+    "Nivel 3 Fase": "Financiero"
+  },
+  {
+    "IdFase3": "133",
+    "IdFase2": "",
+    "Nº": "9",
+    "Nivel 3 Fase": "Aval"
+  },
+  {
+    "IdFase3": "134",
+    "IdFase2": "",
+    "Nº": "10",
+    "Nivel 3 Fase": "Seguro"
+  },
+  {
+    "IdFase3": "135",
+    "IdFase2": "",
+    "Nº": "11",
+    "Nivel 3 Fase": "Activo"
+  },
+  {
+    "IdFase3": "136",
+    "IdFase2": "",
+    "Nº": "12",
+    "Nivel 3 Fase": "Concesión"
+  }
+]

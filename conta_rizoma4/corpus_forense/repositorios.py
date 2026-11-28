@@ -16,10 +16,7 @@ from .modelo import (
 )
 
 
-PG_URL = os.environ.get(
-    "CONTA_PG_URL",
-    "postgresql://rizoma:rizoma_dev@localhost:5433/conta_rizoma4",
-)
+from ..config.postgresql import PG_URL
 
 
 class RepositorioSujeto:

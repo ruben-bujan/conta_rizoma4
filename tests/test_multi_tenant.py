@@ -69,10 +69,11 @@ class TestAislamiento:
         assert rep_a.total == 1 and rep_a.cadena_valida
         assert rep_b.total == 0 and rep_b.cadena_valida
 
-    def test_borrar_aislado(self, empresas_limpias):
+    def test_borrado_fisico_deshabilitado(self, empresas_limpias):
         a = crear_asiento(indice=0, fecha=date(2025, 1, 1), concepto='X', lineas=[Linea('572', debe_centimos=100_000), Linea('100', haber_centimos=100_000)], hash_previo=GENESIS)
         guardar_asiento(a, empresa_id='TEST_EMP_A')
-        borrar_asiento(0, empresa_id='TEST_EMP_B')
+        with pytest.raises(RuntimeError, match='deshabilitado'):
+            borrar_asiento(0, empresa_id='TEST_EMP_B')
         assert RepositorioAsiento('TEST_EMP_A').obtener(0) is not None
 
 

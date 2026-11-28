@@ -3,7 +3,7 @@
 from __future__ import annotations
 
 from fastapi import APIRouter, HTTPException
-from ..config.config_json import cargar_config
+from ...config.config_json import cargar_config
 
 router = APIRouter(prefix="/config", tags=["config"])
 

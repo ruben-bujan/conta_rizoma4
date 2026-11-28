@@ -1,0 +1,98 @@
+[
+  {
+    "IdRegTipUdMed": "24",
+    "TipMedN1": "Unidad",
+    "TipMedN2": "ud",
+    "Ahora": "11/02/01 09:53:14"
+  },
+  {
+    "IdRegTipUdMed": "25",
+    "TipMedN1": "Longitud",
+    "TipMedN2": "m",
+    "Ahora": "11/02/01 09:53:14"
+  },
+  {
+    "IdRegTipUdMed": "26",
+    "TipMedN1": "Superficie",
+    "TipMedN2": "m2",
+    "Ahora": "11/02/01 09:53:14"
+  },
+  {
+    "IdRegTipUdMed": "27",
+    "TipMedN1": "Volumen",
+    "TipMedN2": "m3",
+    "Ahora": "11/02/01 09:53:14"
+  },
+  {
+    "IdRegTipUdMed": "28",
+    "TipMedN1": "Peso",
+    "TipMedN2": "kg",
+    "Ahora": "11/02/01 09:53:14"
+  },
+  {
+    "IdRegTipUdMed": "29",
+    "TipMedN1": "Transporte",
+    "TipMedN2": "m3xkm",
+    "Ahora": "11/02/01 09:53:14"
+  },
+  {
+    "IdRegTipUdMed": "30",
+    "TipMedN1": "Transporte",
+    "TipMedN2": "tnxkm",
+    "Ahora": "11/02/01 09:53:14"
+  },
+  {
+    "IdRegTipUdMed": "31",
+    "TipMedN1": "Fresado",
+    "TipMedN2": "m2xcm",
+    "Ahora": "11/02/01 09:53:14"
+  },
+  {
+    "IdRegTipUdMed": "32",
+    "TipMedN1": "Peso",
+    "TipMedN2": "tn",
+    "Ahora": "04/17/02 12:25:07"
+  },
+  {
+    "IdRegTipUdMed": "33",
+    "TipMedN1": "Volumen",
+    "TipMedN2": "dm3",
+    "Ahora": "05/08/02 12:17:53"
+  },
+  {
+    "IdRegTipUdMed": "34",
+    "TipMedN1": "Longitud",
+    "TipMedN2": "km",
+    "Ahora": "05/08/02 16:29:43"
+  },
+  {
+    "IdRegTipUdMed": "35",
+    "TipMedN1": "Longitud",
+    "TipMedN2": "hm",
+    "Ahora": "05/08/02 16:32:36"
+  },
+  {
+    "IdRegTipUdMed": "36",
+    "TipMedN1": "Partida Alza",
+    "TipMedN2": "PA",
+    "Ahora": "05/08/02 17:40:43"
+  },
+  {
+    "IdRegTipUdMed": "38",
+    "TipMedN1": "Tiempo",
+    "TipMedN2": "dia",
+    "Ahora": "05/27/02 11:21:41"
+  },
+  {
+    "IdRegTipUdMed": "39",
+    "TipMedN1": "Tiempo",
+    "TipMedN2": "hora",
+    "Ahora": "05/27/02 11:21:52"
+  },
+  {
+    "IdRegTipUdMed": "40",
+    "TipMedN1": "Tiempo",
+    "TipMedN2": "mes",
+    "Ahora": "08/13/08 16:40:18"
+  }
+]

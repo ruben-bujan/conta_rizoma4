@@ -1,0 +1,37 @@
+[
+  {
+    "IdRegN01": "16",
+    "IdRegClaN01": "2",
+    "N0": "Documento"
+  },
+  {
+    "IdRegN01": "23",
+    "IdRegClaN01": "5",
+    "N0": "Sitio"
+  },
+  {
+    "IdRegN01": "25",
+    "IdRegClaN01": "6",
+    "N0": "Operativa.Carretera"
+  },
+  {
+    "IdRegN01": "32",
+    "IdRegClaN01": "0",
+    "N0": "PGC"
+  },
+  {
+    "IdRegN01": "46",
+    "IdRegClaN01": "4",
+    "N0": "Interfase"
+  },
+  {
+    "IdRegN01": "50",
+    "IdRegClaN01": "1",
+    "N0": "CentroContable"
+  },
+  {
+    "IdRegN01": "51",
+    "IdRegClaN01": "3",
+    "N0": "Persona"
+  }
+]

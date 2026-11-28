@@ -1,0 +1,117 @@
+[
+  {
+    "IDTContrato": "1",
+    "IdSTPersona": "1",
+    "STContrato": "Destajo"
+  },
+  {
+    "IDTContrato": "2",
+    "IdSTPersona": "1",
+    "STContrato": "Administración"
+  },
+  {
+    "IDTContrato": "3",
+    "IdSTPersona": "1",
+    "STContrato": "Destajo y suministro"
+  },
+  {
+    "IDTContrato": "4",
+    "IdSTPersona": "1",
+    "STContrato": "Administración y suministro"
+  },
+  {
+    "IDTContrato": "13",
+    "IdSTPersona": "1",
+    "STContrato": "Destajo"
+  },
+  {
+    "IDTContrato": "14",
+    "IdSTPersona": "1",
+    "STContrato": "Administración"
+  },
+  {
+    "IDTContrato": "15",
+    "IdSTPersona": "1",
+    "STContrato": "Destajo y suministro"
+  },
+  {
+    "IDTContrato": "16",
+    "IdSTPersona": "1",
+    "STContrato": "Administración y suministro"
+  },
+  {
+    "IDTContrato": "17",
+    "IdSTPersona": "1",
+    "STContrato": "Destajo"
+  },
+  {
+    "IDTContrato": "18",
+    "IdSTPersona": "1",
+    "STContrato": "Administración"
+  },
+  {
+    "IDTContrato": "19",
+    "IdSTPersona": "1",
+    "STContrato": "Destajo y suministro"
+  },
+  {
+    "IDTContrato": "20",
+    "IdSTPersona": "1",
+    "STContrato": "Administración y suministro"
+  },
+  {
+    "IDTContrato": "23",
+    "IdSTPersona": "2",
+    "STContrato": "Medible.Pesada"
+  },
+  {
+    "IDTContrato": "24",
+    "IdSTPersona": "2",
+    "STContrato": "Medible.Conteo"
+  },
+  {
+    "IDTContrato": "25",
+    "IdSTPersona": "2",
+    "STContrato": "Medible.Volumen"
+  },
+  {
+    "IDTContrato": "27",
+    "IdSTPersona": "2",
+    "STContrato": "Medible.Otro"
+  },
+  {
+    "IDTContrato": "31",
+    "IdSTPersona": "2",
+    "STContrato": "Repuesto.Tajo"
+  },
+  {
+    "IDTContrato": "32",
+    "IdSTPersona": "2",
+    "STContrato": "Combustible.Tajo"
+  },
+  {
+    "IDTContrato": "33",
+    "IdSTPersona": "2",
+    "STContrato": "Fungible.Tajo"
+  },
+  {
+    "IDTContrato": "34",
+    "IdSTPersona": "21",
+    "STContrato": "Fijo"
+  },
+  {
+    "IDTContrato": "35",
+    "IdSTPersona": "21",
+    "STContrato": "Temporal"
+  },
+  {
+    "IDTContrato": "36",
+    "IdSTPersona": "22",
+    "STContrato": "Fijo"
+  },
+  {
+    "IDTContrato": "37",
+    "IdSTPersona": "22",
+    "STContrato": "Temporal"
+  }
+]

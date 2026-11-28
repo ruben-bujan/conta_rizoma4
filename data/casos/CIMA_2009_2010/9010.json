@@ -1,0 +1,56 @@
+[
+  {
+    "IdRegConcepto": "2",
+    "DesConcepto": "Viaje",
+    "PrecioConcepto": "0.2",
+    "Unidad": "Km"
+  },
+  {
+    "IdRegConcepto": "14",
+    "DesConcepto": "Comidas",
+    "PrecioConcepto": "",
+    "Unidad": ""
+  },
+  {
+    "IdRegConcepto": "15",
+    "DesConcepto": "Alojamiento",
+    "PrecioConcepto": "",
+    "Unidad": "Noche"
+  },
+  {
+    "IdRegConcepto": "16",
+    "DesConcepto": "Transporte. Taxi",
+    "PrecioConcepto": "",
+    "Unidad": ""
+  },
+  {
+    "IdRegConcepto": "20",
+    "DesConcepto": "Artículos de papelería",
+    "PrecioConcepto": "",
+    "Unidad": ""
+  },
+  {
+    "IdRegConcepto": "21",
+    "DesConcepto": "Artículos de ferretería",
+    "PrecioConcepto": "",
+    "Unidad": ""
+  },
+  {
+    "IdRegConcepto": "22",
+    "DesConcepto": "Otros artículos",
+    "PrecioConcepto": "",
+    "Unidad": ""
+  },
+  {
+    "IdRegConcepto": "23",
+    "DesConcepto": "Combustible",
+    "PrecioConcepto": "",
+    "Unidad": ""
+  },
+  {
+    "IdRegConcepto": "25",
+    "DesConcepto": "Aparcamiento / Peaje",
+    "PrecioConcepto": "",
+    "Unidad": ""
+  }
+]

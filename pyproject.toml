@@ -1,7 +1,3 @@
-# Metadata de conta-rizoma4.
-# Instalación: pip install -e ../conta-rizoma4  (desde rizoma4/)
-# El paquete depende de rizoma4, que debe estar instalado antes.
-
 [build-system]
 requires = ["setuptools>=68", "wheel"]
 build-backend = "setuptools.build_meta"
@@ -13,36 +9,43 @@ description = "Módulo doctrinal del PGC español para Rizoma4."
 readme = "README.md"
 requires-python = ">=3.11"
 license = { text = "Proprietary" }
-authors = [
-    { name = "Rubén Buján", email = "rubenbujanblasco@protonmail.com" },
-]
+authors = [{ name = "Rubén Buján", email = "rubenbujanblasco@protonmail.com" }]
 dependencies = [
-    "rizoma4>=0.4.0",         # kernel + contratos base (editable)
-    "pymysql>=1.1",           # lectura de MariaDB (seed)
+    "rizoma4>=0.4.0",
+    "pymysql>=1.1",
     "psycopg[binary]>=3.1",
     "argon2-cffi>=23.1",
     "pyjwt>=2.8",
     "uvicorn[standard]>=0.27",
     "fastapi>=0.110",
     "httpx>=0.27",
-    "PyYAML>=6.0",   # escritura en conta_rizoma4
+    "python-multipart>=0.0.9",
+    "requests>=2.31",
+    "PyYAML>=6.0",
 ]
 
 [project.optional-dependencies]
-test = [
-    "pytest>=9.0",
-    "pytest-cov>=6.0",
-]
+test = ["pytest>=9.0", "pytest-cov>=6.0", "pytest-mock>=3.12"]
 
-[tool.setuptools]
-packages = [
-    "conta_rizoma4",
-    "conta_rizoma4.contratos",
-]
+# M6: scripts ANTES de tool.*
+[project.scripts]
+conta = "conta_rizoma4.cli:main"
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 python_files = ["test_*.py"]
-addopts = "-m 'not integration'"
-[project.scripts]
-conta = "conta_rizoma4.cli:main"
+# M6: marker declarado; integración se lanza explícitamente (make test-integration)
+addopts = "-m 'not integration and not slow'"
+markers = [
+    "integration: requiere servicios reales (MariaDB/PostgreSQL). `pytest -m integration`.",
+    "slow: dura > 5 s.",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["conta_rizoma4", "conta_rizoma4.*"]
+exclude = [
+    "tests*", "tests.*", "old*", "old.*", "docs*", "doc*",
+    "scripts*", "scripts.*", "data*", "data.*",
+    "mdbtools*", "mdbtools.*", "mdb_extraido*", "mdb_extraido.*",
+]

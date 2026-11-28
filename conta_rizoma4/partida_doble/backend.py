@@ -5,7 +5,7 @@ from abc import ABC, abstractmethod
 from datetime import date
 from typing import Optional
 from .modelo import Asiento, Linea
-from .persistencia import guardar_asiento, borrar_asiento
+from .persistencia import guardar_asiento, revertir_asiento
 from .repositorio import RepositorioAsiento, ReporteCadenaAsientos
 from .creacion import crear_asiento
 from ..operativo.asiento import GENESIS
@@ -21,7 +21,7 @@ class BackendContable(ABC):
     @abstractmethod
     def verificar_cadena(self, empresa_id, **kwargs): ...
     @abstractmethod
-    def borrar(self, empresa_id, indice): ...
+    def borrar(self, empresa_id, indice, motivo="Anulación vía backend", actor="backend"): ...
 
 
 class BackendPostgres(BackendContable):
@@ -48,8 +48,11 @@ class BackendPostgres(BackendContable):
         return acto
     def verificar_cadena(self, empresa_id, **kwargs):
         return RepositorioAsiento(empresa_id, self._pg_url).verificar_cadena(**kwargs)
-    def borrar(self, empresa_id, indice):
-        borrar_asiento(indice, pg_url=self._pg_url, empresa_id=empresa_id)
+    def borrar(self, empresa_id, indice, motivo="Anulación vía backend", actor="backend"):
+        return revertir_asiento(
+            indice_original=indice, motivo=motivo, actor=actor,
+            pg_url=self._pg_url, empresa_id=empresa_id,
+        )
 
 
 class BackendHTTP(BackendContable):
@@ -66,8 +69,15 @@ class BackendHTTP(BackendContable):
             r.raise_for_status()
             return r.json()
     def listar(self, empresa_id, **kwargs):
+        # Convertir objetos date a isoformat si vienen en los kwargs para la query HTTP
+        params = {'empresa_id': empresa_id}
+        for k, v in kwargs.items():
+            if isinstance(v, date):
+                params[k] = v.isoformat()
+            else:
+                params[k] = v
         with self._client() as c:
-            r = c.get(f'{self._base_url}/asientos', params={'empresa_id': empresa_id, **kwargs})
+            r = c.get(f'{self._base_url}/asientos', params=params)
             r.raise_for_status()
             return r.json()
     def crear_siguiente(self, empresa_id, *, fecha, cuenta_pgc, importe_centimos, concepto, creado_por, **kwargs):
@@ -84,10 +94,10 @@ class BackendHTTP(BackendContable):
             r.raise_for_status()
             data = r.json()
             return ReporteCadenaAsientos(empresa_id=empresa_id, desde=data['desde'], hasta=data['hasta'], total=data['total'], cadena_valida=data['cadena_valida'], roturas=data['roturas'])
-    def borrar(self, empresa_id, indice):
-        with self._client() as c:
-            r = c.delete(f'{self._base_url}/asientos/{indice}', params={'empresa_id': empresa_id})
-            r.raise_for_status()
+    def borrar(self, empresa_id, indice, motivo="Anulación vía backend", actor="backend"):
+        raise NotImplementedError(
+            "El backend HTTP no ofrece borrado ni reversión; solicita un endpoint de reversión explícito."
+        )
 
 
 def get_backend():

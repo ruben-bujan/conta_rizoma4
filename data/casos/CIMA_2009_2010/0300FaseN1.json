@@ -1,0 +1,44 @@
+[
+  {
+    "IdFase1": "1",
+    "NºO": "2",
+    "idDepartamento": "1",
+    "Nivel1": "Desarrollo",
+    "Departamento": "Oficina Técnica"
+  },
+  {
+    "IdFase1": "2",
+    "NºO": "3",
+    "idDepartamento": "6",
+    "Nivel1": "Ejecución",
+    "Departamento": "Producción"
+  },
+  {
+    "IdFase1": "3",
+    "NºO": "4",
+    "idDepartamento": "3",
+    "Nivel1": "Tramitación",
+    "Departamento": "Administración"
+  },
+  {
+    "IdFase1": "4",
+    "NºO": "5",
+    "idDepartamento": "4",
+    "Nivel1": "Contractual",
+    "Departamento": "Jurídico"
+  },
+  {
+    "IdFase1": "5",
+    "NºO": "1",
+    "idDepartamento": "7",
+    "Nivel1": "Dirección",
+    "Departamento": "Dirección"
+  },
+  {
+    "IdFase1": "8",
+    "NºO": "6",
+    "idDepartamento": "6",
+    "Nivel1": "Ejecución",
+    "Departamento": "Control"
+  }
+]

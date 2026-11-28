@@ -1,0 +1,38 @@
+[
+  {
+    "IDTPersona": "1",
+    "TPersona": "Proveedor"
+  },
+  {
+    "IDTPersona": "2",
+    "TPersona": "Acreedor"
+  },
+  {
+    "IDTPersona": "3",
+    "TPersona": "Cliente"
+  },
+  {
+    "IDTPersona": "4",
+    "TPersona": "OrganismoPúblico"
+  },
+  {
+    "IDTPersona": "5",
+    "TPersona": "OrganismoOficial"
+  },
+  {
+    "IDTPersona": "7",
+    "TPersona": "Trabajador"
+  },
+  {
+    "IDTPersona": "8",
+    "TPersona": "3ºDeInterés"
+  },
+  {
+    "IDTPersona": "9",
+    "TPersona": "3ºDeIncidencia"
+  },
+  {
+    "IDTPersona": "10",
+    "TPersona": "3ºDeLitigio"
+  }
+]

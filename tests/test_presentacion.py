@@ -5,7 +5,7 @@ from datetime import date
 import pytest
 
 from conta_rizoma4.partida_doble import (
-    borrar_asiento, guardar_asiento,
+    guardar_asiento,
     balance_formateado, pyg_formateado, RepositorioAsiento,
 )
 from conta_rizoma4.actos.facturacion import (
@@ -14,13 +14,14 @@ from conta_rizoma4.actos.facturacion import (
 from conta_rizoma4.actos.inmovilizado import amortizacion_anual
 from conta_rizoma4.actos.facturacion import fact_rec_inmov
 from conta_rizoma4.operativo.asiento import GENESIS
+from test_helpers_db import limpiar_asiento_prueba
 
 
 @pytest.fixture
 def caso_simple():
     """Caso: 2 facturas, 1 gasto, 1 compra inmovilizado, 1 amortización."""
     for i in (8900, 8901, 8902, 8903, 8904):
-        borrar_asiento(i)
+        limpiar_asiento_prueba(i)
     a0 = fact_emit_serv_nac_sin_ret(
         indice=8900, hash_previo=GENESIS, fecha=date(2025, 1, 15),
         base_centimos=100_000, iva_pct=21,
@@ -46,7 +47,7 @@ def caso_simple():
     guardar_asiento(a3)
     yield
     for i in (8900, 8901, 8902, 8903, 8904):
-        borrar_asiento(i)
+        limpiar_asiento_prueba(i)
 
 
 class TestBalanceFormateado:

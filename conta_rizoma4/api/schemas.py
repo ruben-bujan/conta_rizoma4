@@ -2,7 +2,7 @@
 """Modelos Pydantic para la API."""
 from __future__ import annotations
 
-from datetime import date
+from datetime import date, datetime
 from typing import Optional
 
 from pydantic import BaseModel, Field
@@ -30,6 +30,7 @@ class LineaOut(BaseModel):
 
 class AsientoOut(BaseModel):
     indice: int
+    caso_id: Optional[str] = None
     fecha: date
     concepto: str
     lineas: list[LineaOut]
@@ -40,6 +41,7 @@ class AsientoOut(BaseModel):
 
 class AsientoIn(BaseModel):
     empresa_id: str
+    caso_id: str = Field(..., min_length=1, pattern=r"^[A-Za-z0-9_-]+$")
     codigo_acto: str
     fecha: date
     concepto: str
@@ -52,6 +54,8 @@ class AsientoIn(BaseModel):
     lease_id: Optional[str] = None
     obra_id: Optional[str] = None
     documento_ref: Optional[str] = None
+    # H-15: Soporte para lista de referencias documentales N:M
+    documentos_refs: list[str] = Field(default_factory=list, description="Lista de hashes de documentos asociados (N:M)")
 
 
 class VerificarIn(BaseModel):
@@ -67,3 +71,17 @@ class VerificarOut(BaseModel):
     total: int
     cadena_valida: bool
     roturas: list[dict]
+
+class CasoRizoma4In(BaseModel):
+    caso_id: str = Field(..., min_length=1, pattern=r"^[A-Za-z0-9_-]+$")
+
+
+class CasoRizoma4Out(BaseModel):
+    empresa_id: str
+    caso_id: str
+    activo: bool
+    creado_por: str
+    creado_en: Optional[datetime] = None
+    modificado_por: str
+    modificado_en: Optional[datetime] = None
+    desactivado_en: Optional[datetime] = None

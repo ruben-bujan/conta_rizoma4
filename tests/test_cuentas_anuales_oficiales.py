@@ -98,4 +98,20 @@ class TestMemoria:
         )
         assert m.actividad == "Construcción"
         assert m.patrimonio_neto["capital"] == 100_000
-        assert m.propuesta_aplicacion_resultados["a_reservas"] == 50_000
+        assert m.bases_presentacion == ""
+        assert m.aplicacion_resultados == ""
+        assert m.propuesta_aplicacion_resultados == {}
+
+    def test_conserva_aplicacion_solo_si_se_aporta_expresamente(self):
+        m = formatear_memoria(
+            actividad="Construcción", resultado_ejercicio=50_000,
+            capital=100_000, reservas=20_000,
+            bases_presentacion="Datos facilitados por la entidad",
+            aplicacion_resultados="Propuesta pendiente de aprobación",
+            propuesta_aplicacion_resultados={"a_reservas": 20_000},
+            version_normativa="PGC_PYMES",
+        )
+        assert m.bases_presentacion == "Datos facilitados por la entidad"
+        assert m.aplicacion_resultados == "Propuesta pendiente de aprobación"
+        assert m.propuesta_aplicacion_resultados == {"a_reservas": 20_000}
+        assert m.version_normativa == "PGC_PYMES"

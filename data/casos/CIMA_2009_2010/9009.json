@@ -1,0 +1,14 @@
+[
+  {
+    "IdRegTipoReg": "5",
+    "DesTipoRegistro": "Entrada"
+  },
+  {
+    "IdRegTipoReg": "6",
+    "DesTipoRegistro": "Salida"
+  },
+  {
+    "IdRegTipoReg": "7",
+    "DesTipoRegistro": "Interno"
+  }
+]

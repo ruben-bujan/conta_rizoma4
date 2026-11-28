@@ -1,0 +1,7 @@
+IdFormaPago,FormaPago
+1,"Efectivo"
+2,"Cheque"
+3,"Efectos a pagar 30 dias"
+4,"Efectos a pagar 60 dias"
+5,"Efectos a pagar 90 dias"
+6,"Efectos a apagar 120 dias"

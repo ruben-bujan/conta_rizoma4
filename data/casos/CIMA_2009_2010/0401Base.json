@@ -1,0 +1,3142 @@
+[
+  {
+    "IdRegBasePreEle": "1",
+    "IdRegTipPreEle": "1",
+    "CódigoPE": "MO-105",
+    "DescripcionPE": "Peón ordinario",
+    "UdMedidaPE": "h",
+    "PrecioPE": "10.15",
+    "ObservacionesPE": "MO",
+    "Ahora": "03/17/04 13:08:45"
+  },
+  {
+    "IdRegBasePreEle": "2",
+    "IdRegTipPreEle": "3",
+    "CódigoPE": "MAQ-172",
+    "DescripcionPE": "Retroexcavadora hidraulica sobre cadenas de 65 Tn; 170 CV.",
+    "UdMedidaPE": "h",
+    "PrecioPE": "91.90000000000001",
+    "ObservacionesPE": "Tierras Excavacion",
+    "Ahora": "03/17/04 13:08:45"
+  },
+  {
+    "IdRegBasePreEle": "3",
+    "IdRegTipPreEle": "3",
+    "CódigoPE": "MAQ-184",
+    "DescripcionPE": "Camión con caja basculante 6x4; 180 CV.",
+    "UdMedidaPE": "h",
+    "PrecioPE": "36.06",
+    "ObservacionesPE": "Transporte",
+    "Ahora": "03/17/04 13:08:45"
+  },
+  {
+    "IdRegBasePreEle": "4",
+    "IdRegTipPreEle": "1",
+    "CódigoPE": "MO-101",
+    "DescripcionPE": "Capataz",
+    "UdMedidaPE": "h",
+    "PrecioPE": "10.93",
+    "ObservacionesPE": "MO",
+    "Ahora": "03/17/04 13:08:45"
+  },
+  {
+    "IdRegBasePreEle": "5",
+    "IdRegTipPreEle": "3",
+    "CódigoPE": "MAQ-174",
+    "DescripcionPE": "Tractor Bulldozar s/cadenas tipo D-10.",
+    "UdMedidaPE": "h",
+    "PrecioPE": "90.12",
+    "ObservacionesPE": "Tierras Excavacion",
+    "Ahora": "03/17/04 13:08:45"
+  },
+  {
+    "IdRegBasePreEle": "6",
+    "IdRegTipPreEle": "22",
+    "CódigoPE": "CI",
+    "DescripcionPE": "Costes indirectos",
+    "UdMedidaPE": "%",
+    "PrecioPE": "",
+    "ObservacionesPE": "",
+    "Ahora": "03/17/04 13:08:45"
+  },
+  {
+    "IdRegBasePreEle": "7",
+    "IdRegTipPreEle": "24",
+    "CódigoPE": "VAR-176",
+    "DescripcionPE": "P.P. de repercusión de voladura por m3 incluso proyecto, perforación, explosivos y ejecución de la misma, aplicado a excavación",
+    "UdMedidaPE": "m3",
+    "PrecioPE": "1.5",
+    "ObservacionesPE": "Tierras Excavacion",
+    "Ahora": "03/17/04 13:08:45"
+  },
+  {
+    "IdRegBasePreEle": "8",
+    "IdRegTipPreEle": "3",
+    "CódigoPE": "MAQ-175",
+    "DescripcionPE": "Tractor Bulldozar s/cadenas tipo D-8.",
+    "UdMedidaPE": "h",
+    "PrecioPE": "85.94",
+    "ObservacionesPE": "Tierras Excavacion",
+    "Ahora": "03/17/04 13:08:45"
+  },
+  {
+    "IdRegBasePreEle": "9",
+    "IdRegTipPreEle": "3",
+    "CódigoPE": "MAQ-177",
+    "DescripcionPE": "Motoniveladora de bastidor articulado de 175 CV",
+    "UdMedidaPE": "h",
+    "PrecioPE": "51.13",
+    "ObservacionesPE": "Tierras Extension",
+    "Ahora": "03/17/04 13:08:46"
+  },
+  {
+    "IdRegBasePreEle": "10",
+    "IdRegTipPreEle": "3",
+    "CódigoPE": "MAQ-082",
+    "DescripcionPE": "Camión cisterna de 10000 l. para riego asfaltico",
+    "UdMedidaPE": "h",
+    "PrecioPE": "30.05",
+    "ObservacionesPE": "Firmes Riegos emulsion",
+    "Ahora": "03/17/04 13:08:46"
+  },
+  {
+    "IdRegBasePreEle": "11",
+    "IdRegTipPreEle": "3",
+    "CódigoPE": "MAQ-167",
+    "DescripcionPE": "Compactador autopropulsado vibrante de cilindro y ruedas de 15 tn de peso muerto",
+    "UdMedidaPE": "h",
+    "PrecioPE": "33.06",
+    "ObservacionesPE": "Tierras Compactación",
+    "Ahora": "03/17/04 13:08:46"
+  },
+  {
+    "IdRegBasePreEle": "12",
+    "IdRegTipPreEle": "1",
+    "CódigoPE": "MO-104",
+    "DescripcionPE": "Peón especialista",
+    "UdMedidaPE": "h",
+    "PrecioPE": "10.32",
+    "ObservacionesPE": "MO",
+    "Ahora": "03/17/04 13:08:46"
+  },
+  {
+    "IdRegBasePreEle": "13",
+    "IdRegTipPreEle": "3",
+    "CódigoPE": "MAQ-169",
+    "DescripcionPE": "Equipo integrado de estabilización in situ 530 CV",
+    "UdMedidaPE": "h",
+    "PrecioPE": "182",
+    "ObservacionesPE": "Tierras Estabilización",
+    "Ahora": "03/17/04 13:08:46"
+  },
+  {
+    "IdRegBasePreEle": "14",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-079",
+    "DescripcionPE": "Cemento CEM II/A-V 32,5R s/camión puesto en silo",
+    "UdMedidaPE": "tn",
+    "PrecioPE": "66.11",
+    "ObservacionesPE": "Firmes MBC Filler",
+    "Ahora": "03/17/04 13:08:46"
+  },
+  {
+    "IdRegBasePreEle": "15",
+    "IdRegTipPreEle": "25",
+    "CódigoPE": "PAUX009",
+    "DescripcionPE": "Formación de terraplén procedente de préstamos con suelo adecuado. PAUX",
+    "UdMedidaPE": "m3",
+    "PrecioPE": "2.234777",
+    "ObservacionesPE": "Auxiliar",
+    "Ahora": "03/17/04 13:08:46"
+  },
+  {
+    "IdRegBasePreEle": "16",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-170",
+    "DescripcionPE": "Cal viva",
+    "UdMedidaPE": "tn",
+    "PrecioPE": "30.05",
+    "ObservacionesPE": "Tierras Estabilizados",
+    "Ahora": "03/17/04 13:08:46"
+  },
+  {
+    "IdRegBasePreEle": "17",
+    "IdRegTipPreEle": "3",
+    "CódigoPE": "MAQ-171",
+    "DescripcionPE": "Retroexcavadora hidráulica sobre cadenas de 40 Tn.",
+    "UdMedidaPE": "h",
+    "PrecioPE": "67.91",
+    "ObservacionesPE": "Tierras Excavacion",
+    "Ahora": "03/17/04 13:08:46"
+  },
+  {
+    "IdRegBasePreEle": "18",
+    "IdRegTipPreEle": "3",
+    "CódigoPE": "MAQ-173",
+    "DescripcionPE": "Retroexcavadora sobre ruedas de 72 CV con martillo 13 Tn.",
+    "UdMedidaPE": "h",
+    "PrecioPE": "43.27",
+    "ObservacionesPE": "Tierras Excavacion",
+    "Ahora": "03/17/04 13:08:46"
+  },
+  {
+    "IdRegBasePreEle": "19",
+    "IdRegTipPreEle": "24",
+    "CódigoPE": "VAR-181",
+    "DescripcionPE": "Canon de vertido en vertedero autorizado",
+    "UdMedidaPE": "m3",
+    "PrecioPE": "0.15",
+    "ObservacionesPE": "Tierras Vertedero",
+    "Ahora": "03/17/04 13:08:46"
+  },
+  {
+    "IdRegBasePreEle": "20",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-180",
+    "DescripcionPE": "Entibación.",
+    "UdMedidaPE": "m2",
+    "PrecioPE": "9.02",
+    "ObservacionesPE": "Tierras Sujeccion",
+    "Ahora": "03/17/04 13:08:46"
+  },
+  {
+    "IdRegBasePreEle": "21",
+    "IdRegTipPreEle": "3",
+    "CódigoPE": "MAQ-002",
+    "DescripcionPE": "Bomba centrifuga de superficie para agua sucia; 6 CV.",
+    "UdMedidaPE": "h",
+    "PrecioPE": "3.61",
+    "ObservacionesPE": "Auxiliar",
+    "Ahora": "03/17/04 13:08:46"
+  },
+  {
+    "IdRegBasePreEle": "22",
+    "IdRegTipPreEle": "3",
+    "CódigoPE": "MAQ-189",
+    "DescripcionPE": "Camión tanque para agua (10 m3); 120 CV",
+    "UdMedidaPE": "h",
+    "PrecioPE": "30.05",
+    "ObservacionesPE": "Transporte",
+    "Ahora": "03/17/04 13:08:47"
+  },
+  {
+    "IdRegBasePreEle": "23",
+    "IdRegTipPreEle": "24",
+    "CódigoPE": "VAR-178",
+    "DescripcionPE": "Canon de extracción Suelo adecuado",
+    "UdMedidaPE": "m3",
+    "PrecioPE": "0.3",
+    "ObservacionesPE": "Tierras Prestamo",
+    "Ahora": "03/17/04 13:08:47"
+  },
+  {
+    "IdRegBasePreEle": "24",
+    "IdRegTipPreEle": "3",
+    "CódigoPE": "MAQ-168",
+    "DescripcionPE": "Compactador manual tipo rana",
+    "UdMedidaPE": "h",
+    "PrecioPE": "2.1",
+    "ObservacionesPE": "Tierras Compactación",
+    "Ahora": "03/17/04 13:08:47"
+  },
+  {
+    "IdRegBasePreEle": "25",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-013",
+    "DescripcionPE": "Geotextil poliester 150 gr/m2",
+    "UdMedidaPE": "m2",
+    "PrecioPE": "0.84",
+    "ObservacionesPE": "Drenaje plasticos laminas",
+    "Ahora": "03/17/04 13:08:47"
+  },
+  {
+    "IdRegBasePreEle": "26",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-011",
+    "DescripcionPE": "Junta de PVC",
+    "UdMedidaPE": "m2",
+    "PrecioPE": "16.2",
+    "ObservacionesPE": "Drenaje plasticos junta",
+    "Ahora": "03/17/04 13:08:47"
+  },
+  {
+    "IdRegBasePreEle": "27",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-014",
+    "DescripcionPE": "Mastic bituminoso para sellado de juntas de 20 mm",
+    "UdMedidaPE": "kg",
+    "PrecioPE": "14.26",
+    "ObservacionesPE": "Drenaje plasticos Sellado",
+    "Ahora": "03/17/04 13:08:47"
+  },
+  {
+    "IdRegBasePreEle": "28",
+    "IdRegTipPreEle": "25",
+    "CódigoPE": "PAUX007",
+    "DescripcionPE": "Acero B 500 S para armaduras, cortado y doblado.",
+    "UdMedidaPE": "kg",
+    "PrecioPE": "0.45",
+    "ObservacionesPE": "Ferralla",
+    "Ahora": "03/17/04 13:08:47"
+  },
+  {
+    "IdRegBasePreEle": "29",
+    "IdRegTipPreEle": "1",
+    "CódigoPE": "MO-102",
+    "DescripcionPE": "Oficial 1º",
+    "UdMedidaPE": "h",
+    "PrecioPE": "10.58",
+    "ObservacionesPE": "MO",
+    "Ahora": "03/17/04 13:08:47"
+  },
+  {
+    "IdRegBasePreEle": "30",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-015",
+    "DescripcionPE": "Tubo de PVC de d=110 mm.",
+    "UdMedidaPE": "m",
+    "PrecioPE": "1.74",
+    "ObservacionesPE": "Drenaje plasticos tubos",
+    "Ahora": "03/17/04 13:08:47"
+  },
+  {
+    "IdRegBasePreEle": "31",
+    "IdRegTipPreEle": "25",
+    "CódigoPE": "PAUX004",
+    "DescripcionPE": "Hormigón en masa tipo HM-15.  Adquirido en central y puesto en obra",
+    "UdMedidaPE": "m3",
+    "PrecioPE": "30",
+    "ObservacionesPE": "Hormigones preparados",
+    "Ahora": "03/17/04 13:08:47"
+  },
+  {
+    "IdRegBasePreEle": "32",
+    "IdRegTipPreEle": "3",
+    "CódigoPE": "MAQ-089",
+    "DescripcionPE": "Bomba para hormigón, s/camión con pluma de 32 m. y 24 m3/h.",
+    "UdMedidaPE": "h",
+    "PrecioPE": "80",
+    "ObservacionesPE": "Hormigones Colocación",
+    "Ahora": "03/17/04 13:08:47"
+  },
+  {
+    "IdRegBasePreEle": "33",
+    "IdRegTipPreEle": "25",
+    "CódigoPE": "PAUX006",
+    "DescripcionPE": "Hormigón para armar tipo HA-25. Adquirido en central y puesto en obra",
+    "UdMedidaPE": "m3",
+    "PrecioPE": "43",
+    "ObservacionesPE": "Hormigones preparados",
+    "Ahora": "03/17/04 13:08:47"
+  },
+  {
+    "IdRegBasePreEle": "34",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-043",
+    "DescripcionPE": "Accesorios de encofrado",
+    "UdMedidaPE": "ud",
+    "PrecioPE": "0.72",
+    "ObservacionesPE": "Encofrado",
+    "Ahora": "03/17/04 13:08:48"
+  },
+  {
+    "IdRegBasePreEle": "35",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-045",
+    "DescripcionPE": "Alquiler de puesta de panel fenólico de 25 mm. de espesor maximo 5 puestas, periodo normal",
+    "UdMedidaPE": "m2",
+    "PrecioPE": "3",
+    "ObservacionesPE": "Encofrado",
+    "Ahora": "03/17/04 13:08:48"
+  },
+  {
+    "IdRegBasePreEle": "36",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-046",
+    "DescripcionPE": "Desencofrante",
+    "UdMedidaPE": "kg",
+    "PrecioPE": "2.7",
+    "ObservacionesPE": "Encofrado",
+    "Ahora": "03/17/04 13:08:48"
+  },
+  {
+    "IdRegBasePreEle": "37",
+    "IdRegTipPreEle": "3",
+    "CódigoPE": "MAQ-040",
+    "DescripcionPE": "Camión con caja fija y grúa de 12 t;180 CV.",
+    "UdMedidaPE": "h",
+    "PrecioPE": "30.05",
+    "ObservacionesPE": "Elevación",
+    "Ahora": "03/17/04 13:08:48"
+  },
+  {
+    "IdRegBasePreEle": "38",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-044",
+    "DescripcionPE": "Alquiler de puesta de Cimbra periodo normal",
+    "UdMedidaPE": "m3",
+    "PrecioPE": "4.5",
+    "ObservacionesPE": "Encofrado",
+    "Ahora": "03/17/04 13:08:48"
+  },
+  {
+    "IdRegBasePreEle": "39",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-050",
+    "DescripcionPE": "Pintura asfáltica tableros y trasdoses de muros",
+    "UdMedidaPE": "kg",
+    "PrecioPE": "3.5",
+    "ObservacionesPE": "Estructuras impermeabilizacion",
+    "Ahora": "03/17/04 13:08:48"
+  },
+  {
+    "IdRegBasePreEle": "40",
+    "IdRegTipPreEle": "25",
+    "CódigoPE": "PAUX005",
+    "DescripcionPE": "Hormigón en masa tipo HM-20.  Adquirido en central y puesto en obra",
+    "UdMedidaPE": "m3",
+    "PrecioPE": "39",
+    "ObservacionesPE": "Hormigones preparados",
+    "Ahora": "03/17/04 13:08:48"
+  },
+  {
+    "IdRegBasePreEle": "41",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-030",
+    "DescripcionPE": "Tubería de hormigón armado d=1000 mm. Serie D.",
+    "UdMedidaPE": "m",
+    "PrecioPE": "84.73999999999999",
+    "ObservacionesPE": "Drenaje prefabricados tubos",
+    "Ahora": "03/17/04 13:08:48"
+  },
+  {
+    "IdRegBasePreEle": "42",
+    "IdRegTipPreEle": "25",
+    "CódigoPE": "PAUX001",
+    "DescripcionPE": "Excavación en zanjas, pozos o cimientos en cualquier tipo de terreno, incluyendo la entibiacin, agotamiento, carga y el transporte a vertedero o lugar de empleo",
+    "UdMedidaPE": "m3",
+    "PrecioPE": "1.74",
+    "ObservacionesPE": "Tierras Excavacion",
+    "Ahora": "03/17/04 13:08:48"
+  },
+  {
+    "IdRegBasePreEle": "43",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-031",
+    "DescripcionPE": "Tubería de hormigón armado d=1200 mm. Serie D.",
+    "UdMedidaPE": "m",
+    "PrecioPE": "103.37",
+    "ObservacionesPE": "Drenaje prefabricados tubos",
+    "Ahora": "03/17/04 13:08:48"
+  },
+  {
+    "IdRegBasePreEle": "44",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-032",
+    "DescripcionPE": "Tubería de hormigón armado d=1800 mm. Serie D.",
+    "UdMedidaPE": "m",
+    "PrecioPE": "159.27",
+    "ObservacionesPE": "Drenaje prefabricados tubos",
+    "Ahora": "03/17/04 13:08:48"
+  },
+  {
+    "IdRegBasePreEle": "45",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-023",
+    "DescripcionPE": "Embocadura prefabricada recta Ø 1000",
+    "UdMedidaPE": "ud",
+    "PrecioPE": "234.39",
+    "ObservacionesPE": "Drenaje prefabricados boquillas",
+    "Ahora": "03/17/04 13:08:48"
+  },
+  {
+    "IdRegBasePreEle": "46",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-018",
+    "DescripcionPE": "Embocadura prefabricada esviada Ø 1000",
+    "UdMedidaPE": "ud",
+    "PrecioPE": "351.59",
+    "ObservacionesPE": "Drenaje prefabricados boquillas",
+    "Ahora": "03/17/04 13:08:49"
+  },
+  {
+    "IdRegBasePreEle": "47",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-024",
+    "DescripcionPE": "Embocadura prefabricada recta Ø 1200",
+    "UdMedidaPE": "ud",
+    "PrecioPE": "328.49",
+    "ObservacionesPE": "Drenaje prefabricados boquillas",
+    "Ahora": "03/17/04 13:08:49"
+  },
+  {
+    "IdRegBasePreEle": "48",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-019",
+    "DescripcionPE": "Embocadura prefabricada esviada Ø 1200",
+    "UdMedidaPE": "ud",
+    "PrecioPE": "432.73",
+    "ObservacionesPE": "Drenaje prefabricados boquillas",
+    "Ahora": "03/17/04 13:08:49"
+  },
+  {
+    "IdRegBasePreEle": "49",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-025",
+    "DescripcionPE": "Embocadura prefabricada recta Ø 1800",
+    "UdMedidaPE": "ud",
+    "PrecioPE": "534.49",
+    "ObservacionesPE": "Drenaje prefabricados boquillas",
+    "Ahora": "03/17/04 13:08:49"
+  },
+  {
+    "IdRegBasePreEle": "50",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-020",
+    "DescripcionPE": "Embocadura prefabricada esviada Ø 1800",
+    "UdMedidaPE": "ud",
+    "PrecioPE": "802.35",
+    "ObservacionesPE": "Drenaje prefabricados boquillas",
+    "Ahora": "03/17/04 13:08:49"
+  },
+  {
+    "IdRegBasePreEle": "51",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-026",
+    "DescripcionPE": "Bordillo prefabricado drenaje 12 x 12 cm",
+    "UdMedidaPE": "m",
+    "PrecioPE": "3.6",
+    "ObservacionesPE": "Drenaje prefabricados bordillos",
+    "Ahora": "03/17/04 13:08:50"
+  },
+  {
+    "IdRegBasePreEle": "52",
+    "IdRegTipPreEle": "3",
+    "CódigoPE": "MAQ-090",
+    "DescripcionPE": "Máquina c/ encofrado deslizante para bordillo",
+    "UdMedidaPE": "h",
+    "PrecioPE": "67.31",
+    "ObservacionesPE": "Hormigones Colocación",
+    "Ahora": "03/17/04 13:08:50"
+  },
+  {
+    "IdRegBasePreEle": "53",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-017",
+    "DescripcionPE": "Bajante prefabricada de 60 cm de ancho",
+    "UdMedidaPE": "m",
+    "PrecioPE": "11.9",
+    "ObservacionesPE": "Drenaje prefabricados bajantes",
+    "Ahora": "03/17/04 13:08:50"
+  },
+  {
+    "IdRegBasePreEle": "54",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-016",
+    "DescripcionPE": "Bajante prefabricada de 40 cm de ancho",
+    "UdMedidaPE": "m",
+    "PrecioPE": "6.91",
+    "ObservacionesPE": "Drenaje prefabricados bajantes",
+    "Ahora": "03/17/04 13:08:50"
+  },
+  {
+    "IdRegBasePreEle": "55",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-039",
+    "DescripcionPE": "Tapa de hormigón armado de 1,62 m x 1,62 m con Ø=10 cada 10 cm soldada a marco galvanizado en caliente, formado por L100x100x10, incluso pletina L 140x140x10 y boca de hombre con tapa, pasador y candado todo galvanizado en caliente, s/planos",
+    "UdMedidaPE": "ud",
+    "PrecioPE": "537.91",
+    "ObservacionesPE": "Drenaje tapas",
+    "Ahora": "03/17/04 13:08:50"
+  },
+  {
+    "IdRegBasePreEle": "56",
+    "IdRegTipPreEle": "25",
+    "CódigoPE": "PAUX003",
+    "DescripcionPE": "Encofrado visto en paramentos planos, incluso desencofrado, p.p. de apeos necesarios, arriostramientos, distanciadores, medios auxiliares y accesorios, totalmente ejecutado",
+    "UdMedidaPE": "m2",
+    "PrecioPE": "22.77",
+    "ObservacionesPE": "Encofrado",
+    "Ahora": "03/17/04 13:08:50"
+  },
+  {
+    "IdRegBasePreEle": "57",
+    "IdRegTipPreEle": "25",
+    "CódigoPE": "PAUX002",
+    "DescripcionPE": "Relleno localizado y compactado, en zanjas, pozos y obras de fábrica totalmente terminado.",
+    "UdMedidaPE": "m3",
+    "PrecioPE": "4.36",
+    "ObservacionesPE": "Tierras Relleno",
+    "Ahora": "03/17/04 13:08:50"
+  },
+  {
+    "IdRegBasePreEle": "58",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-037",
+    "DescripcionPE": "Rejilla galvanizada en caliente Ø=16 cada 10 cm montada en marco galvanizado en caliente L60x60x10 con dimensiones y disposición s/plano",
+    "UdMedidaPE": "ud",
+    "PrecioPE": "269.25",
+    "ObservacionesPE": "Drenaje tapas",
+    "Ahora": "03/17/04 13:08:50"
+  },
+  {
+    "IdRegBasePreEle": "59",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-038",
+    "DescripcionPE": "Tapa de fundición de 600 mm con aro L40x40x4 galvanizado y s/planos",
+    "UdMedidaPE": "ud",
+    "PrecioPE": "25.9",
+    "ObservacionesPE": "Drenaje tapas",
+    "Ahora": "03/17/04 13:08:51"
+  },
+  {
+    "IdRegBasePreEle": "60",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-028",
+    "DescripcionPE": "Anillo prefrabricado para pozo de 800 mm de diámetro s/planos",
+    "UdMedidaPE": "ud",
+    "PrecioPE": "13.97",
+    "ObservacionesPE": "Drenaje prefabricados pozos",
+    "Ahora": "03/17/04 13:08:51"
+  },
+  {
+    "IdRegBasePreEle": "61",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-029",
+    "DescripcionPE": "Excéntrica Ø 800 con reducción a Ø 600 mm de hormigón vibroprensado, s/planos",
+    "UdMedidaPE": "ud",
+    "PrecioPE": "25.06",
+    "ObservacionesPE": "Drenaje prefabricados pozos",
+    "Ahora": "03/17/04 13:08:51"
+  },
+  {
+    "IdRegBasePreEle": "62",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-033",
+    "DescripcionPE": "Tubería de hormigón armado d=600 mm. Serie D.",
+    "UdMedidaPE": "m",
+    "PrecioPE": "58.9",
+    "ObservacionesPE": "Drenaje prefabricados tubos",
+    "Ahora": "03/17/04 13:08:51"
+  },
+  {
+    "IdRegBasePreEle": "63",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-035",
+    "DescripcionPE": "Tubo de hormigón vibroprensado de Ø 600",
+    "UdMedidaPE": "m",
+    "PrecioPE": "39.27",
+    "ObservacionesPE": "Drenaje prefabricados tubos",
+    "Ahora": "03/17/04 13:08:51"
+  },
+  {
+    "IdRegBasePreEle": "64",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-036",
+    "DescripcionPE": "Tubo de hormigón vibroprensado de Ø 800",
+    "UdMedidaPE": "m",
+    "PrecioPE": "55.29",
+    "ObservacionesPE": "Drenaje prefabricados tubos",
+    "Ahora": "03/17/04 13:08:51"
+  },
+  {
+    "IdRegBasePreEle": "65",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-034",
+    "DescripcionPE": "Tubo de hormigón vibroprensado de Ø 1200",
+    "UdMedidaPE": "m",
+    "PrecioPE": "68.92",
+    "ObservacionesPE": "Drenaje prefabricados tubos",
+    "Ahora": "03/17/04 13:08:51"
+  },
+  {
+    "IdRegBasePreEle": "66",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-021",
+    "DescripcionPE": "Embocadura prefabricada recta Ø 600",
+    "UdMedidaPE": "ud",
+    "PrecioPE": "132.2",
+    "ObservacionesPE": "Drenaje prefabricados boquillas",
+    "Ahora": "03/17/04 13:08:51"
+  },
+  {
+    "IdRegBasePreEle": "67",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-022",
+    "DescripcionPE": "Embocadura prefabricada recta Ø 800",
+    "UdMedidaPE": "m",
+    "PrecioPE": "180.3",
+    "ObservacionesPE": "Drenaje prefabricados boquillas",
+    "Ahora": "03/17/04 13:08:52"
+  },
+  {
+    "IdRegBasePreEle": "68",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-027",
+    "DescripcionPE": "Caz prefabricado de diámetro 300",
+    "UdMedidaPE": "m",
+    "PrecioPE": "54.09",
+    "ObservacionesPE": "Drenaje prefabricados caz",
+    "Ahora": "03/17/04 13:08:52"
+  },
+  {
+    "IdRegBasePreEle": "69",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-010",
+    "DescripcionPE": "Material Granular filtrante proveniente de planta puesto en obra",
+    "UdMedidaPE": "tn",
+    "PrecioPE": "5.71",
+    "ObservacionesPE": "Drenaje aridos",
+    "Ahora": "03/17/04 13:08:52"
+  },
+  {
+    "IdRegBasePreEle": "70",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-008",
+    "DescripcionPE": "Escollera de 100-250 kg",
+    "UdMedidaPE": "m3",
+    "PrecioPE": "13.22",
+    "ObservacionesPE": "Drenaje aridos",
+    "Ahora": "03/17/04 13:08:53"
+  },
+  {
+    "IdRegBasePreEle": "71",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-009",
+    "DescripcionPE": "Escollera de 250--500 kg",
+    "UdMedidaPE": "m3",
+    "PrecioPE": "16.83",
+    "ObservacionesPE": "Drenaje aridos",
+    "Ahora": "03/17/04 13:08:53"
+  },
+  {
+    "IdRegBasePreEle": "72",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-007",
+    "DescripcionPE": "Escollera de 1000-1200 kg",
+    "UdMedidaPE": "m3",
+    "PrecioPE": "19.23",
+    "ObservacionesPE": "Drenaje aridos",
+    "Ahora": "03/17/04 13:08:53"
+  },
+  {
+    "IdRegBasePreEle": "73",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-067",
+    "DescripcionPE": "Zahorra artificial adquirida en planta y puesta en obra",
+    "UdMedidaPE": "tn",
+    "PrecioPE": "4.8",
+    "ObservacionesPE": "Firmes aridos ZA",
+    "Ahora": "03/17/04 13:08:53"
+  },
+  {
+    "IdRegBasePreEle": "74",
+    "IdRegTipPreEle": "3",
+    "CódigoPE": "MAQ-076",
+    "DescripcionPE": "Compactador autopropulsado vibrante de dos cilindros tandem de 15 tn; 90 CV.",
+    "UdMedidaPE": "h",
+    "PrecioPE": "36.06",
+    "ObservacionesPE": "Firmes MBC Compactación",
+    "Ahora": "03/17/04 13:08:53"
+  },
+  {
+    "IdRegBasePreEle": "75",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-083",
+    "DescripcionPE": "Emulsión ECL",
+    "UdMedidaPE": "tn",
+    "PrecioPE": "156.26",
+    "ObservacionesPE": "Firmes Riegos emulsion",
+    "Ahora": "03/17/04 13:08:53"
+  },
+  {
+    "IdRegBasePreEle": "76",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-081",
+    "DescripcionPE": "Arido T max 6 mm en riegos y tratamientos",
+    "UdMedidaPE": "tn",
+    "PrecioPE": "6.31",
+    "ObservacionesPE": "Firmes Riegos aridos",
+    "Ahora": "03/17/04 13:08:53"
+  },
+  {
+    "IdRegBasePreEle": "77",
+    "IdRegTipPreEle": "3",
+    "CódigoPE": "MAQ-068",
+    "DescripcionPE": "Barredora con recogida de material; 50 CV.",
+    "UdMedidaPE": "h",
+    "PrecioPE": "36.06",
+    "ObservacionesPE": "Firmes barrido",
+    "Ahora": "03/17/04 13:08:53"
+  },
+  {
+    "IdRegBasePreEle": "78",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-084",
+    "DescripcionPE": "Emulsión ECR-1",
+    "UdMedidaPE": "tn",
+    "PrecioPE": "168.28",
+    "ObservacionesPE": "Firmes Riegos emulsion",
+    "Ahora": "03/17/04 13:08:54"
+  },
+  {
+    "IdRegBasePreEle": "79",
+    "IdRegTipPreEle": "3",
+    "CódigoPE": "MAQ-085",
+    "DescripcionPE": "Planta de fabricación de suelo cemento",
+    "UdMedidaPE": "h",
+    "PrecioPE": "500",
+    "ObservacionesPE": "Firmes SC",
+    "Ahora": "03/17/04 13:08:54"
+  },
+  {
+    "IdRegBasePreEle": "80",
+    "IdRegTipPreEle": "3",
+    "CódigoPE": "MAQ-077",
+    "DescripcionPE": "Extendedora de mezcla asfaltica s/cadenas de 3 a 8,5 M; 110 CV.",
+    "UdMedidaPE": "h",
+    "PrecioPE": "132.22",
+    "ObservacionesPE": "Firmes MBC extendido",
+    "Ahora": "03/17/04 13:08:54"
+  },
+  {
+    "IdRegBasePreEle": "81",
+    "IdRegTipPreEle": "3",
+    "CódigoPE": "MAQ-075",
+    "DescripcionPE": "Apisonadora compactadora autopropulsada de neumáticos de 15 tn; 120 CV.",
+    "UdMedidaPE": "h",
+    "PrecioPE": "48.08",
+    "ObservacionesPE": "Firmes MBC Compactación",
+    "Ahora": "03/17/04 13:08:54"
+  },
+  {
+    "IdRegBasePreEle": "82",
+    "IdRegTipPreEle": "1",
+    "CódigoPE": "MO-103",
+    "DescripcionPE": "Oficial 2º",
+    "UdMedidaPE": "h",
+    "PrecioPE": "10.5",
+    "ObservacionesPE": "MO",
+    "Ahora": "03/17/04 13:08:54"
+  },
+  {
+    "IdRegBasePreEle": "83",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-072",
+    "DescripcionPE": "Árido discontinuo Tmax 10 mm para capa de rodadura tipo M",
+    "UdMedidaPE": "m3",
+    "PrecioPE": "5.1",
+    "ObservacionesPE": "Firmes MBC aridos",
+    "Ahora": "03/17/04 13:08:54"
+  },
+  {
+    "IdRegBasePreEle": "84",
+    "IdRegTipPreEle": "3",
+    "CódigoPE": "MAQ-078",
+    "DescripcionPE": "Planta fija discontinua productora de mezclas asfalticas en caliente 160 T/h; 280 CV",
+    "UdMedidaPE": "h",
+    "PrecioPE": "1160",
+    "ObservacionesPE": "Firmes MBC fabricaci'on",
+    "Ahora": "03/17/04 13:08:54"
+  },
+  {
+    "IdRegBasePreEle": "85",
+    "IdRegTipPreEle": "3",
+    "CódigoPE": "MAQ-185",
+    "DescripcionPE": "Camión con caja basculante 6x6; 240 CV.",
+    "UdMedidaPE": "h",
+    "PrecioPE": "39.07",
+    "ObservacionesPE": "Transporte",
+    "Ahora": "03/17/04 13:08:54"
+  },
+  {
+    "IdRegBasePreEle": "86",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-071",
+    "DescripcionPE": "Árido continuo Tmax 20 mm para capa de base e intermedia tipo S",
+    "UdMedidaPE": "m3",
+    "PrecioPE": "4.1",
+    "ObservacionesPE": "Firmes MBC aridos",
+    "Ahora": "03/17/04 13:08:54"
+  },
+  {
+    "IdRegBasePreEle": "87",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-074",
+    "DescripcionPE": "Betún tipo B-60/70 en mezclas bituminosas.",
+    "UdMedidaPE": "tn",
+    "PrecioPE": "145",
+    "ObservacionesPE": "Firmes MBC betunes",
+    "Ahora": "03/17/04 13:08:54"
+  },
+  {
+    "IdRegBasePreEle": "88",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-080",
+    "DescripcionPE": "Filler calizo de aportación para mezclas bituminosas",
+    "UdMedidaPE": "tn",
+    "PrecioPE": "27.05",
+    "ObservacionesPE": "Firmes MBC filler",
+    "Ahora": "03/17/04 13:08:54"
+  },
+  {
+    "IdRegBasePreEle": "89",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-073",
+    "DescripcionPE": "Betún modificado con polímeros tipo BM-3a en mezclas bituminosas.",
+    "UdMedidaPE": "tn",
+    "PrecioPE": "193",
+    "ObservacionesPE": "Firmes MBC betunes",
+    "Ahora": "03/17/04 13:08:55"
+  },
+  {
+    "IdRegBasePreEle": "90",
+    "IdRegTipPreEle": "3",
+    "CódigoPE": "MAQ-070",
+    "DescripcionPE": "Fresadora 1 m. 75 CV",
+    "UdMedidaPE": "h",
+    "PrecioPE": "30",
+    "ObservacionesPE": "Firmes Fresado",
+    "Ahora": "03/17/04 13:08:55"
+  },
+  {
+    "IdRegBasePreEle": "91",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-069",
+    "DescripcionPE": "Bordillo prefabricado montable 27x12x20 para glorietas",
+    "UdMedidaPE": "m3",
+    "PrecioPE": "4.51",
+    "ObservacionesPE": "Firmes bordillos",
+    "Ahora": "03/17/04 13:08:55"
+  },
+  {
+    "IdRegBasePreEle": "92",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-012",
+    "DescripcionPE": "Lámina Geodrén",
+    "UdMedidaPE": "m2",
+    "PrecioPE": "4.28",
+    "ObservacionesPE": "Drenaje plasticos laminas",
+    "Ahora": "03/17/04 13:08:55"
+  },
+  {
+    "IdRegBasePreEle": "93",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-006",
+    "DescripcionPE": "Mortero M-450",
+    "UdMedidaPE": "m3",
+    "PrecioPE": "53.49",
+    "ObservacionesPE": "Auxiliar",
+    "Ahora": "03/17/04 13:08:56"
+  },
+  {
+    "IdRegBasePreEle": "94",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-054",
+    "DescripcionPE": "Rejilla para desagüe en tableros",
+    "UdMedidaPE": "ud",
+    "PrecioPE": "8.289999999999999",
+    "ObservacionesPE": "Estructuras terminaciones",
+    "Ahora": "03/17/04 13:08:56"
+  },
+  {
+    "IdRegBasePreEle": "95",
+    "IdRegTipPreEle": "3",
+    "CódigoPE": "MAQ-041",
+    "DescripcionPE": "Grúa sobre neumáticos autopropulsada de pluma telescópica c.max. 40 T;350 CV.",
+    "UdMedidaPE": "h",
+    "PrecioPE": "88.95",
+    "ObservacionesPE": "Elevación",
+    "Ahora": "03/17/04 13:08:56"
+  },
+  {
+    "IdRegBasePreEle": "96",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-059",
+    "DescripcionPE": "Viga artesa prefabricada de hormigón pretensado, de 140 cm de canto.c/p.p. de neoprenos y cunas",
+    "UdMedidaPE": "m",
+    "PrecioPE": "630",
+    "ObservacionesPE": "Estructuras vigas artesa",
+    "Ahora": "03/17/04 13:08:56"
+  },
+  {
+    "IdRegBasePreEle": "97",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-052",
+    "DescripcionPE": "Pila prefabricada de hormigón armado 120 cm x 120 cm c/ p.p.de dintel",
+    "UdMedidaPE": "m",
+    "PrecioPE": "1442.43",
+    "ObservacionesPE": "Estructuras prefabricados",
+    "Ahora": "03/17/04 13:08:56"
+  },
+  {
+    "IdRegBasePreEle": "98",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-048",
+    "DescripcionPE": "Placa eoncofrado perdido biapoyado",
+    "UdMedidaPE": "m2",
+    "PrecioPE": "10",
+    "ObservacionesPE": "Estructuras encofrados perdidos",
+    "Ahora": "03/17/04 13:08:56"
+  },
+  {
+    "IdRegBasePreEle": "99",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-049",
+    "DescripcionPE": "Placa eoncofrado perdido en voladizo I/ armadura transversal",
+    "UdMedidaPE": "m2",
+    "PrecioPE": "17",
+    "ObservacionesPE": "Estructuras encofrados perdidos",
+    "Ahora": "03/17/04 13:08:56"
+  },
+  {
+    "IdRegBasePreEle": "100",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-047",
+    "DescripcionPE": "Materiales para junta plástica de continuidad s/ planos",
+    "UdMedidaPE": "m",
+    "PrecioPE": "80",
+    "ObservacionesPE": "Estructuras",
+    "Ahora": "03/17/04 13:08:57"
+  },
+  {
+    "IdRegBasePreEle": "101",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-051",
+    "DescripcionPE": "Junta calzada tipo transflex 65 mm",
+    "UdMedidaPE": "m",
+    "PrecioPE": "138",
+    "ObservacionesPE": "Estructuras juntas",
+    "Ahora": "03/17/04 13:08:57"
+  },
+  {
+    "IdRegBasePreEle": "102",
+    "IdRegTipPreEle": "3",
+    "CódigoPE": "MAQ-096",
+    "DescripcionPE": "Equipo de medicion y proceso de datos para prueba de carga",
+    "UdMedidaPE": "ud",
+    "PrecioPE": "141.24",
+    "ObservacionesPE": "Laboratorio",
+    "Ahora": "03/17/04 13:08:57"
+  },
+  {
+    "IdRegBasePreEle": "103",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-053",
+    "DescripcionPE": "Pretil metálico c/ imposta homologado",
+    "UdMedidaPE": "m",
+    "PrecioPE": "125",
+    "ObservacionesPE": "Estructuras terminaciones",
+    "Ahora": "03/17/04 13:08:57"
+  },
+  {
+    "IdRegBasePreEle": "104",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-055",
+    "DescripcionPE": "Piedra para encachado",
+    "UdMedidaPE": "tn",
+    "PrecioPE": "8.109999999999999",
+    "ObservacionesPE": "Estructuras Terminaciones",
+    "Ahora": "03/17/04 13:08:57"
+  },
+  {
+    "IdRegBasePreEle": "105",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-060",
+    "DescripcionPE": "Viga artesa prefabricada de hormigón pretensado, de 210 cm de canto.c/ p.p. de neoprenos y cunas",
+    "UdMedidaPE": "m",
+    "PrecioPE": "1100",
+    "ObservacionesPE": "Estructuras vigas artesa",
+    "Ahora": "03/17/04 13:08:57"
+  },
+  {
+    "IdRegBasePreEle": "106",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-139",
+    "DescripcionPE": "Barrera metálica de seguridad BMSNA2/120",
+    "UdMedidaPE": "m",
+    "PrecioPE": "18",
+    "ObservacionesPE": "SB y D Bionda",
+    "Ahora": "03/17/04 13:08:58"
+  },
+  {
+    "IdRegBasePreEle": "107",
+    "IdRegTipPreEle": "4",
+    "CódigoPE": "MAT-142",
+    "DescripcionPE": "Anclaje en tablero para barrera bionda i/ placa, pernos  y anclaje expansivo",
+    "UdMedidaPE": "ud",
+    "PrecioPE": "31",
+    "ObservacionesPE": "SB y D Bionda",
+    "Ahora": "03/17/04 13:08:58"
+  },
+  {
+    "IdRegBasePreEle": "108",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-141",
+    "DescripcionPE": "Terminal de defensa en barreras de  seguridad de doble onda, tipo cola de pez",
+    "UdMedidaPE": "ud",
+    "PrecioPE": "13.14",
+    "ObservacionesPE": "SB y D Bionda",
+    "Ahora": "03/17/04 13:08:58"
+  },
+  {
+    "IdRegBasePreEle": "109",
+    "IdRegTipPreEle": "3",
+    "CódigoPE": "MAQ-136",
+    "DescripcionPE": "Maquina hinca postes",
+    "UdMedidaPE": "h",
+    "PrecioPE": "26",
+    "ObservacionesPE": "SB y D bionda",
+    "Ahora": "03/17/04 13:08:58"
+  },
+  {
+    "IdRegBasePreEle": "110",
+    "IdRegTipPreEle": "23",
+    "CódigoPE": "SINDESCO",
+    "DescripcionPE": "Sin Descomposición",
+    "UdMedidaPE": "",
+    "PrecioPE": "",
+    "ObservacionesPE": "SINDESCO",
+    "Ahora": "03/17/04 13:08:58"
+  },
+  {
+    "IdRegBasePreEle": "111",
+    "IdRegTipPreEle": "3",
+    "CódigoPE": "MAQ-004",
+    "DescripcionPE": "Grupo electrógeno 27 KVA",
+    "UdMedidaPE": "h",
+    "PrecioPE": "12.02",
+    "ObservacionesPE": "Auxiliar",
+    "Ahora": "03/17/04 13:08:58"
+  },
+  {
+    "IdRegBasePreEle": "112",
+    "IdRegTipPreEle": "3",
+    "CódigoPE": "MAQ-057",
+    "DescripcionPE": "Equipo y material para inyección de lechada.",
+    "UdMedidaPE": "h",
+    "PrecioPE": "18.63",
+    "ObservacionesPE": "Estructuras Tesado",
+    "Ahora": "03/17/04 13:08:58"
+  },
+  {
+    "IdRegBasePreEle": "113",
+    "IdRegTipPreEle": "3",
+    "CódigoPE": "MAQ-056",
+    "DescripcionPE": "Equipo tensado cables",
+    "UdMedidaPE": "h",
+    "PrecioPE": "15.03",
+    "ObservacionesPE": "Estructuras Tesado",
+    "Ahora": "03/17/04 13:08:58"
+  },
+  {
+    "IdRegBasePreEle": "114",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-066",
+    "DescripcionPE": "Acero Y 1860 S7 super estabilizado en cables de 4050 mm de sección",
+    "UdMedidaPE": "kg",
+    "PrecioPE": "2.56",
+    "ObservacionesPE": "Ferralla pretensado",
+    "Ahora": "03/17/04 13:08:58"
+  },
+  {
+    "IdRegBasePreEle": "115",
+    "IdRegTipPreEle": "25",
+    "CódigoPE": "PAUX008",
+    "DescripcionPE": "Hormigón para armar tipo HA-35. Adquirido en central y puesto en obra",
+    "UdMedidaPE": "m3",
+    "PrecioPE": "50",
+    "ObservacionesPE": "Hormigones preparados",
+    "Ahora": "03/17/04 13:08:58"
+  },
+  {
+    "IdRegBasePreEle": "116",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-137",
+    "DescripcionPE": "Juego de tornilleria",
+    "UdMedidaPE": "ud",
+    "PrecioPE": "4.51",
+    "ObservacionesPE": "SB y D Bionda",
+    "Ahora": "03/17/04 13:08:59"
+  },
+  {
+    "IdRegBasePreEle": "117",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-145",
+    "DescripcionPE": "Soporte galvanizado 80x40x2 mm.",
+    "UdMedidaPE": "m",
+    "PrecioPE": "7.13",
+    "ObservacionesPE": "SB y D Perfiles",
+    "Ahora": "03/17/04 13:08:59"
+  },
+  {
+    "IdRegBasePreEle": "118",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-155",
+    "DescripcionPE": "Señal triangular reflexiva de 1750 mm. de lado",
+    "UdMedidaPE": "ud",
+    "PrecioPE": "144.24",
+    "ObservacionesPE": "SB y D senal",
+    "Ahora": "03/17/04 13:08:59"
+  },
+  {
+    "IdRegBasePreEle": "119",
+    "IdRegTipPreEle": "3",
+    "CódigoPE": "MAQ-187",
+    "DescripcionPE": "Camión furgoneta",
+    "UdMedidaPE": "h",
+    "PrecioPE": "27.05",
+    "ObservacionesPE": "Transporte",
+    "Ahora": "03/17/04 13:08:59"
+  },
+  {
+    "IdRegBasePreEle": "120",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-163",
+    "DescripcionPE": "Señal triangular de 135 cm. lado",
+    "UdMedidaPE": "ud",
+    "PrecioPE": "109.56",
+    "ObservacionesPE": "SB y D senal triangular",
+    "Ahora": "03/17/04 13:08:59"
+  },
+  {
+    "IdRegBasePreEle": "121",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-162",
+    "DescripcionPE": "Señal octogonal de STOP de 90 cm de lado.",
+    "UdMedidaPE": "ud",
+    "PrecioPE": "70.02",
+    "ObservacionesPE": "SB y D senal STOP",
+    "Ahora": "03/17/04 13:08:59"
+  },
+  {
+    "IdRegBasePreEle": "122",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-158",
+    "DescripcionPE": "Señal circular d=90 cm.",
+    "UdMedidaPE": "ud",
+    "PrecioPE": "62.2",
+    "ObservacionesPE": "SB y D senal circular",
+    "Ahora": "03/17/04 13:08:59"
+  },
+  {
+    "IdRegBasePreEle": "123",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-157",
+    "DescripcionPE": "Panel reflexvio  en lamas de aluminio extrusionado.",
+    "UdMedidaPE": "m2",
+    "PrecioPE": "196.87",
+    "ObservacionesPE": "SB y D senal cartel",
+    "Ahora": "03/17/04 13:08:59"
+  },
+  {
+    "IdRegBasePreEle": "124",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-161",
+    "DescripcionPE": "Panel reflectante en chapas de acero galvanizado",
+    "UdMedidaPE": "m2",
+    "PrecioPE": "132.22",
+    "ObservacionesPE": "SB y D senal panel",
+    "Ahora": "03/17/04 13:08:59"
+  },
+  {
+    "IdRegBasePreEle": "125",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-159",
+    "DescripcionPE": "Señal cuadrada 0,90 m. de lado",
+    "UdMedidaPE": "ud",
+    "PrecioPE": "84.14",
+    "ObservacionesPE": "SB y D senal cuadrada",
+    "Ahora": "03/17/04 13:08:59"
+  },
+  {
+    "IdRegBasePreEle": "126",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-156",
+    "DescripcionPE": "Chapa metálica para carterleria y otra senalizacion vertical",
+    "UdMedidaPE": "kg",
+    "PrecioPE": "1.6",
+    "ObservacionesPE": "SB y D senal Cartel",
+    "Ahora": "03/17/04 13:09:00"
+  },
+  {
+    "IdRegBasePreEle": "127",
+    "IdRegTipPreEle": "3",
+    "CódigoPE": "MAQ-003",
+    "DescripcionPE": "Equipo soldadura",
+    "UdMedidaPE": "h",
+    "PrecioPE": "2.4",
+    "ObservacionesPE": "Auxiliar",
+    "Ahora": "03/17/04 13:09:00"
+  },
+  {
+    "IdRegBasePreEle": "128",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-143",
+    "DescripcionPE": "Perfil IPN.200 de acero galvanizado.",
+    "UdMedidaPE": "kg",
+    "PrecioPE": "0.96",
+    "ObservacionesPE": "SB y D Perfiles",
+    "Ahora": "03/17/04 13:09:00"
+  },
+  {
+    "IdRegBasePreEle": "129",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-153",
+    "DescripcionPE": "Señal circular reflexiva Ø 1200 mm. de diametro",
+    "UdMedidaPE": "ud",
+    "PrecioPE": "156.26",
+    "ObservacionesPE": "SB y D senal",
+    "Ahora": "03/17/04 13:09:00"
+  },
+  {
+    "IdRegBasePreEle": "130",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-154",
+    "DescripcionPE": "Señal rectangular reflexiva de 1800 x 1200 mm",
+    "UdMedidaPE": "ud",
+    "PrecioPE": "274.06",
+    "ObservacionesPE": "SB y D senal",
+    "Ahora": "03/17/04 13:09:00"
+  },
+  {
+    "IdRegBasePreEle": "131",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-160",
+    "DescripcionPE": "Señal cuadrada reflexiva de 1200 x 1200 mm",
+    "UdMedidaPE": "ud",
+    "PrecioPE": "171.88",
+    "ObservacionesPE": "SB y D senal cuadrada",
+    "Ahora": "03/17/04 13:09:00"
+  },
+  {
+    "IdRegBasePreEle": "132",
+    "IdRegTipPreEle": "3",
+    "CódigoPE": "MAQ-147",
+    "DescripcionPE": "Máquina para marcas viales autopropulsada de 760 l.; 45 CV",
+    "UdMedidaPE": "h",
+    "PrecioPE": "42.05",
+    "ObservacionesPE": "SB y D pintura",
+    "Ahora": "03/17/04 13:09:00"
+  },
+  {
+    "IdRegBasePreEle": "133",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-152",
+    "DescripcionPE": "Pintura termoplástica en caliente color blanca",
+    "UdMedidaPE": "kg",
+    "PrecioPE": "1.47",
+    "ObservacionesPE": "SB y D pintura",
+    "Ahora": "03/17/04 13:09:00"
+  },
+  {
+    "IdRegBasePreEle": "134",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-150",
+    "DescripcionPE": "Microesferas de vidrio",
+    "UdMedidaPE": "kg",
+    "PrecioPE": "0.66",
+    "ObservacionesPE": "SB y D Pintura",
+    "Ahora": "03/17/04 13:09:00"
+  },
+  {
+    "IdRegBasePreEle": "135",
+    "IdRegTipPreEle": "3",
+    "CódigoPE": "MAQ-146",
+    "DescripcionPE": "Máquina para marcas viales autopropulsada de 225 l.; 25 CV",
+    "UdMedidaPE": "h",
+    "PrecioPE": "28.5",
+    "ObservacionesPE": "SB y D pintura",
+    "Ahora": "03/17/04 13:09:01"
+  },
+  {
+    "IdRegBasePreEle": "136",
+    "IdRegTipPreEle": "3",
+    "CódigoPE": "MAQ-191",
+    "DescripcionPE": "Dumper 1,5 T; 45 CV",
+    "UdMedidaPE": "h",
+    "PrecioPE": "9.02",
+    "ObservacionesPE": "Transporte",
+    "Ahora": "03/17/04 13:09:01"
+  },
+  {
+    "IdRegBasePreEle": "137",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-148",
+    "DescripcionPE": "Banda sonora en faja de 30 cm de anchura sobre pavimento",
+    "UdMedidaPE": "m",
+    "PrecioPE": "1.75",
+    "ObservacionesPE": "SB y D Pintura",
+    "Ahora": "03/17/04 13:09:01"
+  },
+  {
+    "IdRegBasePreEle": "138",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-140",
+    "DescripcionPE": "Barrera metálica de seguridad BMSNA4/120",
+    "UdMedidaPE": "m",
+    "PrecioPE": "12",
+    "ObservacionesPE": "SB y D Bionda",
+    "Ahora": "03/17/04 13:09:01"
+  },
+  {
+    "IdRegBasePreEle": "139",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-138",
+    "DescripcionPE": "Barrera metálica de seguridad BMDNA4/120",
+    "UdMedidaPE": "m",
+    "PrecioPE": "32",
+    "ObservacionesPE": "SB y D Bionda",
+    "Ahora": "03/17/04 13:09:02"
+  },
+  {
+    "IdRegBasePreEle": "140",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-149",
+    "DescripcionPE": "Barrera metálica de seguridad BMSNC2/120",
+    "UdMedidaPE": "m",
+    "PrecioPE": "44.51",
+    "ObservacionesPE": "SB y D pintura",
+    "Ahora": "03/17/04 13:09:02"
+  },
+  {
+    "IdRegBasePreEle": "141",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-132",
+    "DescripcionPE": "Captafaro de calzada.",
+    "UdMedidaPE": "ud",
+    "PrecioPE": "1.5",
+    "ObservacionesPE": "SB y D Balizamiento",
+    "Ahora": "03/17/04 13:09:03"
+  },
+  {
+    "IdRegBasePreEle": "142",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-135",
+    "DescripcionPE": "Hito de arista",
+    "UdMedidaPE": "ud",
+    "PrecioPE": "8.34",
+    "ObservacionesPE": "SB y D Balizamiento Hito",
+    "Ahora": "03/17/04 13:09:03"
+  },
+  {
+    "IdRegBasePreEle": "143",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-133",
+    "DescripcionPE": "Hito kilométrico reflexivo 90x60 cm",
+    "UdMedidaPE": "ud",
+    "PrecioPE": "102.47",
+    "ObservacionesPE": "SB y D Balizamiento",
+    "Ahora": "03/17/04 13:09:04"
+  },
+  {
+    "IdRegBasePreEle": "144",
+    "IdRegTipPreEle": "1",
+    "CódigoPE": "MO-099",
+    "DescripcionPE": "Arqueólogo",
+    "UdMedidaPE": "h",
+    "PrecioPE": "24.04",
+    "ObservacionesPE": "MO",
+    "Ahora": "03/17/04 13:09:04"
+  },
+  {
+    "IdRegBasePreEle": "145",
+    "IdRegTipPreEle": "1",
+    "CódigoPE": "MO-106",
+    "DescripcionPE": "Titulado superior",
+    "UdMedidaPE": "h",
+    "PrecioPE": "27.95",
+    "ObservacionesPE": "MO",
+    "Ahora": "03/17/04 13:09:04"
+  },
+  {
+    "IdRegBasePreEle": "146",
+    "IdRegTipPreEle": "24",
+    "CódigoPE": "VAR-128",
+    "DescripcionPE": "Informe Arqueológico",
+    "UdMedidaPE": "ud",
+    "PrecioPE": "600",
+    "ObservacionesPE": "Plantaciones",
+    "Ahora": "03/17/04 13:09:04"
+  },
+  {
+    "IdRegBasePreEle": "147",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-005",
+    "DescripcionPE": "Agua",
+    "UdMedidaPE": "m3",
+    "PrecioPE": "0.24",
+    "ObservacionesPE": "Auxiliar",
+    "Ahora": "03/17/04 13:09:04"
+  },
+  {
+    "IdRegBasePreEle": "148",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-115",
+    "DescripcionPE": "Estabilizador",
+    "UdMedidaPE": "kg",
+    "PrecioPE": "4.09",
+    "ObservacionesPE": "Plantaciones",
+    "Ahora": "03/17/04 13:09:04"
+  },
+  {
+    "IdRegBasePreEle": "149",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-111",
+    "DescripcionPE": "Abono",
+    "UdMedidaPE": "kg",
+    "PrecioPE": "0.96",
+    "ObservacionesPE": "Plantaciones",
+    "Ahora": "03/17/04 13:09:04"
+  },
+  {
+    "IdRegBasePreEle": "150",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-119",
+    "DescripcionPE": "Mulch",
+    "UdMedidaPE": "kg",
+    "PrecioPE": "0.72",
+    "ObservacionesPE": "Plantaciones",
+    "Ahora": "03/17/04 13:09:04"
+  },
+  {
+    "IdRegBasePreEle": "151",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-118",
+    "DescripcionPE": "Mezcla de semillas",
+    "UdMedidaPE": "kg",
+    "PrecioPE": "4.21",
+    "ObservacionesPE": "Plantaciones",
+    "Ahora": "03/17/04 13:09:04"
+  },
+  {
+    "IdRegBasePreEle": "152",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-124",
+    "DescripcionPE": "Q. Ilex 14/16",
+    "UdMedidaPE": "ud",
+    "PrecioPE": "97",
+    "ObservacionesPE": "Plantaciones",
+    "Ahora": "03/17/04 13:09:04"
+  },
+  {
+    "IdRegBasePreEle": "153",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-121",
+    "DescripcionPE": "P. Alepensis 350/400",
+    "UdMedidaPE": "ud",
+    "PrecioPE": "180",
+    "ObservacionesPE": "Plantaciones",
+    "Ahora": "03/17/04 13:09:05"
+  },
+  {
+    "IdRegBasePreEle": "154",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-122",
+    "DescripcionPE": "P. Halapensis 175/200",
+    "UdMedidaPE": "ud",
+    "PrecioPE": "90",
+    "ObservacionesPE": "Plantaciones",
+    "Ahora": "03/17/04 13:09:05"
+  },
+  {
+    "IdRegBasePreEle": "155",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-113",
+    "DescripcionPE": "C. Sempervirens 250/300",
+    "UdMedidaPE": "ud",
+    "PrecioPE": "120",
+    "ObservacionesPE": "Plantaciones",
+    "Ahora": "03/17/04 13:09:05"
+  },
+  {
+    "IdRegBasePreEle": "156",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-120",
+    "DescripcionPE": "P. Alba, S. Alba, U. Minor, 14/16",
+    "UdMedidaPE": "ud",
+    "PrecioPE": "33",
+    "ObservacionesPE": "Plantaciones",
+    "Ahora": "03/17/04 13:09:05"
+  },
+  {
+    "IdRegBasePreEle": "157",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-126",
+    "DescripcionPE": "T. Gallica, 100/150",
+    "UdMedidaPE": "ud",
+    "PrecioPE": "8",
+    "ObservacionesPE": "Plantaciones",
+    "Ahora": "03/17/04 13:09:05"
+  },
+  {
+    "IdRegBasePreEle": "158",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-125",
+    "DescripcionPE": "S.Junceum, P. Tobira, A. Allimus 60/80",
+    "UdMedidaPE": "ud",
+    "PrecioPE": "1.5",
+    "ObservacionesPE": "Plantaciones",
+    "Ahora": "03/17/04 13:09:05"
+  },
+  {
+    "IdRegBasePreEle": "159",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-114",
+    "DescripcionPE": "E. Angustifolia 12/14",
+    "UdMedidaPE": "ud",
+    "PrecioPE": "22",
+    "ObservacionesPE": "Plantaciones",
+    "Ahora": "03/17/04 13:09:06"
+  },
+  {
+    "IdRegBasePreEle": "160",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-117",
+    "DescripcionPE": "L. Etrusca 80/100",
+    "UdMedidaPE": "ud",
+    "PrecioPE": "2",
+    "ObservacionesPE": "Plantaciones",
+    "Ahora": "03/17/04 13:09:06"
+  },
+  {
+    "IdRegBasePreEle": "161",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-123",
+    "DescripcionPE": "Q. Coccifera 60/80",
+    "UdMedidaPE": "ud",
+    "PrecioPE": "15",
+    "ObservacionesPE": "Plantaciones",
+    "Ahora": "03/17/04 13:09:06"
+  },
+  {
+    "IdRegBasePreEle": "162",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-127",
+    "DescripcionPE": "T. Vulgaris, R. Oficinalis, S. Chamaecyparissus 30/50",
+    "UdMedidaPE": "ud",
+    "PrecioPE": "1.5",
+    "ObservacionesPE": "Plantaciones",
+    "Ahora": "03/17/04 13:09:06"
+  },
+  {
+    "IdRegBasePreEle": "163",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-116",
+    "DescripcionPE": "J. Thurifera 40/60",
+    "UdMedidaPE": "ud",
+    "PrecioPE": "12",
+    "ObservacionesPE": "Plantaciones",
+    "Ahora": "03/17/04 13:09:06"
+  },
+  {
+    "IdRegBasePreEle": "164",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-108",
+    "DescripcionPE": "Poste metálico galvanizado para malla de cerramiento",
+    "UdMedidaPE": "m",
+    "PrecioPE": "3.61",
+    "ObservacionesPE": "OC Cerramiento poste",
+    "Ahora": "03/17/04 13:09:12"
+  },
+  {
+    "IdRegBasePreEle": "165",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-107",
+    "DescripcionPE": "Malla electrosoldada galvanizada con accesorios de 2 m. de altura I p.p. postes galvanizados",
+    "UdMedidaPE": "m",
+    "PrecioPE": "4.25",
+    "ObservacionesPE": "OC",
+    "Ahora": "03/17/04 13:09:12"
+  },
+  {
+    "IdRegBasePreEle": "166",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "M101",
+    "DescripcionPE": "Lamima geotextil anticontaminante de 1500 N de resist perforación",
+    "UdMedidaPE": "m2",
+    "PrecioPE": "1.77",
+    "ObservacionesPE": "",
+    "Ahora": "11/21/03 09:36:25"
+  },
+  {
+    "IdRegBasePreEle": "167",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "M102",
+    "DescripcionPE": "Tubo de PVC ranurado D300 mm",
+    "UdMedidaPE": "m",
+    "PrecioPE": "9.6",
+    "ObservacionesPE": "",
+    "Ahora": "11/21/03 09:36:29"
+  },
+  {
+    "IdRegBasePreEle": "168",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "M103",
+    "DescripcionPE": "Viga artesa prefabricada de hormigón pretensado, de 110 cm de canto.",
+    "UdMedidaPE": "m",
+    "PrecioPE": "457.13",
+    "ObservacionesPE": "",
+    "Ahora": "11/21/03 10:39:40"
+  },
+  {
+    "IdRegBasePreEle": "169",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "M104",
+    "DescripcionPE": "Placa horm arm encofr. en voladizo ipp de armadura transversal de sujeción",
+    "UdMedidaPE": "m2",
+    "PrecioPE": "26.83",
+    "ObservacionesPE": "",
+    "Ahora": "11/21/03 10:40:17"
+  },
+  {
+    "IdRegBasePreEle": "170",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "M108",
+    "DescripcionPE": "Señal cuadrada de 0,90 x 0,90 cm.",
+    "UdMedidaPE": "Ud",
+    "PrecioPE": "120.2",
+    "ObservacionesPE": "",
+    "Ahora": "11/24/03 12:20:31"
+  },
+  {
+    "IdRegBasePreEle": "171",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "M109",
+    "DescripcionPE": "Poste galvanizado 100 x 50 x 3 mm.",
+    "UdMedidaPE": "Ud",
+    "PrecioPE": "16.35",
+    "ObservacionesPE": "",
+    "Ahora": "11/24/03 12:20:31"
+  },
+  {
+    "IdRegBasePreEle": "172",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "M110",
+    "DescripcionPE": "Juego de tornillería",
+    "UdMedidaPE": "Ud",
+    "PrecioPE": "3.17",
+    "ObservacionesPE": "",
+    "Ahora": "11/21/03 19:23:45"
+  },
+  {
+    "IdRegBasePreEle": "173",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "M111",
+    "DescripcionPE": "Señal rectangular de 0,60 x 1,20 cm.",
+    "UdMedidaPE": "ud",
+    "PrecioPE": "114.19",
+    "ObservacionesPE": "",
+    "Ahora": "11/21/03 19:23:45"
+  },
+  {
+    "IdRegBasePreEle": "174",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "M112",
+    "DescripcionPE": "Poste galvanizado 100 x 60 x 3 mm.",
+    "UdMedidaPE": "ud",
+    "PrecioPE": "17.43",
+    "ObservacionesPE": "",
+    "Ahora": "11/21/03 19:23:45"
+  },
+  {
+    "IdRegBasePreEle": "175",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "M113",
+    "DescripcionPE": "Poste tubular de 120 cm, galvanizado",
+    "UdMedidaPE": "m",
+    "PrecioPE": "17.95",
+    "ObservacionesPE": "",
+    "Ahora": "11/24/03 11:36:16"
+  },
+  {
+    "IdRegBasePreEle": "176",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "M114",
+    "DescripcionPE": "Amortiguador pletina U",
+    "UdMedidaPE": "Ud",
+    "PrecioPE": "4.91",
+    "ObservacionesPE": "",
+    "Ahora": "11/24/03 11:36:16"
+  },
+  {
+    "IdRegBasePreEle": "177",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "M115",
+    "DescripcionPE": "Conector C-132",
+    "UdMedidaPE": "Ud",
+    "PrecioPE": "3.95",
+    "ObservacionesPE": "",
+    "Ahora": "11/24/03 11:36:16"
+  },
+  {
+    "IdRegBasePreEle": "178",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "M116",
+    "DescripcionPE": "Captafaro 1 cara en barrera",
+    "UdMedidaPE": "Ud",
+    "PrecioPE": "1.77",
+    "ObservacionesPE": "",
+    "Ahora": "11/24/03 11:36:16"
+  },
+  {
+    "IdRegBasePreEle": "179",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "M117",
+    "DescripcionPE": "Barrera doble onda",
+    "UdMedidaPE": "m",
+    "PrecioPE": "11.87",
+    "ObservacionesPE": "",
+    "Ahora": "11/24/03 11:36:16"
+  },
+  {
+    "IdRegBasePreEle": "180",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "M118",
+    "DescripcionPE": "Camión volquete 4*2 95 w",
+    "UdMedidaPE": "h",
+    "PrecioPE": "31.55",
+    "ObservacionesPE": "",
+    "Ahora": "11/24/03 11:36:16"
+  },
+  {
+    "IdRegBasePreEle": "181",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "M119",
+    "DescripcionPE": "Poste C120 cm, galvanizado",
+    "UdMedidaPE": "m",
+    "PrecioPE": "16.43",
+    "ObservacionesPE": "",
+    "Ahora": "11/24/03 11:51:22"
+  },
+  {
+    "IdRegBasePreEle": "182",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "M120",
+    "DescripcionPE": "Arqueta prefabricada de hormigón, de dimensiones exteriores de 1.45x1x1.4 m., con ventanas para entrada de conductos",
+    "UdMedidaPE": "Ud",
+    "PrecioPE": "1484.18",
+    "ObservacionesPE": "",
+    "Ahora": "11/21/03 19:12:41"
+  },
+  {
+    "IdRegBasePreEle": "183",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "M121",
+    "DescripcionPE": "Conductor de 2x35 mm2 con recubrimiento de polietileno reticulado y cable pantalla",
+    "UdMedidaPE": "Ud",
+    "PrecioPE": "6.62",
+    "ObservacionesPE": "",
+    "Ahora": "11/21/03 19:02:29"
+  },
+  {
+    "IdRegBasePreEle": "184",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "M122",
+    "DescripcionPE": "Tubo de PVC de 3mm de espesor de pared y 110mm de diametro exterior.",
+    "UdMedidaPE": "Ud",
+    "PrecioPE": "2.66",
+    "ObservacionesPE": "",
+    "Ahora": "11/21/03 17:48:39"
+  },
+  {
+    "IdRegBasePreEle": "185",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "M123",
+    "DescripcionPE": "Tubo de PVC ranurado D110 mm",
+    "UdMedidaPE": "ud",
+    "PrecioPE": "4.28",
+    "ObservacionesPE": "",
+    "Ahora": "11/21/03 09:36:31"
+  },
+  {
+    "IdRegBasePreEle": "186",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "M124",
+    "DescripcionPE": "Poste tubular de 100 cm, galvanizado",
+    "UdMedidaPE": "ud",
+    "PrecioPE": "18.78",
+    "ObservacionesPE": "",
+    "Ahora": "11/24/03 11:39:24"
+  },
+  {
+    "IdRegBasePreEle": "187",
+    "IdRegTipPreEle": "3",
+    "CódigoPE": "M132",
+    "DescripcionPE": "Cortadora de juntas 900 mm 25 kw",
+    "UdMedidaPE": "h",
+    "PrecioPE": "21.89",
+    "ObservacionesPE": "",
+    "Ahora": "11/24/03 20:51:40"
+  },
+  {
+    "IdRegBasePreEle": "188",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "M135",
+    "DescripcionPE": "Mallazo electrosoldado D= 4 mm #15x15 cm",
+    "UdMedidaPE": "kg",
+    "PrecioPE": "1.41",
+    "ObservacionesPE": "",
+    "Ahora": "11/25/03 18:48:26"
+  },
+  {
+    "IdRegBasePreEle": "189",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "M136",
+    "DescripcionPE": "Hormigon H-150",
+    "UdMedidaPE": "m3",
+    "PrecioPE": "11.45",
+    "ObservacionesPE": "",
+    "Ahora": "11/25/03 22:03:12"
+  },
+  {
+    "IdRegBasePreEle": "190",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "M137",
+    "DescripcionPE": "Encofrado oculto",
+    "UdMedidaPE": "h",
+    "PrecioPE": "7.52",
+    "ObservacionesPE": "",
+    "Ahora": "11/25/03 22:03:12"
+  },
+  {
+    "IdRegBasePreEle": "191",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "M138",
+    "DescripcionPE": "Escollera de 50 kg",
+    "UdMedidaPE": "t",
+    "PrecioPE": "4.25",
+    "ObservacionesPE": "",
+    "Ahora": "02/11/04 10:19:05"
+  },
+  {
+    "IdRegBasePreEle": "192",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "M139",
+    "DescripcionPE": "Bolo 120/200 mmm",
+    "UdMedidaPE": "t",
+    "PrecioPE": "8.49",
+    "ObservacionesPE": "",
+    "Ahora": "02/11/04 10:19:57"
+  },
+  {
+    "IdRegBasePreEle": "193",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "M140",
+    "DescripcionPE": "Hormigon H-200",
+    "UdMedidaPE": "m3",
+    "PrecioPE": "47.13",
+    "ObservacionesPE": "",
+    "Ahora": "02/11/04 10:20:38"
+  },
+  {
+    "IdRegBasePreEle": "194",
+    "IdRegTipPreEle": "3",
+    "CódigoPE": "MAQ-018",
+    "DescripcionPE": "Compactador autopropulsado vibrante de dos cilindros tandem de 15 tn; 90 CV.",
+    "UdMedidaPE": "h",
+    "PrecioPE": "37.24",
+    "ObservacionesPE": "",
+    "Ahora": "11/05/01 18:27:42"
+  },
+  {
+    "IdRegBasePreEle": "195",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "MAT-0104",
+    "DescripcionPE": "Material filtro drenaje",
+    "UdMedidaPE": "m3",
+    "PrecioPE": "7.1",
+    "ObservacionesPE": "",
+    "Ahora": "11/05/01 18:27:41"
+  },
+  {
+    "IdRegBasePreEle": "196",
+    "IdRegTipPreEle": "1",
+    "CódigoPE": "O001",
+    "DescripcionPE": "Capataz",
+    "UdMedidaPE": "h",
+    "PrecioPE": "10.11",
+    "ObservacionesPE": "",
+    "Ahora": "11/21/03 09:36:20"
+  },
+  {
+    "IdRegBasePreEle": "197",
+    "IdRegTipPreEle": "1",
+    "CódigoPE": "O002",
+    "DescripcionPE": "Oficial 1º",
+    "UdMedidaPE": "h",
+    "PrecioPE": "8.32",
+    "ObservacionesPE": "",
+    "Ahora": "11/21/03 09:36:25"
+  },
+  {
+    "IdRegBasePreEle": "198",
+    "IdRegTipPreEle": "1",
+    "CódigoPE": "O004",
+    "DescripcionPE": "Ayudante",
+    "UdMedidaPE": "h",
+    "PrecioPE": "7.76",
+    "ObservacionesPE": "",
+    "Ahora": "11/21/03 09:36:25"
+  },
+  {
+    "IdRegBasePreEle": "199",
+    "IdRegTipPreEle": "1",
+    "CódigoPE": "O005",
+    "DescripcionPE": "Peón especialista",
+    "UdMedidaPE": "h",
+    "PrecioPE": "7.62",
+    "ObservacionesPE": "",
+    "Ahora": "11/21/03 10:40:17"
+  },
+  {
+    "IdRegBasePreEle": "200",
+    "IdRegTipPreEle": "1",
+    "CódigoPE": "O006",
+    "DescripcionPE": "Peón ordinario",
+    "UdMedidaPE": "h",
+    "PrecioPE": "7.51",
+    "ObservacionesPE": "",
+    "Ahora": "11/21/03 09:36:20"
+  },
+  {
+    "IdRegBasePreEle": "201",
+    "IdRegTipPreEle": "25",
+    "CódigoPE": "PAUX001",
+    "DescripcionPE": "Excavación en zanjas, pozos o cimientos en cualquier tipo de terreno, incluyendo la entibación, agotamiento, carga y el transporte a vertedero o lugar de empleo",
+    "UdMedidaPE": "m3",
+    "PrecioPE": "3.04",
+    "ObservacionesPE": "",
+    "Ahora": "06/25/02 17:58:25"
+  },
+  {
+    "IdRegBasePreEle": "202",
+    "IdRegTipPreEle": "3",
+    "CódigoPE": "Q002",
+    "DescripcionPE": "Retroexcavadora 125kws/cad",
+    "UdMedidaPE": "h",
+    "PrecioPE": "65.23",
+    "ObservacionesPE": "",
+    "Ahora": "11/21/03 09:36:20"
+  },
+  {
+    "IdRegBasePreEle": "203",
+    "IdRegTipPreEle": "3",
+    "CódigoPE": "Q003",
+    "DescripcionPE": "Bomba centrífuga de 17 kw",
+    "UdMedidaPE": "h",
+    "PrecioPE": "11.45",
+    "ObservacionesPE": "",
+    "Ahora": "11/21/03 09:36:23"
+  },
+  {
+    "IdRegBasePreEle": "204",
+    "IdRegTipPreEle": "3",
+    "CódigoPE": "Q004",
+    "DescripcionPE": "Compresor de 10 m3/min 120kw",
+    "UdMedidaPE": "h",
+    "PrecioPE": "29.23",
+    "ObservacionesPE": "",
+    "Ahora": "11/21/03 09:36:23"
+  },
+  {
+    "IdRegBasePreEle": "205",
+    "IdRegTipPreEle": "3",
+    "CódigoPE": "Q005",
+    "DescripcionPE": "Retroexcavadora de 170 kw s/cad",
+    "UdMedidaPE": "h",
+    "PrecioPE": "90.25",
+    "ObservacionesPE": "",
+    "Ahora": "11/21/03 09:36:23"
+  },
+  {
+    "IdRegBasePreEle": "206",
+    "IdRegTipPreEle": "3",
+    "CódigoPE": "Q006",
+    "DescripcionPE": "Grúa automotriz 80T; 300kw",
+    "UdMedidaPE": "h",
+    "PrecioPE": "119.07",
+    "ObservacionesPE": "",
+    "Ahora": "11/21/03 10:39:40"
+  },
+  {
+    "IdRegBasePreEle": "207",
+    "IdRegTipPreEle": "3",
+    "CódigoPE": "Q007",
+    "DescripcionPE": "Camión grúa de 6 Tn 95kw",
+    "UdMedidaPE": "h",
+    "PrecioPE": "41.04",
+    "ObservacionesPE": "",
+    "Ahora": "11/21/03 10:40:17"
+  },
+  {
+    "IdRegBasePreEle": "208",
+    "IdRegTipPreEle": "3",
+    "CódigoPE": "Q008",
+    "DescripcionPE": "Camión tanque de agua",
+    "UdMedidaPE": "h",
+    "PrecioPE": "36.82",
+    "ObservacionesPE": "",
+    "Ahora": "11/21/03 10:41:02"
+  },
+  {
+    "IdRegBasePreEle": "209",
+    "IdRegTipPreEle": "3",
+    "CódigoPE": "Q011",
+    "DescripcionPE": "Camión furgón 95 kw",
+    "UdMedidaPE": "h",
+    "PrecioPE": "27.79",
+    "ObservacionesPE": "",
+    "Ahora": "11/21/03 19:23:45"
+  },
+  {
+    "IdRegBasePreEle": "210",
+    "IdRegTipPreEle": "3",
+    "CódigoPE": "Q012",
+    "DescripcionPE": "Máquina hinca postes",
+    "UdMedidaPE": "h",
+    "PrecioPE": "11.72",
+    "ObservacionesPE": "",
+    "Ahora": "11/24/03 11:36:16"
+  },
+  {
+    "IdRegBasePreEle": "211",
+    "IdRegTipPreEle": "3",
+    "CódigoPE": "Q013",
+    "DescripcionPE": "Grúa sobre neumáticos autopropulsada de pluma telescópica 20 T; 200 CV.",
+    "UdMedidaPE": "h",
+    "PrecioPE": "69.11",
+    "ObservacionesPE": "",
+    "Ahora": "11/25/03 21:03:59"
+  },
+  {
+    "IdRegBasePreEle": "212",
+    "IdRegTipPreEle": "3",
+    "CódigoPE": "Q020",
+    "DescripcionPE": "Camión volquete 6*4, 180 kw",
+    "UdMedidaPE": "h",
+    "PrecioPE": "47.32",
+    "ObservacionesPE": "",
+    "Ahora": "11/25/03 18:15:16"
+  },
+  {
+    "IdRegBasePreEle": "213",
+    "IdRegTipPreEle": "3",
+    "CódigoPE": "Q021",
+    "DescripcionPE": "Excavación en zanjas pozos y emplazamientos en cualquier tipo de terreno incluso entibación y agotamientos, carga, descarga, transporte de los productos sobrantes a vertedero o lugar de empleo",
+    "UdMedidaPE": "m3",
+    "PrecioPE": "4.24",
+    "ObservacionesPE": "",
+    "Ahora": "11/21/03 19:12:41"
+  },
+  {
+    "IdRegBasePreEle": "214",
+    "IdRegTipPreEle": "3",
+    "CódigoPE": "Q023",
+    "DescripcionPE": "Hormigón H-150, incluso fabricación transporte y colocación",
+    "UdMedidaPE": "m3",
+    "PrecioPE": "45",
+    "ObservacionesPE": "",
+    "Ahora": "11/21/03 17:48:39"
+  },
+  {
+    "IdRegBasePreEle": "215",
+    "IdRegTipPreEle": "3",
+    "CódigoPE": "Q024",
+    "DescripcionPE": "Relleno con productos de la excavación",
+    "UdMedidaPE": "m3",
+    "PrecioPE": "2.86",
+    "ObservacionesPE": "",
+    "Ahora": "11/21/03 19:12:41"
+  },
+  {
+    "IdRegBasePreEle": "216",
+    "IdRegTipPreEle": "1",
+    "CódigoPE": "U01AA006",
+    "DescripcionPE": "Capataz",
+    "UdMedidaPE": "h",
+    "PrecioPE": "13.25",
+    "ObservacionesPE": "",
+    "Ahora": "03/28/04 13:31:12"
+  },
+  {
+    "IdRegBasePreEle": "217",
+    "IdRegTipPreEle": "24",
+    "CódigoPE": "U%10",
+    "DescripcionPE": "Amortización y otros gastos",
+    "UdMedidaPE": "%",
+    "PrecioPE": "10",
+    "ObservacionesPE": "",
+    "Ahora": "03/28/04 13:32:03"
+  },
+  {
+    "IdRegBasePreEle": "218",
+    "IdRegTipPreEle": "1",
+    "CódigoPE": "U01AA007",
+    "DescripcionPE": "Oficial primera",
+    "UdMedidaPE": "h",
+    "PrecioPE": "12.8",
+    "ObservacionesPE": "",
+    "Ahora": "03/28/04 13:33:02"
+  },
+  {
+    "IdRegBasePreEle": "219",
+    "IdRegTipPreEle": "1",
+    "CódigoPE": "U01AA008",
+    "DescripcionPE": "Oficial segunda",
+    "UdMedidaPE": "h",
+    "PrecioPE": "12.38",
+    "ObservacionesPE": "",
+    "Ahora": "03/28/04 14:21:36"
+  },
+  {
+    "IdRegBasePreEle": "220",
+    "IdRegTipPreEle": "1",
+    "CódigoPE": "U01AA009",
+    "DescripcionPE": "Ayudante",
+    "UdMedidaPE": "h",
+    "PrecioPE": "11.78",
+    "ObservacionesPE": "",
+    "Ahora": "03/28/04 14:22:03"
+  },
+  {
+    "IdRegBasePreEle": "221",
+    "IdRegTipPreEle": "1",
+    "CódigoPE": "U01AA010",
+    "DescripcionPE": "Peón especializado",
+    "UdMedidaPE": "h",
+    "PrecioPE": "11.23",
+    "ObservacionesPE": "",
+    "Ahora": "03/28/04 14:22:27"
+  },
+  {
+    "IdRegBasePreEle": "222",
+    "IdRegTipPreEle": "1",
+    "CódigoPE": "U01AA011",
+    "DescripcionPE": "Peón ordinario",
+    "UdMedidaPE": "h",
+    "PrecioPE": "11.11",
+    "ObservacionesPE": "",
+    "Ahora": "03/28/04 14:22:57"
+  },
+  {
+    "IdRegBasePreEle": "223",
+    "IdRegTipPreEle": "1",
+    "CódigoPE": "U01AA501",
+    "DescripcionPE": "Cuadrilla A",
+    "UdMedidaPE": "h",
+    "PrecioPE": "30.14",
+    "ObservacionesPE": "",
+    "Ahora": "03/28/04 14:23:25"
+  },
+  {
+    "IdRegBasePreEle": "224",
+    "IdRegTipPreEle": "1",
+    "CódigoPE": "U01AA502",
+    "DescripcionPE": "Cuadrilla B",
+    "UdMedidaPE": "h",
+    "PrecioPE": "29.16",
+    "ObservacionesPE": "",
+    "Ahora": "03/28/04 14:24:00"
+  },
+  {
+    "IdRegBasePreEle": "225",
+    "IdRegTipPreEle": "1",
+    "CódigoPE": "U01FX101",
+    "DescripcionPE": "Montaje malla 1-2 m. ST",
+    "UdMedidaPE": "Ml",
+    "PrecioPE": "3.16",
+    "ObservacionesPE": "",
+    "Ahora": "03/28/04 14:24:21"
+  },
+  {
+    "IdRegBasePreEle": "226",
+    "IdRegTipPreEle": "1",
+    "CódigoPE": "U01FX110",
+    "DescripcionPE": "Mano obra anclaje postes metál.",
+    "UdMedidaPE": "Ml",
+    "PrecioPE": "3.16",
+    "ObservacionesPE": "",
+    "Ahora": "03/28/04 14:25:08"
+  },
+  {
+    "IdRegBasePreEle": "227",
+    "IdRegTipPreEle": "3",
+    "CódigoPE": "U02LA201",
+    "DescripcionPE": "Hormigonera 250 l.",
+    "UdMedidaPE": "h",
+    "PrecioPE": "1.23",
+    "ObservacionesPE": "",
+    "Ahora": "03/28/04 14:25:59"
+  },
+  {
+    "IdRegBasePreEle": "228",
+    "IdRegTipPreEle": "3",
+    "CódigoPE": "U02SA006",
+    "DescripcionPE": "Vibrador con motor gasolina",
+    "UdMedidaPE": "h",
+    "PrecioPE": "3.1",
+    "ObservacionesPE": "",
+    "Ahora": "03/28/04 14:26:58"
+  },
+  {
+    "IdRegBasePreEle": "229",
+    "IdRegTipPreEle": "3",
+    "CódigoPE": "U02SM005",
+    "DescripcionPE": "Grupo motobomba de 6 C.V.",
+    "UdMedidaPE": "h",
+    "PrecioPE": "6.61",
+    "ObservacionesPE": "",
+    "Ahora": "03/28/04 14:28:21"
+  },
+  {
+    "IdRegBasePreEle": "230",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "U04AA001",
+    "DescripcionPE": "Arena de rio (0-5 mm)",
+    "UdMedidaPE": "M3",
+    "PrecioPE": "16.83",
+    "ObservacionesPE": "",
+    "Ahora": "03/28/04 14:29:09"
+  },
+  {
+    "IdRegBasePreEle": "231",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "U04AA101",
+    "DescripcionPE": "Arena de río (0-5 mm)",
+    "UdMedidaPE": "Tm",
+    "PrecioPE": "10.52",
+    "ObservacionesPE": "",
+    "Ahora": "03/28/04 14:30:05"
+  },
+  {
+    "IdRegBasePreEle": "232",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "U04AF050",
+    "DescripcionPE": "Gravilla 5/20 mm.",
+    "UdMedidaPE": "Tm",
+    "PrecioPE": "12.44",
+    "ObservacionesPE": "",
+    "Ahora": "03/28/04 14:31:48"
+  },
+  {
+    "IdRegBasePreEle": "233",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "U04AF150",
+    "DescripcionPE": "Garbancillo 20/40 mm.",
+    "UdMedidaPE": "Tm",
+    "PrecioPE": "11.63",
+    "ObservacionesPE": "",
+    "Ahora": "03/28/04 14:32:59"
+  },
+  {
+    "IdRegBasePreEle": "234",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "U04CA001",
+    "DescripcionPE": "Cemento CEM II/A-P 32,5 R Granel",
+    "UdMedidaPE": "Tm",
+    "PrecioPE": "73.94",
+    "ObservacionesPE": "",
+    "Ahora": "03/28/04 14:33:33"
+  },
+  {
+    "IdRegBasePreEle": "235",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "U04MA701",
+    "DescripcionPE": "Hormigón HM-25/P/20/I central",
+    "UdMedidaPE": "M3",
+    "PrecioPE": "67.94",
+    "ObservacionesPE": "",
+    "Ahora": "03/28/04 14:34:57"
+  },
+  {
+    "IdRegBasePreEle": "236",
+    "IdRegTipPreEle": "1",
+    "CódigoPE": "U04PY001",
+    "DescripcionPE": "Agua",
+    "UdMedidaPE": "M3",
+    "PrecioPE": "0.55",
+    "ObservacionesPE": "",
+    "Ahora": "03/28/04 14:38:40"
+  },
+  {
+    "IdRegBasePreEle": "237",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "U05AE020",
+    "DescripcionPE": "Junta desmontaje fundición 800 mm",
+    "UdMedidaPE": "Ud",
+    "PrecioPE": "1893.19",
+    "ObservacionesPE": "",
+    "Ahora": "03/28/04 14:39:14"
+  },
+  {
+    "IdRegBasePreEle": "238",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "U05AE032",
+    "DescripcionPE": "Tubería fundición D=800 mm, K=9",
+    "UdMedidaPE": "Ml",
+    "PrecioPE": "155",
+    "ObservacionesPE": "",
+    "Ahora": "03/28/04 14:40:10"
+  },
+  {
+    "IdRegBasePreEle": "239",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "U05AE033",
+    "DescripcionPE": "Manga polietileno de 200 micras",
+    "UdMedidaPE": "Ml",
+    "PrecioPE": "5.86",
+    "ObservacionesPE": "",
+    "Ahora": "03/28/04 14:41:06"
+  },
+  {
+    "IdRegBasePreEle": "240",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "U06AA001",
+    "DescripcionPE": "Alambre atar 1,3 mm",
+    "UdMedidaPE": "Kg",
+    "PrecioPE": "1.26",
+    "ObservacionesPE": "",
+    "Ahora": "03/28/04 14:42:00"
+  },
+  {
+    "IdRegBasePreEle": "241",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "U06DA005",
+    "DescripcionPE": "Puntas plana 17x70",
+    "UdMedidaPE": "Kg",
+    "PrecioPE": "0.78",
+    "ObservacionesPE": "",
+    "Ahora": "03/28/04 14:42:38"
+  },
+  {
+    "IdRegBasePreEle": "242",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "U07AI007",
+    "DescripcionPE": "Madera pino para entibaciones",
+    "UdMedidaPE": "M3",
+    "PrecioPE": "127.42",
+    "ObservacionesPE": "",
+    "Ahora": "03/28/04 14:43:23"
+  },
+  {
+    "IdRegBasePreEle": "243",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "U22XL004",
+    "DescripcionPE": "Tubo metálico rect. 30x15x1,5",
+    "UdMedidaPE": "Ml",
+    "PrecioPE": "0.6899999999999999",
+    "ObservacionesPE": "",
+    "Ahora": "03/28/04 14:44:10"
+  },
+  {
+    "IdRegBasePreEle": "244",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "U22XL009",
+    "DescripcionPE": "Tubo metálico rect. 40x20x1,5",
+    "UdMedidaPE": "Ml",
+    "PrecioPE": "1.17",
+    "ObservacionesPE": "",
+    "Ahora": "03/28/04 14:44:56"
+  },
+  {
+    "IdRegBasePreEle": "245",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "U22XL025",
+    "DescripcionPE": "Tubo metálico cuad. 60x60x1,5",
+    "UdMedidaPE": "Ml",
+    "PrecioPE": "5.32",
+    "ObservacionesPE": "",
+    "Ahora": "03/28/04 14:45:38"
+  },
+  {
+    "IdRegBasePreEle": "246",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "U24SD005",
+    "DescripcionPE": "Manguito brida-brida 200 mm",
+    "UdMedidaPE": "Ud",
+    "PrecioPE": "83.59",
+    "ObservacionesPE": "",
+    "Ahora": "03/28/04 14:46:26"
+  },
+  {
+    "IdRegBasePreEle": "247",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "U25DD011",
+    "DescripcionPE": "Entronque tubería fundi/horm 800 mr",
+    "UdMedidaPE": "Ud",
+    "PrecioPE": "7602.8",
+    "ObservacionesPE": "",
+    "Ahora": "03/28/04 14:47:15"
+  },
+  {
+    "IdRegBasePreEle": "248",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "U26AR206",
+    "DescripcionPE": "Derivación en T 800/200 mm",
+    "UdMedidaPE": "Ud",
+    "PrecioPE": "1779",
+    "ObservacionesPE": "",
+    "Ahora": "03/28/04 14:48:11"
+  },
+  {
+    "IdRegBasePreEle": "249",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "U28AJ109",
+    "DescripcionPE": "Codo de 45º de 800 mm",
+    "UdMedidaPE": "Ud",
+    "PrecioPE": "2103.54",
+    "ObservacionesPE": "",
+    "Ahora": "03/28/04 14:49:01"
+  },
+  {
+    "IdRegBasePreEle": "250",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "U28AJ110",
+    "DescripcionPE": "Codo de 90 º de 200 mm",
+    "UdMedidaPE": "Ud",
+    "PrecioPE": "104.01",
+    "ObservacionesPE": "",
+    "Ahora": "03/28/04 14:50:11"
+  },
+  {
+    "IdRegBasePreEle": "251",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "U28AJ111",
+    "DescripcionPE": "Codo de 45º de 200 mm",
+    "UdMedidaPE": "Ud",
+    "PrecioPE": "95.25",
+    "ObservacionesPE": "",
+    "Ahora": "03/28/04 14:50:47"
+  },
+  {
+    "IdRegBasePreEle": "252",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "U28DA110",
+    "DescripcionPE": "Valv.mariposa DN 800 mm. 16 Atm",
+    "UdMedidaPE": "Ud",
+    "PrecioPE": "14123.78",
+    "ObservacionesPE": "",
+    "Ahora": "03/28/04 14:51:26"
+  },
+  {
+    "IdRegBasePreEle": "253",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "U28DA111",
+    "DescripcionPE": "Brida-enchufe fundición 800 mm",
+    "UdMedidaPE": "Ud",
+    "PrecioPE": "1442.43",
+    "ObservacionesPE": "",
+    "Ahora": "03/28/04 14:52:11"
+  },
+  {
+    "IdRegBasePreEle": "254",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "U28DD095",
+    "DescripcionPE": "Válvula compuerta. 200 mm",
+    "UdMedidaPE": "Ud",
+    "PrecioPE": "480.81",
+    "ObservacionesPE": "",
+    "Ahora": "03/28/04 14:52:51"
+  },
+  {
+    "IdRegBasePreEle": "255",
+    "IdRegTipPreEle": "3",
+    "CódigoPE": "U37GA000",
+    "DescripcionPE": "Regla vibradora",
+    "UdMedidaPE": "h",
+    "PrecioPE": "1.45",
+    "ObservacionesPE": "",
+    "Ahora": "03/28/04 14:53:41"
+  },
+  {
+    "IdRegBasePreEle": "256",
+    "IdRegTipPreEle": "3",
+    "CódigoPE": "U37GA001",
+    "DescripcionPE": "Grúa automovil",
+    "UdMedidaPE": "h",
+    "PrecioPE": "20.07",
+    "ObservacionesPE": "",
+    "Ahora": "03/28/04 14:54:31"
+  },
+  {
+    "IdRegBasePreEle": "257",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "U37OE001",
+    "DescripcionPE": "Ventosa doble cuerpo 200 mm. 16 Atm",
+    "UdMedidaPE": "Ud",
+    "PrecioPE": "1460.46",
+    "ObservacionesPE": "",
+    "Ahora": "03/28/04 14:55:03"
+  },
+  {
+    "IdRegBasePreEle": "258",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "U37UA205",
+    "DescripcionPE": "Tapa fundición D=625 mm.con aro",
+    "UdMedidaPE": "Ud",
+    "PrecioPE": "39.07",
+    "ObservacionesPE": "",
+    "Ahora": "03/28/04 14:56:08"
+  },
+  {
+    "IdRegBasePreEle": "259",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "U38JA110",
+    "DescripcionPE": "Malla galv.ST-40/14 h=2,0 m.",
+    "UdMedidaPE": "Ml",
+    "PrecioPE": "3.96",
+    "ObservacionesPE": "",
+    "Ahora": "03/28/04 14:57:07"
+  },
+  {
+    "IdRegBasePreEle": "260",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "U38JA200",
+    "DescripcionPE": "Bastidor malla rizada",
+    "UdMedidaPE": "M2",
+    "PrecioPE": "34.85",
+    "ObservacionesPE": "",
+    "Ahora": "03/28/04 17:31:27"
+  },
+  {
+    "IdRegBasePreEle": "261",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "U38JA705",
+    "DescripcionPE": "Poste acer.galv.calient.D=42",
+    "UdMedidaPE": "Ml",
+    "PrecioPE": "6.88",
+    "ObservacionesPE": "",
+    "Ahora": "03/28/04 17:33:34"
+  },
+  {
+    "IdRegBasePreEle": "262",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "U38JA707",
+    "DescripcionPE": "Poste acer.galv.calient.D=48",
+    "UdMedidaPE": "Ml",
+    "PrecioPE": "7.68",
+    "ObservacionesPE": "",
+    "Ahora": "03/28/04 17:34:17"
+  },
+  {
+    "IdRegBasePreEle": "263",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "U38JA880",
+    "DescripcionPE": "Tensores,grupill.y p/p puerta",
+    "UdMedidaPE": "Ud",
+    "PrecioPE": "0.89",
+    "ObservacionesPE": "",
+    "Ahora": "03/28/04 17:35:12"
+  },
+  {
+    "IdRegBasePreEle": "264",
+    "IdRegTipPreEle": "3",
+    "CódigoPE": "U39AA002",
+    "DescripcionPE": "Retroexcavadora neumáticos",
+    "UdMedidaPE": "h",
+    "PrecioPE": "25.61",
+    "ObservacionesPE": "",
+    "Ahora": "03/28/04 17:36:04"
+  },
+  {
+    "IdRegBasePreEle": "265",
+    "IdRegTipPreEle": "3",
+    "CódigoPE": "U39AB004",
+    "DescripcionPE": "Pala neumáticos CAT.950",
+    "UdMedidaPE": "h",
+    "PrecioPE": "23.97",
+    "ObservacionesPE": "",
+    "Ahora": "03/28/04 17:36:54"
+  },
+  {
+    "IdRegBasePreEle": "266",
+    "IdRegTipPreEle": "3",
+    "CódigoPE": "U39AC005",
+    "DescripcionPE": "Compactador manual",
+    "UdMedidaPE": "h",
+    "PrecioPE": "6.6",
+    "ObservacionesPE": "",
+    "Ahora": "03/28/04 17:40:01"
+  },
+  {
+    "IdRegBasePreEle": "267",
+    "IdRegTipPreEle": "3",
+    "CódigoPE": "U39AC007",
+    "DescripcionPE": "Compactador neumát.autp.100cv",
+    "UdMedidaPE": "h",
+    "PrecioPE": "29.73",
+    "ObservacionesPE": "",
+    "Ahora": "03/28/04 17:40:44"
+  },
+  {
+    "IdRegBasePreEle": "268",
+    "IdRegTipPreEle": "3",
+    "CódigoPE": "U39AE001",
+    "DescripcionPE": "Compactador tandem",
+    "UdMedidaPE": "h",
+    "PrecioPE": "22.99",
+    "ObservacionesPE": "",
+    "Ahora": "03/28/04 17:41:30"
+  },
+  {
+    "IdRegBasePreEle": "269",
+    "IdRegTipPreEle": "3",
+    "CódigoPE": "U39AF002",
+    "DescripcionPE": "Camión grua 5 Tm.",
+    "UdMedidaPE": "h",
+    "PrecioPE": "17.72",
+    "ObservacionesPE": "",
+    "Ahora": "03/28/04 17:42:34"
+  },
+  {
+    "IdRegBasePreEle": "270",
+    "IdRegTipPreEle": "3",
+    "CódigoPE": "U39AH024",
+    "DescripcionPE": "Camión basculante 125cv",
+    "UdMedidaPE": "h",
+    "PrecioPE": "17.5",
+    "ObservacionesPE": "",
+    "Ahora": "03/28/04 17:43:13"
+  },
+  {
+    "IdRegBasePreEle": "271",
+    "IdRegTipPreEle": "3",
+    "CódigoPE": "U39AH025",
+    "DescripcionPE": "Camión bañera 200 cv",
+    "UdMedidaPE": "h",
+    "PrecioPE": "23.63",
+    "ObservacionesPE": "",
+    "Ahora": "03/28/04 17:43:51"
+  },
+  {
+    "IdRegBasePreEle": "272",
+    "IdRegTipPreEle": "3",
+    "CódigoPE": "U39AH027",
+    "DescripcionPE": "Camión bañera de 25 Tm.",
+    "UdMedidaPE": "h",
+    "PrecioPE": "33.72",
+    "ObservacionesPE": "",
+    "Ahora": "03/28/04 17:44:23"
+  },
+  {
+    "IdRegBasePreEle": "273",
+    "IdRegTipPreEle": "3",
+    "CódigoPE": "U39AI008",
+    "DescripcionPE": "Extendedora aglomerado",
+    "UdMedidaPE": "h",
+    "PrecioPE": "39.85",
+    "ObservacionesPE": "",
+    "Ahora": "03/28/04 17:45:01"
+  },
+  {
+    "IdRegBasePreEle": "274",
+    "IdRegTipPreEle": "3",
+    "CódigoPE": "U39AM007",
+    "DescripcionPE": "Cuba de riego de ligantes",
+    "UdMedidaPE": "h",
+    "PrecioPE": "29.73",
+    "ObservacionesPE": "",
+    "Ahora": "03/28/04 17:45:53"
+  },
+  {
+    "IdRegBasePreEle": "275",
+    "IdRegTipPreEle": "3",
+    "CódigoPE": "U39AT002",
+    "DescripcionPE": "Trac. S/orug.bull. 140 cv",
+    "UdMedidaPE": "h",
+    "PrecioPE": "28.38",
+    "ObservacionesPE": "",
+    "Ahora": "03/28/04 17:46:29"
+  },
+  {
+    "IdRegBasePreEle": "276",
+    "IdRegTipPreEle": "3",
+    "CódigoPE": "U39BK205",
+    "DescripcionPE": "Planta asfáltica en caliente",
+    "UdMedidaPE": "h",
+    "PrecioPE": "214.56",
+    "ObservacionesPE": "",
+    "Ahora": "03/28/04 17:47:18"
+  },
+  {
+    "IdRegBasePreEle": "277",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "U39CK002",
+    "DescripcionPE": "Material filtrante",
+    "UdMedidaPE": "M3",
+    "PrecioPE": "3.68",
+    "ObservacionesPE": "",
+    "Ahora": "03/28/04 17:47:57"
+  },
+  {
+    "IdRegBasePreEle": "278",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "U39CK022",
+    "DescripcionPE": "Suelo adecuado",
+    "UdMedidaPE": "M3",
+    "PrecioPE": "1.69",
+    "ObservacionesPE": "",
+    "Ahora": "03/28/04 17:49:05"
+  },
+  {
+    "IdRegBasePreEle": "279",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "U39CK024",
+    "DescripcionPE": "Material silíceo",
+    "UdMedidaPE": "M3",
+    "PrecioPE": "2.52",
+    "ObservacionesPE": "",
+    "Ahora": "03/28/04 17:49:45"
+  },
+  {
+    "IdRegBasePreEle": "280",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "U39CQ002",
+    "DescripcionPE": "Arido silíceo mezclas bitum.",
+    "UdMedidaPE": "Tm",
+    "PrecioPE": "7.36",
+    "ObservacionesPE": "",
+    "Ahora": "03/28/04 17:50:19"
+  },
+  {
+    "IdRegBasePreEle": "281",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "U39DA002",
+    "DescripcionPE": "Betún asfáltico B 60/70",
+    "UdMedidaPE": "Tm",
+    "PrecioPE": "205.37",
+    "ObservacionesPE": "",
+    "Ahora": "03/28/04 17:50:57"
+  },
+  {
+    "IdRegBasePreEle": "282",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "U39DE003",
+    "DescripcionPE": "Ligante emulsión ECR-0",
+    "UdMedidaPE": "Tm",
+    "PrecioPE": "148.97",
+    "ObservacionesPE": "",
+    "Ahora": "03/28/04 17:51:36"
+  },
+  {
+    "IdRegBasePreEle": "283",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "U39HA002",
+    "DescripcionPE": "Acero B 400 S",
+    "UdMedidaPE": "Kg",
+    "PrecioPE": "0.55",
+    "ObservacionesPE": "",
+    "Ahora": "03/28/04 17:52:19"
+  },
+  {
+    "IdRegBasePreEle": "284",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "U39IA002",
+    "DescripcionPE": "Tabla machiembrada (5 usos)",
+    "UdMedidaPE": "M2",
+    "PrecioPE": "0.74",
+    "ObservacionesPE": "",
+    "Ahora": "03/28/04 17:52:56"
+  },
+  {
+    "IdRegBasePreEle": "285",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "U39IA005",
+    "DescripcionPE": "Madera escuadrada",
+    "UdMedidaPE": "M3",
+    "PrecioPE": "102.68",
+    "ObservacionesPE": "",
+    "Ahora": "03/28/04 17:53:41"
+  },
+  {
+    "IdRegBasePreEle": "286",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "U39IE001",
+    "DescripcionPE": "Accesorios de encofrado",
+    "UdMedidaPE": "Ud",
+    "PrecioPE": "0.67",
+    "ObservacionesPE": "",
+    "Ahora": "03/28/04 17:54:35"
+  },
+  {
+    "IdRegBasePreEle": "287",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "U39IH001",
+    "DescripcionPE": "Desencofrante",
+    "UdMedidaPE": "Kg",
+    "PrecioPE": "2.51",
+    "ObservacionesPE": "",
+    "Ahora": "03/28/04 17:55:22"
+  },
+  {
+    "IdRegBasePreEle": "288",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "U39LA007",
+    "DescripcionPE": "Junta desmontaje 200 mm",
+    "UdMedidaPE": "Ud",
+    "PrecioPE": "130.27",
+    "ObservacionesPE": "",
+    "Ahora": "03/28/04 17:55:56"
+  },
+  {
+    "IdRegBasePreEle": "290",
+    "IdRegTipPreEle": "4",
+    "CódigoPE": "U39BA002",
+    "DescripcionPE": "Excav.zanjaz pozos sin clasif",
+    "UdMedidaPE": "M3",
+    "PrecioPE": "4.83",
+    "ObservacionesPE": "Excavación en zanjas y pozos",
+    "Ahora": "03/29/04 13:07:17"
+  },
+  {
+    "IdRegBasePreEle": "291",
+    "IdRegTipPreEle": "3",
+    "CódigoPE": "A03LA005",
+    "DescripcionPE": "HORMIGONERA ELÉCTRICA 250 L.",
+    "UdMedidaPE": "h",
+    "PrecioPE": "1.68",
+    "ObservacionesPE": "",
+    "Ahora": "03/29/04 13:43:55"
+  },
+  {
+    "IdRegBasePreEle": "292",
+    "IdRegTipPreEle": "24",
+    "CódigoPE": "RED001",
+    "DescripcionPE": "Redondeo menos céntimo",
+    "UdMedidaPE": "Ud",
+    "PrecioPE": "-0.01",
+    "ObservacionesPE": "Redondeo unidad al proyecto Base",
+    "Ahora": "03/29/04 17:20:43"
+  },
+  {
+    "IdRegBasePreEle": "293",
+    "IdRegTipPreEle": "24",
+    "CódigoPE": "RED002",
+    "DescripcionPE": "Redondeo unidad D38AN016",
+    "UdMedidaPE": "Ud",
+    "PrecioPE": "0.01",
+    "ObservacionesPE": "Redondeo unidad al proyecto Base",
+    "Ahora": "03/29/04 17:22:46"
+  },
+  {
+    "IdRegBasePreEle": "294",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "A02FA600",
+    "DescripcionPE": "HORM.HM-25/P/20/I CENTRAL",
+    "UdMedidaPE": "M3",
+    "PrecioPE": "67.94",
+    "ObservacionesPE": "",
+    "Ahora": "03/29/04 18:32:22"
+  },
+  {
+    "IdRegBasePreEle": "295",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "D38EH015",
+    "DescripcionPE": "ENCOFRADO DE CIMIENTOS",
+    "UdMedidaPE": "M2",
+    "PrecioPE": "9.039999999999999",
+    "ObservacionesPE": "",
+    "Ahora": "03/29/04 18:40:39"
+  },
+  {
+    "IdRegBasePreEle": "296",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "D04PA801",
+    "DescripcionPE": "Solera hormigón HM-20/P/20",
+    "UdMedidaPE": "M3",
+    "PrecioPE": "97.05",
+    "ObservacionesPE": "",
+    "Ahora": "03/29/04 18:41:21"
+  },
+  {
+    "IdRegBasePreEle": "297",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "D38EA015",
+    "DescripcionPE": "ACERO ARMAR B 400 S",
+    "UdMedidaPE": "Kg",
+    "PrecioPE": "0.96",
+    "ObservacionesPE": "",
+    "Ahora": "03/29/04 18:43:49"
+  },
+  {
+    "IdRegBasePreEle": "298",
+    "IdRegTipPreEle": "24",
+    "CódigoPE": "RED003",
+    "DescripcionPE": "Redondeo unidad D36UA016",
+    "UdMedidaPE": "ud",
+    "PrecioPE": "0.01",
+    "ObservacionesPE": "Redondeo al precio",
+    "Ahora": "03/29/04 18:48:46"
+  },
+  {
+    "IdRegBasePreEle": "299",
+    "IdRegTipPreEle": "24",
+    "CódigoPE": "NE001",
+    "DescripcionPE": "Minio electrolítico",
+    "UdMedidaPE": "l",
+    "PrecioPE": "9.15",
+    "ObservacionesPE": "",
+    "Ahora": "03/30/04 12:20:41"
+  },
+  {
+    "IdRegBasePreEle": "300",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "NE002",
+    "DescripcionPE": "Pequeño material",
+    "UdMedidaPE": "ud",
+    "PrecioPE": "0.95",
+    "ObservacionesPE": "",
+    "Ahora": "03/30/04 12:21:29"
+  },
+  {
+    "IdRegBasePreEle": "301",
+    "IdRegTipPreEle": "3",
+    "CódigoPE": "NE003",
+    "DescripcionPE": "Retroexcavadora de cadenas 40 tn con ripper",
+    "UdMedidaPE": "h",
+    "PrecioPE": "101",
+    "ObservacionesPE": "",
+    "Ahora": "03/30/04 12:22:09"
+  },
+  {
+    "IdRegBasePreEle": "302",
+    "IdRegTipPreEle": "24",
+    "CódigoPE": "NE004",
+    "DescripcionPE": "Tratamiento especial",
+    "UdMedidaPE": "ud",
+    "PrecioPE": "19.95",
+    "ObservacionesPE": "",
+    "Ahora": "03/30/04 12:22:54"
+  },
+  {
+    "IdRegBasePreEle": "303",
+    "IdRegTipPreEle": "24",
+    "CódigoPE": "NE005",
+    "DescripcionPE": "Equipo para inyección de lechada",
+    "UdMedidaPE": "Ud",
+    "PrecioPE": "44.5",
+    "ObservacionesPE": "",
+    "Ahora": "03/30/04 12:23:49"
+  },
+  {
+    "IdRegBasePreEle": "304",
+    "IdRegTipPreEle": "3",
+    "CódigoPE": "NE006",
+    "DescripcionPE": "Manguito de desmontaje telescópico 900 mm",
+    "UdMedidaPE": "Ud",
+    "PrecioPE": "8654.58",
+    "ObservacionesPE": "",
+    "Ahora": "03/30/04 12:25:14"
+  },
+  {
+    "IdRegBasePreEle": "305",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "NE007",
+    "DescripcionPE": "Mermas y despuntes",
+    "UdMedidaPE": "%",
+    "PrecioPE": "0.16",
+    "ObservacionesPE": "",
+    "Ahora": "03/30/04 12:26:03"
+  },
+  {
+    "IdRegBasePreEle": "306",
+    "IdRegTipPreEle": "3",
+    "CódigoPE": "NE008",
+    "DescripcionPE": "Bomba de hormigón pluma 12 m",
+    "UdMedidaPE": "h",
+    "PrecioPE": "116",
+    "ObservacionesPE": "",
+    "Ahora": "03/30/04 12:28:54"
+  },
+  {
+    "IdRegBasePreEle": "307",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "NE009",
+    "DescripcionPE": "Acero laminado A-42 b",
+    "UdMedidaPE": "kg",
+    "PrecioPE": "1.55",
+    "ObservacionesPE": "",
+    "Ahora": "03/30/04 12:38:33"
+  },
+  {
+    "IdRegBasePreEle": "309",
+    "IdRegTipPreEle": "3",
+    "CódigoPE": "NE010",
+    "DescripcionPE": "Camión hormigonera",
+    "UdMedidaPE": "h",
+    "PrecioPE": "25.61",
+    "ObservacionesPE": "",
+    "Ahora": "03/30/04 13:04:41"
+  },
+  {
+    "IdRegBasePreEle": "310",
+    "IdRegTipPreEle": "3",
+    "CódigoPE": "NE011",
+    "DescripcionPE": "Manguito de desmontaje telescópico 800 mm",
+    "UdMedidaPE": "Ud",
+    "PrecioPE": "4327.29",
+    "ObservacionesPE": "",
+    "Ahora": "03/30/04 13:10:00"
+  },
+  {
+    "IdRegBasePreEle": "311",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "NE012",
+    "DescripcionPE": "Válvula mariposa 900 mm CyII",
+    "UdMedidaPE": "Ud",
+    "PrecioPE": "28247.56",
+    "ObservacionesPE": "",
+    "Ahora": "03/30/04 13:18:03"
+  },
+  {
+    "IdRegBasePreEle": "312",
+    "IdRegTipPreEle": "24",
+    "CódigoPE": "NE013",
+    "DescripcionPE": "Repercusión de colocación de panel tipo Peri i/p.p. Accesorios",
+    "UdMedidaPE": "M2",
+    "PrecioPE": "6",
+    "ObservacionesPE": "",
+    "Ahora": "03/30/04 13:28:01"
+  },
+  {
+    "IdRegBasePreEle": "313",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "NE014",
+    "DescripcionPE": "Hormigón HA-25-2a-20 de planta",
+    "UdMedidaPE": "m3",
+    "PrecioPE": "78.3",
+    "ObservacionesPE": "",
+    "Ahora": "03/30/04 13:54:30"
+  },
+  {
+    "IdRegBasePreEle": "314",
+    "IdRegTipPreEle": "3",
+    "CódigoPE": "NE015",
+    "DescripcionPE": "Retroexcavadora mixta con martillo hidráulico",
+    "UdMedidaPE": "h",
+    "PrecioPE": "44.93",
+    "ObservacionesPE": "44,93",
+    "Ahora": "04/01/04 17:07:23"
+  },
+  {
+    "IdRegBasePreEle": "315",
+    "IdRegTipPreEle": "3",
+    "CódigoPE": "NE016",
+    "DescripcionPE": "Martillo y grupo eléctrico",
+    "UdMedidaPE": "h",
+    "PrecioPE": "3.61",
+    "ObservacionesPE": "",
+    "Ahora": "04/01/04 17:08:35"
+  },
+  {
+    "IdRegBasePreEle": "316",
+    "IdRegTipPreEle": "2",
+    "CódigoPE": "NE017",
+    "DescripcionPE": "Pate de polipropileno",
+    "UdMedidaPE": "ud",
+    "PrecioPE": "0.5",
+    "ObservacionesPE": "0,5",
+    "Ahora": "04/01/04 18:14:59"
+  }
+]

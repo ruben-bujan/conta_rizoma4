@@ -1,0 +1,101 @@
+[
+  {
+    "IdObra": "164",
+    "IDDivisión": "68",
+    "IDGrupObra": "",
+    "TipObra": "CentroTrabajo",
+    "SubObra": "1",
+    "NomCorObra": "BP67InCiv",
+    "Nombrelargo": "CentroTrabajoBP67",
+    "SuClaveObra": "",
+    "SuExpdteObra": ""
+  },
+  {
+    "IdObra": "245",
+    "IDDivisión": "66",
+    "IDGrupObra": "4",
+    "TipObra": "Construcción.Carretera.UnaCalzada",
+    "SubObra": "2",
+    "NomCorObra": "Aranjuez",
+    "Nombrelargo": "Variante de la carretera M-501 en Aranjuez Norte",
+    "SuClaveObra": "06-CO-22.0/2004",
+    "SuExpdteObra": ""
+  },
+  {
+    "IdObra": "246",
+    "IDDivisión": "70",
+    "IDGrupObra": "",
+    "TipObra": "CentroTrabajo",
+    "SubObra": "3",
+    "NomCorObra": "BP69Ima",
+    "Nombrelargo": "ImaTodasTodas",
+    "SuClaveObra": "",
+    "SuExpdteObra": ""
+  },
+  {
+    "IdObra": "254",
+    "IDDivisión": "69",
+    "IDGrupObra": "",
+    "TipObra": "CentroTrabajo",
+    "SubObra": "4",
+    "NomCorObra": "BP69Cima",
+    "Nombrelargo": "CimaTodasTodas",
+    "SuClaveObra": "",
+    "SuExpdteObra": ""
+  },
+  {
+    "IdObra": "255",
+    "IDDivisión": "66",
+    "IDGrupObra": "5",
+    "TipObra": "",
+    "SubObra": "5",
+    "NomCorObra": "El Greco",
+    "Nombrelargo": "El Greco",
+    "SuClaveObra": "",
+    "SuExpdteObra": ""
+  },
+  {
+    "IdObra": "256",
+    "IDDivisión": "66",
+    "IDGrupObra": "6",
+    "TipObra": "Construcción.Carretera.Autovía",
+    "SubObra": "6",
+    "NomCorObra": "A2",
+    "Nombrelargo": "Mejora del Trazado A-2 (Alama-Azteca) Zzaragoza",
+    "SuClaveObra": "",
+    "SuExpdteObra": ""
+  },
+  {
+    "IdObra": "257",
+    "IDDivisión": "9",
+    "IDGrupObra": "",
+    "TipObra": "2008.Todas.Contable",
+    "SubObra": "7",
+    "NomCorObra": "2008",
+    "Nombrelargo": "InCiv. Obra virtual para el cirre de 2008 de",
+    "SuClaveObra": "",
+    "SuExpdteObra": ""
+  },
+  {
+    "IdObra": "258",
+    "IDDivisión": "69",
+    "IDGrupObra": "",
+    "TipObra": "2008.Todas.Contable",
+    "SubObra": "8",
+    "NomCorObra": "2008",
+    "Nombrelargo": "Imav. Obra virtual para el cirre de 2008 de",
+    "SuClaveObra": "",
+    "SuExpdteObra": ""
+  },
+  {
+    "IdObra": "259",
+    "IDDivisión": "69",
+    "IDGrupObra": "",
+    "TipObra": "2008.Todas.Contable",
+    "SubObra": "9",
+    "NomCorObra": "2008",
+    "Nombrelargo": "Cima. Obra virtual para el cirre de 2008 de",
+    "SuClaveObra": "",
+    "SuExpdteObra": ""
+  }
+]

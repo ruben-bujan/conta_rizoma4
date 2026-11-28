@@ -27,10 +27,7 @@ from .justificacion_interna import JustificacionInterna
 from .repositorio_acto import RepositorioActoEconomico
 
 
-PG_URL = os.environ.get(
-    "CONTA_PG_URL",
-    "postgresql://rizoma:rizoma_dev@localhost:5433/conta_rizoma4",
-)
+from ..config.postgresql import PG_URL
 
 CUENTA_DESTINO_DEFAULT = "430"   # Clientes
 CUENTA_ORIGEN_DEFAULT = "4308"   # Clientes, obra ejecutada pendiente

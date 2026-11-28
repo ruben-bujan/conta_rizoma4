@@ -2,7 +2,8 @@
 """Configuración multi-empresa, severamente restringida.
 
 - Fuente única: config/empresas.yaml (versionado en el repo, pero el
-  fichero real NO se versiona; solo el .example).
+  fichero real NO se versiona; solo el .example). Ruta alternativa:
+  CONTA_EMPRESAS_YAML.
 - Se carga al arrancar. Cambios requieren reinicio.
 - No hay endpoint para editarlo.
 - Validación estricta: si falla, el servicio no arranca.
@@ -87,7 +88,12 @@ def _validar_mm_dd(valor: str, contexto: str) -> None:
 def cargar_config(path: Optional[Path] = None) -> ConfigGrupo:
     """Carga y valida config/empresas.yaml. Falla rápido si hay error."""
     if path is None:
-        path = Path(os.environ.get("CONTA_EMPRESAS_YAML", "config/empresas.yaml"))
+        raw_env = os.environ.get("CONTA_EMPRESAS_YAML")
+        if raw_env:
+            path = Path(raw_env)
+        else:
+            cand = Path(__file__).resolve().parent.parent.parent / "config" / "empresas.yaml"
+            path = cand if cand.exists() else Path("config/empresas.yaml")
     if not path.exists():
         raise ConfigError(
             f"No existe {path}. Copia config/empresas.yaml.example "

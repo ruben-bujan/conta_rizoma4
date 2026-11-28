@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""RepositorioAsiento multi-tenant: cada contabilidad es de una empresa."""
+"""RepositorioAsiento multi-tenant con soporte de filtros por fecha (H-09)."""
 from __future__ import annotations
 
 import json
@@ -14,10 +14,7 @@ from psycopg.rows import dict_row
 from ..operativo.asiento import GENESIS, calcular_hash, calcular_huella
 
 
-PG_URL = os.environ.get(
-    "CONTA_PG_URL",
-    "postgresql://rizoma:rizoma_dev@localhost:5433/conta_rizoma4",
-)
+from ..config.postgresql import PG_URL
 
 
 @dataclass
@@ -51,7 +48,7 @@ class RepositorioAsiento:
         with self._conn() as conn:
             with conn.cursor() as cur:
                 cur.execute(
-                    "SELECT indice, fecha, concepto, hash_previo, hash, metadatos "
+                    "SELECT indice, caso_id, fecha, concepto, hash_previo, hash, metadatos "
                     "FROM asiento_contable "
                     "WHERE empresa_id = %s AND indice = %s",
                     (self._empresa_id, indice),
@@ -75,18 +72,29 @@ class RepositorioAsiento:
         *,
         indice_desde: Optional[int] = None,
         indice_hasta: Optional[int] = None,
+        fecha_desde: Optional[date] = None,
+        fecha_hasta: Optional[date] = None,
         limite: int = 100,
+        incluir_importaciones_pendientes: bool = False,
     ) -> list[dict]:
+        """Lista asientos ordinarios; lotes migrados pendientes requieren inclusión explícita."""
         where = ["empresa_id = %s"]
         params: list = [self._empresa_id]
+        if not incluir_importaciones_pendientes:
+            where.append("COALESCE(metadatos->>'lote_importacion', '') = ''")
         if indice_desde is not None:
             where.append("indice >= %s"); params.append(indice_desde)
         if indice_hasta is not None:
             where.append("indice <= %s"); params.append(indice_hasta)
+        if fecha_desde is not None:
+            where.append("fecha >= %s"); params.append(fecha_desde)
+        if fecha_hasta is not None:
+            where.append("fecha <= %s"); params.append(fecha_hasta)
+            
         sql = (
-            "SELECT indice, fecha, concepto, hash_previo, hash, metadatos "
+            "SELECT indice, caso_id, fecha, concepto, hash_previo, hash, metadatos "
             "FROM asiento_contable WHERE " + " AND ".join(where) +
-            " ORDER BY indice ASC LIMIT %s"
+            " ORDER BY fecha ASC, indice ASC LIMIT %s"
         )
         params.append(limite)
         with self._conn() as conn:
@@ -141,10 +149,10 @@ class RepositorioAsiento:
         with self._conn() as conn:
             with conn.cursor() as cur:
                 cur.execute(
-                    "SELECT indice, fecha, concepto, hash_previo, hash, metadatos "
+                    "SELECT indice, caso_id, fecha, concepto, hash_previo, hash, metadatos "
                     "FROM asiento_contable "
                     "WHERE empresa_id = %s AND estado = %s "
-                    "ORDER BY indice ASC LIMIT %s",
+                    "ORDER BY fecha ASC, indice ASC LIMIT %s",
                     (self._empresa_id, estado, limite),
                 )
                 asientos = cur.fetchall()
@@ -160,12 +168,46 @@ class RepositorioAsiento:
                     a["lineas"] = cur.fetchall()
         return asientos
 
+    def _listar_cadena(
+        self,
+        *,
+        indice_desde: Optional[int] = None,
+        indice_hasta: Optional[int] = None,
+        limite: int = 100_000,
+    ) -> list[dict]:
+        """Asientos en orden de REGISTRO (indice ASC) para verificar la cadena.
+
+        La cadena se construye por índice (hash_previo = hash del asiento
+        anterior por índice), no por fecha contable. Verificar en orden de
+        fecha produce falsos positivos cuando hay backdating: la fecha de
+        devengo es un atributo del registro, no su posición en el log.
+
+        El orden cronológico-contable sigue siendo responsabilidad de
+        listar(), listar_diario() y los informes.
+        """
+        where = ["empresa_id = %s"]
+        params: list = [self._empresa_id]
+        if indice_desde is not None:
+            where.append("indice >= %s"); params.append(indice_desde)
+        if indice_hasta is not None:
+            where.append("indice <= %s"); params.append(indice_hasta)
+        sql = (
+            "SELECT indice, hash_previo, hash "
+            "FROM asiento_contable WHERE " + " AND ".join(where) +
+            " ORDER BY indice ASC LIMIT %s"
+        )
+        params.append(limite)
+        with self._conn() as conn:
+            with conn.cursor() as cur:
+                cur.execute(sql, params)
+                return cur.fetchall()
+
     def verificar_cadena(
         self,
         desde: Optional[int] = None,
         hasta: Optional[int] = None,
     ) -> ReporteCadenaAsientos:
-        asientos = self.listar(
+        asientos = self._listar_cadena(
             indice_desde=desde, indice_hasta=hasta, limite=100_000,
         )
         if not asientos:

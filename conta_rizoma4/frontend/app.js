@@ -121,7 +121,7 @@ async function visar() {
     if (estado.indiceAsiento === null) throw new Error("Primero crea un asiento");
     const d = await api("POST",
       `/asientos/${estado.indiceAsiento}/visar`,
-      { operario_visador: $("visar-operario").value },
+      {},
       { empresa_id: estado.empresaId }
     );
     mostrarResultado("res-visar", `✓ Estado: ${d.estado}`);
@@ -136,7 +136,7 @@ async function aprobar() {
     if (estado.indiceAsiento === null) throw new Error("Primero visa el asiento");
     const d = await api("POST",
       `/asientos/${estado.indiceAsiento}/aprobar`,
-      { operario_aprobador: $("aprobar-operario").value },
+      {},
       { empresa_id: estado.empresaId }
     );
     mostrarResultado("res-aprobar", `✓ Estado: ${d.estado}`);

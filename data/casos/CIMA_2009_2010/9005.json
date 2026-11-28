@@ -1,0 +1,570 @@
+[
+  {
+    "IdRegTipDoc": "11",
+    "Tipodocumento": "Banco. Justificante de pago"
+  },
+  {
+    "IdRegTipDoc": "12",
+    "Tipodocumento": "Banco. Cargo de comisiones"
+  },
+  {
+    "IdRegTipDoc": "13",
+    "Tipodocumento": "Banco. Abono de intereses"
+  },
+  {
+    "IdRegTipDoc": "14",
+    "Tipodocumento": "Banco. Transferencia"
+  },
+  {
+    "IdRegTipDoc": "15",
+    "Tipodocumento": "Banco. Domiciliación"
+  },
+  {
+    "IdRegTipDoc": "16",
+    "Tipodocumento": "Banco. Extracto"
+  },
+  {
+    "IdRegTipDoc": "19",
+    "Tipodocumento": "Banco. Descuento de efectos"
+  },
+  {
+    "IdRegTipDoc": "20",
+    "Tipodocumento": "Banco. Póiza"
+  },
+  {
+    "IdRegTipDoc": "21",
+    "Tipodocumento": "Banco. Operaciones con cartera"
+  },
+  {
+    "IdRegTipDoc": "22",
+    "Tipodocumento": "Banco. Aviso recibido"
+  },
+  {
+    "IdRegTipDoc": "23",
+    "Tipodocumento": "Banco. Información recibida"
+  },
+  {
+    "IdRegTipDoc": "24",
+    "Tipodocumento": "Banco. Solicitud de operación emitida"
+  },
+  {
+    "IdRegTipDoc": "409",
+    "Tipodocumento": "Banco. Pleitos"
+  },
+  {
+    "IdRegTipDoc": "410",
+    "Tipodocumento": "Banco. Varios"
+  },
+  {
+    "IdRegTipDoc": "411",
+    "Tipodocumento": "Seguros. Póliza"
+  },
+  {
+    "IdRegTipDoc": "412",
+    "Tipodocumento": "Seguros. Recibo"
+  },
+  {
+    "IdRegTipDoc": "413",
+    "Tipodocumento": "Seguros. Aviso"
+  },
+  {
+    "IdRegTipDoc": "414",
+    "Tipodocumento": "Seguros. Información"
+  },
+  {
+    "IdRegTipDoc": "415",
+    "Tipodocumento": "Seguros. Solicitud de operación"
+  },
+  {
+    "IdRegTipDoc": "416",
+    "Tipodocumento": "Seguros. Comunicación siniestro"
+  },
+  {
+    "IdRegTipDoc": "503",
+    "Tipodocumento": "Seguros. Pleitos"
+  },
+  {
+    "IdRegTipDoc": "504",
+    "Tipodocumento": "Seguros. Varios"
+  },
+  {
+    "IdRegTipDoc": "505",
+    "Tipodocumento": "HP. Etiquetas"
+  },
+  {
+    "IdRegTipDoc": "506",
+    "Tipodocumento": "HP. Comunicación"
+  },
+  {
+    "IdRegTipDoc": "507",
+    "Tipodocumento": "HP. IRPF trimestral"
+  },
+  {
+    "IdRegTipDoc": "508",
+    "Tipodocumento": "HP. IRPF anual"
+  },
+  {
+    "IdRegTipDoc": "509",
+    "Tipodocumento": "HP. I.S. Trimestral"
+  },
+  {
+    "IdRegTipDoc": "510",
+    "Tipodocumento": "HP. I.S. Anual"
+  },
+  {
+    "IdRegTipDoc": "511",
+    "Tipodocumento": "H.P. Declaración patrimonio"
+  },
+  {
+    "IdRegTipDoc": "512",
+    "Tipodocumento": "H.P. 347"
+  },
+  {
+    "IdRegTipDoc": "513",
+    "Tipodocumento": "H.P. Pleitos"
+  },
+  {
+    "IdRegTipDoc": "514",
+    "Tipodocumento": "H.P. Varios"
+  },
+  {
+    "IdRegTipDoc": "515",
+    "Tipodocumento": "H.Comunitaria ITP"
+  },
+  {
+    "IdRegTipDoc": "516",
+    "Tipodocumento": "H.Comunitaria Varios"
+  },
+  {
+    "IdRegTipDoc": "517",
+    "Tipodocumento": "Aytto. IAE"
+  },
+  {
+    "IdRegTipDoc": "518",
+    "Tipodocumento": "Aytto. Numeros coches"
+  },
+  {
+    "IdRegTipDoc": "519",
+    "Tipodocumento": "Aytto. Contribución urbana"
+  },
+  {
+    "IdRegTipDoc": "520",
+    "Tipodocumento": "Aytto. Vados"
+  },
+  {
+    "IdRegTipDoc": "521",
+    "Tipodocumento": "Aytto. Basuras"
+  },
+  {
+    "IdRegTipDoc": "522",
+    "Tipodocumento": "Aytto.Varios"
+  },
+  {
+    "IdRegTipDoc": "523",
+    "Tipodocumento": "S.S. Alta"
+  },
+  {
+    "IdRegTipDoc": "524",
+    "Tipodocumento": "S.S. Baja"
+  },
+  {
+    "IdRegTipDoc": "525",
+    "Tipodocumento": "S.S. Contrato"
+  },
+  {
+    "IdRegTipDoc": "526",
+    "Tipodocumento": "S.S. Convenio"
+  },
+  {
+    "IdRegTipDoc": "527",
+    "Tipodocumento": "S.S. Tc1 y Tc2"
+  },
+  {
+    "IdRegTipDoc": "529",
+    "Tipodocumento": "S.S. Varios"
+  },
+  {
+    "IdRegTipDoc": "590",
+    "Tipodocumento": "Organismos públicos. Pleitos"
+  },
+  {
+    "IdRegTipDoc": "591",
+    "Tipodocumento": "Proveedores. Propaganda"
+  },
+  {
+    "IdRegTipDoc": "592",
+    "Tipodocumento": "Proveedores. Información técnica"
+  },
+  {
+    "IdRegTipDoc": "593",
+    "Tipodocumento": "Proveedores. Oferta"
+  },
+  {
+    "IdRegTipDoc": "594",
+    "Tipodocumento": "Proveedores. Factura proforma"
+  },
+  {
+    "IdRegTipDoc": "595",
+    "Tipodocumento": "Proveedores. Contrato"
+  },
+  {
+    "IdRegTipDoc": "596",
+    "Tipodocumento": "Proveedores. Albarán"
+  },
+  {
+    "IdRegTipDoc": "597",
+    "Tipodocumento": "Proveedores. Medición valorada"
+  },
+  {
+    "IdRegTipDoc": "598",
+    "Tipodocumento": "Proveedores. Factura recibida"
+  },
+  {
+    "IdRegTipDoc": "599",
+    "Tipodocumento": "Proveedores. Información"
+  },
+  {
+    "IdRegTipDoc": "600",
+    "Tipodocumento": "Proveedores. Aviso"
+  },
+  {
+    "IdRegTipDoc": "601",
+    "Tipodocumento": "Proveedores. Pleitos"
+  },
+  {
+    "IdRegTipDoc": "602",
+    "Tipodocumento": "Proveedores. Varios"
+  },
+  {
+    "IdRegTipDoc": "603",
+    "Tipodocumento": "Clientes públicos. Oferta emitida"
+  },
+  {
+    "IdRegTipDoc": "604",
+    "Tipodocumento": "Clientes públicos. Oficio"
+  },
+  {
+    "IdRegTipDoc": "605",
+    "Tipodocumento": "Clientes públicos. Contrato"
+  },
+  {
+    "IdRegTipDoc": "606",
+    "Tipodocumento": "Clientes públicos. Relación valorada"
+  },
+  {
+    "IdRegTipDoc": "607",
+    "Tipodocumento": "Clientes públicos. Certificación"
+  },
+  {
+    "IdRegTipDoc": "608",
+    "Tipodocumento": "Clientes públicos. Factura emitida"
+  },
+  {
+    "IdRegTipDoc": "609",
+    "Tipodocumento": "Clientes públicos. Solicitud emitida"
+  },
+  {
+    "IdRegTipDoc": "610",
+    "Tipodocumento": "Clientes públicos. Comunicación nuestra"
+  },
+  {
+    "IdRegTipDoc": "611",
+    "Tipodocumento": "Clientes públicos. Propaganda nuestra"
+  },
+  {
+    "IdRegTipDoc": "651",
+    "Tipodocumento": "Clientes públicos. Pleitos"
+  },
+  {
+    "IdRegTipDoc": "652",
+    "Tipodocumento": "Clientes públicos. Varios"
+  },
+  {
+    "IdRegTipDoc": "653",
+    "Tipodocumento": "Clientes privados. Oferta emitida"
+  },
+  {
+    "IdRegTipDoc": "654",
+    "Tipodocumento": "Clientes privados. Comunicación suya"
+  },
+  {
+    "IdRegTipDoc": "655",
+    "Tipodocumento": "Clientes privados. Contrato"
+  },
+  {
+    "IdRegTipDoc": "656",
+    "Tipodocumento": "Clientes privados. Anexo al contrato"
+  },
+  {
+    "IdRegTipDoc": "657",
+    "Tipodocumento": "Clientes privados. Medición valorada"
+  },
+  {
+    "IdRegTipDoc": "658",
+    "Tipodocumento": "Clientes privados. Factura emitida"
+  },
+  {
+    "IdRegTipDoc": "659",
+    "Tipodocumento": "Clientes privados. Comunicación nuestra"
+  },
+  {
+    "IdRegTipDoc": "660",
+    "Tipodocumento": "Clientes privados. Propaganda nuestra"
+  },
+  {
+    "IdRegTipDoc": "661",
+    "Tipodocumento": "Clientes privados. Pleitos"
+  },
+  {
+    "IdRegTipDoc": "662",
+    "Tipodocumento": "Clientes privados. Varios"
+  },
+  {
+    "IdRegTipDoc": "663",
+    "Tipodocumento": "Personal. Solicitud de"
+  },
+  {
+    "IdRegTipDoc": "664",
+    "Tipodocumento": "Personal. Selección"
+  },
+  {
+    "IdRegTipDoc": "665",
+    "Tipodocumento": "Personal. Contrato"
+  },
+  {
+    "IdRegTipDoc": "666",
+    "Tipodocumento": "Personal. Alta"
+  },
+  {
+    "IdRegTipDoc": "667",
+    "Tipodocumento": "Personal. Baja"
+  },
+  {
+    "IdRegTipDoc": "668",
+    "Tipodocumento": "Personal. Despido"
+  },
+  {
+    "IdRegTipDoc": "669",
+    "Tipodocumento": "Personal. Finiquito"
+  },
+  {
+    "IdRegTipDoc": "670",
+    "Tipodocumento": "Personal. Gratificación"
+  },
+  {
+    "IdRegTipDoc": "671",
+    "Tipodocumento": "Personal. Adelanto"
+  },
+  {
+    "IdRegTipDoc": "672",
+    "Tipodocumento": "Personal. Nómina"
+  },
+  {
+    "IdRegTipDoc": "673",
+    "Tipodocumento": "Personal. Paga"
+  },
+  {
+    "IdRegTipDoc": "674",
+    "Tipodocumento": "Personal. Gastos"
+  },
+  {
+    "IdRegTipDoc": "675",
+    "Tipodocumento": "Personal. Varios"
+  },
+  {
+    "IdRegTipDoc": "682",
+    "Tipodocumento": "Personal. Pleitos"
+  },
+  {
+    "IdRegTipDoc": "684",
+    "Tipodocumento": "Terceros. Comunicaciones suyas"
+  },
+  {
+    "IdRegTipDoc": "685",
+    "Tipodocumento": "Terceros. Información suya"
+  },
+  {
+    "IdRegTipDoc": "686",
+    "Tipodocumento": "Terceros. Pleitos contra nostros"
+  },
+  {
+    "IdRegTipDoc": "687",
+    "Tipodocumento": "Terceros. Comunicaciones nuestras"
+  },
+  {
+    "IdRegTipDoc": "688",
+    "Tipodocumento": "Terceros. Información nuestra"
+  },
+  {
+    "IdRegTipDoc": "689",
+    "Tipodocumento": "Terceros. Pleitos contra ellos"
+  },
+  {
+    "IdRegTipDoc": "690",
+    "Tipodocumento": "Terceros. Varios"
+  },
+  {
+    "IdRegTipDoc": "691",
+    "Tipodocumento": "Interno. Mercantil. Libro diario"
+  },
+  {
+    "IdRegTipDoc": "693",
+    "Tipodocumento": "Interno. Mercantil. Libro mayor"
+  },
+  {
+    "IdRegTipDoc": "694",
+    "Tipodocumento": "Interno. Mercantil. Balances sumas y saldos"
+  },
+  {
+    "IdRegTipDoc": "695",
+    "Tipodocumento": "Interno. Mercantil. Balance reducido"
+  },
+  {
+    "IdRegTipDoc": "696",
+    "Tipodocumento": "Generico"
+  },
+  {
+    "IdRegTipDoc": "697",
+    "Tipodocumento": "Banco. Cheque"
+  },
+  {
+    "IdRegTipDoc": "698",
+    "Tipodocumento": "Banco. Pagare"
+  },
+  {
+    "IdRegTipDoc": "699",
+    "Tipodocumento": "Banco. Cargo de intereses"
+  },
+  {
+    "IdRegTipDoc": "700",
+    "Tipodocumento": "Banco. Prestamo"
+  },
+  {
+    "IdRegTipDoc": "701",
+    "Tipodocumento": "Clientes públicos. Comunicación suya"
+  },
+  {
+    "IdRegTipDoc": "702",
+    "Tipodocumento": "Banco. Aval"
+  },
+  {
+    "IdRegTipDoc": "703",
+    "Tipodocumento": "S.S. Ta2"
+  },
+  {
+    "IdRegTipDoc": "704",
+    "Tipodocumento": "Camara. Ipto"
+  },
+  {
+    "IdRegTipDoc": "705",
+    "Tipodocumento": "H.P. I.V.A. Trimestral"
+  },
+  {
+    "IdRegTipDoc": "706",
+    "Tipodocumento": "Clientes privados. Cobro"
+  },
+  {
+    "IdRegTipDoc": "707",
+    "Tipodocumento": "Clientes publicos. Cobro"
+  },
+  {
+    "IdRegTipDoc": "708",
+    "Tipodocumento": "Banco. Justificante de cobro"
+  },
+  {
+    "IdRegTipDoc": "709",
+    "Tipodocumento": "Proveedores. Pedido de Oferta"
+  },
+  {
+    "IdRegTipDoc": "710",
+    "Tipodocumento": "Proveedores. Orden de Compra"
+  },
+  {
+    "IdRegTipDoc": "711",
+    "Tipodocumento": "Registro Mercantil"
+  },
+  {
+    "IdRegTipDoc": "712",
+    "Tipodocumento": "M. F. Tasas"
+  },
+  {
+    "IdRegTipDoc": "713",
+    "Tipodocumento": "CHT. Tasas"
+  },
+  {
+    "IdRegTipDoc": "714",
+    "Tipodocumento": "Personal. Pago. Gastos"
+  },
+  {
+    "IdRegTipDoc": "715",
+    "Tipodocumento": "Tasas Varias"
+  },
+  {
+    "IdRegTipDoc": "716",
+    "Tipodocumento": "Banco. Letra de Cambio"
+  },
+  {
+    "IdRegTipDoc": "717",
+    "Tipodocumento": "Banco. Devolucion recibo"
+  },
+  {
+    "IdRegTipDoc": "718",
+    "Tipodocumento": "Proveedores. Oferta Aceptada"
+  },
+  {
+    "IdRegTipDoc": "719",
+    "Tipodocumento": "Clientes. Publicos.Tasa"
+  },
+  {
+    "IdRegTipDoc": "720",
+    "Tipodocumento": "Aytto. Sonseca"
+  },
+  {
+    "IdRegTipDoc": "721",
+    "Tipodocumento": "Registro de la Propiedad"
+  },
+  {
+    "IdRegTipDoc": "722",
+    "Tipodocumento": "Aytto. Burguillos de Toledo"
+  },
+  {
+    "IdRegTipDoc": "723",
+    "Tipodocumento": "Registro de la Propiedad. Nota Simple"
+  },
+  {
+    "IdRegTipDoc": "724",
+    "Tipodocumento": "Correos. Burofax"
+  },
+  {
+    "IdRegTipDoc": "725",
+    "Tipodocumento": "Cooreos. Carta Certificada"
+  },
+  {
+    "IdRegTipDoc": "726",
+    "Tipodocumento": "H.P. Deudas Varias"
+  },
+  {
+    "IdRegTipDoc": "727",
+    "Tipodocumento": "Clientes Publicos. Aprobacion plan SyS"
+  },
+  {
+    "IdRegTipDoc": "728",
+    "Tipodocumento": "Clientes Publicos. Apertura Centro de Trabajo"
+  },
+  {
+    "IdRegTipDoc": "729",
+    "Tipodocumento": "Clientes Publicos.. Avisos Previos"
+  },
+  {
+    "IdRegTipDoc": "730",
+    "Tipodocumento": "Varios. Parte de Accidente"
+  },
+  {
+    "IdRegTipDoc": "731",
+    "Tipodocumento": "Banco. Confirmning"
+  },
+  {
+    "IdRegTipDoc": "732",
+    "Tipodocumento": "BORME"
+  }
+]

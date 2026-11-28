@@ -1,0 +1,1214 @@
+[
+  {
+    "IdRegN03": "270",
+    "IdRegClaN03": "1",
+    "IdRegN02": "110",
+    "N2": "Justificante"
+  },
+  {
+    "IdRegN03": "271",
+    "IdRegClaN03": "2",
+    "IdRegN02": "110",
+    "N2": "Compra"
+  },
+  {
+    "IdRegN03": "616",
+    "IdRegClaN03": "1",
+    "IdRegN02": "183",
+    "N2": "Tramo x"
+  },
+  {
+    "IdRegN03": "924",
+    "IdRegClaN03": "2",
+    "IdRegN02": "254",
+    "N2": "Laboral"
+  },
+  {
+    "IdRegN03": "925",
+    "IdRegClaN03": "3",
+    "IdRegN02": "254",
+    "N2": "Tributario"
+  },
+  {
+    "IdRegN03": "926",
+    "IdRegClaN03": "4",
+    "IdRegN02": "254",
+    "N2": "Tesoreria"
+  },
+  {
+    "IdRegN03": "927",
+    "IdRegClaN03": "5",
+    "IdRegN02": "254",
+    "N2": "Societario"
+  },
+  {
+    "IdRegN03": "928",
+    "IdRegClaN03": "6",
+    "IdRegN02": "254",
+    "N2": "Juridico"
+  },
+  {
+    "IdRegN03": "930",
+    "IdRegClaN03": "7",
+    "IdRegN02": "254",
+    "N2": "Seguro"
+  },
+  {
+    "IdRegN03": "932",
+    "IdRegClaN03": "9",
+    "IdRegN02": "254",
+    "N2": "Existencia"
+  },
+  {
+    "IdRegN03": "934",
+    "IdRegClaN03": "13",
+    "IdRegN02": "254",
+    "N2": "Bibliografía"
+  },
+  {
+    "IdRegN03": "935",
+    "IdRegClaN03": "1",
+    "IdRegN02": "254",
+    "N2": "NtroContratoConCliente"
+  },
+  {
+    "IdRegN03": "968",
+    "IdRegClaN03": "12",
+    "IdRegN02": "254",
+    "N2": "Soft"
+  },
+  {
+    "IdRegN03": "970",
+    "IdRegClaN03": "11",
+    "IdRegN02": "254",
+    "N2": "Activo"
+  },
+  {
+    "IdRegN03": "971",
+    "IdRegClaN03": "10",
+    "IdRegN02": "254",
+    "N2": "Pasivo"
+  },
+  {
+    "IdRegN03": "1012",
+    "IdRegClaN03": "0",
+    "IdRegN02": "269",
+    "N2": "Capital"
+  },
+  {
+    "IdRegN03": "1019",
+    "IdRegClaN03": "1",
+    "IdRegN02": "269",
+    "N2": "Reservas y otros instrumentos de patrimonio"
+  },
+  {
+    "IdRegN03": "1020",
+    "IdRegClaN03": "2",
+    "IdRegN02": "269",
+    "N2": "Resultados pendientes de aplicación"
+  },
+  {
+    "IdRegN03": "1021",
+    "IdRegClaN03": "3",
+    "IdRegN02": "269",
+    "N2": "Subvenciones, donaciones, legados y otros ajustes en patrimonio neto"
+  },
+  {
+    "IdRegN03": "1022",
+    "IdRegClaN03": "4",
+    "IdRegN02": "269",
+    "N2": "Provisiones"
+  },
+  {
+    "IdRegN03": "1023",
+    "IdRegClaN03": "5",
+    "IdRegN02": "269",
+    "N2": "Deudas a largo plazo con características especiales"
+  },
+  {
+    "IdRegN03": "1024",
+    "IdRegClaN03": "6",
+    "IdRegN02": "269",
+    "N2": "Deudas a largo plazo con partes vinculdas"
+  },
+  {
+    "IdRegN03": "1025",
+    "IdRegClaN03": "7",
+    "IdRegN02": "269",
+    "N2": "Deudas a largo plazo por préstamos recibidos y otros conceptos"
+  },
+  {
+    "IdRegN03": "1026",
+    "IdRegClaN03": "8",
+    "IdRegN02": "269",
+    "N2": "Pasivos por fianzas, garantías y otros conceptos a largo plazo"
+  },
+  {
+    "IdRegN03": "1027",
+    "IdRegClaN03": "9",
+    "IdRegN02": "269",
+    "N2": "Situaciones transitorias de financiación"
+  },
+  {
+    "IdRegN03": "1028",
+    "IdRegClaN03": "0",
+    "IdRegN02": "270",
+    "N2": "Inmovilizaciones intangibles"
+  },
+  {
+    "IdRegN03": "1029",
+    "IdRegClaN03": "1",
+    "IdRegN02": "270",
+    "N2": "Inmovilizaciones materiales"
+  },
+  {
+    "IdRegN03": "1030",
+    "IdRegClaN03": "2",
+    "IdRegN02": "270",
+    "N2": "Inversiones inmobiliarias"
+  },
+  {
+    "IdRegN03": "1031",
+    "IdRegClaN03": "3",
+    "IdRegN02": "270",
+    "N2": "Inmovilizaciones materiales en curso"
+  },
+  {
+    "IdRegN03": "1032",
+    "IdRegClaN03": "4",
+    "IdRegN02": "270",
+    "N2": "Inversiones financieras a largo plazo en partes"
+  },
+  {
+    "IdRegN03": "1033",
+    "IdRegClaN03": "5",
+    "IdRegN02": "270",
+    "N2": "Otras inversiones financieras a largo plazo"
+  },
+  {
+    "IdRegN03": "1034",
+    "IdRegClaN03": "6",
+    "IdRegN02": "270",
+    "N2": "Fianzas y depósitos constuidos a largo plazo"
+  },
+  {
+    "IdRegN03": "1035",
+    "IdRegClaN03": "8",
+    "IdRegN02": "270",
+    "N2": "Amortización acumulada del inmovilizado"
+  },
+  {
+    "IdRegN03": "1036",
+    "IdRegClaN03": "9",
+    "IdRegN02": "270",
+    "N2": "Deterioro de valor de activos no corrientes"
+  },
+  {
+    "IdRegN03": "1037",
+    "IdRegClaN03": "0",
+    "IdRegN02": "271",
+    "N2": "Comerciales"
+  },
+  {
+    "IdRegN03": "1038",
+    "IdRegClaN03": "1",
+    "IdRegN02": "271",
+    "N2": "Materias primas"
+  },
+  {
+    "IdRegN03": "1039",
+    "IdRegClaN03": "2",
+    "IdRegN02": "271",
+    "N2": "Otros aprovisionamientos"
+  },
+  {
+    "IdRegN03": "1040",
+    "IdRegClaN03": "3",
+    "IdRegN02": "271",
+    "N2": "Productos en curso"
+  },
+  {
+    "IdRegN03": "1041",
+    "IdRegClaN03": "4",
+    "IdRegN02": "271",
+    "N2": "Productos semiterminados"
+  },
+  {
+    "IdRegN03": "1042",
+    "IdRegClaN03": "5",
+    "IdRegN02": "271",
+    "N2": "Productos terminados"
+  },
+  {
+    "IdRegN03": "1043",
+    "IdRegClaN03": "6",
+    "IdRegN02": "271",
+    "N2": "Subproductos, residuos y materiales recuperados"
+  },
+  {
+    "IdRegN03": "1044",
+    "IdRegClaN03": "9",
+    "IdRegN02": "271",
+    "N2": "Deterioro de valor de existencias"
+  },
+  {
+    "IdRegN03": "1045",
+    "IdRegClaN03": "0",
+    "IdRegN02": "272",
+    "N2": "Proveedores"
+  },
+  {
+    "IdRegN03": "1046",
+    "IdRegClaN03": "1",
+    "IdRegN02": "272",
+    "N2": "Acreedores varios"
+  },
+  {
+    "IdRegN03": "1047",
+    "IdRegClaN03": "3",
+    "IdRegN02": "272",
+    "N2": "Clientes"
+  },
+  {
+    "IdRegN03": "1048",
+    "IdRegClaN03": "4",
+    "IdRegN02": "272",
+    "N2": "Deudores varios"
+  },
+  {
+    "IdRegN03": "1049",
+    "IdRegClaN03": "6",
+    "IdRegN02": "272",
+    "N2": "Personal"
+  },
+  {
+    "IdRegN03": "1050",
+    "IdRegClaN03": "7",
+    "IdRegN02": "272",
+    "N2": "Administraciones Públicas"
+  },
+  {
+    "IdRegN03": "1051",
+    "IdRegClaN03": "8",
+    "IdRegN02": "272",
+    "N2": "Ajustes por periodificación"
+  },
+  {
+    "IdRegN03": "1052",
+    "IdRegClaN03": "9",
+    "IdRegN02": "272",
+    "N2": "Deterioro de valor de creditos comerciales y provisiones a corto plazo"
+  },
+  {
+    "IdRegN03": "1053",
+    "IdRegClaN03": "0",
+    "IdRegN02": "273",
+    "N2": "Empréstitos, deudas especiales y otras emisiones análogas a corto plazo"
+  },
+  {
+    "IdRegN03": "1054",
+    "IdRegClaN03": "1",
+    "IdRegN02": "273",
+    "N2": "Deudas a corto plazo con partes vinculadas"
+  },
+  {
+    "IdRegN03": "1055",
+    "IdRegClaN03": "2",
+    "IdRegN02": "273",
+    "N2": "Deudas a corto plazo por préstamos recibidos y otros conceptos"
+  },
+  {
+    "IdRegN03": "1056",
+    "IdRegClaN03": "3",
+    "IdRegN02": "273",
+    "N2": "Inversiones financiers a corto plazo en partes vinculadas"
+  },
+  {
+    "IdRegN03": "1057",
+    "IdRegClaN03": "4",
+    "IdRegN02": "273",
+    "N2": "Otras inversiones financieras a corto plazo"
+  },
+  {
+    "IdRegN03": "1058",
+    "IdRegClaN03": "5",
+    "IdRegN02": "273",
+    "N2": "Otras cuentas no bancarias"
+  },
+  {
+    "IdRegN03": "1059",
+    "IdRegClaN03": "6",
+    "IdRegN02": "273",
+    "N2": "Fianzas y depósitos recibidos y constituidos a corto plazo y ajustes"
+  },
+  {
+    "IdRegN03": "1060",
+    "IdRegClaN03": "7",
+    "IdRegN02": "273",
+    "N2": "Tesorería"
+  },
+  {
+    "IdRegN03": "1061",
+    "IdRegClaN03": "8",
+    "IdRegN02": "273",
+    "N2": "Activos no corrientes mantenidos para la venta y activos y pasivos asociados"
+  },
+  {
+    "IdRegN03": "1062",
+    "IdRegClaN03": "9",
+    "IdRegN02": "273",
+    "N2": "Deterioro del valor de inversiones financieras a corto plazo"
+  },
+  {
+    "IdRegN03": "1063",
+    "IdRegClaN03": "0",
+    "IdRegN02": "274",
+    "N2": "Compras"
+  },
+  {
+    "IdRegN03": "1064",
+    "IdRegClaN03": "1",
+    "IdRegN02": "274",
+    "N2": "Variación de existencias"
+  },
+  {
+    "IdRegN03": "1065",
+    "IdRegClaN03": "2",
+    "IdRegN02": "274",
+    "N2": "Servicios exteriores"
+  },
+  {
+    "IdRegN03": "1066",
+    "IdRegClaN03": "3",
+    "IdRegN02": "274",
+    "N2": "Tributos"
+  },
+  {
+    "IdRegN03": "1067",
+    "IdRegClaN03": "4",
+    "IdRegN02": "274",
+    "N2": "Gastos de personal"
+  },
+  {
+    "IdRegN03": "1068",
+    "IdRegClaN03": "5",
+    "IdRegN02": "274",
+    "N2": "Otros gastos de gestión"
+  },
+  {
+    "IdRegN03": "1069",
+    "IdRegClaN03": "6",
+    "IdRegN02": "274",
+    "N2": "Gastos financieros"
+  },
+  {
+    "IdRegN03": "1070",
+    "IdRegClaN03": "7",
+    "IdRegN02": "274",
+    "N2": "Pérdidas procedentes de activos no corrientes y gastos excepcionales"
+  },
+  {
+    "IdRegN03": "1071",
+    "IdRegClaN03": "8",
+    "IdRegN02": "274",
+    "N2": "Dotaciones para amortizaciones"
+  },
+  {
+    "IdRegN03": "1072",
+    "IdRegClaN03": "9",
+    "IdRegN02": "274",
+    "N2": "Perdidas por deterioro y otras dotaciones"
+  },
+  {
+    "IdRegN03": "1073",
+    "IdRegClaN03": "0",
+    "IdRegN02": "275",
+    "N2": "Ventas de mercaderias, de producción propia, de servicios, etc."
+  },
+  {
+    "IdRegN03": "1074",
+    "IdRegClaN03": "1",
+    "IdRegN02": "275",
+    "N2": "Variación de existencias"
+  },
+  {
+    "IdRegN03": "1075",
+    "IdRegClaN03": "3",
+    "IdRegN02": "275",
+    "N2": "Trabajos realizados para la empresa"
+  },
+  {
+    "IdRegN03": "1076",
+    "IdRegClaN03": "4",
+    "IdRegN02": "275",
+    "N2": "Subvenciones, donaciones y legados"
+  },
+  {
+    "IdRegN03": "1077",
+    "IdRegClaN03": "5",
+    "IdRegN02": "275",
+    "N2": "Otros ingresos de gestión"
+  },
+  {
+    "IdRegN03": "1078",
+    "IdRegClaN03": "6",
+    "IdRegN02": "275",
+    "N2": "Ingresos financieros"
+  },
+  {
+    "IdRegN03": "1079",
+    "IdRegClaN03": "7",
+    "IdRegN02": "275",
+    "N2": "Beneficios procedentes de activos no corrientes e ingresos excepcionales"
+  },
+  {
+    "IdRegN03": "1080",
+    "IdRegClaN03": "9",
+    "IdRegN02": "275",
+    "N2": "Excesos y aplicaciones de provisiones y de perdidas por deterioro"
+  },
+  {
+    "IdRegN03": "1081",
+    "IdRegClaN03": "0",
+    "IdRegN02": "276",
+    "N2": "Gastos financieros por valoración de activos y pasivos"
+  },
+  {
+    "IdRegN03": "1082",
+    "IdRegClaN03": "1",
+    "IdRegN02": "276",
+    "N2": "Gastos en operaciones de cobertura"
+  },
+  {
+    "IdRegN03": "1083",
+    "IdRegClaN03": "2",
+    "IdRegN02": "276",
+    "N2": "Gastos por diferencias de conversión"
+  },
+  {
+    "IdRegN03": "1084",
+    "IdRegClaN03": "3",
+    "IdRegN02": "276",
+    "N2": "Impuesto sobre beneficios"
+  },
+  {
+    "IdRegN03": "1085",
+    "IdRegClaN03": "4",
+    "IdRegN02": "276",
+    "N2": "Transferencias de subvenciones, donaciones y legados"
+  },
+  {
+    "IdRegN03": "1086",
+    "IdRegClaN03": "5",
+    "IdRegN02": "276",
+    "N2": "Perdidas actuariales y ajustes en activos por retribuciones prestación definida"
+  },
+  {
+    "IdRegN03": "1087",
+    "IdRegClaN03": "6",
+    "IdRegN02": "276",
+    "N2": "Gastos por activos no corrientes en venta"
+  },
+  {
+    "IdRegN03": "1088",
+    "IdRegClaN03": "9",
+    "IdRegN02": "276",
+    "N2": "Gastos participaciones empresas grupo o asociadas ajustes valorativos positivos"
+  },
+  {
+    "IdRegN03": "1089",
+    "IdRegClaN03": "0",
+    "IdRegN02": "277",
+    "N2": "Ingresosfinancieros por valoración de activos y pasivos"
+  },
+  {
+    "IdRegN03": "1090",
+    "IdRegClaN03": "1",
+    "IdRegN02": "277",
+    "N2": "Ingresos en operaciones de cobertura"
+  },
+  {
+    "IdRegN03": "1091",
+    "IdRegClaN03": "2",
+    "IdRegN02": "277",
+    "N2": "Ingresos por diferencias de conversión"
+  },
+  {
+    "IdRegN03": "1092",
+    "IdRegClaN03": "4",
+    "IdRegN02": "277",
+    "N2": "Ingresos por subvenciones, donaciones y legados"
+  },
+  {
+    "IdRegN03": "1093",
+    "IdRegClaN03": "5",
+    "IdRegN02": "277",
+    "N2": "Ganacias actuariales y ajustes en activos por retribuciones prestación definida"
+  },
+  {
+    "IdRegN03": "1094",
+    "IdRegClaN03": "6",
+    "IdRegN02": "277",
+    "N2": "Ingresos por activos no corrientes en venta"
+  },
+  {
+    "IdRegN03": "1095",
+    "IdRegClaN03": "9",
+    "IdRegN02": "277",
+    "N2": "Ingreso participaciones empresas grupo o asociadas ajustes valorativos positivos"
+  },
+  {
+    "IdRegN03": "1196",
+    "IdRegClaN03": "1",
+    "IdRegN02": "303",
+    "N2": "SOS"
+  },
+  {
+    "IdRegN03": "1197",
+    "IdRegClaN03": "2",
+    "IdRegN02": "303",
+    "N2": "OtraComunicación"
+  },
+  {
+    "IdRegN03": "1198",
+    "IdRegClaN03": "3",
+    "IdRegN02": "303",
+    "N2": "Cerramiento"
+  },
+  {
+    "IdRegN03": "1211",
+    "IdRegClaN03": "1",
+    "IdRegN02": "187",
+    "N2": "OperaciónPrevia"
+  },
+  {
+    "IdRegN03": "1253",
+    "IdRegClaN03": "2",
+    "IdRegN02": "187",
+    "N2": "ServicioAfectado"
+  },
+  {
+    "IdRegN03": "1254",
+    "IdRegClaN03": "3",
+    "IdRegN02": "187",
+    "N2": "Drenaje.Longitudinal.Profundo.CimientoTerraplén"
+  },
+  {
+    "IdRegN03": "1255",
+    "IdRegClaN03": "4",
+    "IdRegN02": "187",
+    "N2": "Estructura.Cimentación.Profunda"
+  },
+  {
+    "IdRegN03": "1256",
+    "IdRegClaN03": "5",
+    "IdRegN02": "187",
+    "N2": "Obra de fábrica.Pequeña"
+  },
+  {
+    "IdRegN03": "1257",
+    "IdRegClaN03": "6",
+    "IdRegN02": "187",
+    "N2": "Estructura.Cimentación.Superficial"
+  },
+  {
+    "IdRegN03": "1258",
+    "IdRegClaN03": "7",
+    "IdRegN02": "187",
+    "N2": "Estructura.Alzado"
+  },
+  {
+    "IdRegN03": "1259",
+    "IdRegClaN03": "8",
+    "IdRegN02": "187",
+    "N2": "Obra de fábrica.Grande"
+  },
+  {
+    "IdRegN03": "1260",
+    "IdRegClaN03": "9",
+    "IdRegN02": "187",
+    "N2": "MovTierras.CanteraCompensación"
+  },
+  {
+    "IdRegN03": "1261",
+    "IdRegClaN03": "10",
+    "IdRegN02": "187",
+    "N2": "MovTierras.Préstamo"
+  },
+  {
+    "IdRegN03": "1262",
+    "IdRegClaN03": "11",
+    "IdRegN02": "187",
+    "N2": "MovTierras.Vertedero"
+  },
+  {
+    "IdRegN03": "1263",
+    "IdRegClaN03": "12",
+    "IdRegN02": "187",
+    "N2": "Drenaje.Longitudinal.Profundo.FondoDesmonte"
+  },
+  {
+    "IdRegN03": "1264",
+    "IdRegClaN03": "13",
+    "IdRegN02": "187",
+    "N2": "MovTierras.FondoCaja"
+  },
+  {
+    "IdRegN03": "1265",
+    "IdRegClaN03": "14",
+    "IdRegN02": "187",
+    "N2": "MovTierras.Explanada"
+  },
+  {
+    "IdRegN03": "1266",
+    "IdRegClaN03": "15",
+    "IdRegN02": "187",
+    "N2": "Estructura.Tablero"
+  },
+  {
+    "IdRegN03": "1274",
+    "IdRegClaN03": "1",
+    "IdRegN02": "302",
+    "N2": "Firme"
+  },
+  {
+    "IdRegN03": "1275",
+    "IdRegClaN03": "2",
+    "IdRegN02": "302",
+    "N2": "Drenaje.Longitudinal.Superficial.Longitudinal"
+  },
+  {
+    "IdRegN03": "1276",
+    "IdRegClaN03": "3",
+    "IdRegN02": "302",
+    "N2": "Defensa"
+  },
+  {
+    "IdRegN03": "1277",
+    "IdRegClaN03": "4",
+    "IdRegN02": "302",
+    "N2": "Balizamiento"
+  },
+  {
+    "IdRegN03": "1278",
+    "IdRegClaN03": "5",
+    "IdRegN02": "302",
+    "N2": "Señalización"
+  },
+  {
+    "IdRegN03": "1287",
+    "IdRegClaN03": "1",
+    "IdRegN02": "304",
+    "N2": "Talud"
+  },
+  {
+    "IdRegN03": "1292",
+    "IdRegClaN03": "2",
+    "IdRegN02": "304",
+    "N2": "Intermedio"
+  },
+  {
+    "IdRegN03": "1293",
+    "IdRegClaN03": "1",
+    "IdRegN02": "306",
+    "N2": "InternaEntre"
+  },
+  {
+    "IdRegN03": "1294",
+    "IdRegClaN03": "2",
+    "IdRegN02": "306",
+    "N2": "ExternaCon"
+  },
+  {
+    "IdRegN03": "1299",
+    "IdRegClaN03": "1",
+    "IdRegN02": "307",
+    "N2": "InternaEntre"
+  },
+  {
+    "IdRegN03": "1300",
+    "IdRegClaN03": "2",
+    "IdRegN02": "307",
+    "N2": "ExternaCon"
+  },
+  {
+    "IdRegN03": "1301",
+    "IdRegClaN03": "8",
+    "IdRegN02": "254",
+    "N2": "Caución"
+  },
+  {
+    "IdRegN03": "1347",
+    "IdRegClaN03": "1",
+    "IdRegN02": "310",
+    "N2": "Teconología"
+  },
+  {
+    "IdRegN03": "1348",
+    "IdRegClaN03": "7",
+    "IdRegN02": "310",
+    "N2": "Promoción"
+  },
+  {
+    "IdRegN03": "1349",
+    "IdRegClaN03": "2",
+    "IdRegN02": "310",
+    "N2": "OfTécnica"
+  },
+  {
+    "IdRegN03": "1351",
+    "IdRegClaN03": "3",
+    "IdRegN02": "310",
+    "N2": "Administración"
+  },
+  {
+    "IdRegN03": "1358",
+    "IdRegClaN03": "4",
+    "IdRegN02": "310",
+    "N2": "Jurídico"
+  },
+  {
+    "IdRegN03": "1359",
+    "IdRegClaN03": "1",
+    "IdRegN02": "311",
+    "N2": "GrupoX"
+  },
+  {
+    "IdRegN03": "1360",
+    "IdRegClaN03": "1",
+    "IdRegN02": "312",
+    "N2": "GrupoY"
+  },
+  {
+    "IdRegN03": "1361",
+    "IdRegClaN03": "20",
+    "IdRegN02": "254",
+    "N2": "Justificante"
+  },
+  {
+    "IdRegN03": "1362",
+    "IdRegClaN03": "30",
+    "IdRegN02": "254",
+    "N2": "Compra"
+  },
+  {
+    "IdRegN03": "1363",
+    "IdRegClaN03": "1",
+    "IdRegN02": "315",
+    "N2": "¿BDD_Srv¿"
+  },
+  {
+    "IdRegN03": "1364",
+    "IdRegClaN03": "2",
+    "IdRegN02": "315",
+    "N2": "¿BDD_Cli¿"
+  },
+  {
+    "IdRegN03": "1365",
+    "IdRegClaN03": "1",
+    "IdRegN02": "316",
+    "N2": "¿SubContrata¿"
+  },
+  {
+    "IdRegN03": "1366",
+    "IdRegClaN03": "2",
+    "IdRegN02": "316",
+    "N2": "¿Suministrador¿"
+  },
+  {
+    "IdRegN03": "1367",
+    "IdRegClaN03": "3",
+    "IdRegN02": "316",
+    "N2": "¿CiaSuministradora¿"
+  },
+  {
+    "IdRegN03": "1368",
+    "IdRegClaN03": "1",
+    "IdRegN02": "317",
+    "N2": "$Proyecto$"
+  },
+  {
+    "IdRegN03": "1369",
+    "IdRegClaN03": "2",
+    "IdRegN02": "317",
+    "N2": "¬Inmueble¬"
+  },
+  {
+    "IdRegN03": "1370",
+    "IdRegClaN03": "3",
+    "IdRegN02": "317",
+    "N2": "¬Mueble¬"
+  },
+  {
+    "IdRegN03": "1371",
+    "IdRegClaN03": "1",
+    "IdRegN02": "318",
+    "N2": "¿Sueldo+Salario¿"
+  },
+  {
+    "IdRegN03": "1372",
+    "IdRegClaN03": "2",
+    "IdRegN02": "318",
+    "N2": "¿Credito¿"
+  },
+  {
+    "IdRegN03": "1373",
+    "IdRegClaN03": "3",
+    "IdRegN02": "318",
+    "N2": "¿Servicio¿"
+  },
+  {
+    "IdRegN03": "1374",
+    "IdRegClaN03": "4",
+    "IdRegN02": "318",
+    "N2": "¿Arendatario¿"
+  },
+  {
+    "IdRegN03": "1375",
+    "IdRegClaN03": "5",
+    "IdRegN02": "318",
+    "N2": "¿Aval¿"
+  },
+  {
+    "IdRegN03": "1376",
+    "IdRegClaN03": "6",
+    "IdRegN02": "318",
+    "N2": "¿Seguro¿"
+  },
+  {
+    "IdRegN03": "1377",
+    "IdRegClaN03": "10",
+    "IdRegN02": "318",
+    "N2": "¿ProvisionActivo¿"
+  },
+  {
+    "IdRegN03": "1378",
+    "IdRegClaN03": "15",
+    "IdRegN02": "318",
+    "N2": "¿Impuesto¿"
+  },
+  {
+    "IdRegN03": "1379",
+    "IdRegClaN03": "16",
+    "IdRegN02": "318",
+    "N2": "¿Tasa;Licencia¿"
+  },
+  {
+    "IdRegN03": "1380",
+    "IdRegClaN03": "17",
+    "IdRegN02": "318",
+    "N2": "¿ExpdteSancionador¿"
+  },
+  {
+    "IdRegN03": "1381",
+    "IdRegClaN03": "1",
+    "IdRegN02": "320",
+    "N2": "¿DireccionObra¿"
+  },
+  {
+    "IdRegN03": "1382",
+    "IdRegClaN03": "2",
+    "IdRegN02": "320",
+    "N2": "¿AsistenciaTecnica¿"
+  },
+  {
+    "IdRegN03": "1383",
+    "IdRegClaN03": "3",
+    "IdRegN02": "320",
+    "N2": "¿Laboratorio¿"
+  },
+  {
+    "IdRegN03": "1384",
+    "IdRegClaN03": "1",
+    "IdRegN02": "321",
+    "N2": "Oficina.¿Dtor¿"
+  },
+  {
+    "IdRegN03": "1385",
+    "IdRegClaN03": "2",
+    "IdRegN02": "321",
+    "N2": "Oficina.¿JefeDptto¿"
+  },
+  {
+    "IdRegN03": "1386",
+    "IdRegClaN03": "3",
+    "IdRegN02": "321",
+    "N2": "Oficina.¿TecnicoSuperior¿"
+  },
+  {
+    "IdRegN03": "1387",
+    "IdRegClaN03": "4",
+    "IdRegN02": "321",
+    "N2": "Oficina.¿TecnicoMedio¿"
+  },
+  {
+    "IdRegN03": "1388",
+    "IdRegClaN03": "5",
+    "IdRegN02": "321",
+    "N2": "Oficina.¿Admttov¿"
+  },
+  {
+    "IdRegN03": "1389",
+    "IdRegClaN03": "6",
+    "IdRegN02": "321",
+    "N2": "Oficina.¿AuxiliarTecnico¿"
+  },
+  {
+    "IdRegN03": "1390",
+    "IdRegClaN03": "7",
+    "IdRegN02": "321",
+    "N2": "Oficina.¿AuxAdmttov¿"
+  },
+  {
+    "IdRegN03": "1391",
+    "IdRegClaN03": "8",
+    "IdRegN02": "321",
+    "N2": "Obra.¿TecnicoSuperior¿"
+  },
+  {
+    "IdRegN03": "1392",
+    "IdRegClaN03": "9",
+    "IdRegN02": "321",
+    "N2": "Obra.¿TecnicoMedio¿"
+  },
+  {
+    "IdRegN03": "1393",
+    "IdRegClaN03": "10",
+    "IdRegN02": "321",
+    "N2": "Obra.¿AuxiliarTecnico¿"
+  },
+  {
+    "IdRegN03": "1394",
+    "IdRegClaN03": "11",
+    "IdRegN02": "321",
+    "N2": "Obra.¿Of1ªVigilanteAydteTecnico¿"
+  },
+  {
+    "IdRegN03": "1395",
+    "IdRegClaN03": "12",
+    "IdRegN02": "321",
+    "N2": "Obra.¿Of1ªProdAydteTecnico¿"
+  },
+  {
+    "IdRegN03": "1396",
+    "IdRegClaN03": "13",
+    "IdRegN02": "321",
+    "N2": "Obra.¿Of1ªVigilante¿Obra."
+  },
+  {
+    "IdRegN03": "1397",
+    "IdRegClaN03": "14",
+    "IdRegN02": "321",
+    "N2": "Obra.¿Of1ªAdmttivo¿"
+  },
+  {
+    "IdRegN03": "1398",
+    "IdRegClaN03": "15",
+    "IdRegN02": "321",
+    "N2": "Obra.¿Of2ªVigilante¿"
+  },
+  {
+    "IdRegN03": "1399",
+    "IdRegClaN03": "16",
+    "IdRegN02": "321",
+    "N2": "Obra.¿Of2ªAdmttivo¿"
+  },
+  {
+    "IdRegN03": "1400",
+    "IdRegClaN03": "17",
+    "IdRegN02": "321",
+    "N2": "Obra.¿PeonVigilante¿"
+  },
+  {
+    "IdRegN03": "1401",
+    "IdRegClaN03": "18",
+    "IdRegN02": "321",
+    "N2": "Obra.¿PeonAdmttivo¿"
+  },
+  {
+    "IdRegN03": "1402",
+    "IdRegClaN03": "19",
+    "IdRegN02": "321",
+    "N2": "Obra.¿Capataz¿"
+  },
+  {
+    "IdRegN03": "1403",
+    "IdRegClaN03": "20",
+    "IdRegN02": "321",
+    "N2": "Obra.¿Of1ªProd¿"
+  },
+  {
+    "IdRegN03": "1404",
+    "IdRegClaN03": "21",
+    "IdRegN02": "321",
+    "N2": "Obra.¿Of2ªProd¿"
+  },
+  {
+    "IdRegN03": "1405",
+    "IdRegClaN03": "22",
+    "IdRegN02": "321",
+    "N2": "Obra.¿PeonProd¿"
+  },
+  {
+    "IdRegN03": "1406",
+    "IdRegClaN03": "1",
+    "IdRegN02": "322",
+    "N2": "DeCentral"
+  },
+  {
+    "IdRegN03": "1407",
+    "IdRegClaN03": "2",
+    "IdRegN02": "322",
+    "N2": "¿Encargado¿"
+  },
+  {
+    "IdRegN03": "1408",
+    "IdRegClaN03": "3",
+    "IdRegN02": "322",
+    "N2": "¿Maquinista¿"
+  },
+  {
+    "IdRegN03": "1409",
+    "IdRegClaN03": "4",
+    "IdRegN02": "322",
+    "N2": "¿Chofer¿"
+  },
+  {
+    "IdRegN03": "1410",
+    "IdRegClaN03": "5",
+    "IdRegN02": "322",
+    "N2": "¿Obrero¿"
+  },
+  {
+    "IdRegN03": "1411",
+    "IdRegClaN03": "1",
+    "IdRegN02": "323",
+    "N2": "¿RegistroDeLaPropiedad¿"
+  },
+  {
+    "IdRegN03": "1412",
+    "IdRegClaN03": "2",
+    "IdRegN02": "323",
+    "N2": "¿Minas¿"
+  },
+  {
+    "IdRegN03": "1413",
+    "IdRegClaN03": "3",
+    "IdRegN02": "323",
+    "N2": "¿Trabajo¿"
+  },
+  {
+    "IdRegN03": "1414",
+    "IdRegClaN03": "4",
+    "IdRegN02": "323",
+    "N2": "¿Hacienda¿"
+  },
+  {
+    "IdRegN03": "1415",
+    "IdRegClaN03": "5",
+    "IdRegN02": "323",
+    "N2": "¿ConfederacionHidrografica¿"
+  },
+  {
+    "IdRegN03": "1416",
+    "IdRegClaN03": "6",
+    "IdRegN02": "323",
+    "N2": "¿CamaraComercio¿"
+  },
+  {
+    "IdRegN03": "1417",
+    "IdRegClaN03": "7",
+    "IdRegN02": "323",
+    "N2": "¿CamaraAgraria¿"
+  },
+  {
+    "IdRegN03": "1418",
+    "IdRegClaN03": "1",
+    "IdRegN02": "324",
+    "N2": "¿GuardiaCivilTrafico¿"
+  },
+  {
+    "IdRegN03": "1419",
+    "IdRegClaN03": "2",
+    "IdRegN02": "324",
+    "N2": "¿PoliciaLocal¿"
+  },
+  {
+    "IdRegN03": "1420",
+    "IdRegClaN03": "3",
+    "IdRegN02": "324",
+    "N2": "¿PoliciaNacional¿"
+  },
+  {
+    "IdRegN03": "1421",
+    "IdRegClaN03": "4",
+    "IdRegN02": "324",
+    "N2": "¿PoliciaAutonomica¿"
+  },
+  {
+    "IdRegN03": "1422",
+    "IdRegClaN03": "1",
+    "IdRegN02": "325",
+    "N2": "¿DeLoCivil¿"
+  },
+  {
+    "IdRegN03": "1423",
+    "IdRegClaN03": "2",
+    "IdRegN02": "325",
+    "N2": "¿DeLoContencioso-Admttvo¿"
+  },
+  {
+    "IdRegN03": "1424",
+    "IdRegClaN03": "3",
+    "IdRegN02": "325",
+    "N2": "¿DeLoMercantil¿"
+  },
+  {
+    "IdRegN03": "1425",
+    "IdRegClaN03": "4",
+    "IdRegN02": "325",
+    "N2": "¿DeLoLoboral¿"
+  },
+  {
+    "IdRegN03": "1426",
+    "IdRegClaN03": "5",
+    "IdRegN02": "325",
+    "N2": "¿DeLoPenal¿"
+  },
+  {
+    "IdRegN03": "1427",
+    "IdRegClaN03": "1",
+    "IdRegN02": "326",
+    "N2": "¿PropietarioColindante¿"
+  },
+  {
+    "IdRegN03": "1428",
+    "IdRegClaN03": "2",
+    "IdRegN02": "326",
+    "N2": "¿Vecino¿"
+  },
+  {
+    "IdRegN03": "1429",
+    "IdRegClaN03": "3",
+    "IdRegN02": "326",
+    "N2": "¡UsuarioInfraestructura¿"
+  },
+  {
+    "IdRegN03": "1430",
+    "IdRegClaN03": "1",
+    "IdRegN02": "327",
+    "N2": "¿GIC¿"
+  },
+  {
+    "IdRegN03": "1431",
+    "IdRegClaN03": "2",
+    "IdRegN02": "327",
+    "N2": "¿Cima¿"
+  },
+  {
+    "IdRegN03": "1432",
+    "IdRegClaN03": "3",
+    "IdRegN02": "327",
+    "N2": "¿Ima¿"
+  }
+]

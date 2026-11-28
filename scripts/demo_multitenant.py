@@ -9,13 +9,10 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-import psycopg
-
 from conta_rizoma4.partida_doble import (
     RepositorioAsiento, guardar_asiento,
     balance_situacion, cuenta_pyg,
 )
-from conta_rizoma4.partida_doble.persistencia import PG_URL
 from conta_rizoma4.actos.catalogo import obtener
 from conta_rizoma4.operativo.asiento import GENESIS
 from conta_rizoma4.consolidacion import (
@@ -27,22 +24,6 @@ MATRIZ = "DEMO_MATRIZ"
 FILIAL_A = "DEMO_FILIAL_A"
 FILIAL_B = "DEMO_FILIAL_B"
 EMPRESAS = [MATRIZ, FILIAL_A, FILIAL_B]
-
-
-def _limpiar():
-    with psycopg.connect(PG_URL) as conn:
-        with conn.cursor() as cur:
-            for emp in EMPRESAS:
-                cur.execute(
-                    "DELETE FROM linea_asiento WHERE empresa_id = %s", (emp,)
-                )
-                cur.execute(
-                    "DELETE FROM asiento_contable WHERE empresa_id = %s", (emp,)
-                )
-            cur.execute(
-                "DELETE FROM relaciones_grupo WHERE matriz_id = %s", (MATRIZ,)
-            )
-        conn.commit()
 
 
 def _crear(empresa, codigo, **params):
@@ -63,7 +44,6 @@ def _fmt(c):
 
 
 def main():
-    _limpiar()
     print("Demo multi-tenant: 3 empresas + consolidación")
     print()
 
@@ -106,7 +86,6 @@ def main():
     print(f"  Atribuible minoritarios: {_fmt(cons.resultado_atribuible_minoritarios)}")
     print(f"  Cuadra: {cons.cuadra}")
 
-    _limpiar()
     print()
     print("Demo completo.")
 

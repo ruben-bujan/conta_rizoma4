@@ -15,10 +15,7 @@ from .modelo import (
 )
 
 
-PG_URL = os.environ.get(
-    "CONTA_PG_URL",
-    "postgresql://rizoma:rizoma_dev@localhost:5433/conta_rizoma4",
-)
+from ..config.postgresql import PG_URL
 
 
 # ─── Obras ────────────────────────────────────────────────────────
@@ -124,6 +121,12 @@ class RepositorioLease:
         lease_id = str(uuid.uuid4())
         with self._conn() as conn:
             with conn.cursor() as cur:
+                # Serializa la asignación por empresa: sin este bloqueo, dos
+                # solicitudes concurrentes podrían reservar el mismo índice.
+                cur.execute(
+                    "SELECT pg_advisory_xact_lock(741522, hashtext(%s))",
+                    (empresa_id,),
+                )
                 # 1. Siguiente índice libre: mayor que el último usado o reservado
                 cur.execute(
                     """SELECT COALESCE(MAX(i), -1) + 1 AS siguiente FROM (

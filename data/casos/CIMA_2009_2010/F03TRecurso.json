@@ -1,0 +1,102 @@
+[
+  {
+    "IDTRecurso": "8",
+    "IdTContrato": "23",
+    "TRecurso": "Arido"
+  },
+  {
+    "IDTRecurso": "9",
+    "IdTContrato": "23",
+    "TRecurso": "Aglomerante"
+  },
+  {
+    "IDTRecurso": "10",
+    "IdTContrato": "23",
+    "TRecurso": "Bituminoso"
+  },
+  {
+    "IDTRecurso": "14",
+    "IdTContrato": "24",
+    "TRecurso": "Geosintético"
+  },
+  {
+    "IDTRecurso": "15",
+    "IdTContrato": "24",
+    "TRecurso": "Tubería"
+  },
+  {
+    "IDTRecurso": "16",
+    "IdTContrato": "24",
+    "TRecurso": "Prefabricado"
+  },
+  {
+    "IDTRecurso": "17",
+    "IdTContrato": "25",
+    "TRecurso": "Hormigón"
+  },
+  {
+    "IDTRecurso": "18",
+    "IdTContrato": "23",
+    "TRecurso": "Hormigón"
+  },
+  {
+    "IDTRecurso": "19",
+    "IdTContrato": "23",
+    "TRecurso": "Acero.Ferralla"
+  },
+  {
+    "IDTRecurso": "20",
+    "IdTContrato": "24",
+    "TRecurso": "Acero.Ferralla"
+  },
+  {
+    "IDTRecurso": "21",
+    "IdTContrato": "23",
+    "TRecurso": "Acero.Perfil"
+  },
+  {
+    "IDTRecurso": "22",
+    "IdTContrato": "24",
+    "TRecurso": "Acero.Perfil"
+  },
+  {
+    "IDTRecurso": "23",
+    "IdTContrato": "24",
+    "TRecurso": "Encofrado"
+  },
+  {
+    "IDTRecurso": "24",
+    "IdTContrato": "24",
+    "TRecurso": "Cimbra"
+  },
+  {
+    "IDTRecurso": "25",
+    "IdTContrato": "23",
+    "TRecurso": "Suelo"
+  },
+  {
+    "IDTRecurso": "27",
+    "IdTContrato": "23",
+    "TRecurso": "Roca"
+  },
+  {
+    "IDTRecurso": "28",
+    "IdTContrato": "25",
+    "TRecurso": "Suelo"
+  },
+  {
+    "IDTRecurso": "29",
+    "IdTContrato": "25",
+    "TRecurso": "Roca"
+  },
+  {
+    "IDTRecurso": "37",
+    "IdTContrato": "27",
+    "TRecurso": "Suelo"
+  },
+  {
+    "IDTRecurso": "38",
+    "IdTContrato": "27",
+    "TRecurso": "Roca"
+  }
+]

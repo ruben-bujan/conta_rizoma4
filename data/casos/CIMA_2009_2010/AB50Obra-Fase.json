@@ -1,0 +1,22 @@
+[
+  {
+    "IdObraFase": "1",
+    "IdObra": "3",
+    "Fase": "3 1"
+  },
+  {
+    "IdObraFase": "2",
+    "IdObra": "3",
+    "Fase": "3 2"
+  },
+  {
+    "IdObraFase": "4",
+    "IdObra": "3",
+    "Fase": "3 3"
+  },
+  {
+    "IdObraFase": "5",
+    "IdObra": "3",
+    "Fase": "3 4"
+  }
+]

@@ -11,6 +11,7 @@ class Memoria:
     actividad: str = ""
     bases_presentacion: str = ""
     aplicacion_resultados: str = ""
+    version_normativa: str = ""
     normas_registro_valoracion: dict = field(default_factory=dict)
     inmovilizado_material: dict = field(default_factory=dict)
     inmovilizado_intangible: dict = field(default_factory=dict)
@@ -30,21 +31,22 @@ def formatear_memoria(
     resultado_ejercicio: int,
     capital: int,
     reservas: int,
+    *,
+    bases_presentacion: str = "",
+    aplicacion_resultados: str = "",
+    propuesta_aplicacion_resultados: dict | None = None,
+    version_normativa: str = "",
 ) -> Memoria:
-    """Construye la memoria resumida."""
+    """Agrupa datos aportados; no presupone norma aplicada ni destino del resultado."""
     m = Memoria()
     m.actividad = actividad
-    m.bases_presentacion = (
-        "Las cuentas anuales se han formulado según el PGC (RD 1514/2007)."
-    )
-    m.aplicacion_resultados = f"Resultado del ejercicio: {resultado_ejercicio} céntimos"
+    m.bases_presentacion = bases_presentacion
+    m.aplicacion_resultados = aplicacion_resultados
+    m.version_normativa = version_normativa
     m.patrimonio_neto = {
         "capital": capital,
         "reservas": reservas,
         "resultado_ejercicio": resultado_ejercicio,
     }
-    m.propuesta_aplicacion_resultados = {
-        "a_reservas": resultado_ejercicio if resultado_ejercicio > 0 else 0,
-        "a_compensacion_perdidas": abs(resultado_ejercicio) if resultado_ejercicio < 0 else 0,
-    }
+    m.propuesta_aplicacion_resultados = dict(propuesta_aplicacion_resultados or {})
     return m

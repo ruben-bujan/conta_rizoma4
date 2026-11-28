@@ -1,0 +1,47 @@
+[
+  {
+    "IdTipProy": "2",
+    "NºOrdTipProy": "1",
+    "DesTipProy": "Variante.Anteproyecto"
+  },
+  {
+    "IdTipProy": "3",
+    "NºOrdTipProy": "2",
+    "DesTipProy": "Variante.C_Prescripciones"
+  },
+  {
+    "IdTipProy": "4",
+    "NºOrdTipProy": "3",
+    "DesTipProy": "Variante.Proyecto"
+  },
+  {
+    "IdTipProy": "5",
+    "NºOrdTipProy": "4",
+    "DesTipProy": "ModificadoNº1"
+  },
+  {
+    "IdTipProy": "6",
+    "NºOrdTipProy": "5",
+    "DesTipProy": "ModificadoNº2"
+  },
+  {
+    "IdTipProy": "7",
+    "NºOrdTipProy": "6",
+    "DesTipProy": "ModificadoNº3"
+  },
+  {
+    "IdTipProy": "8",
+    "NºOrdTipProy": "7",
+    "DesTipProy": "Complementario"
+  },
+  {
+    "IdTipProy": "9",
+    "NºOrdTipProy": "8",
+    "DesTipProy": "Liquidación"
+  },
+  {
+    "IdTipProy": "10",
+    "NºOrdTipProy": "0",
+    "DesTipProy": "Base"
+  }
+]

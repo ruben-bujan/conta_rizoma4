@@ -1,0 +1,26 @@
+[
+  {
+    "IDDelegación": "5",
+    "IDDepartamento": "6",
+    "IDDomPerJur": "5",
+    "Delegación": "Madrid"
+  },
+  {
+    "IDDelegación": "8",
+    "IDDepartamento": "6",
+    "IDDomPerJur": "5",
+    "Delegación": "Aragón"
+  },
+  {
+    "IDDelegación": "9",
+    "IDDepartamento": "6",
+    "IDDomPerJur": "5",
+    "Delegación": "Toledo"
+  },
+  {
+    "IDDelegación": "11",
+    "IDDepartamento": "6",
+    "IDDomPerJur": "5",
+    "Delegación": "Aragón"
+  }
+]

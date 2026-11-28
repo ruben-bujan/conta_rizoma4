@@ -1,0 +1,4472 @@
+[
+  {
+    "IDFilPerJur": "2",
+    "IdTPersona": "1",
+    "NombreCorto": "InCiv",
+    "NombreLargo": "Infraestructura Civil, S.A.",
+    "CIFDeEmp": "A80866700",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "25",
+    "IdTPersona": "2",
+    "NombreCorto": "Develop",
+    "NombreLargo": "STM Mantenimiento S.L.",
+    "CIFDeEmp": "B60793551",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "34",
+    "IdTPersona": "3",
+    "NombreCorto": "MRW",
+    "NombreLargo": "MRW Sar Express, S.L.",
+    "CIFDeEmp": "B82401571",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "42",
+    "IdTPersona": "4",
+    "NombreCorto": "Red Logig, S.L.",
+    "NombreLargo": "Red Logig, SL - Mensajeros",
+    "CIFDeEmp": "B81038333",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "43",
+    "IdTPersona": "5",
+    "NombreCorto": "Canon",
+    "NombreLargo": "Sermasa-1, S.A.",
+    "CIFDeEmp": "A12225314",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "45",
+    "IdTPersona": "6",
+    "NombreCorto": "Sergeyco, S.A.",
+    "NombreLargo": "Servicio de geotecnia y control de calidad, S.A.",
+    "CIFDeEmp": "A78931490",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "46",
+    "IdTPersona": "7",
+    "NombreCorto": "La Tienda Verde",
+    "NombreLargo": "La Tienda Verde . Tienda de Cartografia",
+    "CIFDeEmp": "50406252G",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "48",
+    "IdTPersona": "8",
+    "NombreCorto": "PNZ",
+    "NombreLargo": "PNZ Asociados, S.L.",
+    "CIFDeEmp": "b80903255",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "49",
+    "IdTPersona": "9",
+    "NombreCorto": "Cerr. Villalba",
+    "NombreLargo": "Cerraminetos Villalba, S.L. Fabrica de simpre torsion",
+    "CIFDeEmp": "b81011371",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "50",
+    "IdTPersona": "10",
+    "NombreCorto": "HAT",
+    "NombreLargo": "Hat. Hormigones, S.A.",
+    "CIFDeEmp": "A23026206",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "51",
+    "IdTPersona": "11",
+    "NombreCorto": "Palacios e Hijos",
+    "NombreLargo": "Palacios e Hijos, S.L. Transportes y Excavaciones",
+    "CIFDeEmp": "B81285389",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "52",
+    "IdTPersona": "12",
+    "NombreCorto": "Hermanos Sanz",
+    "NombreLargo": "Hnos. Sanz Alvarez, C.B",
+    "CIFDeEmp": "E40123598",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "56",
+    "IdTPersona": "13",
+    "NombreCorto": "Peri",
+    "NombreLargo": "Encofrados Peri, SA  sociedad unipersonal",
+    "CIFDeEmp": "A46080602",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "59",
+    "IdTPersona": "14",
+    "NombreCorto": "San Valero",
+    "NombreLargo": "Bodegas San Valero, S.Coop.",
+    "CIFDeEmp": "F50011048",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "60",
+    "IdTPersona": "15",
+    "NombreCorto": "Ateneo",
+    "NombreLargo": "Ateneo, SA - Agencia de Viajes",
+    "CIFDeEmp": "A78136025",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "62",
+    "IdTPersona": "16",
+    "NombreCorto": "Ipes",
+    "NombreLargo": "Ingenieria de puentes y estructucras, SL",
+    "CIFDeEmp": "B80851082",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "63",
+    "IdTPersona": "17",
+    "NombreCorto": "Banco GE",
+    "NombreLargo": "General Electric capital Bank, S.A.",
+    "CIFDeEmp": "A08149007",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "64",
+    "IdTPersona": "18",
+    "NombreCorto": "Union Fenosa",
+    "NombreLargo": "Union Fenosa Distribucion, SA",
+    "CIFDeEmp": "A82153834",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "65",
+    "IdTPersona": "19",
+    "NombreCorto": "Credito y Caucion",
+    "NombreLargo": "Compañía española de Seguros y Reaseguros de credito y caucion, SA",
+    "CIFDeEmp": "A28008795",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "66",
+    "IdTPersona": "20",
+    "NombreCorto": "Movistar Empresas",
+    "NombreLargo": "Telefonica Moviles España, SA",
+    "CIFDeEmp": "A78923125",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "67",
+    "IdTPersona": "21",
+    "NombreCorto": "Telefonica",
+    "NombreLargo": "Telefonica de España, SA - Sociedad Unipersonal",
+    "CIFDeEmp": "A82018474",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "68",
+    "IdTPersona": "22",
+    "NombreCorto": "Guelomar",
+    "NombreLargo": "Grabados Sistema Laser",
+    "CIFDeEmp": "B28704351",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "69",
+    "IdTPersona": "23",
+    "NombreCorto": "Vezuna",
+    "NombreLargo": "Vezuna, SL",
+    "CIFDeEmp": "B31558711",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "72",
+    "IdTPersona": "24",
+    "NombreCorto": "Magallanes",
+    "NombreLargo": "Distribuidoras Magallanes, S.A.",
+    "CIFDeEmp": "A28790376",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "73",
+    "IdTPersona": "25",
+    "NombreCorto": "Parquets Tropicales",
+    "NombreLargo": "Parquets Tropicales, S.A.",
+    "CIFDeEmp": "A28203867",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "74",
+    "IdTPersona": "26",
+    "NombreCorto": "Ingram",
+    "NombreLargo": "Ingram Micro",
+    "CIFDeEmp": "A78076395",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "75",
+    "IdTPersona": "27",
+    "NombreCorto": "Caja Madrid",
+    "NombreLargo": "Caja de Ahorros y Monte de Piedad de Madrid",
+    "CIFDeEmp": "G28029007",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "76",
+    "IdTPersona": "28",
+    "NombreCorto": "Caja Segovia",
+    "NombreLargo": "Caja Segovia",
+    "CIFDeEmp": "G40000192",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "81",
+    "IdTPersona": "29",
+    "NombreCorto": "ATI",
+    "NombreLargo": "Auscultacion y Taller de Ingenieria",
+    "CIFDeEmp": "A80996721",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "84",
+    "IdTPersona": "30",
+    "NombreCorto": "UTE Ondara",
+    "NombreLargo": "UTE Tecnoconsult - Infraestructura Civil, S.A., U.T.E.1",
+    "CIFDeEmp": "G82433877",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "88",
+    "IdTPersona": "31",
+    "NombreCorto": "IMA2000",
+    "NombreLargo": "Ingenieria y Medio Ambiente 2000",
+    "CIFDeEmp": "B82791393",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "89",
+    "IdTPersona": "32",
+    "NombreCorto": "UTE Pato",
+    "NombreLargo": "UTE Tecnoconsult Ingenieros SA - Gestion y Servicios, U.T.E.",
+    "CIFDeEmp": "G81977795",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "92",
+    "IdTPersona": "33",
+    "NombreCorto": "SEIT DCE Aragón, Zaragoza",
+    "NombreLargo": "Secretaria  para las Infraestructuras del Transporte Terrestre, Demarcación de Carreteras Estado en Aragón, Zaragoza",
+    "CIFDeEmp": "F5017007E",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "110",
+    "IdTPersona": "34",
+    "NombreCorto": "Fiat",
+    "NombreLargo": "Fiat Ramargo, SA",
+    "CIFDeEmp": "A78513084",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "112",
+    "IdTPersona": "35",
+    "NombreCorto": "MF.DGC",
+    "NombreLargo": "Ministerio de Fomento, Dirección General de Carreteras",
+    "CIFDeEmp": "S2817040E",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "116",
+    "IdTPersona": "36",
+    "NombreCorto": "UMI",
+    "NombreLargo": "Union Museba Ibesvico",
+    "CIFDeEmp": "G80381270",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "117",
+    "IdTPersona": "37",
+    "NombreCorto": "REE",
+    "NombreLargo": "Red Electrica Española",
+    "CIFDeEmp": "A78003662",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "122",
+    "IdTPersona": "38",
+    "NombreCorto": "Copias Maudes",
+    "NombreLargo": "Copias Maudes",
+    "CIFDeEmp": "A81566713",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "123",
+    "IdTPersona": "39",
+    "NombreCorto": "Ceramicas J.J",
+    "NombreLargo": "Ceramicas J.J, SL Materiales de Construccion",
+    "CIFDeEmp": "B81489924",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "124",
+    "IdTPersona": "40",
+    "NombreCorto": "P. Hernando",
+    "NombreLargo": "Persianas Hernando, S.A.",
+    "CIFDeEmp": "A40004095",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "126",
+    "IdTPersona": "41",
+    "NombreCorto": "Malpica",
+    "NombreLargo": "Cultivos Malpica, SL",
+    "CIFDeEmp": "B78055472",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "127",
+    "IdTPersona": "42",
+    "NombreCorto": "Inzamac",
+    "NombreLargo": "Inzamac asistencias Tecnicas, SA",
+    "CIFDeEmp": "A49175243",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "128",
+    "IdTPersona": "43",
+    "NombreCorto": "Obras y Revestimientos",
+    "NombreLargo": "Obras y Revestimientos Asfalticos, SL",
+    "CIFDeEmp": "B40029928",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "129",
+    "IdTPersona": "44",
+    "NombreCorto": "E.S. Cerdeira, S.A.",
+    "NombreLargo": "E.S. Cerdeira, S.A.",
+    "CIFDeEmp": "A78408374",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "130",
+    "IdTPersona": "45",
+    "NombreCorto": "Automateo",
+    "NombreLargo": "Automateo, S.L.",
+    "CIFDeEmp": "B42126953",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "131",
+    "IdTPersona": "46",
+    "NombreCorto": "Iberdrola",
+    "NombreLargo": "Iberdrola distribucion electrica, S.A.U.",
+    "CIFDeEmp": "A95075578",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "132",
+    "IdTPersona": "47",
+    "NombreCorto": "Madrid Leasing",
+    "NombreLargo": "Madrid Leasing Corporacion, E.F.C., S.A.",
+    "CIFDeEmp": "A79419107",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "133",
+    "IdTPersona": "48",
+    "NombreCorto": "Gas Natural",
+    "NombreLargo": "Gas Natural SDG, S.A.",
+    "CIFDeEmp": "A08015497",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "134",
+    "IdTPersona": "49",
+    "NombreCorto": "CYII",
+    "NombreLargo": "Canal de Isabel II",
+    "CIFDeEmp": "Q2817017C",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "135",
+    "IdTPersona": "50",
+    "NombreCorto": "Rentaire",
+    "NombreLargo": "Rentaire Madrid, S.A.",
+    "CIFDeEmp": "A80997521",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "136",
+    "IdTPersona": "51",
+    "NombreCorto": "Eusebio Calvo",
+    "NombreLargo": "Eusebio Calvo y Cia, S.A.",
+    "CIFDeEmp": "A28001410",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "137",
+    "IdTPersona": "52",
+    "NombreCorto": "Goyo",
+    "NombreLargo": "Bar Restaurante Goyo",
+    "CIFDeEmp": "16795296Y",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "138",
+    "IdTPersona": "53",
+    "NombreCorto": "Coysa",
+    "NombreLargo": "Coysa Mat. Construccion y sanemiento, S.A.",
+    "CIFDeEmp": "A28206241",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "143",
+    "IdTPersona": "54",
+    "NombreCorto": "BBVA",
+    "NombreLargo": "Banco Bilbao Vizcaya Argentaria S.A.",
+    "CIFDeEmp": "A48265169",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "160",
+    "IdTPersona": "55",
+    "NombreCorto": "Cima",
+    "NombreLargo": "Cima, Construcciones e ingeniería S.L.",
+    "CIFDeEmp": "B83156067",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "163",
+    "IdTPersona": "56",
+    "NombreCorto": "Valeriano",
+    "NombreLargo": "Valeriano Sierra S.A.",
+    "CIFDeEmp": "A79222063",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "167",
+    "IdTPersona": "57",
+    "NombreCorto": "Nivel 5",
+    "NombreLargo": "Nivel 5",
+    "CIFDeEmp": "B79973525",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "168",
+    "IdTPersona": "58",
+    "NombreCorto": "Rioja Alta",
+    "NombreLargo": "La Rioja Alta, S. A",
+    "CIFDeEmp": "A26003624",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "169",
+    "IdTPersona": "59",
+    "NombreCorto": "J. Lopez Santos",
+    "NombreLargo": "J. Lopez Santos, S.L.",
+    "CIFDeEmp": "B19157353",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "170",
+    "IdTPersona": "60",
+    "NombreCorto": "Roca",
+    "NombreLargo": "Jose Luis Castillo, S. L. ( Roca )",
+    "CIFDeEmp": "B83236620",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "173",
+    "IdTPersona": "61",
+    "NombreCorto": "MGO",
+    "NombreLargo": "GRUPO MGO, S.A.",
+    "CIFDeEmp": "A80322233",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "175",
+    "IdTPersona": "62",
+    "NombreCorto": "Mutua Madrileña",
+    "NombreLargo": "Mutua Madrileña Automovilistica",
+    "CIFDeEmp": "G28027118",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "176",
+    "IdTPersona": "63",
+    "NombreCorto": "Repsol",
+    "NombreLargo": "Repsol Comercial de Productos Petroliferos S.A.",
+    "CIFDeEmp": "A80298839",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "181",
+    "IdTPersona": "64",
+    "NombreCorto": "Pedro Alonso",
+    "NombreLargo": "Restaurante Pedro Alonso S.C.",
+    "CIFDeEmp": "G80488166",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "182",
+    "IdTPersona": "65",
+    "NombreCorto": "La Mision",
+    "NombreLargo": "La Mision Restaurantes",
+    "CIFDeEmp": "B80935083",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "183",
+    "IdTPersona": "66",
+    "NombreCorto": "Los Patos",
+    "NombreLargo": "Los Patos Restaurantes",
+    "CIFDeEmp": "B14500615",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "184",
+    "IdTPersona": "67",
+    "NombreCorto": "Correos",
+    "NombreLargo": "Sociedad Estatal Correos y Telégrafos, S.A.",
+    "CIFDeEmp": "A83052407",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "185",
+    "IdTPersona": "68",
+    "NombreCorto": "Securitas",
+    "NombreLargo": "Securitas Direct España, S.A.",
+    "CIFDeEmp": "A26106013",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "186",
+    "IdTPersona": "69",
+    "NombreCorto": "Fiat Financiera",
+    "NombreLargo": "Fiat Financiera E F C S.A.",
+    "CIFDeEmp": "A28655348",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "187",
+    "IdTPersona": "70",
+    "NombreCorto": "Helvetia",
+    "NombreLargo": "Helvetia Cervantes Vasco Navarra, S.A.",
+    "CIFDeEmp": "A02808837",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "190",
+    "IdTPersona": "71",
+    "NombreCorto": "Aplicaciones Graficas",
+    "NombreLargo": "Aplicaciones Graficas e informaticas S.A.",
+    "CIFDeEmp": "A80448566",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "195",
+    "IdTPersona": "72",
+    "NombreCorto": "Iest",
+    "NombreLargo": "Iest Viajes",
+    "CIFDeEmp": "A28949329",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "198",
+    "IdTPersona": "73",
+    "NombreCorto": "Librado Hierro",
+    "NombreLargo": "Librado Hierros, S. A.",
+    "CIFDeEmp": "A16136061",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "201",
+    "IdTPersona": "74",
+    "NombreCorto": "Rebollo y Diaz",
+    "NombreLargo": "Rebollo y Diaz S.A.",
+    "CIFDeEmp": "A19025576",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "203",
+    "IdTPersona": "75",
+    "NombreCorto": "Sais",
+    "NombreLargo": "Sais Guadalajara, S.L.",
+    "CIFDeEmp": "B19190875",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "206",
+    "IdTPersona": "76",
+    "NombreCorto": "Sealsa",
+    "NombreLargo": "Suministros Eléctricos Alcarreños, S.A.",
+    "CIFDeEmp": "A19017920",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "207",
+    "IdTPersona": "77",
+    "NombreCorto": "RENFE",
+    "NombreLargo": "Renfe",
+    "CIFDeEmp": "G28016749",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "209",
+    "IdTPersona": "78",
+    "NombreCorto": "Esave",
+    "NombreLargo": "Esave Especialistas en servicios auxilires a viviendas y empresas, S.A.",
+    "CIFDeEmp": "A82350398",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "210",
+    "IdTPersona": "79",
+    "NombreCorto": "Kartón",
+    "NombreLargo": "Kartón Iberica, S.A.",
+    "CIFDeEmp": "A28705812",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "211",
+    "IdTPersona": "80",
+    "NombreCorto": "Arso",
+    "NombreLargo": "Ferretería ARSO S.L.",
+    "CIFDeEmp": "B28657732",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "212",
+    "IdTPersona": "81",
+    "NombreCorto": "Royo",
+    "NombreLargo": "Saneamientos Royo",
+    "CIFDeEmp": "W03013094",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "213",
+    "IdTPersona": "82",
+    "NombreCorto": "J. Sanz",
+    "NombreLargo": "J. Sanz y Asociados Gestores S.L.",
+    "CIFDeEmp": "B81304412",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "214",
+    "IdTPersona": "83",
+    "NombreCorto": "El Olivar",
+    "NombreLargo": "Hostal Restaurante El Olivar",
+    "CIFDeEmp": "B45472743",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "215",
+    "IdTPersona": "84",
+    "NombreCorto": "Comfersa",
+    "NombreLargo": "Aparcamientos Comfersa",
+    "CIFDeEmp": "A28889491",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "220",
+    "IdTPersona": "85",
+    "NombreCorto": "Urquijo",
+    "NombreLargo": "Banco Urquijo",
+    "CIFDeEmp": "A07000466",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "223",
+    "IdTPersona": "86",
+    "NombreCorto": "BSCH",
+    "NombreLargo": "Banco Santander Central Hispano, S.A.",
+    "CIFDeEmp": "A39000013",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "225",
+    "IdTPersona": "87",
+    "NombreCorto": "Forte",
+    "NombreLargo": "Forte Hormigones Tecnologicos, S.L.",
+    "CIFDeEmp": "B03449204",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "227",
+    "IdTPersona": "88",
+    "NombreCorto": "Registro Mercantil",
+    "NombreLargo": "Registro Mercantil de Madrid",
+    "CIFDeEmp": "E81458556",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "228",
+    "IdTPersona": "89",
+    "NombreCorto": "Caja Caminos",
+    "NombreLargo": "Caja Caminos. Soc Cooperativa de Crdto",
+    "CIFDeEmp": "F28520666",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "230",
+    "IdTPersona": "90",
+    "NombreCorto": "M8 Sistemas",
+    "NombreLargo": "M8 Sistemas de Comunicación y Reprografía, S.A.",
+    "CIFDeEmp": "A28880656",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "235",
+    "IdTPersona": "91",
+    "NombreCorto": "Dem.Car.Estado.Aragon",
+    "NombreLargo": "Ministerio de Fomento. Secr. Estado de Infraestructuras y Ttes. Demarcacion Carreteras Estado en Aragon",
+    "CIFDeEmp": "S05017007",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "236",
+    "IdTPersona": "92",
+    "NombreCorto": "Croquis",
+    "NombreLargo": "Croquis Fotocopias S.L.",
+    "CIFDeEmp": "B82357633",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "237",
+    "IdTPersona": "93",
+    "NombreCorto": "Maudes",
+    "NombreLargo": "Copias Maudes",
+    "CIFDeEmp": "B81566713",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "240",
+    "IdTPersona": "94",
+    "NombreCorto": "Seur",
+    "NombreLargo": "Servicios Información Urgente Transporte S.A.",
+    "CIFDeEmp": "A28733582",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "241",
+    "IdTPersona": "95",
+    "NombreCorto": "Camara de Comercio",
+    "NombreLargo": "Camara Oficial de Comercio e Industria de Madrid",
+    "CIFDeEmp": "Q28730019",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "242",
+    "IdTPersona": "96",
+    "NombreCorto": "Talleres Gil",
+    "NombreLargo": "Talleres Gil",
+    "CIFDeEmp": "S04151308",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "244",
+    "IdTPersona": "97",
+    "NombreCorto": "Bsi",
+    "NombreLargo": "British Standards Institution España, S.A.",
+    "CIFDeEmp": "A28458255",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "248",
+    "IdTPersona": "98",
+    "NombreCorto": "Caixa Catalunya",
+    "NombreLargo": "Caixa D'estalvis de Catalunya",
+    "CIFDeEmp": "G08169815",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "250",
+    "IdTPersona": "99",
+    "NombreCorto": "Popular",
+    "NombreLargo": "Banco Popular Español, S.A.",
+    "CIFDeEmp": "A28000727",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "252",
+    "IdTPersona": "100",
+    "NombreCorto": "Malpica 2000",
+    "NombreLargo": "Malpica 2000 Complementos, S.L.",
+    "CIFDeEmp": "B82539966",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "254",
+    "IdTPersona": "101",
+    "NombreCorto": "Hyndai",
+    "NombreLargo": "Hyndai Concesionario Santon Oliva S.L.",
+    "CIFDeEmp": "B19135151",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "258",
+    "IdTPersona": "102",
+    "NombreCorto": "Leroy Merlin",
+    "NombreLargo": "Leroy Merlin",
+    "CIFDeEmp": "A78620762",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "260",
+    "IdTPersona": "103",
+    "NombreCorto": "Agrojardin",
+    "NombreLargo": "Agrojardin, S.L:",
+    "CIFDeEmp": "B28306066",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "276",
+    "IdTPersona": "104",
+    "NombreCorto": "Tecnoresiduos-R3",
+    "NombreLargo": "Tecnoresiduos-R3",
+    "CIFDeEmp": "B82123050",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "289",
+    "IdTPersona": "105",
+    "NombreCorto": "PEC, S.L",
+    "NombreLargo": "Perforaciones y Excavaciones Castellanas, S.L",
+    "CIFDeEmp": "B78823838",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "290",
+    "IdTPersona": "106",
+    "NombreCorto": "Uvrsidad Burgos",
+    "NombreLargo": "Fundacion Universidad de Burgos",
+    "CIFDeEmp": "G09343500",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "291",
+    "IdTPersona": "107",
+    "NombreCorto": "Guipuzcoano",
+    "NombreLargo": "Banco Guipuzcoano",
+    "CIFDeEmp": "A20000733",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "292",
+    "IdTPersona": "108",
+    "NombreCorto": "La Viña, S.L",
+    "NombreLargo": "La Viña, S.L",
+    "CIFDeEmp": "B45049442",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "294",
+    "IdTPersona": "109",
+    "NombreCorto": "Esfema",
+    "NombreLargo": "Esfema, S.L.",
+    "CIFDeEmp": "B19120201",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "295",
+    "IdTPersona": "110",
+    "NombreCorto": "Tecni-Carpa",
+    "NombreLargo": "Tecni-Carpa",
+    "CIFDeEmp": "B41946914",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "307",
+    "IdTPersona": "111",
+    "NombreCorto": "Efaye, S.L",
+    "NombreLargo": "Hormigones Efaye, S.L",
+    "CIFDeEmp": "B83103721",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "308",
+    "IdTPersona": "112",
+    "NombreCorto": "HWC Asociados, S.L",
+    "NombreLargo": "HW Cobble Asociaos, S.L",
+    "CIFDeEmp": "B81472623",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "310",
+    "IdTPersona": "113",
+    "NombreCorto": "Gruas y Tansportes Sierra, S.A",
+    "NombreLargo": "Gruas y Transportes Sierra, S.A",
+    "CIFDeEmp": "A28761393",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "317",
+    "IdTPersona": "114",
+    "NombreCorto": "Eumacons",
+    "NombreLargo": "Eumacons, S.C.L",
+    "CIFDeEmp": "F45657907",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "318",
+    "IdTPersona": "115",
+    "NombreCorto": "Emesa S.L",
+    "NombreLargo": "Elaborados Metálicos Sacedón. S.L",
+    "CIFDeEmp": "B19128685",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "319",
+    "IdTPersona": "116",
+    "NombreCorto": "Hotel Alcarria",
+    "NombreLargo": "Hotel Partner Alcarria",
+    "CIFDeEmp": "B45399930",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "329",
+    "IdTPersona": "117",
+    "NombreCorto": "Paco, S.L",
+    "NombreLargo": "Paco, S.L",
+    "CIFDeEmp": "B19182658",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "332",
+    "IdTPersona": "118",
+    "NombreCorto": "Alfa",
+    "NombreLargo": "Alfa. S.L. Gruas",
+    "CIFDeEmp": "B80164792",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "334",
+    "IdTPersona": "119",
+    "NombreCorto": "Arte Hormigonado, S.L",
+    "NombreLargo": "Arte Hormigonado, S.L",
+    "CIFDeEmp": "B41087255",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "336",
+    "IdTPersona": "120",
+    "NombreCorto": "E.S. Valcarce",
+    "NombreLargo": "E.S. Valcarce",
+    "CIFDeEmp": "A24353039",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "337",
+    "IdTPersona": "121",
+    "NombreCorto": "Valero",
+    "NombreLargo": "Siderurgicos Valero",
+    "CIFDeEmp": "B45352093",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "338",
+    "IdTPersona": "122",
+    "NombreCorto": "Alveroa",
+    "NombreLargo": "Automiviles J. Bueno",
+    "CIFDeEmp": "D26215731",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "339",
+    "IdTPersona": "123",
+    "NombreCorto": "Sedano",
+    "NombreLargo": "Alquiler de Maquinaria Sedano, S.L",
+    "CIFDeEmp": "B19157148",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "340",
+    "IdTPersona": "124",
+    "NombreCorto": "Tuberias y Perfiles Plasticos, S.A",
+    "NombreLargo": "Tuberias y Perfiles Plasticos, S.A",
+    "CIFDeEmp": "A01052380",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "341",
+    "IdTPersona": "125",
+    "NombreCorto": "E.S. Marchamaoil",
+    "NombreLargo": "E.S Marchamaoil",
+    "CIFDeEmp": "B19186261",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "342",
+    "IdTPersona": "126",
+    "NombreCorto": "Camara",
+    "NombreLargo": "Autos Camara, C.B",
+    "CIFDeEmp": "E19211291",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "346",
+    "IdTPersona": "127",
+    "NombreCorto": "Masadu S.L",
+    "NombreLargo": "Masadu, S.L",
+    "CIFDeEmp": "B45256880",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "348",
+    "IdTPersona": "128",
+    "NombreCorto": "Gadea",
+    "NombreLargo": "Gadea Hermanos, S.L",
+    "CIFDeEmp": "B46250270",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "349",
+    "IdTPersona": "129",
+    "NombreCorto": "Tiscali España, S.L.U",
+    "NombreLargo": "Tiscali España, S.L.U",
+    "CIFDeEmp": "B61855383",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "350",
+    "IdTPersona": "130",
+    "NombreCorto": "Epsa",
+    "NombreLargo": "Epsa Internacional, S.A",
+    "CIFDeEmp": "A59547620",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "351",
+    "IdTPersona": "131",
+    "NombreCorto": "Equipos Mecanicos y Servicios",
+    "NombreLargo": "Equipos Mecanicos y Servicios, S.A",
+    "CIFDeEmp": "A78460326",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "352",
+    "IdTPersona": "132",
+    "NombreCorto": "E.S. Luis Gonzalez.",
+    "NombreLargo": "E.S. Luis Gonzalez.",
+    "CIFDeEmp": "R39221910",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "356",
+    "IdTPersona": "133",
+    "NombreCorto": "Catalana Occidente",
+    "NombreLargo": "Catalana Occidente",
+    "CIFDeEmp": "A28119220",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "357",
+    "IdTPersona": "134",
+    "NombreCorto": "Valero ferrallas, S.L",
+    "NombreLargo": "Valero Ferrallas, S.L",
+    "CIFDeEmp": "B45552643",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "358",
+    "IdTPersona": "135",
+    "NombreCorto": "Mera",
+    "NombreLargo": "Barloworld Mera, S.A.U",
+    "CIFDeEmp": "A78824273",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "359",
+    "IdTPersona": "136",
+    "NombreCorto": "Foprar",
+    "NombreLargo": "Fomento Prefabricados Aragón, S.L",
+    "CIFDeEmp": "B50646363",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "362",
+    "IdTPersona": "137",
+    "NombreCorto": "Sten, S.A",
+    "NombreLargo": "Sistemas Técnicos de Encofrados, S.A",
+    "CIFDeEmp": "A08747404",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "364",
+    "IdTPersona": "138",
+    "NombreCorto": "Armalla",
+    "NombreLargo": "Amalla, S.L",
+    "CIFDeEmp": "B81917809",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "366",
+    "IdTPersona": "139",
+    "NombreCorto": "Fercoe",
+    "NombreLargo": "Ferrocomerciales Elipse, S.L",
+    "CIFDeEmp": "B80846165",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "367",
+    "IdTPersona": "140",
+    "NombreCorto": "Euromaderas",
+    "NombreLargo": "Euromaderas, S.L",
+    "CIFDeEmp": "B45210747",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "368",
+    "IdTPersona": "141",
+    "NombreCorto": "Javier Mérida",
+    "NombreLargo": "Excavaciones Javier Merida, S.L",
+    "CIFDeEmp": "B45346814",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "369",
+    "IdTPersona": "142",
+    "NombreCorto": "Conti",
+    "NombreLargo": "Estructuras Conti, S.L",
+    "CIFDeEmp": "B83564658",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "370",
+    "IdTPersona": "143",
+    "NombreCorto": "Avis",
+    "NombreLargo": "Avis. Alquileres Vehículos",
+    "CIFDeEmp": "A28152767",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "372",
+    "IdTPersona": "144",
+    "NombreCorto": "Jupa",
+    "NombreLargo": "Cerrajeria JUPA, S.L",
+    "CIFDeEmp": "B19204718",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "373",
+    "IdTPersona": "145",
+    "NombreCorto": "Transformaciones Vera, S.L",
+    "NombreLargo": "Transformaciones Vera, S.L",
+    "CIFDeEmp": "B30094981",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "374",
+    "IdTPersona": "146",
+    "NombreCorto": "Transportes Hnos, Pino, S.A",
+    "NombreLargo": "Transportes Hnos. Pino, S.A",
+    "CIFDeEmp": "A78235001",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "375",
+    "IdTPersona": "147",
+    "NombreCorto": "Sika",
+    "NombreLargo": "Sika",
+    "CIFDeEmp": "A28062842",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "376",
+    "IdTPersona": "148",
+    "NombreCorto": "Hilti",
+    "NombreLargo": "Hilti",
+    "CIFDeEmp": "A28226090",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "377",
+    "IdTPersona": "149",
+    "NombreCorto": "ServicePoint",
+    "NombreLargo": "ServicePoint",
+    "CIFDeEmp": "A08649014",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "378",
+    "IdTPersona": "150",
+    "NombreCorto": "Roper Madrid, S.L",
+    "NombreLargo": "Roper Madrid, S.L",
+    "CIFDeEmp": "B39015722",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "379",
+    "IdTPersona": "151",
+    "NombreCorto": "Mimauto",
+    "NombreLargo": "Talleres Mimauto, S.L",
+    "CIFDeEmp": "B45456340",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "380",
+    "IdTPersona": "152",
+    "NombreCorto": "Cosimet",
+    "NombreLargo": "Comercialización Siderúrgica de Metales, S.L",
+    "CIFDeEmp": "B83393900",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "381",
+    "IdTPersona": "153",
+    "NombreCorto": "AriVelSA",
+    "NombreLargo": "Aridos Velilla, S.A",
+    "CIFDeEmp": "A45026382",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "382",
+    "IdTPersona": "154",
+    "NombreCorto": "Composan",
+    "NombreLargo": "Composan Construcción",
+    "CIFDeEmp": "A81055295",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "383",
+    "IdTPersona": "155",
+    "NombreCorto": "Rialabra",
+    "NombreLargo": "Rialabra, S.L",
+    "CIFDeEmp": "B83394601",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "384",
+    "IdTPersona": "156",
+    "NombreCorto": "Ariurda, S.L",
+    "NombreLargo": "Ariurda, S.L",
+    "CIFDeEmp": "B45533627",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "385",
+    "IdTPersona": "157",
+    "NombreCorto": "Hermanos Organero. S.L",
+    "NombreLargo": "Hermanos Organero, S.L",
+    "CIFDeEmp": "B45219631",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "388",
+    "IdTPersona": "158",
+    "NombreCorto": "El Perdy",
+    "NombreLargo": "Excavaciones y derribos \"El Perdy\"",
+    "CIFDeEmp": "G45475902",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "390",
+    "IdTPersona": "159",
+    "NombreCorto": "Siderúrgica Madrid, S.L",
+    "NombreLargo": "Comercial Siderurgica Madrid, S.L",
+    "CIFDeEmp": "B78507647",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "393",
+    "IdTPersona": "160",
+    "NombreCorto": "Manuel Soto Moyano",
+    "NombreLargo": "Manuel Soto Moyano",
+    "CIFDeEmp": "D70413911",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "395",
+    "IdTPersona": "161",
+    "NombreCorto": "Hns. García",
+    "NombreLargo": "Hnos. Garcia",
+    "CIFDeEmp": "S08934158",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "396",
+    "IdTPersona": "162",
+    "NombreCorto": "Maximiliano Jabugo",
+    "NombreLargo": "Maximiliano Jabugo",
+    "CIFDeEmp": "B91192476",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "397",
+    "IdTPersona": "163",
+    "NombreCorto": "Allianz",
+    "NombreLargo": "Allianz Seguros",
+    "CIFDeEmp": "A28007748",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "399",
+    "IdTPersona": "164",
+    "NombreCorto": "Transbla 2003, S.L",
+    "NombreLargo": "Transbla 2003, S.L",
+    "CIFDeEmp": "B45533718",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "400",
+    "IdTPersona": "165",
+    "NombreCorto": "Jbernardos",
+    "NombreLargo": "Pizarras J.Bernardos",
+    "CIFDeEmp": "B83742189",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "401",
+    "IdTPersona": "166",
+    "NombreCorto": "Hnos. Palomo",
+    "NombreLargo": "C. Hnos. Palomo, S.A",
+    "CIFDeEmp": "A45053204",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "409",
+    "IdTPersona": "167",
+    "NombreCorto": "Hermanos Puertas, S.L",
+    "NombreLargo": "Hermanos Puertas, S.L",
+    "CIFDeEmp": "B45069622",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "411",
+    "IdTPersona": "168",
+    "NombreCorto": "PRECON",
+    "NombreLargo": "Prefabricaciones Y Contratas, S.A",
+    "CIFDeEmp": "A28135358",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "412",
+    "IdTPersona": "169",
+    "NombreCorto": "Enver",
+    "NombreLargo": "Excavaciones y Urbanizaciones Enver, S.L",
+    "CIFDeEmp": "B84149616",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "413",
+    "IdTPersona": "170",
+    "NombreCorto": "San Cristobal",
+    "NombreLargo": "Excavaciones San Cristibal, S.L",
+    "CIFDeEmp": "B13311998",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "415",
+    "IdTPersona": "171",
+    "NombreCorto": "Servimapas",
+    "NombreLargo": "Servimapas",
+    "CIFDeEmp": "B45230166",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "416",
+    "IdTPersona": "172",
+    "NombreCorto": "Hiasa",
+    "NombreLargo": "Hierros y Aplanaciones",
+    "CIFDeEmp": "A33010067",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "417",
+    "IdTPersona": "173",
+    "NombreCorto": "Funductil",
+    "NombreLargo": "Funductil",
+    "CIFDeEmp": "B62110507",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "418",
+    "IdTPersona": "174",
+    "NombreCorto": "Leripresa",
+    "NombreLargo": "Leradina de Prefabricados S.A",
+    "CIFDeEmp": "A25050022",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "421",
+    "IdTPersona": "175",
+    "NombreCorto": "DELL",
+    "NombreLargo": "DELL. Equipos Informaticos",
+    "CIFDeEmp": "N00126220",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "422",
+    "IdTPersona": "176",
+    "NombreCorto": "Copy5",
+    "NombreLargo": "Copy5, S.A",
+    "CIFDeEmp": "A81589533",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "427",
+    "IdTPersona": "177",
+    "NombreCorto": "Cotraim",
+    "NombreLargo": "Cotraim",
+    "CIFDeEmp": "F45556032",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "435",
+    "IdTPersona": "178",
+    "NombreCorto": "Arsys",
+    "NombreLargo": "Arsys Internet,S.L",
+    "CIFDeEmp": "B26245019",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "437",
+    "IdTPersona": "179",
+    "NombreCorto": "MGO",
+    "NombreLargo": "MGO",
+    "CIFDeEmp": "G83819508",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "441",
+    "IdTPersona": "180",
+    "NombreCorto": "Transmoreta",
+    "NombreLargo": "Transmoreta",
+    "CIFDeEmp": "B13294665",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "444",
+    "IdTPersona": "181",
+    "NombreCorto": "Transbaez,S.L",
+    "NombreLargo": "Transbaez,S.L",
+    "CIFDeEmp": "B78279338",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "445",
+    "IdTPersona": "182",
+    "NombreCorto": "Molina Stranz",
+    "NombreLargo": "Notario- Fernando Molina Stranz",
+    "CIFDeEmp": "K02191668",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "448",
+    "IdTPersona": "183",
+    "NombreCorto": "Henarsa",
+    "NombreLargo": "Henarsa",
+    "CIFDeEmp": "A82854720",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "456",
+    "IdTPersona": "184",
+    "NombreCorto": "Maderas Alcorcon",
+    "NombreLargo": "Maderas Alcorcon",
+    "CIFDeEmp": "A28921914",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "458",
+    "IdTPersona": "185",
+    "NombreCorto": "Hierros y Ferrallas Amber",
+    "NombreLargo": "Hierros y Ferrallas Amber",
+    "CIFDeEmp": "B45417227",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "460",
+    "IdTPersona": "186",
+    "NombreCorto": "Alquifer",
+    "NombreLargo": "Ferreteria Alquifer",
+    "CIFDeEmp": "B82617804",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "464",
+    "IdTPersona": "187",
+    "NombreCorto": "Tenara 47",
+    "NombreLargo": "Tenara 47",
+    "CIFDeEmp": "B45408812",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "465",
+    "IdTPersona": "188",
+    "NombreCorto": "Lince",
+    "NombreLargo": "Lince",
+    "CIFDeEmp": "B13215587",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "468",
+    "IdTPersona": "189",
+    "NombreCorto": "Ferrhispan",
+    "NombreLargo": "Ferrhispan",
+    "CIFDeEmp": "A28191419",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "470",
+    "IdTPersona": "190",
+    "NombreCorto": "Acc",
+    "NombreLargo": "Acc Seguros",
+    "CIFDeEmp": "A78555026",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "472",
+    "IdTPersona": "191",
+    "NombreCorto": "Rocain",
+    "NombreLargo": "Rocain",
+    "CIFDeEmp": "B13148820",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "474",
+    "IdTPersona": "192",
+    "NombreCorto": "Natural Pool & Garden",
+    "NombreLargo": "Natural Pool & Garden",
+    "CIFDeEmp": "B84302033",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "477",
+    "IdTPersona": "193",
+    "NombreCorto": "Paisajes Españoles",
+    "NombreLargo": "Paisajes Españoles",
+    "CIFDeEmp": "A28833143",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "478",
+    "IdTPersona": "194",
+    "NombreCorto": "Nervados, S.A",
+    "NombreLargo": "Nervados, S.A",
+    "CIFDeEmp": "A14221386",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "479",
+    "IdTPersona": "195",
+    "NombreCorto": "Walter Martinez Madrid,S.L",
+    "NombreLargo": "Walter Martinez Madrid,S.L",
+    "CIFDeEmp": "B50555929",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "480",
+    "IdTPersona": "196",
+    "NombreCorto": "Maquigruas,S.L",
+    "NombreLargo": "Maquigruas,S.L",
+    "CIFDeEmp": "B79033122",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "482",
+    "IdTPersona": "197",
+    "NombreCorto": "Euroconsult",
+    "NombreLargo": "Euroconsult S,A",
+    "CIFDeEmp": "A28217735",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "484",
+    "IdTPersona": "198",
+    "NombreCorto": "Plantas Moviles V.Ramos,S.L",
+    "NombreLargo": "Plantas Moviles V.Ramos,S.L",
+    "CIFDeEmp": "B12665261",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "485",
+    "IdTPersona": "199",
+    "NombreCorto": "Uralita",
+    "NombreLargo": "Uralita",
+    "CIFDeEmp": "A78085339",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "489",
+    "IdTPersona": "200",
+    "NombreCorto": "Polyfelt",
+    "NombreLargo": "Polyfelt",
+    "CIFDeEmp": "B80567654",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "490",
+    "IdTPersona": "201",
+    "NombreCorto": "TOP Topografos obras y Proyectos",
+    "NombreLargo": "Top Topografos",
+    "CIFDeEmp": "B82581521",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "491",
+    "IdTPersona": "202",
+    "NombreCorto": "Ramos Torla,S.L",
+    "NombreLargo": "Ramos Torla S.L",
+    "CIFDeEmp": "B12354072",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "492",
+    "IdTPersona": "203",
+    "NombreCorto": "Hicamfer Europea",
+    "NombreLargo": "Hicamfer Europea S.L",
+    "CIFDeEmp": "B81930018",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "494",
+    "IdTPersona": "204",
+    "NombreCorto": "Panel Y Perfil,S.A",
+    "NombreLargo": "Panel y Perfil,S.A",
+    "CIFDeEmp": "A73921538",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "495",
+    "IdTPersona": "205",
+    "NombreCorto": "Viales y Obras Publicas, S.A",
+    "NombreLargo": "Viales y Obras Publicas, S.A",
+    "CIFDeEmp": "A16199374",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "498",
+    "IdTPersona": "206",
+    "NombreCorto": "HP Store,S.L",
+    "NombreLargo": "HP Store, S.L",
+    "CIFDeEmp": "B28260933",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "500",
+    "IdTPersona": "207",
+    "NombreCorto": "Desaritrans",
+    "NombreLargo": "Desaritrans,S.L",
+    "CIFDeEmp": "B28993262",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "501",
+    "IdTPersona": "208",
+    "NombreCorto": "CPL",
+    "NombreLargo": "Excavaciones CPL, S:L",
+    "CIFDeEmp": "B84252766",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "502",
+    "IdTPersona": "209",
+    "NombreCorto": "Jose Maria Martinez de Artola E Idoy",
+    "NombreLargo": "Jose Maria Martinez de Artola E Idoy",
+    "CIFDeEmp": "F15035475",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "504",
+    "IdTPersona": "210",
+    "NombreCorto": "Mazantini",
+    "NombreLargo": "Mazantini",
+    "CIFDeEmp": "B13345368",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "505",
+    "IdTPersona": "211",
+    "NombreCorto": "Manuel Coronado",
+    "NombreLargo": "Manuel Coronado",
+    "CIFDeEmp": "E13368386",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "506",
+    "IdTPersona": "212",
+    "NombreCorto": "Sanchez",
+    "NombreLargo": "Excavaciones Sanchez",
+    "CIFDeEmp": "R74513952",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "507",
+    "IdTPersona": "213",
+    "NombreCorto": "Metrum",
+    "NombreLargo": "Metrum",
+    "CIFDeEmp": "A83876987",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "511",
+    "IdTPersona": "214",
+    "NombreCorto": "Obras Publicas Transchill,S.L",
+    "NombreLargo": "Obras Publicas Transchill, S.L",
+    "CIFDeEmp": "B12505368",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "512",
+    "IdTPersona": "215",
+    "NombreCorto": "Victoriano Gomez,S.L",
+    "NombreLargo": "Victoriano Gomez, S.L",
+    "CIFDeEmp": "B45052230",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "513",
+    "IdTPersona": "216",
+    "NombreCorto": "MTA",
+    "NombreLargo": "MTA",
+    "CIFDeEmp": "B84124205",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "514",
+    "IdTPersona": "217",
+    "NombreCorto": "hosp",
+    "NombreLargo": "Rotosol Plastics,S.L",
+    "CIFDeEmp": "B73182446",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "516",
+    "IdTPersona": "218",
+    "NombreCorto": "Hormigones El Socorro",
+    "NombreLargo": "Hormigones El Socorro, S.L",
+    "CIFDeEmp": "B82884990",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "517",
+    "IdTPersona": "219",
+    "NombreCorto": "Plomyplas",
+    "NombreLargo": "Plomyplas",
+    "CIFDeEmp": "B28289411",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "518",
+    "IdTPersona": "220",
+    "NombreCorto": "Gruas y Transportes Norte, S.A",
+    "NombreLargo": "Gruas y Transportes Norte, S.A",
+    "CIFDeEmp": "A78805033",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "519",
+    "IdTPersona": "221",
+    "NombreCorto": "Gruas Hidraulicas Aguilar",
+    "NombreLargo": "Gruas Hidraulicas Aguilar, S.L",
+    "CIFDeEmp": "B81807414",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "520",
+    "IdTPersona": "222",
+    "NombreCorto": "Paveco",
+    "NombreLargo": "Paveco",
+    "CIFDeEmp": "B41742735",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "523",
+    "IdTPersona": "223",
+    "NombreCorto": "Probisa",
+    "NombreLargo": "Probisa",
+    "CIFDeEmp": "A28105120",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "525",
+    "IdTPersona": "224",
+    "NombreCorto": "Ediciones Francis Lefebvre",
+    "NombreLargo": "Ediciones Francis Lefebvre",
+    "CIFDeEmp": "A79216651",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "526",
+    "IdTPersona": "225",
+    "NombreCorto": "Aqualia",
+    "NombreLargo": "Aqualia",
+    "CIFDeEmp": "A26019992",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "527",
+    "IdTPersona": "226",
+    "NombreCorto": "Caja Rural Toledo",
+    "NombreLargo": "Caja Rural de Toledo",
+    "CIFDeEmp": "G45003993",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "528",
+    "IdTPersona": "227",
+    "NombreCorto": "Hospebla,S.L",
+    "NombreLargo": "Hospebla,S.L",
+    "CIFDeEmp": "B79435186",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "532",
+    "IdTPersona": "228",
+    "NombreCorto": "PSP",
+    "NombreLargo": "PSP",
+    "CIFDeEmp": "B80244213",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "533",
+    "IdTPersona": "229",
+    "NombreCorto": "Porsamadrid",
+    "NombreLargo": "Posamadrid,S.L",
+    "CIFDeEmp": "B81911836",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "537",
+    "IdTPersona": "230",
+    "NombreCorto": "Copiman",
+    "NombreLargo": "Copiman, S.A",
+    "CIFDeEmp": "A28905578",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "539",
+    "IdTPersona": "231",
+    "NombreCorto": "Notario. Santiago Mora Velarde",
+    "NombreLargo": "Notario. Santiago Mora Velarde",
+    "CIFDeEmp": "B02491164",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "541",
+    "IdTPersona": "232",
+    "NombreCorto": "Licuas, S.A",
+    "NombreLargo": "Licuas, S.A",
+    "CIFDeEmp": "A78066487",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "542",
+    "IdTPersona": "233",
+    "NombreCorto": "GB",
+    "NombreLargo": "GB Topografia y Cartografia S.l",
+    "CIFDeEmp": "B84073378",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "543",
+    "IdTPersona": "234",
+    "NombreCorto": "Mangopla. S,L",
+    "NombreLargo": "mangopla, S.L",
+    "CIFDeEmp": "B40146680",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "544",
+    "IdTPersona": "235",
+    "NombreCorto": "Facol",
+    "NombreLargo": "Facol",
+    "CIFDeEmp": "B28834877",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "862",
+    "IdTPersona": "236",
+    "NombreCorto": "Asfalpasa",
+    "NombreLargo": "Asfalpasa",
+    "CIFDeEmp": "A28773711",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "948",
+    "IdTPersona": "237",
+    "NombreCorto": "Calderería del Tajo",
+    "NombreLargo": "Calderería del Tajo S.A",
+    "CIFDeEmp": "A80877059",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1154",
+    "IdTPersona": "238",
+    "NombreCorto": "STS",
+    "NombreLargo": "STS",
+    "CIFDeEmp": "A48425995",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1155",
+    "IdTPersona": "239",
+    "NombreCorto": "Copias Goya",
+    "NombreLargo": "Copias Goya",
+    "CIFDeEmp": "B79426425",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1156",
+    "IdTPersona": "240",
+    "NombreCorto": "Electronica Olfer, S.L",
+    "NombreLargo": "Electronica Olfer, S.L",
+    "CIFDeEmp": "B28380921",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1157",
+    "IdTPersona": "241",
+    "NombreCorto": "Terra Control",
+    "NombreLargo": "Terra Control",
+    "CIFDeEmp": "B50645118",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1158",
+    "IdTPersona": "242",
+    "NombreCorto": "Hidroaplicaciones y Gas",
+    "NombreLargo": "Hidroaplicaciones y Gas, S.L",
+    "CIFDeEmp": "B81751711",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1159",
+    "IdTPersona": "243",
+    "NombreCorto": "Instalaciones Electricas Aranjuez, S.L",
+    "NombreLargo": "Instalaciones Electricas Aranjuez, S.L",
+    "CIFDeEmp": "B79230181",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1160",
+    "IdTPersona": "244",
+    "NombreCorto": "Fenix",
+    "NombreLargo": "Extincion Fenix, S.L",
+    "CIFDeEmp": "B83695692",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1161",
+    "IdTPersona": "245",
+    "NombreCorto": "Guzman Sancho",
+    "NombreLargo": "Jesus Guzman Sancho",
+    "CIFDeEmp": "W37873666",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1162",
+    "IdTPersona": "246",
+    "NombreCorto": "Fadesa",
+    "NombreLargo": "Fadesa,S.A",
+    "CIFDeEmp": "A15036510",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1164",
+    "IdTPersona": "247",
+    "NombreCorto": "Promeinsa",
+    "NombreLargo": "Promeinsa",
+    "CIFDeEmp": "B81529422",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1166",
+    "IdTPersona": "248",
+    "NombreCorto": "San Marcial",
+    "NombreLargo": "Aridos San Marcial S.L",
+    "CIFDeEmp": "B50602556",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1167",
+    "IdTPersona": "249",
+    "NombreCorto": "Canteras de Piedra de Colmenar",
+    "NombreLargo": "Canteras de Piedra de Colmenar, S.A",
+    "CIFDeEmp": "A82062902",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1169",
+    "IdTPersona": "250",
+    "NombreCorto": "Nit-Lux, S.A",
+    "NombreLargo": "Nit-Lux, S.A",
+    "CIFDeEmp": "A28168698",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1170",
+    "IdTPersona": "251",
+    "NombreCorto": "Obrascun",
+    "NombreLargo": "Obrascun (Obras y Cunetas S.L)",
+    "CIFDeEmp": "B83148965",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1171",
+    "IdTPersona": "252",
+    "NombreCorto": "Benito, S.L",
+    "NombreLargo": "Fundicio Ductil benito, S.L",
+    "CIFDeEmp": "B59987529",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1172",
+    "IdTPersona": "253",
+    "NombreCorto": "Ausenjo",
+    "NombreLargo": "Construcciones Ausenjo",
+    "CIFDeEmp": "W16537623",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1173",
+    "IdTPersona": "254",
+    "NombreCorto": "Transportes y Gruas Aguado",
+    "NombreLargo": "Transportes y Gruas Aguado",
+    "CIFDeEmp": "B28768125",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1175",
+    "IdTPersona": "255",
+    "NombreCorto": "Inyma",
+    "NombreLargo": "Inyma",
+    "CIFDeEmp": "A81715211",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1176",
+    "IdTPersona": "256",
+    "NombreCorto": "Natur Piedra -Pizarrerias Bernardos, S.L",
+    "NombreLargo": "Natur Piedra-Pizarrerias Bernardos, S.L",
+    "CIFDeEmp": "B40003535",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1177",
+    "IdTPersona": "257",
+    "NombreCorto": "Segundo Priego, S.A",
+    "NombreLargo": "Segundo Priego, S.A",
+    "CIFDeEmp": "A78397494",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1483",
+    "IdTPersona": "258",
+    "NombreCorto": "Topocad,S.L",
+    "NombreLargo": "Topocad, S.L",
+    "CIFDeEmp": "B80477896",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1484",
+    "IdTPersona": "259",
+    "NombreCorto": "Intervia",
+    "NombreLargo": "Intervia",
+    "CIFDeEmp": "A80921570",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1485",
+    "IdTPersona": "260",
+    "NombreCorto": "Palacios",
+    "NombreLargo": "Comercial Palacios",
+    "CIFDeEmp": "B50810183",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1487",
+    "IdTPersona": "261",
+    "NombreCorto": "Alonso Chamarro",
+    "NombreLargo": "Construcciones Alonso Chamorro, S.L",
+    "CIFDeEmp": "B50472283",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1490",
+    "IdTPersona": "262",
+    "NombreCorto": "Jose Gracia,S.L",
+    "NombreLargo": "Jose Gracia,S.L",
+    "CIFDeEmp": "B50569219",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1491",
+    "IdTPersona": "263",
+    "NombreCorto": "Transremolino",
+    "NombreLargo": "Transremolino",
+    "CIFDeEmp": "B83897199",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1492",
+    "IdTPersona": "264",
+    "NombreCorto": "Ortega",
+    "NombreLargo": "Construcciones Y Multiservicios Ortega,S.L",
+    "CIFDeEmp": "B16185019",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1493",
+    "IdTPersona": "265",
+    "NombreCorto": "UTE Reinobel-Velasco",
+    "NombreLargo": "UTE Reinobel-Velasco",
+    "CIFDeEmp": "G84164557",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1497",
+    "IdTPersona": "266",
+    "NombreCorto": "UTE  Acessos Madrid",
+    "NombreLargo": "UTE Acessos Madrid",
+    "CIFDeEmp": "G83407783",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1498",
+    "IdTPersona": "267",
+    "NombreCorto": "Europea de Asfaltos",
+    "NombreLargo": "Euroapea de Asfaltos S.A",
+    "CIFDeEmp": "A78849403",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1499",
+    "IdTPersona": "268",
+    "NombreCorto": "Carlos Hernan",
+    "NombreLargo": "Gruas y Transportes Carlos Hernan",
+    "CIFDeEmp": "V52086576",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1501",
+    "IdTPersona": "269",
+    "NombreCorto": "Green World-Francisco Carcedo",
+    "NombreLargo": "Green World- Francisco Carcedo",
+    "CIFDeEmp": "D52329431",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1504",
+    "IdTPersona": "270",
+    "NombreCorto": "Nebot Sanchis",
+    "NombreLargo": "Manuel Nebot Sanchis",
+    "CIFDeEmp": "V19361946",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1505",
+    "IdTPersona": "271",
+    "NombreCorto": "Señalizaciones Villar, S.A",
+    "NombreLargo": "Señalizaciones Villar, S.A",
+    "CIFDeEmp": "A42004598",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1507",
+    "IdTPersona": "272",
+    "NombreCorto": "Retra Señalizacion",
+    "NombreLargo": "Retra Señalizacion, S.L",
+    "CIFDeEmp": "B81583486",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1508",
+    "IdTPersona": "273",
+    "NombreCorto": "Infusa, Industrias de Fundicion S.A",
+    "NombreLargo": "Infusa, Industrias de Fundicion S.A",
+    "CIFDeEmp": "A28169704",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1509",
+    "IdTPersona": "274",
+    "NombreCorto": "Tecnobruck S.L",
+    "NombreLargo": "Tecnobruck S.L",
+    "CIFDeEmp": "B45496049",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1511",
+    "IdTPersona": "275",
+    "NombreCorto": "Jardineria y Paisaje Madrid 2000, S.L",
+    "NombreLargo": "Jardineria y Paisaje Madrid 2000, S.L",
+    "CIFDeEmp": "B81112740",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1512",
+    "IdTPersona": "276",
+    "NombreCorto": "Wurth España S.A",
+    "NombreLargo": "Wurth España S.A",
+    "CIFDeEmp": "A08472276",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1514",
+    "IdTPersona": "277",
+    "NombreCorto": "Maquinza servicios S.A",
+    "NombreLargo": "Maquinza Servicios S.A",
+    "CIFDeEmp": "A50468768",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1515",
+    "IdTPersona": "278",
+    "NombreCorto": "Pabasa",
+    "NombreLargo": "Pavimentos Varcelona, S.A",
+    "CIFDeEmp": "A07248039",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1516",
+    "IdTPersona": "279",
+    "NombreCorto": "Iber Samop, S.A",
+    "NombreLargo": "Iber Samop, S.A",
+    "CIFDeEmp": "A46377180",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1517",
+    "IdTPersona": "280",
+    "NombreCorto": "Publicyan",
+    "NombreLargo": "Publicyan",
+    "CIFDeEmp": "B80527674",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1518",
+    "IdTPersona": "281",
+    "NombreCorto": "Ibertest",
+    "NombreLargo": "Ibertest",
+    "CIFDeEmp": "A28542876",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1522",
+    "IdTPersona": "282",
+    "NombreCorto": "Controls",
+    "NombreLargo": "Controls",
+    "CIFDeEmp": "A45205853",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1524",
+    "IdTPersona": "283",
+    "NombreCorto": "Maresa",
+    "NombreLargo": "Maresa",
+    "CIFDeEmp": "A78601135",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1526",
+    "IdTPersona": "284",
+    "NombreCorto": "Hormigones Blanca, S.A",
+    "NombreLargo": "Hormigones Blanca S.A",
+    "CIFDeEmp": "A78678380",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1527",
+    "IdTPersona": "285",
+    "NombreCorto": "Oyalmaq,S.L",
+    "NombreLargo": "Oyalmaq S.L",
+    "CIFDeEmp": "B30538961",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1528",
+    "IdTPersona": "286",
+    "NombreCorto": "Alfer",
+    "NombreLargo": "Alfer S.L",
+    "CIFDeEmp": "B84171669",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1531",
+    "IdTPersona": "287",
+    "NombreCorto": "Miguel Dominguez",
+    "NombreLargo": "Excavaciones Miguel Dominguez",
+    "CIFDeEmp": "A78121738",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1533",
+    "IdTPersona": "288",
+    "NombreCorto": "Silfer Topografia",
+    "NombreLargo": "Silfer Topografia S.L",
+    "CIFDeEmp": "B83277376",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1534",
+    "IdTPersona": "289",
+    "NombreCorto": "Presto",
+    "NombreLargo": "Presto",
+    "CIFDeEmp": "A28617751",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1535",
+    "IdTPersona": "290",
+    "NombreCorto": "Jabonero e Hijos",
+    "NombreLargo": "Jabonero e Hijos S.L",
+    "CIFDeEmp": "B81915514",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1537",
+    "IdTPersona": "291",
+    "NombreCorto": "Productos Gilca, S.C",
+    "NombreLargo": "Productos Gilca S.C",
+    "CIFDeEmp": "G50202571",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1538",
+    "IdTPersona": "292",
+    "NombreCorto": "Solorio S.L",
+    "NombreLargo": "Solorio S.L",
+    "CIFDeEmp": "B50364892",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1540",
+    "IdTPersona": "293",
+    "NombreCorto": "E.S El Espolon",
+    "NombreLargo": "E.S.El Espolon",
+    "CIFDeEmp": "B50012178",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1541",
+    "IdTPersona": "294",
+    "NombreCorto": "Bernardino",
+    "NombreLargo": "Construcciones Bernardino",
+    "CIFDeEmp": "K46860405",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1542",
+    "IdTPersona": "295",
+    "NombreCorto": "Suministros Espiago S.L",
+    "NombreLargo": "Suministros Espiago S.L",
+    "CIFDeEmp": "B50853209",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1545",
+    "IdTPersona": "296",
+    "NombreCorto": "TMA-Terratest Medioambiente",
+    "NombreLargo": "TMA-Terratest Medioambiente",
+    "CIFDeEmp": "B83605279",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1546",
+    "IdTPersona": "297",
+    "NombreCorto": "Pintura Hnos Guerrero",
+    "NombreLargo": "Pintura Hnos Guerrero",
+    "CIFDeEmp": "B81805749",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1547",
+    "IdTPersona": "298",
+    "NombreCorto": "Fersil, S.L",
+    "NombreLargo": "Soluciones del Agua, S.L",
+    "CIFDeEmp": "B78786175",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1549",
+    "IdTPersona": "299",
+    "NombreCorto": "Cerrudo e Hijos",
+    "NombreLargo": "Cerrudo e Hijos, S.L",
+    "CIFDeEmp": "B81922569",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1550",
+    "IdTPersona": "300",
+    "NombreCorto": "Grupisa",
+    "NombreLargo": "Grupisa",
+    "CIFDeEmp": "A28423853",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1551",
+    "IdTPersona": "301",
+    "NombreCorto": "H.E Algo Breve",
+    "NombreLargo": "H.E Algo Breve",
+    "CIFDeEmp": "B99023384",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1552",
+    "IdTPersona": "302",
+    "NombreCorto": "Prefabri S.L",
+    "NombreLargo": "Prefabri S.L",
+    "CIFDeEmp": "B78567799",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1553",
+    "IdTPersona": "303",
+    "NombreCorto": "Equifax Iberica",
+    "NombreLargo": "Equifax Iberica",
+    "CIFDeEmp": "B80855398",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1554",
+    "IdTPersona": "304",
+    "NombreCorto": "Norquimia S.A",
+    "NombreLargo": "Norquimia S.A",
+    "CIFDeEmp": "A15217292",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1555",
+    "IdTPersona": "305",
+    "NombreCorto": "Cerramientos y Coberturas",
+    "NombreLargo": "Cerramientos y Coberturas, S.L",
+    "CIFDeEmp": "B82068347",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1557",
+    "IdTPersona": "306",
+    "NombreCorto": "Cazuher",
+    "NombreLargo": "Cazuher S.L",
+    "CIFDeEmp": "B50549658",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1559",
+    "IdTPersona": "307",
+    "NombreCorto": "Burguillos de Toledo",
+    "NombreLargo": "Ayuntamiento de Burguiilos de Toledo",
+    "CIFDeEmp": "P04502300",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1560",
+    "IdTPersona": "308",
+    "NombreCorto": "CPA",
+    "NombreLargo": "CPA- Construccion Integral de Firmes S.A",
+    "CIFDeEmp": "A05158894",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1561",
+    "IdTPersona": "309",
+    "NombreCorto": "Montajes y Obras S.A- Mosa",
+    "NombreLargo": "Montajes y Obras S.A- Mosa",
+    "CIFDeEmp": "A28029122",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1562",
+    "IdTPersona": "310",
+    "NombreCorto": "Paumar Jardineria S.L",
+    "NombreLargo": "Paumar Jardineria S.L",
+    "CIFDeEmp": "B84284520",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1564",
+    "IdTPersona": "311",
+    "NombreCorto": "Maderas Transformadas de Valdearcos, S.L",
+    "NombreLargo": "Maderas Transformadas de Valdearcos S.L",
+    "CIFDeEmp": "B29488254",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1567",
+    "IdTPersona": "312",
+    "NombreCorto": "Conservial",
+    "NombreLargo": "Conservial",
+    "CIFDeEmp": "B50063675",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1571",
+    "IdTPersona": "313",
+    "NombreCorto": "Segismundo Alvarez Royo-Villanova",
+    "NombreLargo": "Notario- Segismundo Alvarez Royo-Villanova",
+    "CIFDeEmp": "Z50831348",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1572",
+    "IdTPersona": "314",
+    "NombreCorto": "Transfer",
+    "NombreLargo": "Transfer",
+    "CIFDeEmp": "B50797992",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1576",
+    "IdTPersona": "315",
+    "NombreCorto": "Servicios Integrales de Transportes Caballero S.L",
+    "NombreLargo": "Servicios Integrales de Transportes Caballero S.L",
+    "CIFDeEmp": "B49233190",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1577",
+    "IdTPersona": "316",
+    "NombreCorto": "Elsan Pacsa S.A",
+    "NombreLargo": "Elsan Pacsa S.A",
+    "CIFDeEmp": "A81940371",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1579",
+    "IdTPersona": "317",
+    "NombreCorto": "Los Vazquez Transvaz-Mat S.L",
+    "NombreLargo": "Los Vazquez Transvaz-Mat S.L",
+    "CIFDeEmp": "B10265981",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1581",
+    "IdTPersona": "318",
+    "NombreCorto": "Proin, Proyectos Integrales de Balizamiento",
+    "NombreLargo": "Proin, Proyectos Integral de Balizamiento",
+    "CIFDeEmp": "B19226364",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1582",
+    "IdTPersona": "319",
+    "NombreCorto": "Matinsa",
+    "NombreLargo": "Matinsa",
+    "CIFDeEmp": "A80173115",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1583",
+    "IdTPersona": "320",
+    "NombreCorto": "Proeti S.A",
+    "NombreLargo": "Proeti S.A",
+    "CIFDeEmp": "A78113024",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1584",
+    "IdTPersona": "321",
+    "NombreCorto": "Agroforex",
+    "NombreLargo": "Agroforex, Compañía Agroforestal de Extremadura, S.L",
+    "CIFDeEmp": "B10215127",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1586",
+    "IdTPersona": "322",
+    "NombreCorto": "Contamina",
+    "NombreLargo": "Ayuntamiento de Contamina",
+    "CIFDeEmp": "P50087007",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1587",
+    "IdTPersona": "323",
+    "NombreCorto": "DRZ",
+    "NombreLargo": "DRZ Gasoleos, Distribuciones Ronda Zaragoza S.L",
+    "CIFDeEmp": "B50593169",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1588",
+    "IdTPersona": "324",
+    "NombreCorto": "Cristo",
+    "NombreLargo": "Autos Cristo S.L",
+    "CIFDeEmp": "B79973202",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1589",
+    "IdTPersona": "325",
+    "NombreCorto": "Taller Mecanico Carmelo Andaluz Muñoz",
+    "NombreLargo": "Taller Mecanico Carmelo Andaluz Muñoz",
+    "CIFDeEmp": "T17424938",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1590",
+    "IdTPersona": "326",
+    "NombreCorto": "Jesma",
+    "NombreLargo": "Auto-Electricidad Jesma",
+    "CIFDeEmp": "L17442138",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1591",
+    "IdTPersona": "327",
+    "NombreCorto": "Hidro-Aragonesas",
+    "NombreLargo": "Consucciones Hidro-Aragonesas S.L",
+    "CIFDeEmp": "B50025972",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1592",
+    "IdTPersona": "328",
+    "NombreCorto": "Vialex- Roldan",
+    "NombreLargo": "Vialex- Roldan",
+    "CIFDeEmp": "B59326355",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1595",
+    "IdTPersona": "329",
+    "NombreCorto": "Huprecesa Prefabricados",
+    "NombreLargo": "Huprecesa Prefabricados",
+    "CIFDeEmp": "B19200948",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1597",
+    "IdTPersona": "330",
+    "NombreCorto": "Roldan",
+    "NombreLargo": "Garcia Roldan , S.L",
+    "CIFDeEmp": "B82868092",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1598",
+    "IdTPersona": "331",
+    "NombreCorto": "Cementos El Molino",
+    "NombreLargo": "Cementos El Molino, S.L",
+    "CIFDeEmp": "B50620822",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1599",
+    "IdTPersona": "332",
+    "NombreCorto": "Fragma",
+    "NombreLargo": "Fragma",
+    "CIFDeEmp": "B80043698",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1600",
+    "IdTPersona": "333",
+    "NombreCorto": "Bombeos del Tajuña",
+    "NombreLargo": "Bombeos del Tajuña S.L",
+    "CIFDeEmp": "B82660432",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1601",
+    "IdTPersona": "334",
+    "NombreCorto": "Trans y Alquiler de Maq OP Mari Paz",
+    "NombreLargo": "Trans y Alquiler de Maq OP Mari Paz",
+    "CIFDeEmp": "K07477436",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1602",
+    "IdTPersona": "335",
+    "NombreCorto": "Cotrata",
+    "NombreLargo": "Cotrata",
+    "CIFDeEmp": "F45211273",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1603",
+    "IdTPersona": "336",
+    "NombreCorto": "Socoba",
+    "NombreLargo": "Socoba",
+    "CIFDeEmp": "F80868417",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1605",
+    "IdTPersona": "337",
+    "NombreCorto": "T2S Iberica S.L",
+    "NombreLargo": "T2S Iberica S.L",
+    "CIFDeEmp": "B59194472",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1606",
+    "IdTPersona": "338",
+    "NombreCorto": "Gudial",
+    "NombreLargo": "Gudial S.L",
+    "CIFDeEmp": "B83942276",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1608",
+    "IdTPersona": "339",
+    "NombreCorto": "ABC",
+    "NombreLargo": "ABC",
+    "CIFDeEmp": "B82824194",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1609",
+    "IdTPersona": "340",
+    "NombreCorto": "Cerrajeria Artistica y Forjas Molina",
+    "NombreLargo": "Cerrajeria Artistica y Forjas Molina",
+    "CIFDeEmp": "B81157448",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1610",
+    "IdTPersona": "341",
+    "NombreCorto": "Gruas y Transportes del Real S.L",
+    "NombreLargo": "Gruias y Transportes del Real S.L",
+    "CIFDeEmp": "B79045159",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1613",
+    "IdTPersona": "342",
+    "NombreCorto": "Ramon Aguilar Muniesa",
+    "NombreLargo": "Ramon Aguilar Muniesa",
+    "CIFDeEmp": "B73258185",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1615",
+    "IdTPersona": "343",
+    "NombreCorto": "Control 7",
+    "NombreLargo": "Control 7 S.A",
+    "CIFDeEmp": "A50361179",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1618",
+    "IdTPersona": "344",
+    "NombreCorto": "Recirex Reciclyng S.L",
+    "NombreLargo": "Recirex Reciclyng S.L",
+    "CIFDeEmp": "B73193104",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1619",
+    "IdTPersona": "345",
+    "NombreCorto": "Gemaneci S.L",
+    "NombreLargo": "Excavaciones y Movimientos de Tierras Gemaneci S.L",
+    "CIFDeEmp": "B18682104",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1620",
+    "IdTPersona": "346",
+    "NombreCorto": "Morato",
+    "NombreLargo": "Excavaciones y Movimientos de Tierras Hnos Morato",
+    "CIFDeEmp": "B84217413",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1621",
+    "IdTPersona": "347",
+    "NombreCorto": "Maropsa",
+    "NombreLargo": "Maropsa",
+    "CIFDeEmp": "A78036233",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1622",
+    "IdTPersona": "348",
+    "NombreCorto": "Ascal",
+    "NombreLargo": "Control y Aseguramiento en Calidad de Obra Civil, S.L.",
+    "CIFDeEmp": "B85037877",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1624",
+    "IdTPersona": "349",
+    "NombreCorto": "Copaer",
+    "NombreLargo": "Copaer, S.l",
+    "CIFDeEmp": "B45255924",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1625",
+    "IdTPersona": "350",
+    "NombreCorto": "Pacasa",
+    "NombreLargo": "Patricio Cabezas, S.A",
+    "CIFDeEmp": "A12060380",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1626",
+    "IdTPersona": "351",
+    "NombreCorto": "Ingenieria y Reciclados y Firmes, S.L",
+    "NombreLargo": "Ingenieria y Reciclados y Firmes, S.L",
+    "CIFDeEmp": "B82570821",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1627",
+    "IdTPersona": "352",
+    "NombreCorto": "Trabit",
+    "NombreLargo": "Trabajos Bituminosos, S.A",
+    "CIFDeEmp": "A28114957",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1628",
+    "IdTPersona": "353",
+    "NombreCorto": "Adiego",
+    "NombreLargo": "Hermanos Adiego, S.A",
+    "CIFDeEmp": "A50024181",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1629",
+    "IdTPersona": "354",
+    "NombreCorto": "Barbasan",
+    "NombreLargo": "Jesus E. Marco Barbasán",
+    "CIFDeEmp": "17442233E",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1630",
+    "IdTPersona": "355",
+    "NombreCorto": "Pascual Lozano Melero",
+    "NombreLargo": "Pascual Lozano Melero (Transf. Metalicas)",
+    "CIFDeEmp": "17431955W",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1631",
+    "IdTPersona": "356",
+    "NombreCorto": "Ironmen, S.A",
+    "NombreLargo": "Ironmen,S.A",
+    "CIFDeEmp": "A95123188",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1632",
+    "IdTPersona": "357",
+    "NombreCorto": "Carmen Cortés Esteban",
+    "NombreLargo": "Carmen Cortes Esteban",
+    "CIFDeEmp": "17419557R",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1633",
+    "IdTPersona": "358",
+    "NombreCorto": "Tecnivial, S.A",
+    "NombreLargo": "Tecnivial, S.A",
+    "CIFDeEmp": "A19005966",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1634",
+    "IdTPersona": "359",
+    "NombreCorto": "ErzEndesa",
+    "NombreLargo": "Endesa Distribucion Electrica, S.L.U",
+    "CIFDeEmp": "B82846817",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1635",
+    "IdTPersona": "360",
+    "NombreCorto": "Tricalsa",
+    "NombreLargo": "Triturados Calcicos, S.A",
+    "CIFDeEmp": "A28820363",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1637",
+    "IdTPersona": "361",
+    "NombreCorto": "Alfonso Martinez Andres",
+    "NombreLargo": "Alfonso Martinez Andres",
+    "CIFDeEmp": "17446559R",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1638",
+    "IdTPersona": "362",
+    "NombreCorto": "Lourdes Serrano Garcia",
+    "NombreLargo": "Lourdes Garcia Serrano",
+    "CIFDeEmp": "73096534G",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1639",
+    "IdTPersona": "363",
+    "NombreCorto": "Talleres Miguel Julian",
+    "NombreLargo": "Talleres Miguel Angel Julian Gallego",
+    "CIFDeEmp": "17439903S",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1640",
+    "IdTPersona": "364",
+    "NombreCorto": "Braiton",
+    "NombreLargo": "Restaurante Tito Braiton",
+    "CIFDeEmp": "G99111445",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1641",
+    "IdTPersona": "365",
+    "NombreCorto": "Avenida",
+    "NombreLargo": "Restaurante Avenida. Pablo Cebrian, S,L",
+    "CIFDeEmp": "B50665793",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1642",
+    "IdTPersona": "366",
+    "NombreCorto": "Blocona",
+    "NombreLargo": "Canteras Blocona",
+    "CIFDeEmp": "B42142232",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1643",
+    "IdTPersona": "367",
+    "NombreCorto": "Los Conductores",
+    "NombreLargo": "Los Conductores. María Victoria Biruete Muñoz",
+    "CIFDeEmp": "17431423-",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1644",
+    "IdTPersona": "368",
+    "NombreCorto": "Prosegur",
+    "NombreLargo": "Prosegur, S.A",
+    "CIFDeEmp": "A28430882",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1645",
+    "IdTPersona": "369",
+    "NombreCorto": "Volex",
+    "NombreLargo": "Voladuras y Explosivos, S.L",
+    "CIFDeEmp": "B22261101",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1646",
+    "IdTPersona": "370",
+    "NombreCorto": "Api Movilidad",
+    "NombreLargo": "Api Movilidad, S.A",
+    "CIFDeEmp": "A78015880",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1647",
+    "IdTPersona": "371",
+    "NombreCorto": "FerreteriaVelu",
+    "NombreLargo": "Ferreteria Velu. Larra Marta Sanchez.",
+    "CIFDeEmp": "29122074A",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1648",
+    "IdTPersona": "372",
+    "NombreCorto": "S.C",
+    "NombreLargo": "S.C. Asesores Ambientales. S.L",
+    "CIFDeEmp": "B82231937",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1649",
+    "IdTPersona": "373",
+    "NombreCorto": "Benito Lacarta Vinuesa",
+    "NombreLargo": "Benito Lacarta Vinuesa",
+    "CIFDeEmp": "17381116Q",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1650",
+    "IdTPersona": "374",
+    "NombreCorto": "Arno",
+    "NombreLargo": "Benito Arno E Hijos, S.A",
+    "CIFDeEmp": "A25006834",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1651",
+    "IdTPersona": "375",
+    "NombreCorto": "Maxam",
+    "NombreLargo": "Maxam Corp, S.A.U.",
+    "CIFDeEmp": "A78876331",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1652",
+    "IdTPersona": "376",
+    "NombreCorto": "MD Topografia",
+    "NombreLargo": "MD Topografia y Cartografía, S.L",
+    "CIFDeEmp": "B84383496",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1653",
+    "IdTPersona": "377",
+    "NombreCorto": "Hnos. Tijada",
+    "NombreLargo": "Gruas y Talleres Hermanos Tijada. Jose Luis Tijada",
+    "CIFDeEmp": "17430572E",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1654",
+    "IdTPersona": "378",
+    "NombreCorto": "Candelas",
+    "NombreLargo": "Pinturas Y Ferreteria Cadelas, S.L",
+    "CIFDeEmp": "B50700376",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1655",
+    "IdTPersona": "379",
+    "NombreCorto": "Proas",
+    "NombreLargo": "Porductos Asfalticos, S.A",
+    "CIFDeEmp": "A28072809",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1656",
+    "IdTPersona": "380",
+    "NombreCorto": "Jeman",
+    "NombreLargo": "Sondeos Jeman, S.A",
+    "CIFDeEmp": "A22024962",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1657",
+    "IdTPersona": "381",
+    "NombreCorto": "Luis Quiroga Gutierrez",
+    "NombreLargo": "Luis Quiroga Gutierrez. Notario",
+    "CIFDeEmp": "07489982D",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1658",
+    "IdTPersona": "382",
+    "NombreCorto": "Mapfre",
+    "NombreLargo": "Mapfre Empresas Compañía de Seguros y Reaseguros, S.A",
+    "CIFDeEmp": "A28204006",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1659",
+    "IdTPersona": "383",
+    "NombreCorto": "Java Net",
+    "NombreLargo": "Java Net Sistemas Información, S.L",
+    "CIFDeEmp": "B83055814",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1660",
+    "IdTPersona": "384",
+    "NombreCorto": "Nevers Abogados",
+    "NombreLargo": "Nevers Abogados y Economistas, S.L",
+    "CIFDeEmp": "B84060680",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1661",
+    "IdTPersona": "385",
+    "NombreCorto": "Interweb",
+    "NombreLargo": "Interweb Consulting, S.L",
+    "CIFDeEmp": "B84248228",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1662",
+    "IdTPersona": "386",
+    "NombreCorto": "Alternate",
+    "NombreLargo": "Alternate ordenadores España, S.L",
+    "CIFDeEmp": "B92176783",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1663",
+    "IdTPersona": "387",
+    "NombreCorto": "Melo",
+    "NombreLargo": "Grupo Melo Trasanciones e Industria, S.L",
+    "CIFDeEmp": "B82007386",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1664",
+    "IdTPersona": "388",
+    "NombreCorto": "Ramon Maria Luis Sánchez González",
+    "NombreLargo": "Ramon María Luis Sánchez Gonzalez",
+    "CIFDeEmp": "33197535W",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1665",
+    "IdTPersona": "389",
+    "NombreCorto": "Lyrnet",
+    "NombreLargo": "Lyrnet Comunicaciones, S.L",
+    "CIFDeEmp": "B83458919",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1666",
+    "IdTPersona": "390",
+    "NombreCorto": "Vodafone España, S.A.U",
+    "NombreLargo": "Vodafone España, S.A.U",
+    "CIFDeEmp": "A80907397",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1667",
+    "IdTPersona": "391",
+    "NombreCorto": "CLH",
+    "NombreLargo": "Compañía Logistica de Hidrocarburos, S.A",
+    "CIFDeEmp": "A28018380",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1668",
+    "IdTPersona": "392",
+    "NombreCorto": "Emsa",
+    "NombreLargo": "Euroservicios Emsa, S.A",
+    "CIFDeEmp": "A82744236",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1669",
+    "IdTPersona": "393",
+    "NombreCorto": "Luis Bescos",
+    "NombreLargo": "Luis Bescos Guerrero. Reparacion de Maquinaria O.P",
+    "CIFDeEmp": "17141023C",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1670",
+    "IdTPersona": "394",
+    "NombreCorto": "Aragon Oil",
+    "NombreLargo": "Aragon Oil, S.A",
+    "CIFDeEmp": "A50515048",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1671",
+    "IdTPersona": "395",
+    "NombreCorto": "Mieres Tubos",
+    "NombreLargo": "Mieres Tubos, S.L.U",
+    "CIFDeEmp": "B74150889",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1672",
+    "IdTPersona": "396",
+    "NombreCorto": "MorMor",
+    "NombreLargo": "Basculas Mor, S.C.P",
+    "CIFDeEmp": "E25273665",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1673",
+    "IdTPersona": "397",
+    "NombreCorto": "Esabe",
+    "NombreLargo": "Esabe Limpiezas, S.L",
+    "CIFDeEmp": "B80443120",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1674",
+    "IdTPersona": "398",
+    "NombreCorto": "Api Pinturas",
+    "NombreLargo": "Api Pinturas, S.A",
+    "CIFDeEmp": "A80649619",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1675",
+    "IdTPersona": "399",
+    "NombreCorto": "La Tecnica",
+    "NombreLargo": "La Tecnica Topografía",
+    "CIFDeEmp": "A78589512",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1676",
+    "IdTPersona": "400",
+    "NombreCorto": "Valquisa",
+    "NombreLargo": "Valqui, S.A",
+    "CIFDeEmp": "A50219104",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1677",
+    "IdTPersona": "401",
+    "NombreCorto": "Valig",
+    "NombreLargo": "Valig topografia, S.L",
+    "CIFDeEmp": "B62385026",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1678",
+    "IdTPersona": "402",
+    "NombreCorto": "Aura",
+    "NombreLargo": "Excavavaciones Aura, S.L",
+    "CIFDeEmp": "B18745281",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1679",
+    "IdTPersona": "403",
+    "NombreCorto": "Ayto Carenas",
+    "NombreLargo": "Ayuntamiento Carenas",
+    "CIFDeEmp": "P5007200H",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1680",
+    "IdTPersona": "404",
+    "NombreCorto": "Rodi",
+    "NombreLargo": "Talleres Rodi, S.L",
+    "CIFDeEmp": "B25228305",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1681",
+    "IdTPersona": "405",
+    "NombreCorto": "Cispa",
+    "NombreLargo": "Cispa, S.L",
+    "CIFDeEmp": "B80241318",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1682",
+    "IdTPersona": "406",
+    "NombreCorto": "Georama, S.C",
+    "NombreLargo": "Georama S.C",
+    "CIFDeEmp": "G06257364",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1683",
+    "IdTPersona": "407",
+    "NombreCorto": "Inconnu Gestión",
+    "NombreLargo": "Inconnu Gestión, S.L",
+    "CIFDeEmp": "B81506529",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1684",
+    "IdTPersona": "408",
+    "NombreCorto": "Midas",
+    "NombreLargo": "Midas, S.L",
+    "CIFDeEmp": "B81946717",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1685",
+    "IdTPersona": "409",
+    "NombreCorto": "Esterlicia, S.L",
+    "NombreLargo": "Gabinete Esterlicia, S.L",
+    "CIFDeEmp": "B84650019",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1686",
+    "IdTPersona": "410",
+    "NombreCorto": "Lasemer",
+    "NombreLargo": "Lasemer, S.L",
+    "CIFDeEmp": "B82327446",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1687",
+    "IdTPersona": "411",
+    "NombreCorto": "Asoce",
+    "NombreLargo": "Asoce Publicidad, S.L",
+    "CIFDeEmp": "B50091347",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1688",
+    "IdTPersona": "412",
+    "NombreCorto": "Maria Teresa Trapote",
+    "NombreLargo": "Maria Teresa Traporte San Martin",
+    "CIFDeEmp": "00416025R",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1689",
+    "IdTPersona": "413",
+    "NombreCorto": "Maria-Cruz Ortiz",
+    "NombreLargo": "Maria-Cruz Ortiz Gutierrez",
+    "CIFDeEmp": "51349212X",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1690",
+    "IdTPersona": "414",
+    "NombreCorto": "Ricardo Isais Perez",
+    "NombreLargo": "Ricardo Isaias Perez Ballarin. Notario",
+    "CIFDeEmp": "17997466N",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1691",
+    "IdTPersona": "415",
+    "NombreCorto": "Banco Galicia",
+    "NombreLargo": "Banco Galicia",
+    "CIFDeEmp": "A36600229",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1692",
+    "IdTPersona": "416",
+    "NombreCorto": "Hispania, S.L",
+    "NombreLargo": "Hispania, S.L",
+    "CIFDeEmp": "B50076256",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1693",
+    "IdTPersona": "417",
+    "NombreCorto": "Pablo Nava Lopez",
+    "NombreLargo": "Pablo Nava Lopez",
+    "CIFDeEmp": "01515792F",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1694",
+    "IdTPersona": "418",
+    "NombreCorto": "Banco Pastor",
+    "NombreLargo": "Banco Pastor",
+    "CIFDeEmp": "A15000128",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1695",
+    "IdTPersona": "419",
+    "NombreCorto": "Armando Vicioso",
+    "NombreLargo": "Armando Vicioso",
+    "CIFDeEmp": "17451819V",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1696",
+    "IdTPersona": "420",
+    "NombreCorto": "Banesto",
+    "NombreLargo": "Banesto",
+    "CIFDeEmp": "A28000032",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1697",
+    "IdTPersona": "421",
+    "NombreCorto": "Ayto Contamina",
+    "NombreLargo": "Ayuntamiento Contamina",
+    "CIFDeEmp": "P5008700F",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1698",
+    "IdTPersona": "422",
+    "NombreCorto": "Carlos Frax Perez",
+    "NombreLargo": "Carlos Frax Perez",
+    "CIFDeEmp": "17431238K",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1699",
+    "IdTPersona": "423",
+    "NombreCorto": "Viajes ECI",
+    "NombreLargo": "Viejes El Corte Ingles, S.A",
+    "CIFDeEmp": "A28229813",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1700",
+    "IdTPersona": "424",
+    "NombreCorto": "Panoramica Multimedia",
+    "NombreLargo": "Bpanoramica Multimedia, S.L",
+    "CIFDeEmp": "B62565791",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1701",
+    "IdTPersona": "425",
+    "NombreCorto": "Aranzadi",
+    "NombreLargo": "Aranzadi",
+    "CIFDeEmp": "A81962201",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1702",
+    "IdTPersona": "426",
+    "NombreCorto": "E-informa",
+    "NombreLargo": "E-informa, S.A",
+    "CIFDeEmp": "A82653940",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1703",
+    "IdTPersona": "427",
+    "NombreCorto": "Hegialde Digital",
+    "NombreLargo": "Hegialde Digital, S.L",
+    "CIFDeEmp": "B20922027",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1704",
+    "IdTPersona": "428",
+    "NombreCorto": "Sinducor",
+    "NombreLargo": "Sinducor, S.A",
+    "CIFDeEmp": "A82164047",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1705",
+    "IdTPersona": "429",
+    "NombreCorto": "Ibercaja",
+    "NombreLargo": "Ibercaja",
+    "CIFDeEmp": "G50000062",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1706",
+    "IdTPersona": "430",
+    "NombreCorto": "Fomento y Desarrollo Municipal Arganda",
+    "NombreLargo": "Fomento Y Desarrollo Municipal de Arganda",
+    "CIFDeEmp": "A81778243",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1707",
+    "IdTPersona": "431",
+    "NombreCorto": "CAM",
+    "NombreLargo": "Comunidad de Madrid. Consegeria de Trasnp e Infraestructuras",
+    "CIFDeEmp": "S7800001E",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1708",
+    "IdTPersona": "432",
+    "NombreCorto": "COIMN",
+    "NombreLargo": "Colegio de Ingenieros de Minas del Nordeste",
+    "CIFDeEmp": "Q0870005F",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1709",
+    "IdTPersona": "433",
+    "NombreCorto": "Oñate",
+    "NombreLargo": "Materiales de Construcción Antonio Oñate",
+    "CIFDeEmp": "17424059H",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1710",
+    "IdTPersona": "434",
+    "NombreCorto": "Fualsa",
+    "NombreLargo": "Furgonestas de Alquiler, S.A.U",
+    "CIFDeEmp": "A28659423",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1711",
+    "IdTPersona": "435",
+    "NombreCorto": "Transportes Especiales Siglo XXI, S.L",
+    "NombreLargo": "Transportes Especiales Siglo XXI, S.L",
+    "CIFDeEmp": "B99155905",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1712",
+    "IdTPersona": "436",
+    "NombreCorto": "Orange",
+    "NombreLargo": "France Telecom España, S.A",
+    "CIFDeEmp": "A82009812",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1713",
+    "IdTPersona": "437",
+    "NombreCorto": "Astorqui y García Gestores, S.L",
+    "NombreLargo": "Astorqui y García Gestores, S.L",
+    "CIFDeEmp": "B83669432",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1714",
+    "IdTPersona": "438",
+    "NombreCorto": "Cesce",
+    "NombreLargo": "Cesece",
+    "CIFDeEmp": "A28264034",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1715",
+    "IdTPersona": "439",
+    "NombreCorto": "Hnos. Serrano",
+    "NombreLargo": "Gruas y Tallleres Hns. Serrano, S.L",
+    "CIFDeEmp": "B50219757",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1716",
+    "IdTPersona": "440",
+    "NombreCorto": "Gladstone",
+    "NombreLargo": "Obras Gladstone, S.L",
+    "CIFDeEmp": "B10199115",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1717",
+    "IdTPersona": "441",
+    "NombreCorto": "Anthus",
+    "NombreLargo": "Anthus Ambiental, S.L",
+    "CIFDeEmp": "B26439968",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1718",
+    "IdTPersona": "442",
+    "NombreCorto": "CYPE",
+    "NombreLargo": "CYPE Ingenieros, S.A",
+    "CIFDeEmp": "A03122173",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1719",
+    "IdTPersona": "443",
+    "NombreCorto": "Taibesa",
+    "NombreLargo": "Hispanomoción Tibesa, S.A",
+    "CIFDeEmp": "A28057537",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1720",
+    "IdTPersona": "444",
+    "NombreCorto": "DGT",
+    "NombreLargo": "Direccion General de Trafico",
+    "CIFDeEmp": "G2816003D",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1721",
+    "IdTPersona": "445",
+    "NombreCorto": "Explamal",
+    "NombreLargo": "Grupo Explamal, S.L",
+    "CIFDeEmp": "B18601484",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerJur": "1723",
+    "IdTPersona": "446",
+    "NombreCorto": "Natural Resources Research and Development, S.L.U",
+    "NombreLargo": "Natural Resources Research and Development, S.L.U",
+    "CIFDeEmp": "B99219776",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "1"
+  },
+  {
+    "IDFilPerJur": "1724",
+    "IdTPersona": "457",
+    "NombreCorto": "Guadalajara No Esta en Mejico",
+    "NombreLargo": "Guadalajara No Esta en Mejico, S.l",
+    "CIFDeEmp": "B85033587",
+    "Logo": "",
+    "LogoPath": "",
+    "Activo/Inactivo": "1"
+  }
+]

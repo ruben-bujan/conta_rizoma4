@@ -1,0 +1,133 @@
+Orden,Ejercicio,Grupo,Cuenta,SubCuenta,PlanGeneralCuentas,Debe,Haber,Saldo
+119074,"PASIVO","E"," ",,"  I. Emisiones de obligaciones y otros valores negociables",0,0,0
+119075,"PASIVO","E","500",,"      Obligaciones no convertibles",0,0,0
+119076,"PASIVO","E","501",,"      Obligaciones convertibles",0,0,0
+119077,"PASIVO","E","505",,"      Otras deudas representadas en valores negociables",0,0,0
+119078,"PASIVO","E","506",,"      Intereses de obligaciones y otros valores",0,0,0
+119079,"PASIVO","E"," ",,"  II. Deudas con entidades de credito",0,0,0
+119080,"PASIVO","E","520",,"      Prestamos y otras deudas",0,0,0
+119081,"PASIVO","E","526",,"      Deudas por intereses",0,0,0
+119082,"PASIVO","E"," ",,"  III. Deudas con empresas del grupo y asociadas a corto plazo",0,0,0
+119083,"PASIVO","E","402, 510, 512, 514, 516, 551",,"      Deudas con empresas del grupo",0,0,0
+119084,"PASIVO","E","403, 511, 513, 515, 517, 552",,"      Deudas con empresas asociadas",0,0,0
+119085,"PASIVO","E"," ",,"  IV. Acreedores comerciales",0,0,0
+119086,"PASIVO","E","437, 439",,"      Anticipos recibidos",0,0,0
+119087,"PASIVO","E","400, 406, 410, 414, 419",,"      Deudas por compras o prestaciones de sevicios",0,0,0
+119088,"PASIVO","E","401, 411, 415",,"      Deudas representadas por efectos a pagar",0,0,0
+119089,"PASIVO","E"," ",,"  V. Otras deudas no comerciales",0,0,0
+119090,"PASIVO","E","475, 476, 477, 478, 479",,"      Administraciones publicas",0,0,0
+119091,"PASIVO","E","524",,"      Deudas representadas por efectos a pagar",0,0,0
+119092,"PASIVO","E","509, 521, 523, 525, 527, 553, 554, 555, 556, 559",,"      Otras deudas",0,0,0
+119093,"PASIVO","E","465",,"      Remuneraciones pendientes de pago",0,0,0
+119094,"PASIVO","E","560, 561",,"      Fianzas y depositos recibidos a corto plazo",0,0,0
+119095,"PASIVO","E","499",,"  VI. Provisiones para operaciones de trafico",0,0,0
+119096,"PASIVO","E","485, 585",,"  VII. Ajustes por periodificacion",0,0,0
+119097,"PASIVO",,,,,,,
+119098,"PASIVO",,,,"T O T A L    P A S I V O",,,0
+118967,"ACTIVO","A","190, 191, 192, 193, 194, 195, 196, 198, 199",,"A) Accionistas por desembolsos no exigidos",0,0,0
+118968,"ACTIVO","B"," ",,"B) Inmovilizado",0,0,0
+118969,"ACTIVO","B","20",,"  I. Gastos de establecimiento",0,0,0
+118970,"ACTIVO","B"," ",,"  II. Inmovilizaciones inmateriales",0,0,0
+118971,"ACTIVO","B","210",,"      Gastos de investigacion y desarrollo",0,0,0
+118972,"ACTIVO","B","211, 212",,"      Concesiones, patentes, licencias, marcas y similares",0,0,0
+118973,"ACTIVO","B","213",,"      Fondo de comercio",0,0,0
+118974,"ACTIVO","B","214",,"      Derechos de traspaso",0,0,0
+118975,"ACTIVO","B","215",,"      Aplicaciones informaticas",0,0,0
+118976,"ACTIVO","B","217",,"      Derechos bienes en reg. arrendamiento financiero",0,0,0
+118977,"ACTIVO","B","219",,"      Anticipos",0,0,0
+118978,"ACTIVO","B","291",,"      Provisiones",0,0,0
+118979,"ACTIVO","B","281",,"      Amortizaciones",0,0,0
+118980,"ACTIVO","B"," ",,"  III. Inmovilizaciones materiales",0,0,0
+118981,"ACTIVO","B","220, 221",,"      Terrenos y Construcciones",0,0,0
+118982,"ACTIVO","B","222, 223",,"      Instalaciones tecnicas y maquinaria",0,0,0
+118983,"ACTIVO","B","224, 225, 226",,"      Otras instalaciones, aparatos de medida, utilaje y mobiliario",0,0,0
+118984,"ACTIVO","B","23",,"      Anticipos e inmovilizaciones materiales en curso",0,0,0
+118985,"ACTIVO","B","227, 228, 229",,"      Otro inmovilizado",0,0,0
+118986,"ACTIVO","B","292",,"      Provisiones",0,0,0
+118987,"ACTIVO","B","282",,"      Amortizaciones",0,0,0
+118988,"ACTIVO","B"," ",,"  IV. Inmovilizaciones financieras",0,0,0
+118989,"ACTIVO","B","240",,"      Participaciones en empresas del grupo",0,0,0
+118990,"ACTIVO","B","242, 244, 246",,"      Creditos a empresas del grupo",0,0,0
+118991,"ACTIVO","B","241",,"      Participaciones en empresas asociadas",0,0,0
+118992,"ACTIVO","B","243, 245, 247",,"      Creditos a empresas asociadas",0,0,0
+118993,"ACTIVO","B","250, 251, 256",,"      Cartera de valores a largo plazo",0,0,0
+118994,"ACTIVO","B","252, 253, 254, 257, 258",,"      Otros creditos",0,0,0
+118995,"ACTIVO","B","260, 265",,"      Depositos de fianzas constituidos a largo plazo",0,0,0
+118996,"ACTIVO","B","293, 294, 295, 296, 297, 298",,"      Provisiones",0,0,0
+118997,"ACTIVO","B","198",,"  V. Acciones propias",0,0,0
+118998,"ACTIVO","C","27",,"C) Gastos a distribuir en varios ejericios",0,0,0
+118999,"ACTIVO","D"," ",,"D) Activo circulante",0,0,0
+119000,"ACTIVO","D","558",,"  I. Accionistas por desembolsos exigidos",0,0,0
+119001,"ACTIVO","D"," ",,"  II. Existencias",0,0,0
+119002,"ACTIVO","D","30",,"      Comerciales",0,0,0
+119003,"ACTIVO","D","31, 32",,"      Materias primas y otros aprovisionamientos",0,0,0
+119004,"ACTIVO","D","33, 34",,"      Productos en curso y semiterminados",0,0,0
+119005,"ACTIVO","D","35",,"      Productos terminados",0,0,0
+119006,"ACTIVO","D","36",,"      SubProductos, residuos y materiales recuperados",0,0,0
+119007,"ACTIVO","D","407, 417",,"      Anticipos",0,0,0
+119008,"ACTIVO","D","39",,"      Provisiones",0,0,0
+119009,"ACTIVO","D"," ",,"  III. Deudores",0,0,0
+119010,"ACTIVO","D","430, 431, 434, 435, 436",,"      Clientes por ventas y prestaciones de servicios",0,0,0
+119011,"ACTIVO","D","432, 551",,"      Empresas del grupo, deudores",0,0,0
+119012,"ACTIVO","D","433, 552",,"      Empresas asociadas, deudores",0,0,0
+119013,"ACTIVO","D","44, 553, 554, 559",,"      Deudores varios",0,0,0
+119014,"ACTIVO","D","460, 544, 464",,"      Anticipos personal",0,0,0
+119015,"ACTIVO","D","470, 471, 472, 473, 474",,"      Administraciones publicas",0,0,0
+119016,"ACTIVO","D","490, 493, 494, 499",,"      Provisiones",0,0,0
+119017,"ACTIVO","D"," ",,"  IV. Inversiones financieras temporales",0,0,0
+119018,"ACTIVO","D","530, 538",,"      Participaciones en empresas del grupo",0,0,0
+119019,"ACTIVO","D","532, 534, 536",,"      Creditos a empresas del grupo",0,0,0
+119020,"ACTIVO","D","531, 539",,"      Participaciones en empresas asociadas",0,0,0
+119021,"ACTIVO","D","533, 535, 537",,"      Creditos a empresas asociadas",0,0,0
+119022,"ACTIVO","D","540, 541, 546, 549",,"      Cartera de valores a corto plazo",0,0,0
+119023,"ACTIVO","D","542, 543, 545, 547, 548",,"      Otros creditos",0,0,0
+119024,"ACTIVO","D","565, 566",,"      Depositos y fianzas constituidos a corto plazo",0,0,0
+119025,"ACTIVO","D","593, 594, 595, 596, 597, 598",,"      Provisiones",0,0,0
+119026,"ACTIVO","D"," ",,"  V. Acciones propias a corto plazo",,,
+119027,"ACTIVO","D","57",,"  VI. Tesoreria",0,0,0
+119028,"ACTIVO","D","480, 580",,"  VII. Ajustes por periodificacion",0,0,0
+119029,"ACTIVO",,,,,,,
+119030,"ACTIVO",,,,"T O T A L    A C T I V O",,,0
+119031,"PASIVO","A"," ",,"A) Fondos propios",0,0,0
+119032,"PASIVO","A","10",,"  I. Capital suscrito",0,0,0
+119033,"PASIVO","A","110",,"  II. Prima de emision",0,0,0
+119034,"PASIVO","A","111",,"  III. Reserva de revalorizacion",0,0,0
+119035,"PASIVO","A"," ",,"  IV. Reservas",0,0,0
+119036,"PASIVO","A","112",,"      Reserva legal",0,0,0
+119037,"PASIVO","A","115",,"      Reservas para acciones propias",0,0,0
+119038,"PASIVO","A","114",,"      Reservas para acciones de la sociedad dominante",0,0,0
+119039,"PASIVO","A","116",,"      Reservas estatuitarias",0,0,0
+119040,"PASIVO","A","113, 117, 118",,"      Otras reservas",0,0,0
+119041,"PASIVO","A"," ",,"  V. Resultados de ejercicios anteriores",0,0,0
+119042,"PASIVO","A","120",,"      Remanente",0,0,0
+119043,"PASIVO","A","121",,"      Resultados negativos de ejercicios anteriores",0,0,0
+119044,"PASIVO","A","122",,"      Aportaciones de socios para compensacion de perdidas",0,0,0
+119045,"PASIVO","A","129",,"  VI. Perdidas y ganancias",0,0,-0
+119046,"PASIVO","A","557",,"  VII. Dividendo a cuenta entregado en el ejercicio",0,0,0
+119047,"PASIVO","B"," ",,"B) Ingresos a distribuidor en varios ejercicios",0,0,0
+119048,"PASIVO","B","130, 131",,"      Subvenciones de capital",0,0,0
+119049,"PASIVO","B","134, 136",,"      Diferencias positivas de cambio",0,0,0
+119050,"PASIVO","B","135",,"      Otros ingresos a distribuir en varios ejercicios",0,0,0
+119051,"PASIVO","C"," ",,"C) Provisiones para riesgos y gastos",0,0,0
+119052,"PASIVO","C","140",,"      Provisiones para pensiones y obligaciones similares",0,0,0
+119053,"PASIVO","C","141",,"      Provisiones para impuestos",0,0,0
+119054,"PASIVO","C","144",,"      Fondo de reversion",0,0,0
+119055,"PASIVO","C","142, 143, 145, 147, 148",,"      Otras obligaciones",0,0,0
+119056,"PASIVO","D"," ",,"D) Acreedores a largo plazo",0,0,0
+119057,"PASIVO","D"," ",,"  I.  Emisiones de obligaciones y otros valores negociables",0,0,0
+119058,"PASIVO","D","150",,"      Obligaciones no convertibles",0,0,0
+119059,"PASIVO","D","151",,"      Obligaciones convertibles",0,0,0
+119060,"PASIVO","D","155",,"      Otras deudas representadas en valores negociables",0,0,0
+119061,"PASIVO","D","170",,"  II. Deudas con entidades de credito",0,0,0
+119062,"PASIVO","D"," ",,"  III. Deudas con empresas del grupo y asociadas",0,0,0
+119063,"PASIVO","D","160, 162, 164",,"      Deudas con empresas del grupo",0,0,0
+119064,"PASIVO","D","161, 163, 165",,"      Deudas con empresas asociadas",0,0,0
+119065,"PASIVO","D"," ",,"  IV. Otros acreedores",0,0,0
+119066,"PASIVO","D","174",,"      Deudas representadas por efectos a pagar",0,0,0
+119067,"PASIVO","D","171, 172, 173",,"      Otras deudas",0,0,0
+119068,"PASIVO","D","180, 185",,"      Fianzas y depositos recibidos a largo plazo",0,0,0
+119069,"PASIVO","D"," ",,"  V. Desembolsos pendientes sobre acciones no exigidos",0,0,0
+119070,"PASIVO","D","248",,"      De empresas del grupo",0,0,0
+119071,"PASIVO","D","249",,"      De empresas asociadas",0,0,0
+119072,"PASIVO","D","259",,"      De otras empresas",0,0,0
+119073,"PASIVO","E"," ",,"E) Acreedores a corto plazo",0,0,0

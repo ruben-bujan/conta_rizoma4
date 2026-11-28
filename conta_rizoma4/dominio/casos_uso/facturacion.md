@@ -1,0 +1,7 @@
+# Facturación ordinaria y rectificaciones en memoria
+
+Los casos de factura emitida y recibida generan un movimiento económico y una propuesta de representación PGC-PYMES. Las bases e importes se expresan en céntimos. El IVA se calcula con aritmética decimal y redondeo comercial a céntimo. Las facturas ordinarias requieren base positiva, tercero activo y referencias epistemológicas identificadas. En facturas recibidas, la cuenta de gasto debe pertenecer al grupo 6. El porcentaje, la cuenta de gasto y los identificadores de decisión/interpretación siguen siendo datos suministrados por quien llama.
+
+El caso de rectificación valida identificadores, estados, motivo, causa, fecha y cuadre, y devuelve una operación propuesta sin mutar las representaciones. `NucleoEpistemicoContable.crear_rectificacion` registra el cambio de estado como evento; rechaza originales ya rectificados y reutilización de una representación nueva. La operación no determina por sí sola la validez fiscal de una factura rectificativa, ni sustituye la factura original.
+
+Pendiente de decisión/diseño: tipos de tercero con rol cliente/proveedor (el modelo actual sólo clasifica persona física/jurídica), regímenes y tipos de IVA, exenciones, retenciones, descuentos, varias líneas fiscales, series y unicidad de numeración, y reglas normativas de factura rectificativa. No se codifican sin criterios jurídicos/fiscales definidos.

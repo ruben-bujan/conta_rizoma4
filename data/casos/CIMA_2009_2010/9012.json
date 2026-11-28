@@ -1,0 +1,14 @@
+[
+  {
+    "IdRegTranPer": "2",
+    "TipoTran": "Alta"
+  },
+  {
+    "IdRegTranPer": "3",
+    "TipoTran": "Baja definitva"
+  },
+  {
+    "IdRegTranPer": "4",
+    "TipoTran": "Baja médica"
+  }
+]

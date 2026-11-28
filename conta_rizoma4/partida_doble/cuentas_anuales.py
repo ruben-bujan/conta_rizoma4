@@ -1,19 +1,9 @@
 # -*- coding: utf-8 -*-
-"""Cuentas anuales: balance de situación + cuenta de PyG.
-
-Modelo simplificado (abreviado). Agrupa por primer dígito del código PGC:
-  - Grupos 1-5: balance (activo/pasivo/PN)
-  - Grupo 6: gastos
-  - Grupo 7: ingresos
-
-Ecuación contable:
-  Activo = Pasivo + PN + Resultado del ejercicio
-  donde Resultado = Ingresos - Gastos
-
-La igualdad se mantiene por construcción (cada asiento cuadra).
-"""
+"""Cuentas anuales: balance de situación + cuenta de PyG con soporte de fechas."""
 from __future__ import annotations
 
+from datetime import date
+from typing import Optional
 from .libro_mayor import mayor
 
 
@@ -30,13 +20,15 @@ def _es_corrector_activo(cuenta: str) -> bool:
     return any(cuenta.startswith(p) for p in _CORRECTORES_ACTIVO_PREFIJOS)
 
 
-def balance_situacion(repo, desde=None, hasta=None):
-    """Balance de situación: activo (neto) vs pasivo + PN + resultado.
-
-    Los correctores del activo (281, 291, 391, 491, 591) se restan del
-    activo bruto. No aparecen como pasivo.
-    """
-    mayor_data = mayor(repo, desde, hasta)
+def balance_situacion(
+    repo, 
+    desde: Optional[int] = None, 
+    hasta: Optional[int] = None,
+    fecha_desde: Optional[date] = None,
+    fecha_hasta: Optional[date] = None,
+):
+    """Balance de situación: activo (neto) vs pasivo + PN + resultado (con soporte de fechas)."""
+    mayor_data = mayor(repo, desde=desde, hasta=hasta, fecha_desde=fecha_desde, fecha_hasta=fecha_hasta)
     activo_bruto = {}
     correctores = {}
     pasivo = {}
@@ -80,19 +72,15 @@ def balance_situacion(repo, desde=None, hasta=None):
     }
 
 
-def cuenta_pyg(repo, desde=None, hasta=None):
-    """Cuenta de pérdidas y ganancias.
-
-    Devuelve:
-      {
-        "gastos": {cuenta: importe_centimos},
-        "ingresos": {cuenta: importe_centimos},
-        "total_gastos": int,
-        "total_ingresos": int,
-        "resultado": int,  # positivo = beneficio, negativo = pérdida
-      }
-    """
-    mayor_data = mayor(repo, desde, hasta)
+def cuenta_pyg(
+    repo, 
+    desde: Optional[int] = None, 
+    hasta: Optional[int] = None,
+    fecha_desde: Optional[date] = None,
+    fecha_hasta: Optional[date] = None,
+):
+    """Cuenta de pérdidas y ganancias (con soporte de fechas)."""
+    mayor_data = mayor(repo, desde=desde, hasta=hasta, fecha_desde=fecha_desde, fecha_hasta=fecha_hasta)
     gastos = {}
     ingresos = {}
     for cuenta, datos in mayor_data.items():

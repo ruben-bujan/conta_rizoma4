@@ -8,9 +8,8 @@ from typing import Optional
 import psycopg
 from psycopg.rows import dict_row
 
-from ..partida_doble import (
-    RepositorioAsiento, balance_situacion, cuenta_pyg,
-)
+from ..partida_doble import RepositorioAsiento
+from ..partida_doble.cuentas_anuales import balance_situacion, cuenta_pyg
 from ..partida_doble.persistencia import PG_URL
 from .modelo import (
     BalanceConsolidado, ConsolidacionError, EliminacionPropuesta,
@@ -19,14 +18,12 @@ from .modelo import (
 
 
 def _grupo_de(cuenta: str) -> int:
-    """Primer dígito del código PGC. 0 si no es válido."""
     if not cuenta or not cuenta[0].isdigit():
         return 0
     return int(cuenta[0])
 
 
 def cargar_relaciones(matriz_id: str, fecha: date, pg_url: Optional[str] = None) -> list[RelacionGrupo]:
-    """Carga las filiales de una matriz activas en la fecha."""
     url = pg_url or PG_URL
     with psycopg.connect(url, row_factory=dict_row) as conn:
         with conn.cursor() as cur:
@@ -72,14 +69,15 @@ def consolidar_grupo(
 ) -> BalanceConsolidado:
     """Consolida el grupo: suma de empresas, atribuye a matriz y minoritarios.
 
-    Nota: la eliminación intragrupo se propone en una fase posterior
-    (requiere documento de respaldo). Esta versión solo suma y atribuye.
+    Usa balance_situacion (que separa activo bruto, pasivo y correctores)
+    y cuenta_pyg (resultado). La ecuación contable se mantiene:
+        Activo neto = Pasivo + PN + Resultado
     """
     relaciones = cargar_relaciones(matriz_id, fecha_cierre, pg_url)
     empresas = [matriz_id] + [r.filial_id for r in relaciones]
 
-    # 1. Suma plana por cuenta
     activo_plano: dict[str, int] = {}
+    correctores_plano: dict[str, int] = {}
     pasivo_plano: dict[str, int] = {}
     resultados: dict[str, int] = {}
     participaciones: dict[str, float] = {matriz_id: 100.0}
@@ -93,23 +91,28 @@ def consolidar_grupo(
         pyg = cuenta_pyg(repo)
         resultados[empresa] = pyg["resultado"]
 
-        # balance_situacion devuelve {cuenta: importe}, plano
         for cuenta, importe in bal["activo"].items():
             activo_plano[cuenta] = activo_plano.get(cuenta, 0) + importe
+        for cuenta, importe in bal.get("correctores", {}).items():
+            correctores_plano[cuenta] = correctores_plano.get(cuenta, 0) + importe
         for cuenta, importe in bal["pasivo"].items():
             pasivo_plano[cuenta] = pasivo_plano.get(cuenta, 0) + importe
 
-    # 2. Agrupar por grupos PGC para el BalanceConsolidado
+    # Agrupar por grupos PGC
     activo_por_grupo: dict[str, dict[str, int]] = {}
     pasivo_por_grupo: dict[str, dict[str, int]] = {}
+    correctores_por_grupo: dict[str, dict[str, int]] = {}
     for cuenta, importe in activo_plano.items():
         g = _grupo_de(cuenta)
         activo_por_grupo.setdefault(g, {})[cuenta] = importe
     for cuenta, importe in pasivo_plano.items():
         g = _grupo_de(cuenta)
         pasivo_por_grupo.setdefault(g, {})[cuenta] = importe
+    for cuenta, importe in correctores_plano.items():
+        g = _grupo_de(cuenta)
+        correctores_por_grupo.setdefault(g, {})[cuenta] = importe
 
-    # 3. Resultado del grupo y atribución
+    # Resultado del grupo y atribución
     resultado_total = sum(resultados.values())
     resultado_matriz = 0.0
     resultado_minoritarios = 0.0
@@ -118,16 +121,19 @@ def consolidar_grupo(
         resultado_matriz += resultado * (pct / 100.0)
         resultado_minoritarios += resultado * (1 - pct / 100.0)
 
-    # 4. Cuadre (simplificado)
-    total_activo = sum(activo_plano.values())
+    # Cuadre con correctores
+    total_activo_bruto = sum(activo_plano.values())
+    total_correctores = sum(correctores_plano.values())
+    total_activo_neto = total_activo_bruto - total_correctores
     total_pasivo = sum(pasivo_plano.values())
-    cuadra = abs(total_activo - (total_pasivo + resultado_total)) < 100
+    cuadra = abs(total_activo_neto - (total_pasivo + resultado_total)) < 100
 
     return BalanceConsolidado(
         grupo_id=grupo_id,
         fecha_cierre=fecha_cierre,
         empresas_incluidas=empresas,
         activo=activo_por_grupo,
+        correctores=correctores_por_grupo,
         pasivo=pasivo_por_grupo,
         resultado_grupo=round(resultado_total),
         resultado_atribuible_matriz=round(resultado_matriz),

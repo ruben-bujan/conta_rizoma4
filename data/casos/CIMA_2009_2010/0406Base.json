@@ -1,0 +1,1397 @@
+[
+  {
+    "IdRegBaseSinDescompuesto": "1",
+    "IdRegBaseUniObr": "88",
+    "Precio": "1.5"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "2",
+    "IdRegBaseUniObr": "117",
+    "Precio": "200"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "3",
+    "IdRegBaseUniObr": "121",
+    "Precio": "279.13"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "4",
+    "IdRegBaseUniObr": "122",
+    "Precio": "15.22"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "5",
+    "IdRegBaseUniObr": "140",
+    "Precio": "20.297"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "6",
+    "IdRegBaseUniObr": "141",
+    "Precio": "59.667"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "7",
+    "IdRegBaseUniObr": "146",
+    "Precio": "3"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "8",
+    "IdRegBaseUniObr": "147",
+    "Precio": "1.2229"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "9",
+    "IdRegBaseUniObr": "148",
+    "Precio": "0.6064000000000001"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "10",
+    "IdRegBaseUniObr": "149",
+    "Precio": "0.6481"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "11",
+    "IdRegBaseUniObr": "151",
+    "Precio": "150.25"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "12",
+    "IdRegBaseUniObr": "152",
+    "Precio": "0.9"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "13",
+    "IdRegBaseUniObr": "153",
+    "Precio": "3470.63"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "14",
+    "IdRegBaseUniObr": "154",
+    "Precio": "2499.8"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "15",
+    "IdRegBaseUniObr": "155",
+    "Precio": "17.51"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "16",
+    "IdRegBaseUniObr": "156",
+    "Precio": "1957.35"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "17",
+    "IdRegBaseUniObr": "157",
+    "Precio": "60.54"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "18",
+    "IdRegBaseUniObr": "158",
+    "Precio": "57.96"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "19",
+    "IdRegBaseUniObr": "159",
+    "Precio": "1337.59"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "20",
+    "IdRegBaseUniObr": "160",
+    "Precio": "51979.75"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "21",
+    "IdRegBaseUniObr": "161",
+    "Precio": "1.18"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "22",
+    "IdRegBaseUniObr": "162",
+    "Precio": "3.57"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "23",
+    "IdRegBaseUniObr": "163",
+    "Precio": "1.92"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "24",
+    "IdRegBaseUniObr": "164",
+    "Precio": "4.84"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "25",
+    "IdRegBaseUniObr": "165",
+    "Precio": "126.64"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "26",
+    "IdRegBaseUniObr": "166",
+    "Precio": "519.9400000000001"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "27",
+    "IdRegBaseUniObr": "167",
+    "Precio": "277.07"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "28",
+    "IdRegBaseUniObr": "168",
+    "Precio": "44.7"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "29",
+    "IdRegBaseUniObr": "169",
+    "Precio": "3.09"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "30",
+    "IdRegBaseUniObr": "170",
+    "Precio": "1230.38"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "31",
+    "IdRegBaseUniObr": "171",
+    "Precio": "861.96"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "32",
+    "IdRegBaseUniObr": "172",
+    "Precio": "6.67"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "33",
+    "IdRegBaseUniObr": "173",
+    "Precio": "600"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "34",
+    "IdRegBaseUniObr": "174",
+    "Precio": "180.3"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "35",
+    "IdRegBaseUniObr": "176",
+    "Precio": "1322.23"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "36",
+    "IdRegBaseUniObr": "177",
+    "Precio": "132.64"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "37",
+    "IdRegBaseUniObr": "178",
+    "Precio": "1.95"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "38",
+    "IdRegBaseUniObr": "179",
+    "Precio": "18.76"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "39",
+    "IdRegBaseUniObr": "180",
+    "Precio": "0.54"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "40",
+    "IdRegBaseUniObr": "181",
+    "Precio": "170"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "41",
+    "IdRegBaseUniObr": "182",
+    "Precio": "47410.75"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "42",
+    "IdRegBaseUniObr": "183",
+    "Precio": "396667.08"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "43",
+    "IdRegBaseUniObr": "184",
+    "Precio": "0.414698"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "44",
+    "IdRegBaseUniObr": "185",
+    "Precio": "9.243566"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "45",
+    "IdRegBaseUniObr": "186",
+    "Precio": "3.708245"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "46",
+    "IdRegBaseUniObr": "187",
+    "Precio": "3.720265"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "47",
+    "IdRegBaseUniObr": "188",
+    "Precio": "0.817376"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "48",
+    "IdRegBaseUniObr": "189",
+    "Precio": "1.123893"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "49",
+    "IdRegBaseUniObr": "190",
+    "Precio": "4.020771"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "50",
+    "IdRegBaseUniObr": "191",
+    "Precio": "3.99072"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "51",
+    "IdRegBaseUniObr": "192",
+    "Precio": "1.442429"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "52",
+    "IdRegBaseUniObr": "193",
+    "Precio": "2.524251"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "53",
+    "IdRegBaseUniObr": "194",
+    "Precio": "3.924609"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "54",
+    "IdRegBaseUniObr": "195",
+    "Precio": "3.215415"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "55",
+    "IdRegBaseUniObr": "196",
+    "Precio": "0.817376"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "56",
+    "IdRegBaseUniObr": "197",
+    "Precio": "9.592153"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "57",
+    "IdRegBaseUniObr": "198",
+    "Precio": "12.248627"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "58",
+    "IdRegBaseUniObr": "199",
+    "Precio": "13.691056"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "59",
+    "IdRegBaseUniObr": "200",
+    "Precio": "1.718895"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "60",
+    "IdRegBaseUniObr": "201",
+    "Precio": "132.829685"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "61",
+    "IdRegBaseUniObr": "202",
+    "Precio": "191.963266"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "62",
+    "IdRegBaseUniObr": "203",
+    "Precio": "191.584629"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "63",
+    "IdRegBaseUniObr": "204",
+    "Precio": "48.862284"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "64",
+    "IdRegBaseUniObr": "205",
+    "Precio": "3.515921"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "65",
+    "IdRegBaseUniObr": "206",
+    "Precio": "4.97638"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "66",
+    "IdRegBaseUniObr": "207",
+    "Precio": "17.225007"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "67",
+    "IdRegBaseUniObr": "208",
+    "Precio": "10.758117"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "68",
+    "IdRegBaseUniObr": "209",
+    "Precio": "12.140445"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "69",
+    "IdRegBaseUniObr": "210",
+    "Precio": "10.241246"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "70",
+    "IdRegBaseUniObr": "211",
+    "Precio": "18.469102"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "71",
+    "IdRegBaseUniObr": "212",
+    "Precio": "29.227219"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "72",
+    "IdRegBaseUniObr": "213",
+    "Precio": "14.760857"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "73",
+    "IdRegBaseUniObr": "214",
+    "Precio": "11.623574"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "74",
+    "IdRegBaseUniObr": "215",
+    "Precio": "14.39424"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "75",
+    "IdRegBaseUniObr": "216",
+    "Precio": "9.904679"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "76",
+    "IdRegBaseUniObr": "217",
+    "Precio": "27.28595"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "77",
+    "IdRegBaseUniObr": "218",
+    "Precio": "10.259277"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "78",
+    "IdRegBaseUniObr": "219",
+    "Precio": "4.146984"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "79",
+    "IdRegBaseUniObr": "220",
+    "Precio": "11.42524"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "80",
+    "IdRegBaseUniObr": "221",
+    "Precio": "66.093301"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "81",
+    "IdRegBaseUniObr": "222",
+    "Precio": "101.156347"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "82",
+    "IdRegBaseUniObr": "223",
+    "Precio": "162.561754"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "83",
+    "IdRegBaseUniObr": "224",
+    "Precio": "233.619415"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "84",
+    "IdRegBaseUniObr": "225",
+    "Precio": "307.706177"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "85",
+    "IdRegBaseUniObr": "226",
+    "Precio": "335.184451"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "86",
+    "IdRegBaseUniObr": "227",
+    "Precio": "355.715024"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "87",
+    "IdRegBaseUniObr": "228",
+    "Precio": "320.135108"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "88",
+    "IdRegBaseUniObr": "229",
+    "Precio": "466.655848"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "89",
+    "IdRegBaseUniObr": "230",
+    "Precio": "554.11513"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "90",
+    "IdRegBaseUniObr": "231",
+    "Precio": "698.562379"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "91",
+    "IdRegBaseUniObr": "232",
+    "Precio": "873.006142"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "92",
+    "IdRegBaseUniObr": "233",
+    "Precio": "940.704146"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "93",
+    "IdRegBaseUniObr": "234",
+    "Precio": "1208.226654"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "94",
+    "IdRegBaseUniObr": "235",
+    "Precio": "47.293642"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "95",
+    "IdRegBaseUniObr": "236",
+    "Precio": "4.249156"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "96",
+    "IdRegBaseUniObr": "237",
+    "Precio": "41.776351"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "97",
+    "IdRegBaseUniObr": "238",
+    "Precio": "52.384215"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "98",
+    "IdRegBaseUniObr": "239",
+    "Precio": "49.956126"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "99",
+    "IdRegBaseUniObr": "240",
+    "Precio": "7.969421"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "100",
+    "IdRegBaseUniObr": "241",
+    "Precio": "11.761807"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "101",
+    "IdRegBaseUniObr": "242",
+    "Precio": "23.469523"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "102",
+    "IdRegBaseUniObr": "243",
+    "Precio": "18.096474"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "103",
+    "IdRegBaseUniObr": "244",
+    "Precio": "6.725325"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "104",
+    "IdRegBaseUniObr": "245",
+    "Precio": "0.576972"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "105",
+    "IdRegBaseUniObr": "246",
+    "Precio": "1.01571"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "106",
+    "IdRegBaseUniObr": "247",
+    "Precio": "5.427139"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "107",
+    "IdRegBaseUniObr": "248",
+    "Precio": "218.810477"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "108",
+    "IdRegBaseUniObr": "249",
+    "Precio": "501.364297"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "109",
+    "IdRegBaseUniObr": "250",
+    "Precio": "650.361208"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "110",
+    "IdRegBaseUniObr": "251",
+    "Precio": "348.905557"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "111",
+    "IdRegBaseUniObr": "252",
+    "Precio": "74.30312600000001"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "112",
+    "IdRegBaseUniObr": "253",
+    "Precio": "9.92271"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "113",
+    "IdRegBaseUniObr": "254",
+    "Precio": "59.163632"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "114",
+    "IdRegBaseUniObr": "255",
+    "Precio": "150.253026"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "115",
+    "IdRegBaseUniObr": "256",
+    "Precio": "3305.566574"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "116",
+    "IdRegBaseUniObr": "257",
+    "Precio": "3305.566574"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "117",
+    "IdRegBaseUniObr": "258",
+    "Precio": "3005.060522"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "118",
+    "IdRegBaseUniObr": "259",
+    "Precio": "3606.072626"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "119",
+    "IdRegBaseUniObr": "260",
+    "Precio": "3005.060522"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "120",
+    "IdRegBaseUniObr": "261",
+    "Precio": "3005.060522"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "121",
+    "IdRegBaseUniObr": "262",
+    "Precio": "3305.566574"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "122",
+    "IdRegBaseUniObr": "263",
+    "Precio": "2103.542365"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "123",
+    "IdRegBaseUniObr": "264",
+    "Precio": "7.320327"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "124",
+    "IdRegBaseUniObr": "265",
+    "Precio": "0.823387"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "125",
+    "IdRegBaseUniObr": "266",
+    "Precio": "1.135913"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "126",
+    "IdRegBaseUniObr": "267",
+    "Precio": "2.085512"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "127",
+    "IdRegBaseUniObr": "268",
+    "Precio": "185.953145"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "128",
+    "IdRegBaseUniObr": "269",
+    "Precio": "306.420011"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "129",
+    "IdRegBaseUniObr": "270",
+    "Precio": "155.662135"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "130",
+    "IdRegBaseUniObr": "271",
+    "Precio": "233.216737"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "131",
+    "IdRegBaseUniObr": "272",
+    "Precio": "485.233133"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "132",
+    "IdRegBaseUniObr": "273",
+    "Precio": "51.476687"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "133",
+    "IdRegBaseUniObr": "274",
+    "Precio": "47.203491"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "134",
+    "IdRegBaseUniObr": "275",
+    "Precio": "312.003414"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "135",
+    "IdRegBaseUniObr": "276",
+    "Precio": "152.278437"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "136",
+    "IdRegBaseUniObr": "277",
+    "Precio": "326.70417"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "137",
+    "IdRegBaseUniObr": "278",
+    "Precio": "126.783503"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "138",
+    "IdRegBaseUniObr": "279",
+    "Precio": "396.637938"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "139",
+    "IdRegBaseUniObr": "280",
+    "Precio": "33.27203"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "140",
+    "IdRegBaseUniObr": "281",
+    "Precio": "284.657363"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "141",
+    "IdRegBaseUniObr": "282",
+    "Precio": "192.450086"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "142",
+    "IdRegBaseUniObr": "283",
+    "Precio": "10.842258"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "143",
+    "IdRegBaseUniObr": "284",
+    "Precio": "13.582874"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "144",
+    "IdRegBaseUniObr": "285",
+    "Precio": "3.840467"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "145",
+    "IdRegBaseUniObr": "286",
+    "Precio": "32.027935"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "146",
+    "IdRegBaseUniObr": "287",
+    "Precio": "55.461397"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "147",
+    "IdRegBaseUniObr": "288",
+    "Precio": "29.605856"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "148",
+    "IdRegBaseUniObr": "289",
+    "Precio": "388.993064"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "149",
+    "IdRegBaseUniObr": "290",
+    "Precio": "410.61147"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "150",
+    "IdRegBaseUniObr": "291",
+    "Precio": "174.089166"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "151",
+    "IdRegBaseUniObr": "292",
+    "Precio": "9.189475"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "152",
+    "IdRegBaseUniObr": "293",
+    "Precio": "2.127583"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "153",
+    "IdRegBaseUniObr": "294",
+    "Precio": "29.696008"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "154",
+    "IdRegBaseUniObr": "295",
+    "Precio": "216.893248"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "155",
+    "IdRegBaseUniObr": "296",
+    "Precio": "216.893248"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "156",
+    "IdRegBaseUniObr": "297",
+    "Precio": "216.893248"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "157",
+    "IdRegBaseUniObr": "298",
+    "Precio": "71.76685500000001"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "158",
+    "IdRegBaseUniObr": "299",
+    "Precio": "1245.555515"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "159",
+    "IdRegBaseUniObr": "300",
+    "Precio": "1245.555515"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "160",
+    "IdRegBaseUniObr": "301",
+    "Precio": "1245.555515"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "161",
+    "IdRegBaseUniObr": "302",
+    "Precio": "1245.555515"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "162",
+    "IdRegBaseUniObr": "303",
+    "Precio": "1882.363901"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "163",
+    "IdRegBaseUniObr": "304",
+    "Precio": "810.164317"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "164",
+    "IdRegBaseUniObr": "305",
+    "Precio": "873.276598"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "165",
+    "IdRegBaseUniObr": "306",
+    "Precio": "3312.388061"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "166",
+    "IdRegBaseUniObr": "307",
+    "Precio": "736.738668"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "167",
+    "IdRegBaseUniObr": "308",
+    "Precio": "1339.992547"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "168",
+    "IdRegBaseUniObr": "309",
+    "Precio": "189.16856"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "169",
+    "IdRegBaseUniObr": "310",
+    "Precio": "5236.522304"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "170",
+    "IdRegBaseUniObr": "311",
+    "Precio": "6040.357963"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "171",
+    "IdRegBaseUniObr": "312",
+    "Precio": "5236.522304"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "172",
+    "IdRegBaseUniObr": "313",
+    "Precio": "6040.357963"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "174",
+    "IdRegBaseUniObr": "315",
+    "Precio": "4.880218"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "175",
+    "IdRegBaseUniObr": "316",
+    "Precio": "10.090993"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "176",
+    "IdRegBaseUniObr": "317",
+    "Precio": "513.066003"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "177",
+    "IdRegBaseUniObr": "318",
+    "Precio": "3.029101"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "178",
+    "IdRegBaseUniObr": "319",
+    "Precio": "7.572753"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "179",
+    "IdRegBaseUniObr": "320",
+    "Precio": "47.353744"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "180",
+    "IdRegBaseUniObr": "321",
+    "Precio": "4602.172058"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "181",
+    "IdRegBaseUniObr": "322",
+    "Precio": "5024.905942"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "182",
+    "IdRegBaseUniObr": "323",
+    "Precio": "6345.431707"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "183",
+    "IdRegBaseUniObr": "324",
+    "Precio": "43.21277"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "184",
+    "IdRegBaseUniObr": "325",
+    "Precio": "180.321662"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "185",
+    "IdRegBaseUniObr": "326",
+    "Precio": "205.972858"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "186",
+    "IdRegBaseUniObr": "327",
+    "Precio": "6152.645054"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "187",
+    "IdRegBaseUniObr": "328",
+    "Precio": "473.567488"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "188",
+    "IdRegBaseUniObr": "329",
+    "Precio": "86.50367199999999"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "189",
+    "IdRegBaseUniObr": "330",
+    "Precio": "173.001334"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "190",
+    "IdRegBaseUniObr": "331",
+    "Precio": "981.578979"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "191",
+    "IdRegBaseUniObr": "332",
+    "Precio": "1476.254012"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "192",
+    "IdRegBaseUniObr": "333",
+    "Precio": "1432.704675"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "193",
+    "IdRegBaseUniObr": "334",
+    "Precio": "1921.014989"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "194",
+    "IdRegBaseUniObr": "335",
+    "Precio": "157.170675"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "195",
+    "IdRegBaseUniObr": "336",
+    "Precio": "172.79098"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "196",
+    "IdRegBaseUniObr": "337",
+    "Precio": "33.121777"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "197",
+    "IdRegBaseUniObr": "338",
+    "Precio": "4265.785583"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "198",
+    "IdRegBaseUniObr": "339",
+    "Precio": "67.643912"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "199",
+    "IdRegBaseUniObr": "340",
+    "Precio": "395.7244"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "200",
+    "IdRegBaseUniObr": "341",
+    "Precio": "585.656245"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "201",
+    "IdRegBaseUniObr": "342",
+    "Precio": "26.83519"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "202",
+    "IdRegBaseUniObr": "343",
+    "Precio": "9145.865637999999"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "203",
+    "IdRegBaseUniObr": "344",
+    "Precio": "7.795127"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "204",
+    "IdRegBaseUniObr": "345",
+    "Precio": "5.823807"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "205",
+    "IdRegBaseUniObr": "346",
+    "Precio": "3.882538"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "206",
+    "IdRegBaseUniObr": "347",
+    "Precio": "482.216052"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "207",
+    "IdRegBaseUniObr": "348",
+    "Precio": "1047.413845"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "208",
+    "IdRegBaseUniObr": "349",
+    "Precio": "4.495571"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "209",
+    "IdRegBaseUniObr": "350",
+    "Precio": "29.864291"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "210",
+    "IdRegBaseUniObr": "351",
+    "Precio": "84.29795799999999"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "211",
+    "IdRegBaseUniObr": "352",
+    "Precio": "180.303631"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "212",
+    "IdRegBaseUniObr": "353",
+    "Precio": "291.172334"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "213",
+    "IdRegBaseUniObr": "354",
+    "Precio": "199.812484"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "214",
+    "IdRegBaseUniObr": "355",
+    "Precio": "28.860601"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "215",
+    "IdRegBaseUniObr": "356",
+    "Precio": "10.109024"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "216",
+    "IdRegBaseUniObr": "357",
+    "Precio": "6.094263"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "217",
+    "IdRegBaseUniObr": "358",
+    "Precio": "7.134014"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "218",
+    "IdRegBaseUniObr": "359",
+    "Precio": "305.284098"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "219",
+    "IdRegBaseUniObr": "360",
+    "Precio": "42.749991"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "220",
+    "IdRegBaseUniObr": "361",
+    "Precio": "57.787314"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "221",
+    "IdRegBaseUniObr": "362",
+    "Precio": "30.417223"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "222",
+    "IdRegBaseUniObr": "363",
+    "Precio": "37.028356"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "223",
+    "IdRegBaseUniObr": "364",
+    "Precio": "2.367988"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "224",
+    "IdRegBaseUniObr": "365",
+    "Precio": "57.528879"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "225",
+    "IdRegBaseUniObr": "366",
+    "Precio": "124.896325"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "226",
+    "IdRegBaseUniObr": "367",
+    "Precio": "0.258435"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "227",
+    "IdRegBaseUniObr": "368",
+    "Precio": "0.588992"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "228",
+    "IdRegBaseUniObr": "369",
+    "Precio": "0.306516"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "229",
+    "IdRegBaseUniObr": "370",
+    "Precio": "1141.442189"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "230",
+    "IdRegBaseUniObr": "371",
+    "Precio": "0.787326"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "231",
+    "IdRegBaseUniObr": "372",
+    "Precio": "0.877478"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "232",
+    "IdRegBaseUniObr": "373",
+    "Precio": "0.793336"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "233",
+    "IdRegBaseUniObr": "374",
+    "Precio": "0.432729"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "234",
+    "IdRegBaseUniObr": "375",
+    "Precio": "27.123676"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "235",
+    "IdRegBaseUniObr": "376",
+    "Precio": "28.019184"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "236",
+    "IdRegBaseUniObr": "377",
+    "Precio": "28.493984"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "237",
+    "IdRegBaseUniObr": "378",
+    "Precio": "155.872489"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "238",
+    "IdRegBaseUniObr": "379",
+    "Precio": "16.497782"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "239",
+    "IdRegBaseUniObr": "380",
+    "Precio": "21.672496"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "240",
+    "IdRegBaseUniObr": "381",
+    "Precio": "3.46183"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "241",
+    "IdRegBaseUniObr": "382",
+    "Precio": "4.423449"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "242",
+    "IdRegBaseUniObr": "383",
+    "Precio": "2.229755"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "243",
+    "IdRegBaseUniObr": "384",
+    "Precio": "2.00738"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "244",
+    "IdRegBaseUniObr": "385",
+    "Precio": "2.404048"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "245",
+    "IdRegBaseUniObr": "386",
+    "Precio": "2.073492"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "246",
+    "IdRegBaseUniObr": "387",
+    "Precio": "4435.577513"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "247",
+    "IdRegBaseUniObr": "388",
+    "Precio": "28548.07496"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "248",
+    "IdRegBaseUniObr": "389",
+    "Precio": "51.963507"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "249",
+    "IdRegBaseUniObr": "390",
+    "Precio": "42.088878"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "251",
+    "IdRegBaseUniObr": "400",
+    "Precio": "150"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "252",
+    "IdRegBaseUniObr": "413",
+    "Precio": "127.92"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "254",
+    "IdRegBaseUniObr": "414",
+    "Precio": "735.75"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "256",
+    "IdRegBaseUniObr": "415",
+    "Precio": "138.21"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "258",
+    "IdRegBaseUniObr": "416",
+    "Precio": "150.25"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "260",
+    "IdRegBaseUniObr": "417",
+    "Precio": "743.6900000000001"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "262",
+    "IdRegBaseUniObr": "418",
+    "Precio": "836.3099999999999"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "264",
+    "IdRegBaseUniObr": "419",
+    "Precio": "522.36"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "266",
+    "IdRegBaseUniObr": "420",
+    "Precio": "51.09"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "268",
+    "IdRegBaseUniObr": "421",
+    "Precio": "1189.36"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "270",
+    "IdRegBaseUniObr": "422",
+    "Precio": "1506.03"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "272",
+    "IdRegBaseUniObr": "423",
+    "Precio": "2200.63"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "274",
+    "IdRegBaseUniObr": "424",
+    "Precio": "258.11"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "276",
+    "IdRegBaseUniObr": "425",
+    "Precio": "620.6799999999999"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "278",
+    "IdRegBaseUniObr": "426",
+    "Precio": "8.32"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "280",
+    "IdRegBaseUniObr": "427",
+    "Precio": "2.65"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "282",
+    "IdRegBaseUniObr": "428",
+    "Precio": "19.19"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "284",
+    "IdRegBaseUniObr": "429",
+    "Precio": "189.25"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "286",
+    "IdRegBaseUniObr": "430",
+    "Precio": "152.5"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "288",
+    "IdRegBaseUniObr": "431",
+    "Precio": "7.57"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "290",
+    "IdRegBaseUniObr": "432",
+    "Precio": "565.96"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "292",
+    "IdRegBaseUniObr": "433",
+    "Precio": "227.77"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "293",
+    "IdRegBaseUniObr": "434",
+    "Precio": "88129.42999999999"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "294",
+    "IdRegBaseUniObr": "435",
+    "Precio": "176700.9872"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "296",
+    "IdRegBaseUniObr": "446",
+    "Precio": "596"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "298",
+    "IdRegBaseUniObr": "447",
+    "Precio": "2010"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "300",
+    "IdRegBaseUniObr": "450",
+    "Precio": "1.51"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "302",
+    "IdRegBaseUniObr": "463",
+    "Precio": "8083"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "304",
+    "IdRegBaseUniObr": "476",
+    "Precio": "-0.01"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "306",
+    "IdRegBaseUniObr": "477",
+    "Precio": "22719.24"
+  },
+  {
+    "IdRegBaseSinDescompuesto": "308",
+    "IdRegBaseUniObr": "495",
+    "Precio": "0.04"
+  }
+]

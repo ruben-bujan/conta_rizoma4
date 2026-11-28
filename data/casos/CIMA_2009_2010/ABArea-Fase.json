@@ -1,0 +1,458 @@
+[
+  {
+    "IdÁreaObra": "1",
+    "IdÁrea": "184",
+    "IdObra": "",
+    "Procedimiento": "1 1"
+  },
+  {
+    "IdÁreaObra": "3",
+    "IdÁrea": "184",
+    "IdObra": "",
+    "Procedimiento": "2 1"
+  },
+  {
+    "IdÁreaObra": "4",
+    "IdÁrea": "184",
+    "IdObra": "",
+    "Procedimiento": "2 2"
+  },
+  {
+    "IdÁreaObra": "5",
+    "IdÁrea": "184",
+    "IdObra": "",
+    "Procedimiento": "2 3"
+  },
+  {
+    "IdÁreaObra": "6",
+    "IdÁrea": "185",
+    "IdObra": "",
+    "Procedimiento": "1 1"
+  },
+  {
+    "IdÁreaObra": "7",
+    "IdÁrea": "185",
+    "IdObra": "",
+    "Procedimiento": "2 1"
+  },
+  {
+    "IdÁreaObra": "8",
+    "IdÁrea": "185",
+    "IdObra": "",
+    "Procedimiento": "2 2"
+  },
+  {
+    "IdÁreaObra": "9",
+    "IdÁrea": "185",
+    "IdObra": "",
+    "Procedimiento": "2 3"
+  },
+  {
+    "IdÁreaObra": "10",
+    "IdÁrea": "176",
+    "IdObra": "",
+    "Procedimiento": "1 1"
+  },
+  {
+    "IdÁreaObra": "11",
+    "IdÁrea": "176",
+    "IdObra": "",
+    "Procedimiento": "2 1"
+  },
+  {
+    "IdÁreaObra": "12",
+    "IdÁrea": "176",
+    "IdObra": "",
+    "Procedimiento": "2 2"
+  },
+  {
+    "IdÁreaObra": "13",
+    "IdÁrea": "176",
+    "IdObra": "",
+    "Procedimiento": "2 3"
+  },
+  {
+    "IdÁreaObra": "14",
+    "IdÁrea": "177",
+    "IdObra": "",
+    "Procedimiento": "1 1"
+  },
+  {
+    "IdÁreaObra": "15",
+    "IdÁrea": "177",
+    "IdObra": "",
+    "Procedimiento": "2 1"
+  },
+  {
+    "IdÁreaObra": "16",
+    "IdÁrea": "177",
+    "IdObra": "",
+    "Procedimiento": "2 2"
+  },
+  {
+    "IdÁreaObra": "17",
+    "IdÁrea": "177",
+    "IdObra": "",
+    "Procedimiento": "2 3"
+  },
+  {
+    "IdÁreaObra": "18",
+    "IdÁrea": "178",
+    "IdObra": "",
+    "Procedimiento": "1 1"
+  },
+  {
+    "IdÁreaObra": "19",
+    "IdÁrea": "178",
+    "IdObra": "",
+    "Procedimiento": "2 1"
+  },
+  {
+    "IdÁreaObra": "20",
+    "IdÁrea": "178",
+    "IdObra": "",
+    "Procedimiento": "2 2"
+  },
+  {
+    "IdÁreaObra": "21",
+    "IdÁrea": "178",
+    "IdObra": "",
+    "Procedimiento": "2 3"
+  },
+  {
+    "IdÁreaObra": "22",
+    "IdÁrea": "179",
+    "IdObra": "",
+    "Procedimiento": "1 1"
+  },
+  {
+    "IdÁreaObra": "23",
+    "IdÁrea": "179",
+    "IdObra": "",
+    "Procedimiento": "2 1"
+  },
+  {
+    "IdÁreaObra": "24",
+    "IdÁrea": "179",
+    "IdObra": "",
+    "Procedimiento": "2 2"
+  },
+  {
+    "IdÁreaObra": "25",
+    "IdÁrea": "179",
+    "IdObra": "",
+    "Procedimiento": "2 3"
+  },
+  {
+    "IdÁreaObra": "26",
+    "IdÁrea": "180",
+    "IdObra": "",
+    "Procedimiento": "1 1"
+  },
+  {
+    "IdÁreaObra": "27",
+    "IdÁrea": "180",
+    "IdObra": "",
+    "Procedimiento": "2 1"
+  },
+  {
+    "IdÁreaObra": "28",
+    "IdÁrea": "180",
+    "IdObra": "",
+    "Procedimiento": "2 2"
+  },
+  {
+    "IdÁreaObra": "29",
+    "IdÁrea": "180",
+    "IdObra": "",
+    "Procedimiento": "2 3"
+  },
+  {
+    "IdÁreaObra": "30",
+    "IdÁrea": "181",
+    "IdObra": "",
+    "Procedimiento": "1 1"
+  },
+  {
+    "IdÁreaObra": "31",
+    "IdÁrea": "181",
+    "IdObra": "",
+    "Procedimiento": "2 1"
+  },
+  {
+    "IdÁreaObra": "32",
+    "IdÁrea": "181",
+    "IdObra": "",
+    "Procedimiento": "2 2"
+  },
+  {
+    "IdÁreaObra": "33",
+    "IdÁrea": "181",
+    "IdObra": "",
+    "Procedimiento": "2 3"
+  },
+  {
+    "IdÁreaObra": "34",
+    "IdÁrea": "183",
+    "IdObra": "",
+    "Procedimiento": "1 1"
+  },
+  {
+    "IdÁreaObra": "35",
+    "IdÁrea": "183",
+    "IdObra": "",
+    "Procedimiento": "2 1"
+  },
+  {
+    "IdÁreaObra": "36",
+    "IdÁrea": "183",
+    "IdObra": "",
+    "Procedimiento": "2 2"
+  },
+  {
+    "IdÁreaObra": "37",
+    "IdÁrea": "183",
+    "IdObra": "",
+    "Procedimiento": "2 3"
+  },
+  {
+    "IdÁreaObra": "46",
+    "IdÁrea": "1",
+    "IdObra": "",
+    "Procedimiento": "2 1"
+  },
+  {
+    "IdÁreaObra": "47",
+    "IdÁrea": "1",
+    "IdObra": "",
+    "Procedimiento": "2 2"
+  },
+  {
+    "IdÁreaObra": "48",
+    "IdÁrea": "1",
+    "IdObra": "",
+    "Procedimiento": "2 4"
+  },
+  {
+    "IdÁreaObra": "49",
+    "IdÁrea": "1",
+    "IdObra": "",
+    "Procedimiento": "2 5"
+  },
+  {
+    "IdÁreaObra": "50",
+    "IdÁrea": "1",
+    "IdObra": "",
+    "Procedimiento": "2 8"
+  },
+  {
+    "IdÁreaObra": "51",
+    "IdÁrea": "1",
+    "IdObra": "",
+    "Procedimiento": "1 4"
+  },
+  {
+    "IdÁreaObra": "52",
+    "IdÁrea": "1",
+    "IdObra": "",
+    "Procedimiento": "1 3"
+  },
+  {
+    "IdÁreaObra": "53",
+    "IdÁrea": "1",
+    "IdObra": "",
+    "Procedimiento": "1 6"
+  },
+  {
+    "IdÁreaObra": "54",
+    "IdÁrea": "1",
+    "IdObra": "",
+    "Procedimiento": "2 12"
+  },
+  {
+    "IdÁreaObra": "61",
+    "IdÁrea": "1",
+    "IdObra": "",
+    "Procedimiento": "4 2"
+  },
+  {
+    "IdÁreaObra": "62",
+    "IdÁrea": "1",
+    "IdObra": "",
+    "Procedimiento": "4 4"
+  },
+  {
+    "IdÁreaObra": "63",
+    "IdÁrea": "1",
+    "IdObra": "",
+    "Procedimiento": "4 5"
+  },
+  {
+    "IdÁreaObra": "65",
+    "IdÁrea": "1",
+    "IdObra": "",
+    "Procedimiento": "4 6"
+  },
+  {
+    "IdÁreaObra": "71",
+    "IdÁrea": "1",
+    "IdObra": "",
+    "Procedimiento": "1 3"
+  },
+  {
+    "IdÁreaObra": "72",
+    "IdÁrea": "1",
+    "IdObra": "",
+    "Procedimiento": "4 7"
+  },
+  {
+    "IdÁreaObra": "73",
+    "IdÁrea": "1",
+    "IdObra": "",
+    "Procedimiento": "4 8"
+  },
+  {
+    "IdÁreaObra": "74",
+    "IdÁrea": "1",
+    "IdObra": "",
+    "Procedimiento": "4 9"
+  },
+  {
+    "IdÁreaObra": "76",
+    "IdÁrea": "1",
+    "IdObra": "",
+    "Procedimiento": "1 3"
+  },
+  {
+    "IdÁreaObra": "77",
+    "IdÁrea": "1",
+    "IdObra": "",
+    "Procedimiento": "4 10"
+  },
+  {
+    "IdÁreaObra": "78",
+    "IdÁrea": "1",
+    "IdObra": "",
+    "Procedimiento": "4 17"
+  },
+  {
+    "IdÁreaObra": "79",
+    "IdÁrea": "1",
+    "IdObra": "",
+    "Procedimiento": "5 6"
+  },
+  {
+    "IdÁreaObra": "80",
+    "IdÁrea": "88",
+    "IdObra": "",
+    "Procedimiento": "5 7"
+  },
+  {
+    "IdÁreaObra": "81",
+    "IdÁrea": "88",
+    "IdObra": "",
+    "Procedimiento": "5 8"
+  },
+  {
+    "IdÁreaObra": "82",
+    "IdÁrea": "88",
+    "IdObra": "",
+    "Procedimiento": "5 9"
+  },
+  {
+    "IdÁreaObra": "84",
+    "IdÁrea": "88",
+    "IdObra": "",
+    "Procedimiento": "5 10"
+  },
+  {
+    "IdÁreaObra": "85",
+    "IdÁrea": "88",
+    "IdObra": "",
+    "Procedimiento": "5 11"
+  },
+  {
+    "IdÁreaObra": "86",
+    "IdÁrea": "88",
+    "IdObra": "",
+    "Procedimiento": "5 12"
+  },
+  {
+    "IdÁreaObra": "87",
+    "IdÁrea": "88",
+    "IdObra": "",
+    "Procedimiento": "5 13"
+  },
+  {
+    "IdÁreaObra": "88",
+    "IdÁrea": "88",
+    "IdObra": "",
+    "Procedimiento": "5 14"
+  },
+  {
+    "IdÁreaObra": "89",
+    "IdÁrea": "88",
+    "IdObra": "",
+    "Procedimiento": "5 15"
+  },
+  {
+    "IdÁreaObra": "90",
+    "IdÁrea": "88",
+    "IdObra": "",
+    "Procedimiento": "5 15"
+  },
+  {
+    "IdÁreaObra": "91",
+    "IdÁrea": "88",
+    "IdObra": "",
+    "Procedimiento": "5 16"
+  },
+  {
+    "IdÁreaObra": "93",
+    "IdÁrea": "88",
+    "IdObra": "",
+    "Procedimiento": "5 17"
+  },
+  {
+    "IdÁreaObra": "95",
+    "IdÁrea": "88",
+    "IdObra": "",
+    "Procedimiento": "5 18"
+  },
+  {
+    "IdÁreaObra": "96",
+    "IdÁrea": "88",
+    "IdObra": "",
+    "Procedimiento": "5 18"
+  },
+  {
+    "IdÁreaObra": "97",
+    "IdÁrea": "88",
+    "IdObra": "",
+    "Procedimiento": "5 19"
+  },
+  {
+    "IdÁreaObra": "98",
+    "IdÁrea": "88",
+    "IdObra": "",
+    "Procedimiento": "5 20"
+  },
+  {
+    "IdÁreaObra": "99",
+    "IdÁrea": "88",
+    "IdObra": "",
+    "Procedimiento": "5 21"
+  },
+  {
+    "IdÁreaObra": "100",
+    "IdÁrea": "88",
+    "IdObra": "",
+    "Procedimiento": "5 22"
+  },
+  {
+    "IdÁreaObra": "102",
+    "IdÁrea": "88",
+    "IdObra": "",
+    "Procedimiento": "5 23"
+  }
+]

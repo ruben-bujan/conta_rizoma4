@@ -1,0 +1,472 @@
+[
+  {
+    "IDRPAD": "66",
+    "IDRPAc": "36",
+    "Fórmula": "Redondear(Base;2)",
+    "Activo?": "1",
+    "CuentaC": "4 0 0 0 2",
+    "DH": "D",
+    "·Explicación": "Proveedor.PreVºBºCuantitativo",
+    "Orden": "1"
+  },
+  {
+    "IDRPAD": "67",
+    "IDRPAc": "36",
+    "Fórmula": "Redondear(Base/(1+IVA%)*(Retención);2)",
+    "Activo?": "1",
+    "CuentaC": "4 0 0 8 2",
+    "DH": "H",
+    "·Explicación": "Garantía.PreVºBºCuantitativo",
+    "Orden": "2"
+  },
+  {
+    "IDRPAD": "69",
+    "IDRPAc": "36",
+    "Fórmula": "Redondear(Base/(1+IVA%)*IVA%;2)",
+    "Activo?": "1",
+    "CuentaC": "4 7 2 0 2",
+    "DH": "H",
+    "·Explicación": "Iva.PreVºBºCuantitativo",
+    "Orden": "3"
+  },
+  {
+    "IDRPAD": "70",
+    "IDRPAc": "36",
+    "Fórmula": "Redondear(Base/(1+IVA%)*IRPF%;2)",
+    "Activo?": "1",
+    "CuentaC": "4 7 6 2 2",
+    "DH": "H",
+    "·Explicación": "IRPF.PreVºBºCuantitativo",
+    "Orden": "4"
+  },
+  {
+    "IDRPAD": "71",
+    "IDRPAc": "36",
+    "Fórmula": "Redondear(Base/(1+IVA%);2)",
+    "Activo?": "1",
+    "CuentaC": "6 0 0 0 2",
+    "DH": "H",
+    "·Explicación": "Gasto.PreVºBºCuantitativo",
+    "Orden": "5"
+  },
+  {
+    "IDRPAD": "109",
+    "IDRPAc": "78",
+    "Fórmula": "Redondear(Base/(1+IVA%)*(Retención);2)",
+    "Activo?": "1",
+    "CuentaC": "4 0 0 8 6",
+    "DH": "d",
+    "·Explicación": "Garantía.PreVºBºEstratégico",
+    "Orden": "1"
+  },
+  {
+    "IDRPAD": "110",
+    "IDRPAc": "78",
+    "Fórmula": "Redondear(Base/(1+IVA%)*IVA%;2)",
+    "Activo?": "1",
+    "CuentaC": "4 7 2 0 6",
+    "DH": "d",
+    "·Explicación": "Iva.PreVºBºEstratégico",
+    "Orden": "2"
+  },
+  {
+    "IDRPAD": "111",
+    "IDRPAc": "78",
+    "Fórmula": "Redondear(Base/(1+IVA%)*IRPF%;2)",
+    "Activo?": "1",
+    "CuentaC": "4 7 6 2 6",
+    "DH": "d",
+    "·Explicación": "IRPF.PreVºBºEstratégico",
+    "Orden": "3"
+  },
+  {
+    "IDRPAD": "112",
+    "IDRPAc": "78",
+    "Fórmula": "Redondear(Base/(1+IVA%);2)",
+    "Activo?": "1",
+    "CuentaC": "6 0 0 0 6",
+    "DH": "d",
+    "·Explicación": "Gasto.PreVºBºEstratégico",
+    "Orden": "4"
+  },
+  {
+    "IDRPAD": "113",
+    "IDRPAc": "78",
+    "Fórmula": "Base",
+    "Activo?": "1",
+    "CuentaC": "5 0 0 0 0",
+    "DH": "H",
+    "·Explicación": "Banco",
+    "Orden": "5"
+  },
+  {
+    "IDRPAD": "115",
+    "IDRPAc": "82",
+    "Fórmula": "Redondear(Base/(1+IVA%)*(Retención);2)",
+    "Activo?": "1",
+    "CuentaC": "4 0 0 8 2",
+    "DH": "D",
+    "·Explicación": "Garantía.PreVºBºCuantitativo",
+    "Orden": "2"
+  },
+  {
+    "IDRPAD": "116",
+    "IDRPAc": "82",
+    "Fórmula": "Redondear(Base/(1+IVA%)*IVA%;2)",
+    "Activo?": "1",
+    "CuentaC": "4 7 2 0 2",
+    "DH": "D",
+    "·Explicación": "Iva.PreVºBºCuantitativo",
+    "Orden": "3"
+  },
+  {
+    "IDRPAD": "117",
+    "IDRPAc": "82",
+    "Fórmula": "Redondear(Base/(1+IVA%)*IRPF%;2)",
+    "Activo?": "1",
+    "CuentaC": "4 7 6 2 2",
+    "DH": "D",
+    "·Explicación": "IRPF.PreVºBºCuantitativo",
+    "Orden": "4"
+  },
+  {
+    "IDRPAD": "118",
+    "IDRPAc": "82",
+    "Fórmula": "Redondear(Base/(1+IVA%);2)",
+    "Activo?": "1",
+    "CuentaC": "6 0 0 0 2",
+    "DH": "D",
+    "·Explicación": "Gasto.PreVºBºCuantitativo",
+    "Orden": "5"
+  },
+  {
+    "IDRPAD": "119",
+    "IDRPAc": "82",
+    "Fórmula": "Redondear(Base/(1+IVA%)*(Retención);2)",
+    "Activo?": "1",
+    "CuentaC": "4 0 0 8 3",
+    "DH": "H",
+    "·Explicación": "Garantía.PreVºBºCuantitativo",
+    "Orden": "2"
+  },
+  {
+    "IDRPAD": "120",
+    "IDRPAc": "82",
+    "Fórmula": "Redondear(Base/(1+IVA%)*IVA%;2)",
+    "Activo?": "1",
+    "CuentaC": "4 7 2 0 3",
+    "DH": "H",
+    "·Explicación": "Iva.PreVºBºCuantitativo",
+    "Orden": "3"
+  },
+  {
+    "IDRPAD": "121",
+    "IDRPAc": "82",
+    "Fórmula": "Redondear(Base/(1+IVA%)*IRPF%;2)",
+    "Activo?": "1",
+    "CuentaC": "4 7 6 2 3",
+    "DH": "H",
+    "·Explicación": "IRPF.PreVºBºCuantitativo",
+    "Orden": "4"
+  },
+  {
+    "IDRPAD": "122",
+    "IDRPAc": "82",
+    "Fórmula": "Redondear(Base/(1+IVA%);2)",
+    "Activo?": "1",
+    "CuentaC": "6 0 0 0 3",
+    "DH": "H",
+    "·Explicación": "Gasto.PreVºBºCuantitativo",
+    "Orden": "5"
+  },
+  {
+    "IDRPAD": "123",
+    "IDRPAc": "88",
+    "Fórmula": "Redondear(Base/(1+IVA%)*(Retención);2)",
+    "Activo?": "1",
+    "CuentaC": "4 0 0 8 3",
+    "DH": "D",
+    "·Explicación": "Garantía.PreVºBºCuantitativo",
+    "Orden": "2"
+  },
+  {
+    "IDRPAD": "124",
+    "IDRPAc": "88",
+    "Fórmula": "Redondear(Base/(1+IVA%)*IVA%;2)",
+    "Activo?": "1",
+    "CuentaC": "4 7 2 0 3",
+    "DH": "D",
+    "·Explicación": "Iva.PreVºBºCuantitativo",
+    "Orden": "3"
+  },
+  {
+    "IDRPAD": "125",
+    "IDRPAc": "88",
+    "Fórmula": "Redondear(Base/(1+IVA%)*IRPF%;2)",
+    "Activo?": "1",
+    "CuentaC": "4 7 6 2 3",
+    "DH": "D",
+    "·Explicación": "IRPF.PreVºBºCuantitativo",
+    "Orden": "4"
+  },
+  {
+    "IDRPAD": "126",
+    "IDRPAc": "88",
+    "Fórmula": "Redondear(Base/(1+IVA%);2)",
+    "Activo?": "1",
+    "CuentaC": "6 0 0 0 3",
+    "DH": "D",
+    "·Explicación": "Gasto.PreVºBºCuantitativo",
+    "Orden": "5"
+  },
+  {
+    "IDRPAD": "127",
+    "IDRPAc": "88",
+    "Fórmula": "Redondear(Base/(1+IVA%)*(Retención);2)",
+    "Activo?": "1",
+    "CuentaC": "4 0 0 8 4",
+    "DH": "H",
+    "·Explicación": "Garantía.PreVºBºCuantitativo",
+    "Orden": "2"
+  },
+  {
+    "IDRPAD": "128",
+    "IDRPAc": "88",
+    "Fórmula": "Redondear(Base/(1+IVA%)*IVA%;2)",
+    "Activo?": "1",
+    "CuentaC": "4 7 2 0 4",
+    "DH": "H",
+    "·Explicación": "Iva.PreVºBºCuantitativo",
+    "Orden": "3"
+  },
+  {
+    "IDRPAD": "129",
+    "IDRPAc": "88",
+    "Fórmula": "Redondear(Base/(1+IVA%)*IRPF%;2)",
+    "Activo?": "1",
+    "CuentaC": "4 7 6 2 4",
+    "DH": "H",
+    "·Explicación": "IRPF.PreVºBºCuantitativo",
+    "Orden": "4"
+  },
+  {
+    "IDRPAD": "130",
+    "IDRPAc": "88",
+    "Fórmula": "Redondear(Base/(1+IVA%);2)",
+    "Activo?": "1",
+    "CuentaC": "6 0 0 0 4",
+    "DH": "H",
+    "·Explicación": "Gasto.PreVºBºCuantitativo",
+    "Orden": "5"
+  },
+  {
+    "IDRPAD": "131",
+    "IDRPAc": "92",
+    "Fórmula": "Redondear(Base/(1+IVA%)*(Retención);2)",
+    "Activo?": "1",
+    "CuentaC": "4 0 0 8 4",
+    "DH": "D",
+    "·Explicación": "Garantía.PreVºBºCuantitativo",
+    "Orden": "2"
+  },
+  {
+    "IDRPAD": "132",
+    "IDRPAc": "92",
+    "Fórmula": "Redondear(Base/(1+IVA%)*IVA%;2)",
+    "Activo?": "1",
+    "CuentaC": "4 7 2 0 4",
+    "DH": "D",
+    "·Explicación": "Iva.PreVºBºCuantitativo",
+    "Orden": "3"
+  },
+  {
+    "IDRPAD": "133",
+    "IDRPAc": "92",
+    "Fórmula": "Redondear(Base/(1+IVA%)*IRPF%;2)",
+    "Activo?": "1",
+    "CuentaC": "4 7 6 2 4",
+    "DH": "D",
+    "·Explicación": "IRPF.PreVºBºCuantitativo",
+    "Orden": "4"
+  },
+  {
+    "IDRPAD": "134",
+    "IDRPAc": "92",
+    "Fórmula": "Redondear(Base/(1+IVA%);2)",
+    "Activo?": "1",
+    "CuentaC": "6 0 0 0 4",
+    "DH": "D",
+    "·Explicación": "Gasto.PreVºBºCuantitativo",
+    "Orden": "5"
+  },
+  {
+    "IDRPAD": "135",
+    "IDRPAc": "92",
+    "Fórmula": "Redondear(Base/(1+IVA%)*(Retención);2)",
+    "Activo?": "1",
+    "CuentaC": "4 0 0 8 5",
+    "DH": "H",
+    "·Explicación": "Garantía.PreVºBºCuantitativo",
+    "Orden": "2"
+  },
+  {
+    "IDRPAD": "136",
+    "IDRPAc": "92",
+    "Fórmula": "Redondear(Base/(1+IVA%)*IVA%;2)",
+    "Activo?": "1",
+    "CuentaC": "4 7 2 0 5",
+    "DH": "H",
+    "·Explicación": "Iva.PreVºBºCuantitativo",
+    "Orden": "3"
+  },
+  {
+    "IDRPAD": "137",
+    "IDRPAc": "92",
+    "Fórmula": "Redondear(Base/(1+IVA%)*IRPF%;2)",
+    "Activo?": "1",
+    "CuentaC": "4 7 6 2 5",
+    "DH": "H",
+    "·Explicación": "IRPF.PreVºBºCuantitativo",
+    "Orden": "4"
+  },
+  {
+    "IDRPAD": "138",
+    "IDRPAc": "92",
+    "Fórmula": "Redondear(Base/(1+IVA%);2)",
+    "Activo?": "1",
+    "CuentaC": "6 0 0 0 5",
+    "DH": "H",
+    "·Explicación": "Gasto.PreVºBºCuantitativo",
+    "Orden": "5"
+  },
+  {
+    "IDRPAD": "139",
+    "IDRPAc": "96",
+    "Fórmula": "Redondear(Base/(1+IVA%)*(Retención);2)",
+    "Activo?": "1",
+    "CuentaC": "4 0 0 8 5",
+    "DH": "D",
+    "·Explicación": "Garantía.PreVºBºCuantitativo",
+    "Orden": "2"
+  },
+  {
+    "IDRPAD": "140",
+    "IDRPAc": "96",
+    "Fórmula": "Redondear(Base/(1+IVA%)*IVA%;2)",
+    "Activo?": "1",
+    "CuentaC": "4 7 2 0 5",
+    "DH": "D",
+    "·Explicación": "Iva.PreVºBºCuantitativo",
+    "Orden": "3"
+  },
+  {
+    "IDRPAD": "141",
+    "IDRPAc": "96",
+    "Fórmula": "Redondear(Base/(1+IVA%)*IRPF%;2)",
+    "Activo?": "1",
+    "CuentaC": "4 7 6 2 5",
+    "DH": "D",
+    "·Explicación": "IRPF.PreVºBºCuantitativo",
+    "Orden": "4"
+  },
+  {
+    "IDRPAD": "142",
+    "IDRPAc": "96",
+    "Fórmula": "Redondear(Base/(1+IVA%);2)",
+    "Activo?": "1",
+    "CuentaC": "6 0 0 0 5",
+    "DH": "D",
+    "·Explicación": "Gasto.PreVºBºCuantitativo",
+    "Orden": "5"
+  },
+  {
+    "IDRPAD": "143",
+    "IDRPAc": "96",
+    "Fórmula": "Redondear(Base/(1+IVA%)*(Retención);2)",
+    "Activo?": "1",
+    "CuentaC": "4 0 0 8 6",
+    "DH": "H",
+    "·Explicación": "Garantía.PreVºBºCuantitativo",
+    "Orden": "2"
+  },
+  {
+    "IDRPAD": "144",
+    "IDRPAc": "96",
+    "Fórmula": "Redondear(Base/(1+IVA%)*IVA%;2)",
+    "Activo?": "1",
+    "CuentaC": "4 7 2 0 6",
+    "DH": "H",
+    "·Explicación": "Iva.PreVºBºCuantitativo",
+    "Orden": "3"
+  },
+  {
+    "IDRPAD": "145",
+    "IDRPAc": "96",
+    "Fórmula": "Redondear(Base/(1+IVA%)*IRPF%;2)",
+    "Activo?": "1",
+    "CuentaC": "4 7 6 2 6",
+    "DH": "H",
+    "·Explicación": "IRPF.PreVºBºCuantitativo",
+    "Orden": "4"
+  },
+  {
+    "IDRPAD": "146",
+    "IDRPAc": "96",
+    "Fórmula": "Redondear(Base/(1+IVA%);2)",
+    "Activo?": "1",
+    "CuentaC": "6 0 0 0 6",
+    "DH": "H",
+    "·Explicación": "Gasto.PreVºBºCuantitativo",
+    "Orden": "5"
+  },
+  {
+    "IDRPAD": "147",
+    "IDRPAc": "113",
+    "Fórmula": "Redondear(Base;2)",
+    "Activo?": "1",
+    "CuentaC": "4 0 0 0 2",
+    "DH": "D",
+    "·Explicación": "Proveedor.PreVºBºCuantitativo",
+    "Orden": "1"
+  },
+  {
+    "IDRPAD": "148",
+    "IDRPAc": "113",
+    "Fórmula": "Redondear(Base/(1+IVA%)*(Retención);2)",
+    "Activo?": "1",
+    "CuentaC": "4 0 0 8 2",
+    "DH": "H",
+    "·Explicación": "Garantía.PreVºBºCuantitativo",
+    "Orden": "2"
+  },
+  {
+    "IDRPAD": "149",
+    "IDRPAc": "113",
+    "Fórmula": "Redondear(Base/(1+IVA%)*IVA%;2)",
+    "Activo?": "1",
+    "CuentaC": "4 7 2 0 2",
+    "DH": "H",
+    "·Explicación": "Iva.PreVºBºCuantitativo",
+    "Orden": "3"
+  },
+  {
+    "IDRPAD": "150",
+    "IDRPAc": "113",
+    "Fórmula": "Redondear(Base/(1+IVA%)*IRPF%;2)",
+    "Activo?": "1",
+    "CuentaC": "4 7 6 2 2",
+    "DH": "H",
+    "·Explicación": "IRPF.PreVºBºCuantitativo",
+    "Orden": "4"
+  },
+  {
+    "IDRPAD": "151",
+    "IDRPAc": "113",
+    "Fórmula": "Redondear(Base/(1+IVA%);2)",
+    "Activo?": "1",
+    "CuentaC": "6 0 0 0 2",
+    "DH": "H",
+    "·Explicación": "Gasto.PreVºBºCuantitativo",
+    "Orden": "5"
+  }
+]

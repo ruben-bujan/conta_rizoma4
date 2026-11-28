@@ -1,0 +1,58 @@
+[
+  {
+    "IDFilPerFis": "1",
+    "Nombre": "Rubén",
+    "Apellidos": "Buján Blasco",
+    "TlfMovil": "",
+    "NIF": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerFis": "2",
+    "Nombre": "MªAngeles",
+    "Apellidos": "Gonzalez Escalada",
+    "TlfMovil": "",
+    "NIF": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerFis": "3",
+    "Nombre": "Moises",
+    "Apellidos": "Abreu",
+    "TlfMovil": "",
+    "NIF": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerFis": "4",
+    "Nombre": "Miguel",
+    "Apellidos": "",
+    "TlfMovil": "",
+    "NIF": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerFis": "5",
+    "Nombre": "Natalia",
+    "Apellidos": "",
+    "TlfMovil": "",
+    "NIF": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerFis": "6",
+    "Nombre": "Victor",
+    "Apellidos": "",
+    "TlfMovil": "",
+    "NIF": "",
+    "Activo/Inactivo": "0"
+  },
+  {
+    "IDFilPerFis": "7",
+    "Nombre": "Luís",
+    "Apellidos": "",
+    "TlfMovil": "",
+    "NIF": "",
+    "Activo/Inactivo": "0"
+  }
+]

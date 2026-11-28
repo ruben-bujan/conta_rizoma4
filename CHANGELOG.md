@@ -1,75 +1,197 @@
 
 **`/home/ruben/MyProyecto/conta-rizoma4/CHANGELOG.md`**:
 
-```markdown
-# CHANGELOG — conta-rizoma4
+# conta-rizoma4
 
-## v0.3.0 (2026-11-15) — Ciclo 3: capa operativa
+## 2026-11-18 — Bloque 1: asociación empresa-caso
 
-**Qué:** capa operativa completa sobre el PGC real.
+- Añadida la relación administrable empresa CONTA ↔ casos RIZOMA4 (uno a varios).
+- El administrador puede consultar el catálogo visible de RIZOMA4, asociar casos y desactivar asociaciones sin borrar el historial.
+- `caso_id` pasa a ser obligatorio al crear un asiento por API y se valida contra la asociación activa de la empresa.
+- El `caso_id` queda incluido en los metadatos cubiertos por el hash del asiento y se persiste también como columna propia.
+- Añadido trigger PostgreSQL para impedir inserciones con asociaciones inactivas o inexistentes.
+- La migración normaliza los nombres de columnas del DDL base (`hash_anterior`/`hash_actual` y `descripcion`) al contrato usado por el repositorio Python (`hash_previo`/`hash` y `concepto_linea`) y garantiza `metadatos` JSONB.
+- Añadido `RIZOMA4_API_TOKEN` para el acceso del cliente CONTA al catálogo de casos.
+- Corregida la interfaz del cliente HTTP RIZOMA4 usada por el endpoint de documentos para ajustarse a sus argumentos actuales y definir `Rizoma4Error`.
+- Añadidos tests unitarios de la administración de asociaciones y adaptados los tests API de creación de asientos.
 
-- `operativo/asiento.py` — primitivas hash chain (GENESIS, calcular_huella, calcular_hash).
-- `operativo/parrafo_pgc.py` — búsqueda del párrafo del PGC que justifica una cuenta.
-- `operativo/mapeo_abcd.py` — sugeridor A+B+C→D con cascada de reglas (1.0/0.8/0.6/0.2).
-- `operativo/acto_economico.py` — asiento con hash encadenado + cadena de mando.
-- `operativo/justificacion_interna.py` — obra ejecutada pendiente de facturar.
-- `scripts/ddl_operativo.sql` + `scripts/aplicar_ddl_operativo.py` — tablas Postgres.
-- 23 tests nuevos (asiento, acto, mapeo, justificación).
-- 1 test e2e de cadena completa.
 
-**Por qué:** el PGC solo (contratos) no basta. Hace falta la capa que
-materializa el acto: qué cuenta, qué importe, quién lo crea, qué hash,
-qué párrafo lo justifica.
+Contabilidad doctrinal sobre el PGC español. Cada asiento se traza a
+un párrafo del Plan General de Contabilidad. La forma (el asiento) es
+el vehículo de la sustancia (la realidad económica).
 
-**Tests:** 43 passed + 1 e2e = 44.
+Cliente del kernel epistémico rizoma4. conta-rizoma4 sabe que existe
+rizoma4. rizoma4 consume la API de conta (Fase 4a).
 
-## v0.2.0 (2026-11-15) — Ciclo 2: contratos A+B+C+D
+## Estado (2026-11-16)
 
-**Qué:** contratos del modelo de dimensiones.
+- Actos: 115
+- Tests: 316
+- Grupos PGC: 14
+- Cobertura: 100%
+- Multi-tenant: si (empresa_id)
+- Consolidación: grupo clásico
+- API HTTP: FastAPI
+- Custodia: obras, operarios, leases, documentos (Fase 4b)
+- Flujo end-to-end: crear → visar → aprobar → rizomizar (Fase 4c)
+- Worker de rizomización: en rizoma4
 
-- A: `economico_actividad.py` (Nivel1..Nivel6, 927 filas de Postgres).
-- B: `economico_interlocutor.py` (PersonaFisica / PersonaJuridica).
-- C: `economico_documento.py` (23 tipos).
-- D: `economico_cuenta_pgc.py` (905 cuentas válidas; filtra el header "23. INMOVILIZACIONES..." que MariaDB guardó como fila).
-- Contrato unificado `economico/contabilidad` (importa de `parsers.contrato_dominio` de rizoma4).
+## Instalación
 
-**Por qué:** A+B+C→D es el modelo de dimensiones del PGC. Cada asiento
-se clasifica por las 4 dimensiones. D (cuenta PGC) es la que da la
-justificación doctrinal.
+    cd ~/MyProyecto/rizoma4 && pip install -e .
+    cd ~/MyProyecto/conta-rizoma4 && pip install -e '.[test]'
+    export MARIADB_PASSWORD='...'
+    python scripts/seed_pgc.py
+    python scripts/aplicar_ddl_operativo.py
+    docker exec -i rizoma4-postgres psql -U rizoma -d conta_rizoma4 < scripts/ddl_partida_doble.sql
+    docker exec -i rizoma4-postgres psql -U rizoma -d conta_rizoma4 < scripts/ddl_multi_tenant.sql
+    docker exec -i rizoma4-postgres psql -U rizoma -d conta_rizoma4 < scripts/ddl_consolidacion.sql
+    docker exec -i rizoma4-postgres psql -U rizoma -d conta_rizoma4 < scripts/ddl_custodia.sql
 
-**Tests:** 15 passed.
+## El flujo real (Fase 4)
 
-## v0.1.0 (2026-11-15) — Ciclo 1: PGC en Postgres
+    1. Operario pide lease       → POST /leases
+    2. Operario crea asiento     → POST /asientos (con lease)      → BORRADOR
+    3. Jefe de obra visa         → POST /asientos/{id}/visar       → VISADO
+    4. Jefe de producción aprueba→ POST /asientos/{id}/aprobar     → APROBADO
+    5. Worker de rizoma4         → POST /asientos/{id}/rizomizar   → RIZOMIZADO
+                                   o EN_CUARENTENA
 
-**Qué:** seed del PGC completo desde MariaDB a Postgres.
+## Demo del flujo completo
 
-- 906 cuentas (905 válidas tras filtrar 1 header).
-- 3251 párrafos del PGC legal.
-- 927 filas de jerarquía (Nivel1..Nivel6).
-- `scripts/seed_pgc.py` (idempotente, lee MariaDB, escribe Postgres).
+    # Terminal A
+    uvicorn conta_rizoma4.api.main:app --port 8001
 
-**Por qué:** el PGC es el corpus doctrinal. Sin él, conta-rizoma4 no
-tiene nada que justificar. Es el cimiento de todo lo demás.
+    # Terminal B
+    python scripts/demo_flujo_completo.py
 
-**Tests:** 5 passed.
-## v0.7.0 (2026-11-15) — Ciclo 7: Partida doble real
+Hace los 5 pasos, muestra el estado final y verifica la cadena.
 
-**Qué:** `asiento_contable` + `linea_asiento` con validación de cuadre.
+## API HTTP
 
-- `partida_doble/modelo.py` — Linea, Asiento, validación (debe>0 XOR haber>0).
-- `partida_doble/creacion.py` — crear_asiento con validación SUM(debe)=SUM(haber).
-- `partida_doble/persistencia.py` — guardar_asiento, borrar_asiento.
-- `partida_doble/repositorio.py` — RepositorioAsiento + verificar_cadena.
-- `scripts/ddl_partida_doble.sql` — tablas + vista `v_asiento_cuadre`.
-- `docs/taxonomia_actos_economicos.md` — ~100 actos del PGC completo.
-- 13 tests nuevos.
+    uvicorn conta_rizoma4.api.main:app --port 8001
 
-**Por qué:** el POC (v0.6.0) tenía actos con una cuenta principal y contrapartida opcional. No era partida doble: un acto con `cuenta_pgc=705, importe=1210` sin contrapartida era válido, lo que en contabilidad real sería un asiento que no cuadra. La partida doble es el cimiento de todo lo demás (libro diario, mayor, balance, PyG, cuentas anuales).
+Endpoints:
 
-**Ficheros:** 5 ficheros nuevos en `conta_rizoma4/partida_doble/`, 1 DDL, 1 test, 1 doc.
+    GET  /health
+    GET  /empresas
+    GET  /empresas/{empresa_id}
 
-**Tests:** 13 nuevos. Total: 85.
+    POST /obras
+    GET  /obras
+    GET  /obras/{obra_id}
 
-**Cierra:** Ciclo 7. Base para los Ciclos 8-20 (IVA, cierre, retenciones, inmovilizado, etc.).
+    POST /operarios
+    GET  /operarios
+    GET  /operarios/{operario_id}
 
----
+    POST /leases
+    GET  /leases/{lease_id}
+    POST /leases/{lease_id}/renovar
+    POST /leases/{lease_id}/cancelar
+
+    POST /documentos (sube a CAS de rizoma4)
+    GET  /documentos/{hash_cas}
+
+    GET  /asientos?empresa_id=X&estado=Y
+    GET  /asientos/{indice}?empresa_id=X
+    POST /asientos (con lease_id, obra_id, documento_ref)
+    DELETE /asientos/{indice}?empresa_id=X
+
+    POST /asientos/{indice}/visar?empresa_id=X
+    POST /asientos/{indice}/aprobar?empresa_id=X
+    POST /asientos/{indice}/rizomizar?empresa_id=X
+
+    POST /verificar
+
+Docs: http://localhost:8001/docs
+
+## Los 5 estados del asiento
+
+| Estado | Qué significa | Quién lo pone |
+|---|---|---|
+| BORRADOR | Creado por operario de obra | POST /asientos |
+| VISADO | Visado por jefe de obra | POST /asientos/{id}/visar |
+| APROBADO | Aprobado por jefe de producción | POST /asientos/{id}/aprobar |
+| RIZOMIZADO | Validado por rizoma4 (sin alertas) | Worker de rizoma4 |
+| EN_CUARENTENA | rizoma4 ha lanzado una alerta | Worker de rizoma4 |
+
+## Leases (reserva de índices)
+
+    POST /leases {empresa_id, obra_id, operario, duracion_min}
+    → {lease_id, indice_reservado, expira_en}
+
+    POST /asientos {empresa_id, lease_id, indice_reservado, ...}
+
+Si el lease expira, el asiento no se puede crear.
+
+## Consolidación
+
+    python -c 'from datetime import date; from conta_rizoma4.consolidacion import consolidar_grupo; b = consolidar_grupo("JV_VECTOR", "matriz_jv", date(2025, 12, 31)); print(b.resultado_grupo)'
+
+## Los 115 actos (14 grupos)
+
+- facturacion (14): facturas, cobros, pagos, nóminas
+- facturacion_avanzada (7): simplificadas, autofactura, descuentos
+- fiscal (11): IVA, IRPF, IS
+- fiscal_avanzado (23): 347, 349, 369, 130, 131, IAE, IBI, ITP
+- cierre (3): regularización, cierre, apertura
+- inmovilizado (5): compra, venta, amortización, deterioro, baja
+- inmovilizado_avanzado (6): leasing, permuta, activo venta
+- existencias (4): compra, venta, regularización, deterioro
+- existencias_avanzado (3): corrección, deterioro reversible, FIFO
+- societarias (5): constitución, ampliación, dividendo, reserva
+- societarias_avanzado (7): autocartera, dividendo a cuenta
+- ajustes (9): subvenciones, periodificaciones, provisiones
+- ajustes_avanzado (5): desmantelamiento, coberturas, correcciones
+- operaciones_especiales (13): fusiones, consolidación, derivados
+
+Ver catálogo: conta pd-acto listar
+
+## Lo que NO hace
+
+- Frontend (PWA) para el operario. Se construye en Fase 4d.
+- FTOP + CAS + hipótesis en el worker (simulado como "ok=True" en el demo).
+- Presentación oficial de cuentas anuales (Registro Mercantil).
+- Modelos 200/303 con formato AEAT.
+- FIFO/PMP automático.
+- Consolidación multi-PGC (solo PGC_ES cargado).
+- Corpus forense (MIPYMEs + personas físicas sucesoras, 2027).
+
+## Arquitectura
+
+    conta_rizoma4/
+    ├── contratos/          A+B+C+D (declarativo)
+    ├── operativo/          hash chain + mapeo (POC legacy, deprecated)
+    ├── partida_doble/      partida doble real + libros
+    ├── actos/              115 actos en 14 grupos
+    ├── custodia/           obras, operarios, leases, documentos
+    ├── consolidacion/      grupo clásico
+    ├── config/             empresas.yaml + tipos de cambio BCE
+    ├── api/                FastAPI
+    │   └── routers/        asientos, empresas, verificar, leases,
+    │                       obras, operarios, documentos
+    ├── operaciones.py      helper crear_acto_por_codigo
+    ├── cli.py              CLI unificado (POC + partida doble)
+    └── cli_pd.py           comandos de partida doble
+
+## Tests
+
+    pytest tests/ -q
+
+Esperado: 316 passed.
+
+## Doctrina
+
+PGC párrafo 4: en la contabilización de las operaciones se atenderá a
+su realidad económica y no sólo a su forma jurídica.
+
+Rizoma4 §6 #37: La forma es el vehículo de la sustancia. Sin forma no
+hay sustancia procesable.
+
+conta-rizoma4 lo materializa: cada asiento tiene su párrafo del PGC que
+lo justifica, su hash encadenado, y su cadena de mando. Si alguien
+manipula un acto, conta pd-verificar lo detecta.
+
+La cadena de custodia (obras, operarios, leases, estados) usa lo que
+rizoma4 ya tiene (CAS, ledger, PAdES, TSA, Merkle).

@@ -1,0 +1,3187 @@
+[
+  {
+    "IdRegAsientoDiario": "2058",
+    "NºAsiento": "1",
+    "FechaAsientoDiario": "02/05/09 12:44:30",
+    "Concepto": "Apertura 2009",
+    "DocsRef": "1"
+  },
+  {
+    "IdRegAsientoDiario": "2059",
+    "NºAsiento": "2",
+    "FechaAsientoDiario": "02/16/09 11:44:26",
+    "Concepto": "Cargo cobro servicios",
+    "DocsRef": "2"
+  },
+  {
+    "IdRegAsientoDiario": "2060",
+    "NºAsiento": "3",
+    "FechaAsientoDiario": "02/16/09 11:51:56",
+    "Concepto": "Pago impuestos",
+    "DocsRef": "3"
+  },
+  {
+    "IdRegAsientoDiario": "2061",
+    "NºAsiento": "4",
+    "FechaAsientoDiario": "02/16/09 11:58:39",
+    "Concepto": "Fra. H/6 Valentin Garcimartin",
+    "DocsRef": "4"
+  },
+  {
+    "IdRegAsientoDiario": "2062",
+    "NºAsiento": "5",
+    "FechaAsientoDiario": "02/16/09 12:00:31",
+    "Concepto": "Fra. H/7 Valentin Garcimartin",
+    "DocsRef": "5"
+  },
+  {
+    "IdRegAsientoDiario": "2063",
+    "NºAsiento": "6",
+    "FechaAsientoDiario": "02/16/09 12:01:54",
+    "Concepto": "Pago socios",
+    "DocsRef": "6"
+  },
+  {
+    "IdRegAsientoDiario": "2064",
+    "NºAsiento": "7",
+    "FechaAsientoDiario": "02/16/09 12:02:12",
+    "Concepto": "Cobro de Inciv",
+    "DocsRef": "7"
+  },
+  {
+    "IdRegAsientoDiario": "2065",
+    "NºAsiento": "8",
+    "FechaAsientoDiario": "02/16/09 12:10:00",
+    "Concepto": "Fra. 0901C0066355 Securitas",
+    "DocsRef": "8"
+  },
+  {
+    "IdRegAsientoDiario": "2066",
+    "NºAsiento": "9",
+    "FechaAsientoDiario": "02/16/09 12:14:41",
+    "Concepto": "Fra. 4109011024760 UnionFenosa",
+    "DocsRef": "9"
+  },
+  {
+    "IdRegAsientoDiario": "2067",
+    "NºAsiento": "10",
+    "FechaAsientoDiario": "02/16/09 12:18:22",
+    "Concepto": "Fra. TA38V0288109 Telefonica",
+    "DocsRef": "10"
+  },
+  {
+    "IdRegAsientoDiario": "2068",
+    "NºAsiento": "13",
+    "FechaAsientoDiario": "02/03/09 12:21:07",
+    "Concepto": "Fra. TA38V0285998 Telefonica",
+    "DocsRef": "11"
+  },
+  {
+    "IdRegAsientoDiario": "2069",
+    "NºAsiento": "11",
+    "FechaAsientoDiario": "02/16/09 12:21:18",
+    "Concepto": "Fra. 0902C0065451 Securitas",
+    "DocsRef": "12"
+  },
+  {
+    "IdRegAsientoDiario": "2070",
+    "NºAsiento": "12",
+    "FechaAsientoDiario": "02/16/09 12:22:02",
+    "Concepto": "Fra. 102 Never's Abogados, S.L.",
+    "DocsRef": "13"
+  },
+  {
+    "IdRegAsientoDiario": "2071",
+    "NºAsiento": "14",
+    "FechaAsientoDiario": "03/03/09 12:24:13",
+    "Concepto": "Fra. 4109022024613 UnionFenosa",
+    "DocsRef": "14"
+  },
+  {
+    "IdRegAsientoDiario": "2072",
+    "NºAsiento": "15",
+    "FechaAsientoDiario": "03/03/09 12:31:05",
+    "Concepto": "Fra. 090762710 Canal",
+    "DocsRef": "15"
+  },
+  {
+    "IdRegAsientoDiario": "2073",
+    "NºAsiento": "16",
+    "FechaAsientoDiario": "03/03/09 12:35:44",
+    "Concepto": "Fra. FE09321058944145 GasNatural",
+    "DocsRef": "16"
+  },
+  {
+    "IdRegAsientoDiario": "2074",
+    "NºAsiento": "17",
+    "FechaAsientoDiario": "03/05/09 11:56:31",
+    "Concepto": "Nomina Enero",
+    "DocsRef": "17"
+  },
+  {
+    "IdRegAsientoDiario": "2075",
+    "NºAsiento": "18",
+    "FechaAsientoDiario": "03/05/09 12:00:00",
+    "Concepto": "Nomina Febrero",
+    "DocsRef": "18"
+  },
+  {
+    "IdRegAsientoDiario": "2076",
+    "NºAsiento": "19",
+    "FechaAsientoDiario": "03/05/09 12:00:58",
+    "Concepto": "Nomina Marzo",
+    "DocsRef": "19"
+  },
+  {
+    "IdRegAsientoDiario": "2077",
+    "NºAsiento": "20",
+    "FechaAsientoDiario": "03/05/09 12:04:12",
+    "Concepto": "Fra. 02/09",
+    "DocsRef": "20"
+  },
+  {
+    "IdRegAsientoDiario": "2078",
+    "NºAsiento": "21",
+    "FechaAsientoDiario": "03/05/09 12:41:46",
+    "Concepto": "Fra. 03/09",
+    "DocsRef": "21"
+  },
+  {
+    "IdRegAsientoDiario": "2079",
+    "NºAsiento": "22",
+    "FechaAsientoDiario": "03/05/09 12:44:52",
+    "Concepto": "Fra. 04/09",
+    "DocsRef": "22"
+  },
+  {
+    "IdRegAsientoDiario": "2080",
+    "NºAsiento": "23",
+    "FechaAsientoDiario": "03/05/09 12:48:27",
+    "Concepto": "Pago socios",
+    "DocsRef": "23"
+  },
+  {
+    "IdRegAsientoDiario": "2081",
+    "NºAsiento": "24",
+    "FechaAsientoDiario": "03/05/09 15:38:04",
+    "Concepto": "Fra. 09/09 InCiv",
+    "DocsRef": "24"
+  },
+  {
+    "IdRegAsientoDiario": "2082",
+    "NºAsiento": "25",
+    "FechaAsientoDiario": "03/05/09 15:43:41",
+    "Concepto": "Fra. 10/09 InCiv",
+    "DocsRef": "25"
+  },
+  {
+    "IdRegAsientoDiario": "2083",
+    "NºAsiento": "26",
+    "FechaAsientoDiario": "03/05/09 15:44:36",
+    "Concepto": "Fra. 08/09 InCiv",
+    "DocsRef": "26"
+  },
+  {
+    "IdRegAsientoDiario": "2084",
+    "NºAsiento": "27",
+    "FechaAsientoDiario": "03/05/09 15:46:33",
+    "Concepto": "Fra. 11/09 InCiv",
+    "DocsRef": "27"
+  },
+  {
+    "IdRegAsientoDiario": "2085",
+    "NºAsiento": "28",
+    "FechaAsientoDiario": "03/05/09 15:51:54",
+    "Concepto": "Fra. 06/09 InCiv",
+    "DocsRef": "28"
+  },
+  {
+    "IdRegAsientoDiario": "2086",
+    "NºAsiento": "29",
+    "FechaAsientoDiario": "03/05/09 15:54:27",
+    "Concepto": "Fra. 05/09 InCiv",
+    "DocsRef": "29"
+  },
+  {
+    "IdRegAsientoDiario": "2087",
+    "NºAsiento": "30",
+    "FechaAsientoDiario": "03/05/09 15:54:46",
+    "Concepto": "Fra. 07/09 InCiv",
+    "DocsRef": "30"
+  },
+  {
+    "IdRegAsientoDiario": "2088",
+    "NºAsiento": "31",
+    "FechaAsientoDiario": "03/03/09 00:00:00",
+    "Concepto": "Fra. 4109011024760 UnionFenosa",
+    "DocsRef": "31"
+  },
+  {
+    "IdRegAsientoDiario": "2089",
+    "NºAsiento": "32",
+    "FechaAsientoDiario": "02/23/09 00:00:00",
+    "Concepto": "Fra. A000563 Luis Quiroga",
+    "DocsRef": "32"
+  },
+  {
+    "IdRegAsientoDiario": "2090",
+    "NºAsiento": "33",
+    "FechaAsientoDiario": "03/16/09 12:55:39",
+    "Concepto": "Fra. A000564 Luis Quiroga",
+    "DocsRef": "33"
+  },
+  {
+    "IdRegAsientoDiario": "2091",
+    "NºAsiento": "34",
+    "FechaAsientoDiario": "03/30/09 11:02:45",
+    "Concepto": "Pago InCiv",
+    "DocsRef": "37"
+  },
+  {
+    "IdRegAsientoDiario": "2092",
+    "NºAsiento": "35",
+    "FechaAsientoDiario": "03/30/09 15:43:28",
+    "Concepto": "Fra. TA38X0286254 Telefonica",
+    "DocsRef": "40"
+  },
+  {
+    "IdRegAsientoDiario": "2093",
+    "NºAsiento": "36",
+    "FechaAsientoDiario": "04/01/09 09:54:58",
+    "Concepto": "Fra. H/8 ValentinGarcimartin",
+    "DocsRef": "45"
+  },
+  {
+    "IdRegAsientoDiario": "2094",
+    "NºAsiento": "37",
+    "FechaAsientoDiario": "04/01/09 12:53:53",
+    "Concepto": "Liquidacion cuenta",
+    "DocsRef": "47"
+  },
+  {
+    "IdRegAsientoDiario": "2095",
+    "NºAsiento": "38",
+    "FechaAsientoDiario": "04/06/09 10:14:28",
+    "Concepto": "Fra. 34748 Atc Roc",
+    "DocsRef": "51"
+  },
+  {
+    "IdRegAsientoDiario": "2096",
+    "NºAsiento": "39",
+    "FechaAsientoDiario": "04/07/09 10:43:54",
+    "Concepto": "Aplicación resultado 2008",
+    "DocsRef": "53"
+  },
+  {
+    "IdRegAsientoDiario": "2097",
+    "NºAsiento": "40",
+    "FechaAsientoDiario": "04/07/09 12:43:41",
+    "Concepto": "Fra. 092029421 Canal",
+    "DocsRef": "55"
+  },
+  {
+    "IdRegAsientoDiario": "2098",
+    "NºAsiento": "41",
+    "FechaAsientoDiario": "04/15/09 16:42:37",
+    "Concepto": "Fra. 4109042057957 UnionFenosa",
+    "DocsRef": "59"
+  },
+  {
+    "IdRegAsientoDiario": "2099",
+    "NºAsiento": "42",
+    "FechaAsientoDiario": "04/21/09 10:23:00",
+    "Concepto": "Fra. H/9 ValentinGarcimartin",
+    "DocsRef": "72"
+  },
+  {
+    "IdRegAsientoDiario": "2100",
+    "NºAsiento": "43",
+    "FechaAsientoDiario": "04/21/09 10:39:22",
+    "Concepto": "Fra. TA38Y0286527 Telefonica",
+    "DocsRef": "73"
+  },
+  {
+    "IdRegAsientoDiario": "2101",
+    "NºAsiento": "44",
+    "FechaAsientoDiario": "04/21/09 10:42:49",
+    "Concepto": "Fra. 01/09 Guadalajara no esta en Mexico",
+    "DocsRef": "74"
+  },
+  {
+    "IdRegAsientoDiario": "2102",
+    "NºAsiento": "45",
+    "FechaAsientoDiario": "04/22/09 09:32:47",
+    "Concepto": "Fra. FE09321063933734 GasNatural",
+    "DocsRef": "77"
+  },
+  {
+    "IdRegAsientoDiario": "2103",
+    "NºAsiento": "46",
+    "FechaAsientoDiario": "04/23/09 11:58:34",
+    "Concepto": "Fra. B000319 Luis Quiroga",
+    "DocsRef": "79"
+  },
+  {
+    "IdRegAsientoDiario": "2104",
+    "NºAsiento": "47",
+    "FechaAsientoDiario": "04/23/09 12:02:26",
+    "Concepto": "Fra. 45 Never's Abogados, S.L.",
+    "DocsRef": "80"
+  },
+  {
+    "IdRegAsientoDiario": "2105",
+    "NºAsiento": "48",
+    "FechaAsientoDiario": "05/04/09 10:46:52",
+    "Concepto": "Nomina Abril",
+    "DocsRef": "84"
+  },
+  {
+    "IdRegAsientoDiario": "2106",
+    "NºAsiento": "49",
+    "FechaAsientoDiario": "05/08/09 10:41:50",
+    "Concepto": "Fra. H/11 ValentinGarcimartin",
+    "DocsRef": "89"
+  },
+  {
+    "IdRegAsientoDiario": "2107",
+    "NºAsiento": "50",
+    "FechaAsientoDiario": "05/08/09 10:48:10",
+    "Concepto": "Seguro TRC Aliviadero Mapfre",
+    "DocsRef": "90"
+  },
+  {
+    "IdRegAsientoDiario": "2108",
+    "NºAsiento": "51",
+    "FechaAsientoDiario": "05/11/09 12:45:11",
+    "Concepto": "Fra. 4109051026133 UnionFenosa",
+    "DocsRef": "93"
+  },
+  {
+    "IdRegAsientoDiario": "2109",
+    "NºAsiento": "52",
+    "FechaAsientoDiario": "05/18/09 15:39:56",
+    "Concepto": "Fra. H/10 ValentinGarcimartin",
+    "DocsRef": "107"
+  },
+  {
+    "IdRegAsientoDiario": "2110",
+    "NºAsiento": "53",
+    "FechaAsientoDiario": "05/18/09 15:41:27",
+    "Concepto": "",
+    "DocsRef": "108"
+  },
+  {
+    "IdRegAsientoDiario": "2111",
+    "NºAsiento": "54",
+    "FechaAsientoDiario": "06/08/09 10:15:54",
+    "Concepto": "Nomina Mayo Mangeles",
+    "DocsRef": "113"
+  },
+  {
+    "IdRegAsientoDiario": "2112",
+    "NºAsiento": "55",
+    "FechaAsientoDiario": "06/08/09 10:17:15",
+    "Concepto": "Nomina Mayo Luis",
+    "DocsRef": "114"
+  },
+  {
+    "IdRegAsientoDiario": "2113",
+    "NºAsiento": "56",
+    "FechaAsientoDiario": "06/09/09 10:58:37",
+    "Concepto": "Fra. 093308729 Canal",
+    "DocsRef": "117"
+  },
+  {
+    "IdRegAsientoDiario": "2114",
+    "NºAsiento": "57",
+    "FechaAsientoDiario": "06/09/09 11:01:58",
+    "Concepto": "Fra. 4109062026689 UnionFenosa",
+    "DocsRef": "118"
+  },
+  {
+    "IdRegAsientoDiario": "2115",
+    "NºAsiento": "58",
+    "FechaAsientoDiario": "06/09/09 11:04:18",
+    "Concepto": "Fra. Mayo Credito y Caución",
+    "DocsRef": "119"
+  },
+  {
+    "IdRegAsientoDiario": "2116",
+    "NºAsiento": "59",
+    "FechaAsientoDiario": "06/10/09 10:48:31",
+    "Concepto": "Gastos agua nave Guadarrama",
+    "DocsRef": "122"
+  },
+  {
+    "IdRegAsientoDiario": "2117",
+    "NºAsiento": "60",
+    "FechaAsientoDiario": "06/10/09 10:51:13",
+    "Concepto": "Pago socios",
+    "DocsRef": "123"
+  },
+  {
+    "IdRegAsientoDiario": "2118",
+    "NºAsiento": "61",
+    "FechaAsientoDiario": "06/10/09 10:56:06",
+    "Concepto": "Pago Inciv",
+    "DocsRef": "124"
+  },
+  {
+    "IdRegAsientoDiario": "2119",
+    "NºAsiento": "62",
+    "FechaAsientoDiario": "06/10/09 11:29:40",
+    "Concepto": "Fra. 12/09 InCiv",
+    "DocsRef": "125"
+  },
+  {
+    "IdRegAsientoDiario": "2120",
+    "NºAsiento": "63",
+    "FechaAsientoDiario": "06/10/09 11:33:00",
+    "Concepto": "Fra. 13/09",
+    "DocsRef": "126"
+  },
+  {
+    "IdRegAsientoDiario": "2121",
+    "NºAsiento": "64",
+    "FechaAsientoDiario": "06/10/09 11:42:35",
+    "Concepto": "Fra. 14/09 InCiv",
+    "DocsRef": "127"
+  },
+  {
+    "IdRegAsientoDiario": "2122",
+    "NºAsiento": "65",
+    "FechaAsientoDiario": "06/10/09 11:43:28",
+    "Concepto": "Fra. 15/09",
+    "DocsRef": "128"
+  },
+  {
+    "IdRegAsientoDiario": "2123",
+    "NºAsiento": "66",
+    "FechaAsientoDiario": "06/10/09 11:53:37",
+    "Concepto": "Fra. 16/09",
+    "DocsRef": "129"
+  },
+  {
+    "IdRegAsientoDiario": "2124",
+    "NºAsiento": "67",
+    "FechaAsientoDiario": "06/10/09 11:55:14",
+    "Concepto": "Fra. 17/09 InCiv",
+    "DocsRef": "130"
+  },
+  {
+    "IdRegAsientoDiario": "2125",
+    "NºAsiento": "68",
+    "FechaAsientoDiario": "06/16/09 12:19:02",
+    "Concepto": "Fra. 18/09 InCiv",
+    "DocsRef": "139"
+  },
+  {
+    "IdRegAsientoDiario": "2126",
+    "NºAsiento": "69",
+    "FechaAsientoDiario": "06/16/09 12:58:52",
+    "Concepto": "Liquidacion IVA 1T",
+    "DocsRef": "145"
+  },
+  {
+    "IdRegAsientoDiario": "2127",
+    "NºAsiento": "70",
+    "FechaAsientoDiario": "06/17/09 11:15:03",
+    "Concepto": "Fra. TA3900285796 Telefonica",
+    "DocsRef": "148"
+  },
+  {
+    "IdRegAsientoDiario": "2128",
+    "NºAsiento": "71",
+    "FechaAsientoDiario": "06/17/09 11:44:59",
+    "Concepto": "Seguro RC Aliviadero Mapfre",
+    "DocsRef": "149"
+  },
+  {
+    "IdRegAsientoDiario": "2129",
+    "NºAsiento": "72",
+    "FechaAsientoDiario": "06/17/09 11:48:21",
+    "Concepto": "Fra. FE09321069053221 GasNatural",
+    "DocsRef": "150"
+  },
+  {
+    "IdRegAsientoDiario": "2130",
+    "NºAsiento": "73",
+    "FechaAsientoDiario": "06/24/09 10:38:54",
+    "Concepto": "IBI 6034321VJ1953S0001YX",
+    "DocsRef": "161"
+  },
+  {
+    "IdRegAsientoDiario": "2131",
+    "NºAsiento": "74",
+    "FechaAsientoDiario": "06/24/09 10:41:21",
+    "Concepto": "IBI 6034321VJ1953S0001GX",
+    "DocsRef": "162"
+  },
+  {
+    "IdRegAsientoDiario": "2132",
+    "NºAsiento": "75",
+    "FechaAsientoDiario": "06/24/09 11:43:48",
+    "Concepto": "Nomina Junio Luis",
+    "DocsRef": "165"
+  },
+  {
+    "IdRegAsientoDiario": "2133",
+    "NºAsiento": "76",
+    "FechaAsientoDiario": "06/24/09 15:16:51",
+    "Concepto": "Nomina Junio",
+    "DocsRef": "168"
+  },
+  {
+    "IdRegAsientoDiario": "2135",
+    "NºAsiento": "77",
+    "FechaAsientoDiario": "06/29/09 13:12:30",
+    "Concepto": "Pago Luis Quiroga",
+    "DocsRef": "178"
+  },
+  {
+    "IdRegAsientoDiario": "2136",
+    "NºAsiento": "78",
+    "FechaAsientoDiario": "06/29/09 17:02:04",
+    "Concepto": "Fra. 01/2009 Ima2000",
+    "DocsRef": "181"
+  },
+  {
+    "IdRegAsientoDiario": "2137",
+    "NºAsiento": "79",
+    "FechaAsientoDiario": "06/29/09 17:06:37",
+    "Concepto": "Fra. 02/2009 Ima2000",
+    "DocsRef": "182"
+  },
+  {
+    "IdRegAsientoDiario": "2138",
+    "NºAsiento": "80",
+    "FechaAsientoDiario": "06/30/09 10:58:49",
+    "Concepto": "Fra. 19/09 InCiv",
+    "DocsRef": "185"
+  },
+  {
+    "IdRegAsientoDiario": "2139",
+    "NºAsiento": "81",
+    "FechaAsientoDiario": "06/30/09 16:16:44",
+    "Concepto": "Saldo deuda Inciv",
+    "DocsRef": "188"
+  },
+  {
+    "IdRegAsientoDiario": "2140",
+    "NºAsiento": "82",
+    "FechaAsientoDiario": "07/03/09 17:17:17",
+    "Concepto": "Seguro inmueble Catalana Occidente",
+    "DocsRef": "193"
+  },
+  {
+    "IdRegAsientoDiario": "2141",
+    "NºAsiento": "83",
+    "FechaAsientoDiario": "07/13/09 09:51:52",
+    "Concepto": "Fra. TA3910285883 Telefonica",
+    "DocsRef": "200"
+  },
+  {
+    "IdRegAsientoDiario": "2142",
+    "NºAsiento": "84",
+    "FechaAsientoDiario": "07/22/09 10:44:03",
+    "Concepto": "Fra. 4109071011123 UnionFenosa",
+    "DocsRef": "213"
+  },
+  {
+    "IdRegAsientoDiario": "2143",
+    "NºAsiento": "85",
+    "FechaAsientoDiario": "07/27/09 13:42:55",
+    "Concepto": "Fra. 78 Never's Abogados, S.L.",
+    "DocsRef": "216"
+  },
+  {
+    "IdRegAsientoDiario": "2144",
+    "NºAsiento": "86",
+    "FechaAsientoDiario": "07/27/09 15:38:49",
+    "Concepto": "Liquidacion IVA 2T",
+    "DocsRef": "219"
+  },
+  {
+    "IdRegAsientoDiario": "2145",
+    "NºAsiento": "87",
+    "FechaAsientoDiario": "07/27/09 15:49:29",
+    "Concepto": "Liquidacion IRPF 2T",
+    "DocsRef": "220"
+  },
+  {
+    "IdRegAsientoDiario": "2146",
+    "NºAsiento": "88",
+    "FechaAsientoDiario": "08/04/09 16:59:40",
+    "Concepto": "Pago registro deposito libros",
+    "DocsRef": "225"
+  },
+  {
+    "IdRegAsientoDiario": "2147",
+    "NºAsiento": "89",
+    "FechaAsientoDiario": "08/04/09 17:02:12",
+    "Concepto": "Fra. IMP/2009/33862",
+    "DocsRef": "226"
+  },
+  {
+    "IdRegAsientoDiario": "2148",
+    "NºAsiento": "90",
+    "FechaAsientoDiario": "08/04/09 17:07:10",
+    "Concepto": "Pago registro deposito cuentas",
+    "DocsRef": "227"
+  },
+  {
+    "IdRegAsientoDiario": "2149",
+    "NºAsiento": "91",
+    "FechaAsientoDiario": "08/04/09 18:17:03",
+    "Concepto": "Fra. 094594591 Canal",
+    "DocsRef": "230"
+  },
+  {
+    "IdRegAsientoDiario": "2150",
+    "NºAsiento": "92",
+    "FechaAsientoDiario": "08/05/09 09:32:53",
+    "Concepto": "Comisiones apertura contrato Santander",
+    "DocsRef": "233"
+  },
+  {
+    "IdRegAsientoDiario": "2151",
+    "NºAsiento": "93",
+    "FechaAsientoDiario": "08/05/09 09:37:03",
+    "Concepto": "Traspaso cuentas",
+    "DocsRef": "234"
+  },
+  {
+    "IdRegAsientoDiario": "2152",
+    "NºAsiento": "94",
+    "FechaAsientoDiario": "08/05/09 09:41:17",
+    "Concepto": "Transferencia a InCiv",
+    "DocsRef": "235"
+  },
+  {
+    "IdRegAsientoDiario": "2153",
+    "NºAsiento": "95",
+    "FechaAsientoDiario": "08/05/09 09:50:35",
+    "Concepto": "Pago socios",
+    "DocsRef": "236"
+  },
+  {
+    "IdRegAsientoDiario": "2154",
+    "NºAsiento": "96",
+    "FechaAsientoDiario": "08/05/09 09:52:22",
+    "Concepto": "Fra. C01337 Pablo Nava Lopez",
+    "DocsRef": "237"
+  },
+  {
+    "IdRegAsientoDiario": "2155",
+    "NºAsiento": "97",
+    "FechaAsientoDiario": "08/05/09 10:08:35",
+    "Concepto": "Pago Seguros Sociales",
+    "DocsRef": "238"
+  },
+  {
+    "IdRegAsientoDiario": "2156",
+    "NºAsiento": "98",
+    "FechaAsientoDiario": "08/05/09 10:19:28",
+    "Concepto": "Pago Impuesto Sociedades",
+    "DocsRef": "239"
+  },
+  {
+    "IdRegAsientoDiario": "2157",
+    "NºAsiento": "99",
+    "FechaAsientoDiario": "08/19/09 12:20:55",
+    "Concepto": "Fra. TA3920285290 Telefonica",
+    "DocsRef": "244"
+  },
+  {
+    "IdRegAsientoDiario": "2158",
+    "NºAsiento": "100",
+    "FechaAsientoDiario": "08/19/09 13:01:11",
+    "Concepto": "Fra. H/12 ValentinGarcimartin",
+    "DocsRef": "247"
+  },
+  {
+    "IdRegAsientoDiario": "2159",
+    "NºAsiento": "101",
+    "FechaAsientoDiario": "08/19/09 13:03:22",
+    "Concepto": "Fra. H/13 ValentinGarcimartin",
+    "DocsRef": "248"
+  },
+  {
+    "IdRegAsientoDiario": "2160",
+    "NºAsiento": "102",
+    "FechaAsientoDiario": "08/19/09 13:05:35",
+    "Concepto": "Fra. 4109082037236 UnionFenosa",
+    "DocsRef": "249"
+  },
+  {
+    "IdRegAsientoDiario": "2161",
+    "NºAsiento": "103",
+    "FechaAsientoDiario": "08/19/09 13:13:41",
+    "Concepto": "Fra. C01338 Pablo Nava Lopez",
+    "DocsRef": "250"
+  },
+  {
+    "IdRegAsientoDiario": "2162",
+    "NºAsiento": "104",
+    "FechaAsientoDiario": "08/20/09 18:11:56",
+    "Concepto": "Fra. FE09371001791494 GasNatural",
+    "DocsRef": "253"
+  },
+  {
+    "IdRegAsientoDiario": "2163",
+    "NºAsiento": "105",
+    "FechaAsientoDiario": "09/15/09 11:57:35",
+    "Concepto": "Fra. TA3930284830 Telefonica",
+    "DocsRef": "257"
+  },
+  {
+    "IdRegAsientoDiario": "2164",
+    "NºAsiento": "106",
+    "FechaAsientoDiario": "09/15/09 12:00:24",
+    "Concepto": "Fra. 4109091061198 UnionFenosa",
+    "DocsRef": "258"
+  },
+  {
+    "IdRegAsientoDiario": "2165",
+    "NºAsiento": "107",
+    "FechaAsientoDiario": "09/15/09 12:06:07",
+    "Concepto": "Fra. H/14 ValentinGarcimartin",
+    "DocsRef": "259"
+  },
+  {
+    "IdRegAsientoDiario": "2166",
+    "NºAsiento": "108",
+    "FechaAsientoDiario": "09/15/09 12:07:05",
+    "Concepto": "Provision fondos BancoPastor",
+    "DocsRef": "260"
+  },
+  {
+    "IdRegAsientoDiario": "2167",
+    "NºAsiento": "109",
+    "FechaAsientoDiario": "09/15/09 12:11:14",
+    "Concepto": "Prestamo ICO BancoPastor 050109090405",
+    "DocsRef": "261"
+  },
+  {
+    "IdRegAsientoDiario": "2168",
+    "NºAsiento": "110",
+    "FechaAsientoDiario": "09/16/09 11:50:14",
+    "Concepto": "Pastor Seguros Generales",
+    "DocsRef": "264"
+  },
+  {
+    "IdRegAsientoDiario": "2169",
+    "NºAsiento": "111",
+    "FechaAsientoDiario": "09/16/09 11:58:43",
+    "Concepto": "Transferencia a Inciv",
+    "DocsRef": "265"
+  },
+  {
+    "IdRegAsientoDiario": "2170",
+    "NºAsiento": "112",
+    "FechaAsientoDiario": "09/16/09 12:05:54",
+    "Concepto": "Pago socios",
+    "DocsRef": "266"
+  },
+  {
+    "IdRegAsientoDiario": "2171",
+    "NºAsiento": "113",
+    "FechaAsientoDiario": "09/16/09 12:27:18",
+    "Concepto": "Transferencia a Inciv",
+    "DocsRef": "267"
+  },
+  {
+    "IdRegAsientoDiario": "2172",
+    "NºAsiento": "114",
+    "FechaAsientoDiario": "09/16/09 16:04:31",
+    "Concepto": "Fra. 104927 BORME",
+    "DocsRef": "270"
+  },
+  {
+    "IdRegAsientoDiario": "2173",
+    "NºAsiento": "115",
+    "FechaAsientoDiario": "09/16/09 16:17:34",
+    "Concepto": "Fra. 20/09",
+    "DocsRef": "271"
+  },
+  {
+    "IdRegAsientoDiario": "2174",
+    "NºAsiento": "116",
+    "FechaAsientoDiario": "09/16/09 16:18:17",
+    "Concepto": "Fra. 22/09",
+    "DocsRef": "272"
+  },
+  {
+    "IdRegAsientoDiario": "2175",
+    "NºAsiento": "117",
+    "FechaAsientoDiario": "09/16/09 16:18:51",
+    "Concepto": "Fra. 24/09",
+    "DocsRef": "273"
+  },
+  {
+    "IdRegAsientoDiario": "2176",
+    "NºAsiento": "118",
+    "FechaAsientoDiario": "09/16/09 16:21:07",
+    "Concepto": "Fra. 21/09 InCiv",
+    "DocsRef": "274"
+  },
+  {
+    "IdRegAsientoDiario": "2177",
+    "NºAsiento": "119",
+    "FechaAsientoDiario": "09/16/09 16:22:00",
+    "Concepto": "Fra. 23/09 InCiv",
+    "DocsRef": "275"
+  },
+  {
+    "IdRegAsientoDiario": "2178",
+    "NºAsiento": "120",
+    "FechaAsientoDiario": "09/16/09 16:23:41",
+    "Concepto": "Fra. 25/09 InCiv",
+    "DocsRef": "276"
+  },
+  {
+    "IdRegAsientoDiario": "2179",
+    "NºAsiento": "121",
+    "FechaAsientoDiario": "09/16/09 16:27:02",
+    "Concepto": "Nomina Extra Junio",
+    "DocsRef": "277"
+  },
+  {
+    "IdRegAsientoDiario": "2180",
+    "NºAsiento": "122",
+    "FechaAsientoDiario": "09/16/09 16:27:50",
+    "Concepto": "Nomina Julio",
+    "DocsRef": "278"
+  },
+  {
+    "IdRegAsientoDiario": "2181",
+    "NºAsiento": "123",
+    "FechaAsientoDiario": "09/16/09 16:28:59",
+    "Concepto": "Nomina Agosto",
+    "DocsRef": "279"
+  },
+  {
+    "IdRegAsientoDiario": "2182",
+    "NºAsiento": "124",
+    "FechaAsientoDiario": "09/16/09 16:29:40",
+    "Concepto": "Nomina Septiembre",
+    "DocsRef": "280"
+  },
+  {
+    "IdRegAsientoDiario": "2183",
+    "NºAsiento": "125",
+    "FechaAsientoDiario": "09/22/09 11:21:37",
+    "Concepto": "Fra. 26/09 InCiv",
+    "DocsRef": "285"
+  },
+  {
+    "IdRegAsientoDiario": "2184",
+    "NºAsiento": "126",
+    "FechaAsientoDiario": "09/22/09 11:26:50",
+    "Concepto": "Fra. 81524 RMM",
+    "DocsRef": "286"
+  },
+  {
+    "IdRegAsientoDiario": "2185",
+    "NºAsiento": "127",
+    "FechaAsientoDiario": "09/23/09 16:03:43",
+    "Concepto": "Fra. 095881571 Canal",
+    "DocsRef": "289"
+  },
+  {
+    "IdRegAsientoDiario": "2186",
+    "NºAsiento": "128",
+    "FechaAsientoDiario": "09/28/09 10:31:58",
+    "Concepto": "Fra. 10900652-C Ricardo Isaias Perez Ballarin",
+    "DocsRef": "294"
+  },
+  {
+    "IdRegAsientoDiario": "2187",
+    "NºAsiento": "129",
+    "FechaAsientoDiario": "09/28/09 10:37:16",
+    "Concepto": "Fra. 10900650-C Ricardo Isaias Perez Ballarin",
+    "DocsRef": "295"
+  },
+  {
+    "IdRegAsientoDiario": "2188",
+    "NºAsiento": "130",
+    "FechaAsientoDiario": "10/07/09 11:06:45",
+    "Concepto": "Fra. FE09371003470205 GasNatural",
+    "DocsRef": "300"
+  },
+  {
+    "IdRegAsientoDiario": "2189",
+    "NºAsiento": "131",
+    "FechaAsientoDiario": "10/08/09 15:54:26",
+    "Concepto": "Fra. H/15 ValentinGarcimartin",
+    "DocsRef": "305"
+  },
+  {
+    "IdRegAsientoDiario": "2190",
+    "NºAsiento": "132",
+    "FechaAsientoDiario": "10/16/09 10:56:39",
+    "Concepto": "Fra. TA3940285764 Telefonica",
+    "DocsRef": "310"
+  },
+  {
+    "IdRegAsientoDiario": "2191",
+    "NºAsiento": "133",
+    "FechaAsientoDiario": "10/16/09 11:00:31",
+    "Concepto": "Fra. 4109091063986 Gas Natural SUR SDG",
+    "DocsRef": "311"
+  },
+  {
+    "IdRegAsientoDiario": "2192",
+    "NºAsiento": "134",
+    "FechaAsientoDiario": "10/20/09 11:00:22",
+    "Concepto": "Fra. 03/2009 Ima2000",
+    "DocsRef": "314"
+  },
+  {
+    "IdRegAsientoDiario": "2193",
+    "NºAsiento": "135",
+    "FechaAsientoDiario": "10/26/09 12:57:21",
+    "Concepto": "Fra. 2009/56508 registro certificacion",
+    "DocsRef": "317"
+  },
+  {
+    "IdRegAsientoDiario": "2194",
+    "NºAsiento": "136",
+    "FechaAsientoDiario": "10/28/09 10:03:31",
+    "Concepto": "Gastos agua nave Guadarrama",
+    "DocsRef": "320"
+  },
+  {
+    "IdRegAsientoDiario": "2195",
+    "NºAsiento": "137",
+    "FechaAsientoDiario": "10/28/09 10:05:57",
+    "Concepto": "Salida a caja",
+    "DocsRef": "321"
+  },
+  {
+    "IdRegAsientoDiario": "2196",
+    "NºAsiento": "138",
+    "FechaAsientoDiario": "10/28/09 16:25:43",
+    "Concepto": "Servicio de Prevencion Ajeno Fremap",
+    "DocsRef": "323"
+  },
+  {
+    "IdRegAsientoDiario": "2197",
+    "NºAsiento": "139",
+    "FechaAsientoDiario": "10/28/09 16:26:38",
+    "Concepto": "Pago IBI",
+    "DocsRef": "324"
+  },
+  {
+    "IdRegAsientoDiario": "2198",
+    "NºAsiento": "140",
+    "FechaAsientoDiario": "10/28/09 16:29:18",
+    "Concepto": "Pago Tasa gestion residuos",
+    "DocsRef": "325"
+  },
+  {
+    "IdRegAsientoDiario": "2199",
+    "NºAsiento": "141",
+    "FechaAsientoDiario": "11/04/09 11:16:33",
+    "Concepto": "Fra. F000079 AS 201 CB",
+    "DocsRef": "332"
+  },
+  {
+    "IdRegAsientoDiario": "2200",
+    "NºAsiento": "142",
+    "FechaAsientoDiario": "11/04/09 11:54:54",
+    "Concepto": "Nomina Octubre",
+    "DocsRef": "335"
+  },
+  {
+    "IdRegAsientoDiario": "2201",
+    "NºAsiento": "143",
+    "FechaAsientoDiario": "11/06/09 09:51:03",
+    "Concepto": "Liquidacion cuenta Santander",
+    "DocsRef": "340"
+  },
+  {
+    "IdRegAsientoDiario": "2202",
+    "NºAsiento": "144",
+    "FechaAsientoDiario": "11/06/09 11:01:54",
+    "Concepto": "Fra. H/16 ValentinGarcimartin",
+    "DocsRef": "342"
+  },
+  {
+    "IdRegAsientoDiario": "2203",
+    "NºAsiento": "145",
+    "FechaAsientoDiario": "11/06/09 11:09:02",
+    "Concepto": "Liquidacion IRPF 3T",
+    "DocsRef": "343"
+  },
+  {
+    "IdRegAsientoDiario": "2204",
+    "NºAsiento": "146",
+    "FechaAsientoDiario": "11/06/09 11:10:43",
+    "Concepto": "Liquidacion IVA 3T",
+    "DocsRef": "344"
+  },
+  {
+    "IdRegAsientoDiario": "2206",
+    "NºAsiento": "147",
+    "FechaAsientoDiario": "11/06/09 11:12:45",
+    "Concepto": "Liquidacion IS 2P",
+    "DocsRef": "346"
+  },
+  {
+    "IdRegAsientoDiario": "2207",
+    "NºAsiento": "148",
+    "FechaAsientoDiario": "11/10/09 15:50:11",
+    "Concepto": "Fra. 4109111080675  Gas Natural SUR SDG",
+    "DocsRef": "349"
+  },
+  {
+    "IdRegAsientoDiario": "2208",
+    "NºAsiento": "149",
+    "FechaAsientoDiario": "11/23/09 11:41:59",
+    "Concepto": "Fra. 097195544 Canal",
+    "DocsRef": "357"
+  },
+  {
+    "IdRegAsientoDiario": "2209",
+    "NºAsiento": "150",
+    "FechaAsientoDiario": "11/23/09 11:44:49",
+    "Concepto": "Fra. TA3EP0287465 Telefonica",
+    "DocsRef": "358"
+  },
+  {
+    "IdRegAsientoDiario": "2210",
+    "NºAsiento": "151",
+    "FechaAsientoDiario": "11/23/09 16:02:27",
+    "Concepto": "Pago Tasa Certif. 4 Alcorlo",
+    "DocsRef": "361"
+  },
+  {
+    "IdRegAsientoDiario": "2211",
+    "NºAsiento": "152",
+    "FechaAsientoDiario": "11/23/09 16:05:30",
+    "Concepto": "Pago Tasa Almendral Inciv",
+    "DocsRef": "362"
+  },
+  {
+    "IdRegAsientoDiario": "2212",
+    "NºAsiento": "153",
+    "FechaAsientoDiario": "12/01/09 10:12:35",
+    "Concepto": "Nomina Noviembre Mangeles",
+    "DocsRef": "367"
+  },
+  {
+    "IdRegAsientoDiario": "2213",
+    "NºAsiento": "154",
+    "FechaAsientoDiario": "12/01/09 10:14:13",
+    "Concepto": "Nomina Noviembre Carlos",
+    "DocsRef": "368"
+  },
+  {
+    "IdRegAsientoDiario": "2214",
+    "NºAsiento": "155",
+    "FechaAsientoDiario": "12/01/09 11:33:14",
+    "Concepto": "Fra. 27/09 CHT",
+    "DocsRef": "371"
+  },
+  {
+    "IdRegAsientoDiario": "2215",
+    "NºAsiento": "156",
+    "FechaAsientoDiario": "12/01/09 11:39:34",
+    "Concepto": "Fra. 28/09 CHT",
+    "DocsRef": "372"
+  },
+  {
+    "IdRegAsientoDiario": "2216",
+    "NºAsiento": "157",
+    "FechaAsientoDiario": "12/15/09 16:17:35",
+    "Concepto": "Fra. 117 Jesus Caballero",
+    "DocsRef": "375"
+  },
+  {
+    "IdRegAsientoDiario": "2217",
+    "NºAsiento": "158",
+    "FechaAsientoDiario": "12/15/09 16:28:25",
+    "Concepto": "Pago Ima2000",
+    "DocsRef": "376"
+  },
+  {
+    "IdRegAsientoDiario": "2218",
+    "NºAsiento": "159",
+    "FechaAsientoDiario": "12/15/09 19:08:40",
+    "Concepto": "Fra. 20091112010645090 Iberdrola",
+    "DocsRef": "379"
+  },
+  {
+    "IdRegAsientoDiario": "2219",
+    "NºAsiento": "160",
+    "FechaAsientoDiario": "12/15/09 19:14:43",
+    "Concepto": "Fra. 11553 Hnos Martinez",
+    "DocsRef": "380"
+  },
+  {
+    "IdRegAsientoDiario": "2220",
+    "NºAsiento": "161",
+    "FechaAsientoDiario": "12/15/09 19:16:45",
+    "Concepto": "Fra. 1157 Pilar Arias",
+    "DocsRef": "381"
+  },
+  {
+    "IdRegAsientoDiario": "2221",
+    "NºAsiento": "162",
+    "FechaAsientoDiario": "12/17/09 17:19:43",
+    "Concepto": "Fra.MHFV-328112 Mh",
+    "DocsRef": "385"
+  },
+  {
+    "IdRegAsientoDiario": "2222",
+    "NºAsiento": "163",
+    "FechaAsientoDiario": "12/17/09 17:25:25",
+    "Concepto": "Fra. 126 Hnos Barahona",
+    "DocsRef": "386"
+  },
+  {
+    "IdRegAsientoDiario": "2223",
+    "NºAsiento": "164",
+    "FechaAsientoDiario": "12/21/09 10:14:45",
+    "Concepto": "Fras. 11606-11795 Hnos Martinez",
+    "DocsRef": "389"
+  },
+  {
+    "IdRegAsientoDiario": "2224",
+    "NºAsiento": "165",
+    "FechaAsientoDiario": "12/21/09 10:20:23",
+    "Concepto": "Fras. 04943-04956 Palacio",
+    "DocsRef": "390"
+  },
+  {
+    "IdRegAsientoDiario": "2225",
+    "NºAsiento": "166",
+    "FechaAsientoDiario": "12/21/09 10:24:45",
+    "Concepto": "Fra. 30926 Saboya",
+    "DocsRef": "391"
+  },
+  {
+    "IdRegAsientoDiario": "2226",
+    "NºAsiento": "167",
+    "FechaAsientoDiario": "12/21/09 10:39:10",
+    "Concepto": "Fras. 1529 M. Calvo",
+    "DocsRef": "392"
+  },
+  {
+    "IdRegAsientoDiario": "2227",
+    "NºAsiento": "168",
+    "FechaAsientoDiario": "12/21/09 13:08:11",
+    "Concepto": "Fra. 4109122098428 Gas Natural SUR SDG",
+    "DocsRef": "397"
+  },
+  {
+    "IdRegAsientoDiario": "2228",
+    "NºAsiento": "169",
+    "FechaAsientoDiario": "12/21/09 17:00:46",
+    "Concepto": "Fra. H/17 ValentinGarcimartin",
+    "DocsRef": "400"
+  },
+  {
+    "IdRegAsientoDiario": "2229",
+    "NºAsiento": "170",
+    "FechaAsientoDiario": "12/21/09 17:03:00",
+    "Concepto": "Fra. TA3EQ0286848 Telefonica",
+    "DocsRef": "401"
+  },
+  {
+    "IdRegAsientoDiario": "2230",
+    "NºAsiento": "171",
+    "FechaAsientoDiario": "12/22/09 09:11:25",
+    "Concepto": "Nomina Diciembre",
+    "DocsRef": "404"
+  },
+  {
+    "IdRegAsientoDiario": "2231",
+    "NºAsiento": "172",
+    "FechaAsientoDiario": "12/22/09 09:19:44",
+    "Concepto": "Nomina Diciembre",
+    "DocsRef": "405"
+  },
+  {
+    "IdRegAsientoDiario": "2232",
+    "NºAsiento": "173",
+    "FechaAsientoDiario": "12/30/09 16:51:16",
+    "Concepto": "Liquidacion IS 3P",
+    "DocsRef": "410"
+  },
+  {
+    "IdRegAsientoDiario": "2233",
+    "NºAsiento": "174",
+    "FechaAsientoDiario": "12/30/09 17:17:09",
+    "Concepto": "Fra. 29/09",
+    "DocsRef": "411"
+  },
+  {
+    "IdRegAsientoDiario": "2234",
+    "NºAsiento": "175",
+    "FechaAsientoDiario": "12/30/09 17:17:32",
+    "Concepto": "Salida a caja",
+    "DocsRef": "412"
+  },
+  {
+    "IdRegAsientoDiario": "2235",
+    "NºAsiento": "176",
+    "FechaAsientoDiario": "12/30/09 17:18:24",
+    "Concepto": "Comision mantenimiento",
+    "DocsRef": "413"
+  },
+  {
+    "IdRegAsientoDiario": "2236",
+    "NºAsiento": "177",
+    "FechaAsientoDiario": "01/07/10 09:51:46",
+    "Concepto": "Pago Seguros Sociales",
+    "DocsRef": "435"
+  },
+  {
+    "IdRegAsientoDiario": "2237",
+    "NºAsiento": "178",
+    "FechaAsientoDiario": "01/07/10 11:12:11",
+    "Concepto": "Fra. 02/10 InCiv",
+    "DocsRef": "436"
+  },
+  {
+    "IdRegAsientoDiario": "2238",
+    "NºAsiento": "179",
+    "FechaAsientoDiario": "01/07/10 11:14:03",
+    "Concepto": "Fra. 01/10 InCiv",
+    "DocsRef": "437"
+  },
+  {
+    "IdRegAsientoDiario": "2239",
+    "NºAsiento": "180",
+    "FechaAsientoDiario": "01/07/10 11:26:34",
+    "Concepto": "Deuda InCiv",
+    "DocsRef": "438"
+  },
+  {
+    "IdRegAsientoDiario": "2240",
+    "NºAsiento": "181",
+    "FechaAsientoDiario": "01/07/10 11:31:29",
+    "Concepto": "Fra. 05/2009 Ima2000",
+    "DocsRef": "439"
+  },
+  {
+    "IdRegAsientoDiario": "2241",
+    "NºAsiento": "182",
+    "FechaAsientoDiario": "01/07/10 11:35:56",
+    "Concepto": "Fra. 15 Excavaciones Ureta",
+    "DocsRef": "440"
+  },
+  {
+    "IdRegAsientoDiario": "2242",
+    "NºAsiento": "183",
+    "FechaAsientoDiario": "01/07/10 11:42:15",
+    "Concepto": "Fra. 291046 Gruas Fraile II",
+    "DocsRef": "441"
+  },
+  {
+    "IdRegAsientoDiario": "2243",
+    "NºAsiento": "184",
+    "FechaAsientoDiario": "01/07/10 11:54:25",
+    "Concepto": "Amortizacion 2009",
+    "DocsRef": "442"
+  },
+  {
+    "IdRegAsientoDiario": "2244",
+    "NºAsiento": "185",
+    "FechaAsientoDiario": "01/07/10 12:37:02",
+    "Concepto": "Impuesto sociedades 2009",
+    "DocsRef": "443"
+  },
+  {
+    "IdRegAsientoDiario": "2245",
+    "NºAsiento": "186",
+    "FechaAsientoDiario": "01/07/10 13:37:41",
+    "Concepto": "Fra.1441 Zelari",
+    "DocsRef": "448"
+  },
+  {
+    "IdRegAsientoDiario": "2246",
+    "NºAsiento": "187",
+    "FechaAsientoDiario": "01/07/10 19:41:40",
+    "Concepto": "Liquidacion IVA 4T",
+    "DocsRef": "455"
+  },
+  {
+    "IdRegAsientoDiario": "2247",
+    "NºAsiento": "188",
+    "FechaAsientoDiario": "01/08/10 13:24:40",
+    "Concepto": "Fra. 000193 Centure",
+    "DocsRef": "461"
+  },
+  {
+    "IdRegAsientoDiario": "2248",
+    "NºAsiento": "189",
+    "FechaAsientoDiario": "01/08/10 13:28:37",
+    "Concepto": "Fra. 09GU-0118 Arno",
+    "DocsRef": "462"
+  },
+  {
+    "IdRegAsientoDiario": "2249",
+    "NºAsiento": "190",
+    "FechaAsientoDiario": "01/12/10 16:54:36",
+    "Concepto": "Fra. 12/2009 Consalce",
+    "DocsRef": "467"
+  },
+  {
+    "IdRegAsientoDiario": "2250",
+    "NºAsiento": "191",
+    "FechaAsientoDiario": "01/13/10 11:14:17",
+    "Concepto": "Fra. TA3ER0288501 Telefonica",
+    "DocsRef": "474"
+  },
+  {
+    "IdRegAsientoDiario": "2251",
+    "NºAsiento": "192",
+    "FechaAsientoDiario": "01/19/10 13:16:10",
+    "Concepto": "Fra. H/18 ValentinGarcimartin",
+    "DocsRef": "487"
+  },
+  {
+    "IdRegAsientoDiario": "2252",
+    "NºAsiento": "193",
+    "FechaAsientoDiario": "01/19/10 15:35:25",
+    "Concepto": "Fra. 4110011068381 Gas Natural SUR SDG",
+    "DocsRef": "490"
+  },
+  {
+    "IdRegAsientoDiario": "2253",
+    "NºAsiento": "194",
+    "FechaAsientoDiario": "01/19/10 15:41:57",
+    "Concepto": "Fra. 20100113010499206 Iberdrola",
+    "DocsRef": "491"
+  },
+  {
+    "IdRegAsientoDiario": "2254",
+    "NºAsiento": "195",
+    "FechaAsientoDiario": "01/21/10 09:25:46",
+    "Concepto": "Fra.  04/09 InCiv",
+    "DocsRef": "493"
+  },
+  {
+    "IdRegAsientoDiario": "2255",
+    "NºAsiento": "196",
+    "FechaAsientoDiario": "01/21/10 09:28:26",
+    "Concepto": "Fra. 30/09  Ima2000",
+    "DocsRef": "494"
+  },
+  {
+    "IdRegAsientoDiario": "2256",
+    "NºAsiento": "197",
+    "FechaAsientoDiario": "01/26/10 17:39:59",
+    "Concepto": "Fra.1441 Zelari",
+    "DocsRef": "507"
+  },
+  {
+    "IdRegAsientoDiario": "2257",
+    "NºAsiento": "198",
+    "FechaAsientoDiario": "01/26/10 17:42:20",
+    "Concepto": "Liquidacion IRPF 4T",
+    "DocsRef": "508"
+  },
+  {
+    "IdRegAsientoDiario": "2258",
+    "NºAsiento": "199",
+    "FechaAsientoDiario": "01/26/10 17:47:06",
+    "Concepto": "Fra. 100380447 Canal",
+    "DocsRef": "509"
+  },
+  {
+    "IdRegAsientoDiario": "2259",
+    "NºAsiento": "200",
+    "FechaAsientoDiario": "01/26/10 17:51:37",
+    "Concepto": "Pago Tasa Certif. 5 Alcorlo",
+    "DocsRef": "510"
+  },
+  {
+    "IdRegAsientoDiario": "2260",
+    "NºAsiento": "201",
+    "FechaAsientoDiario": "02/01/10 17:32:18",
+    "Concepto": "Fra. 03/10 CHT",
+    "DocsRef": "520"
+  },
+  {
+    "IdRegAsientoDiario": "2261",
+    "NºAsiento": "202",
+    "FechaAsientoDiario": "02/01/10 17:41:16",
+    "Concepto": "Fra.  5613201068000009 Trabit",
+    "DocsRef": "521"
+  },
+  {
+    "IdRegAsientoDiario": "2262",
+    "NºAsiento": "203",
+    "FechaAsientoDiario": "02/02/10 18:43:19",
+    "Concepto": "Traspaso cuentas",
+    "DocsRef": "526"
+  },
+  {
+    "IdRegAsientoDiario": "2263",
+    "NºAsiento": "204",
+    "FechaAsientoDiario": "02/02/10 18:44:55",
+    "Concepto": "Comision mantenimiento",
+    "DocsRef": "527"
+  },
+  {
+    "IdRegAsientoDiario": "2264",
+    "NºAsiento": "205",
+    "FechaAsientoDiario": "02/02/10 18:50:23",
+    "Concepto": "Transferencia a InCiv",
+    "DocsRef": "528"
+  },
+  {
+    "IdRegAsientoDiario": "2265",
+    "NºAsiento": "206",
+    "FechaAsientoDiario": "02/02/10 18:52:42",
+    "Concepto": "Traspaso  cuentas",
+    "DocsRef": "529"
+  },
+  {
+    "IdRegAsientoDiario": "2266",
+    "NºAsiento": "207",
+    "FechaAsientoDiario": "02/02/10 18:56:05",
+    "Concepto": "Gastos apertura contrato",
+    "DocsRef": "530"
+  },
+  {
+    "IdRegAsientoDiario": "2267",
+    "NºAsiento": "208",
+    "FechaAsientoDiario": "02/02/10 18:59:36",
+    "Concepto": "Liquidacion cuenta",
+    "DocsRef": "531"
+  },
+  {
+    "IdRegAsientoDiario": "2268",
+    "NºAsiento": "209",
+    "FechaAsientoDiario": "02/02/10 19:05:29",
+    "Concepto": "Pastor Seguros Generales",
+    "DocsRef": "532"
+  },
+  {
+    "IdRegAsientoDiario": "2269",
+    "NºAsiento": "210",
+    "FechaAsientoDiario": "02/03/10 12:59:37",
+    "Concepto": "Pago Ima2000",
+    "DocsRef": "537"
+  },
+  {
+    "IdRegAsientoDiario": "2270",
+    "NºAsiento": "211",
+    "FechaAsientoDiario": "02/03/10 13:01:41",
+    "Concepto": "Pago Seguros Sociales",
+    "DocsRef": "538"
+  },
+  {
+    "IdRegAsientoDiario": "2271",
+    "NºAsiento": "212",
+    "FechaAsientoDiario": "02/03/10 16:01:43",
+    "Concepto": "reclasificacion deuda asociados",
+    "DocsRef": "543"
+  },
+  {
+    "IdRegAsientoDiario": "2272",
+    "NºAsiento": "213",
+    "FechaAsientoDiario": "02/04/10 10:17:30",
+    "Concepto": "Nomina Enero 2010",
+    "DocsRef": "548"
+  },
+  {
+    "IdRegAsientoDiario": "2273",
+    "NºAsiento": "214",
+    "FechaAsientoDiario": "02/04/10 18:06:56",
+    "Concepto": "Nomina Luis Enero 2010",
+    "DocsRef": "551"
+  },
+  {
+    "IdRegAsientoDiario": "2274",
+    "NºAsiento": "215",
+    "FechaAsientoDiario": "02/04/10 18:14:40",
+    "Concepto": "Pago socios",
+    "DocsRef": "552"
+  },
+  {
+    "IdRegAsientoDiario": "2275",
+    "NºAsiento": "216",
+    "FechaAsientoDiario": "02/04/10 18:18:00",
+    "Concepto": "Comision mantenimiento",
+    "DocsRef": "553"
+  },
+  {
+    "IdRegAsientoDiario": "2276",
+    "NºAsiento": "217",
+    "FechaAsientoDiario": "02/04/10 18:20:47",
+    "Concepto": "Pago vencimientos de InCiv",
+    "DocsRef": "554"
+  },
+  {
+    "IdRegAsientoDiario": "2277",
+    "NºAsiento": "218",
+    "FechaAsientoDiario": "02/08/10 15:54:26",
+    "Concepto": "Fra. 10/000180 Proteccion Sin Limites",
+    "DocsRef": "557"
+  },
+  {
+    "IdRegAsientoDiario": "2278",
+    "NºAsiento": "219",
+    "FechaAsientoDiario": "02/08/10 15:58:40",
+    "Concepto": "Fra. 30385280 Cepsa",
+    "DocsRef": "558"
+  },
+  {
+    "IdRegAsientoDiario": "2279",
+    "NºAsiento": "220",
+    "FechaAsientoDiario": "02/08/10 16:02:46",
+    "Concepto": "Pago fianza fualsa alquiler furgoneta",
+    "DocsRef": "559"
+  },
+  {
+    "IdRegAsientoDiario": "2280",
+    "NºAsiento": "221",
+    "FechaAsientoDiario": "02/09/10 15:43:23",
+    "Concepto": "Pago fianza fualsa alquiler furgoneta",
+    "DocsRef": "563"
+  },
+  {
+    "IdRegAsientoDiario": "2281",
+    "NºAsiento": "222",
+    "FechaAsientoDiario": "02/10/10 18:09:51",
+    "Concepto": "Fra. H/19 ValentinGarcimartin",
+    "DocsRef": "566"
+  },
+  {
+    "IdRegAsientoDiario": "2282",
+    "NºAsiento": "223",
+    "FechaAsientoDiario": "02/10/10 18:20:14",
+    "Concepto": "Fra. C00077 Pablo Nava Lopez",
+    "DocsRef": "567"
+  },
+  {
+    "IdRegAsientoDiario": "2283",
+    "NºAsiento": "224",
+    "FechaAsientoDiario": "02/11/10 16:17:49",
+    "Concepto": "Fra. 10/000191 Proteccion Sin Limites",
+    "DocsRef": "570"
+  },
+  {
+    "IdRegAsientoDiario": "2284",
+    "NºAsiento": "225",
+    "FechaAsientoDiario": "02/15/10 10:39:21",
+    "Concepto": "Fra. 034460/D/10/000382 Repsol",
+    "DocsRef": "575"
+  },
+  {
+    "IdRegAsientoDiario": "2285",
+    "NºAsiento": "226",
+    "FechaAsientoDiario": "02/15/10 10:42:08",
+    "Concepto": "Fra. 034460/D/10/000360 Repsol",
+    "DocsRef": "576"
+  },
+  {
+    "IdRegAsientoDiario": "2286",
+    "NºAsiento": "227",
+    "FechaAsientoDiario": "02/15/10 10:43:43",
+    "Concepto": "Fra. 10.000.132 Proin",
+    "DocsRef": "577"
+  },
+  {
+    "IdRegAsientoDiario": "2287",
+    "NºAsiento": "227",
+    "FechaAsientoDiario": "02/15/10 10:45:40",
+    "Concepto": "Fra. 60168F1000000365 BP",
+    "DocsRef": "578"
+  },
+  {
+    "IdRegAsientoDiario": "2288",
+    "NºAsiento": "229",
+    "FechaAsientoDiario": "02/15/10 10:50:03",
+    "Concepto": "Fra. 1993 Posada Francisco Perez",
+    "DocsRef": "579"
+  },
+  {
+    "IdRegAsientoDiario": "2289",
+    "NºAsiento": "230",
+    "FechaAsientoDiario": "02/15/10 10:53:07",
+    "Concepto": "Fra. 52721-52694 Rest. Goyo",
+    "DocsRef": "580"
+  },
+  {
+    "IdRegAsientoDiario": "2290",
+    "NºAsiento": "231",
+    "FechaAsientoDiario": "02/15/10 10:55:41",
+    "Concepto": "Fra. 809961 La Esquinita",
+    "DocsRef": "581"
+  },
+  {
+    "IdRegAsientoDiario": "2291",
+    "NºAsiento": "232",
+    "FechaAsientoDiario": "02/17/10 11:42:36",
+    "Concepto": "Fra. 01100211020600 Gas Natural SUR SDG",
+    "DocsRef": "584"
+  },
+  {
+    "IdRegAsientoDiario": "2292",
+    "NºAsiento": "233",
+    "FechaAsientoDiario": "02/17/10 11:46:40",
+    "Concepto": "Fra. TA3ES0291464 Telefonica",
+    "DocsRef": "585"
+  },
+  {
+    "IdRegAsientoDiario": "2293",
+    "NºAsiento": "234",
+    "FechaAsientoDiario": "02/18/10 17:10:48",
+    "Concepto": "Fra. Enero Credito y Caución",
+    "DocsRef": "588"
+  },
+  {
+    "IdRegAsientoDiario": "2294",
+    "NºAsiento": "235",
+    "FechaAsientoDiario": "02/18/10 17:14:52",
+    "Concepto": "Pago cancelacion leasing  InCiv",
+    "DocsRef": "589"
+  },
+  {
+    "IdRegAsientoDiario": "2295",
+    "NºAsiento": "236",
+    "FechaAsientoDiario": "02/22/10 15:35:01",
+    "Concepto": "Fra. 52901-52710 Rest. Goyo",
+    "DocsRef": "594"
+  },
+  {
+    "IdRegAsientoDiario": "2296",
+    "NºAsiento": "237",
+    "FechaAsientoDiario": "02/22/10 15:37:24",
+    "Concepto": "Fra. 19028032 Bar España",
+    "DocsRef": "595"
+  },
+  {
+    "IdRegAsientoDiario": "2297",
+    "NºAsiento": "238",
+    "FechaAsientoDiario": "02/22/10 15:40:29",
+    "Concepto": "Fra. 151589 BP",
+    "DocsRef": "596"
+  },
+  {
+    "IdRegAsientoDiario": "2298",
+    "NºAsiento": "239",
+    "FechaAsientoDiario": "02/22/10 15:47:11",
+    "Concepto": "Fra. 809961 La Esquinita",
+    "DocsRef": "597"
+  },
+  {
+    "IdRegAsientoDiario": "2299",
+    "NºAsiento": "240",
+    "FechaAsientoDiario": "02/22/10 15:54:01",
+    "Concepto": "Fra. 1994 Posada Francisco Perez",
+    "DocsRef": "598"
+  },
+  {
+    "IdRegAsientoDiario": "2300",
+    "NºAsiento": "241",
+    "FechaAsientoDiario": "02/22/10 15:55:43",
+    "Concepto": "Fra. 7217 La Boteria",
+    "DocsRef": "599"
+  },
+  {
+    "IdRegAsientoDiario": "2301",
+    "NºAsiento": "242",
+    "FechaAsientoDiario": "02/22/10 15:58:52",
+    "Concepto": "Fra. 2122-2229 El Llagaron",
+    "DocsRef": "600"
+  },
+  {
+    "IdRegAsientoDiario": "2302",
+    "NºAsiento": "243",
+    "FechaAsientoDiario": "02/22/10 16:01:19",
+    "Concepto": "Fra. 003500-000379 Repsol",
+    "DocsRef": "601"
+  },
+  {
+    "IdRegAsientoDiario": "2303",
+    "NºAsiento": "244",
+    "FechaAsientoDiario": "02/22/10 16:04:46",
+    "Concepto": "Fra. 000447-000449 Repsol",
+    "DocsRef": "602"
+  },
+  {
+    "IdRegAsientoDiario": "2304",
+    "NºAsiento": "245",
+    "FechaAsientoDiario": "02/22/10 16:07:34",
+    "Concepto": "Fra. 2122T-2229T El Llagaron",
+    "DocsRef": "603"
+  },
+  {
+    "IdRegAsientoDiario": "2305",
+    "NºAsiento": "246",
+    "FechaAsientoDiario": "02/22/10 16:09:49",
+    "Concepto": "Fra. 27050800 Cepsa",
+    "DocsRef": "604"
+  },
+  {
+    "IdRegAsientoDiario": "2306",
+    "NºAsiento": "247",
+    "FechaAsientoDiario": "02/22/10 16:12:27",
+    "Concepto": "Fra. 809961 La Esquinita",
+    "DocsRef": "605"
+  },
+  {
+    "IdRegAsientoDiario": "2307",
+    "NºAsiento": "248",
+    "FechaAsientoDiario": "02/22/10 16:14:10",
+    "Concepto": "Fra. 7218 La Boteria",
+    "DocsRef": "606"
+  },
+  {
+    "IdRegAsientoDiario": "2308",
+    "NºAsiento": "249",
+    "FechaAsientoDiario": "02/22/10 16:15:17",
+    "Concepto": "Fra. 52860-52902-52717 Rest. Goyo",
+    "DocsRef": "607"
+  },
+  {
+    "IdRegAsientoDiario": "2309",
+    "NºAsiento": "250",
+    "FechaAsientoDiario": "02/25/10 16:45:37",
+    "Concepto": "Nomina Febrero Mangeles 2010",
+    "DocsRef": "613"
+  },
+  {
+    "IdRegAsientoDiario": "2310",
+    "NºAsiento": "251",
+    "FechaAsientoDiario": "02/25/10 16:46:41",
+    "Concepto": "Nomina Febrero Luis 2010",
+    "DocsRef": "614"
+  },
+  {
+    "IdRegAsientoDiario": "2311",
+    "NºAsiento": "252",
+    "FechaAsientoDiario": "02/25/10 16:51:29",
+    "Concepto": "Nomina Febrero Jesus 2010",
+    "DocsRef": "615"
+  },
+  {
+    "IdRegAsientoDiario": "2312",
+    "NºAsiento": "253",
+    "FechaAsientoDiario": "02/25/10 16:52:30",
+    "Concepto": "Nomina Febrero Antonio 2010",
+    "DocsRef": "616"
+  },
+  {
+    "IdRegAsientoDiario": "2313",
+    "NºAsiento": "254",
+    "FechaAsientoDiario": "03/01/10 16:26:22",
+    "Concepto": "Fra. 53035-53016-53036-53037 Rest. Goyo",
+    "DocsRef": "621"
+  },
+  {
+    "IdRegAsientoDiario": "2314",
+    "NºAsiento": "255",
+    "FechaAsientoDiario": "03/01/10 16:30:02",
+    "Concepto": "Fra. 7226 La Boteria",
+    "DocsRef": "622"
+  },
+  {
+    "IdRegAsientoDiario": "2315",
+    "NºAsiento": "256",
+    "FechaAsientoDiario": "03/01/10 16:32:13",
+    "Concepto": "Fra. 809961 La Esquinita",
+    "DocsRef": "623"
+  },
+  {
+    "IdRegAsientoDiario": "2316",
+    "NºAsiento": "257",
+    "FechaAsientoDiario": "03/01/10 16:35:35",
+    "Concepto": "Fra. 19028032 Bar España",
+    "DocsRef": "624"
+  },
+  {
+    "IdRegAsientoDiario": "2317",
+    "NºAsiento": "258",
+    "FechaAsientoDiario": "03/01/10 16:36:36",
+    "Concepto": "Fra. 1107 La Perla",
+    "DocsRef": "625"
+  },
+  {
+    "IdRegAsientoDiario": "2318",
+    "NºAsiento": "259",
+    "FechaAsientoDiario": "03/01/10 16:38:40",
+    "Concepto": "Fra. 000485-000499 Repsol",
+    "DocsRef": "626"
+  },
+  {
+    "IdRegAsientoDiario": "2319",
+    "NºAsiento": "260",
+    "FechaAsientoDiario": "03/01/10 16:43:05",
+    "Concepto": "Fra. 000126-000478-000512 Repsol",
+    "DocsRef": "627"
+  },
+  {
+    "IdRegAsientoDiario": "2320",
+    "NºAsiento": "261",
+    "FechaAsientoDiario": "03/01/10 16:46:29",
+    "Concepto": "Fra. F1T34 La Boteria",
+    "DocsRef": "628"
+  },
+  {
+    "IdRegAsientoDiario": "2321",
+    "NºAsiento": "262",
+    "FechaAsientoDiario": "03/01/10 16:48:37",
+    "Concepto": "Fra. 809961 La Esquinita",
+    "DocsRef": "629"
+  },
+  {
+    "IdRegAsientoDiario": "2322",
+    "NºAsiento": "263",
+    "FechaAsientoDiario": "03/01/10 16:49:51",
+    "Concepto": "Fra. 53039-53017-53038-53001 Rest. Goyo",
+    "DocsRef": "630"
+  },
+  {
+    "IdRegAsientoDiario": "2323",
+    "NºAsiento": "264",
+    "FechaAsientoDiario": "03/04/10 16:34:18",
+    "Concepto": "Fra. Febrero Credito y Caución",
+    "DocsRef": "633"
+  },
+  {
+    "IdRegAsientoDiario": "2324",
+    "NºAsiento": "265",
+    "FechaAsientoDiario": "03/04/10 16:38:35",
+    "Concepto": "Fra. 2010002131 Prefabri",
+    "DocsRef": "634"
+  },
+  {
+    "IdRegAsientoDiario": "2325",
+    "NºAsiento": "266",
+    "FechaAsientoDiario": "03/09/10 16:55:05",
+    "Concepto": "Seguro TRC Estribo Puente Buendia",
+    "DocsRef": "644"
+  },
+  {
+    "IdRegAsientoDiario": "2326",
+    "NºAsiento": "267",
+    "FechaAsientoDiario": "03/09/10 16:59:07",
+    "Concepto": "Pago Seguros Sociales",
+    "DocsRef": "645"
+  },
+  {
+    "IdRegAsientoDiario": "2327",
+    "NºAsiento": "268",
+    "FechaAsientoDiario": "03/09/10 17:02:36",
+    "Concepto": "Fra. E10018067 Fualsa",
+    "DocsRef": "646"
+  },
+  {
+    "IdRegAsientoDiario": "2328",
+    "NºAsiento": "269",
+    "FechaAsientoDiario": "03/09/10 17:06:54",
+    "Concepto": "Fra. 14 Hicamfer",
+    "DocsRef": "647"
+  },
+  {
+    "IdRegAsientoDiario": "2329",
+    "NºAsiento": "270",
+    "FechaAsientoDiario": "03/09/10 17:10:45",
+    "Concepto": "Fra. 10 000112 Lopez Santos",
+    "DocsRef": "648"
+  },
+  {
+    "IdRegAsientoDiario": "2330",
+    "NºAsiento": "271",
+    "FechaAsientoDiario": "03/09/10 17:30:25",
+    "Concepto": "Fra. 09GU-0113 Arno",
+    "DocsRef": "651"
+  },
+  {
+    "IdRegAsientoDiario": "2331",
+    "NºAsiento": "272",
+    "FechaAsientoDiario": "03/09/10 19:22:53",
+    "Concepto": "Fra. 146016027 Rest. Goyo",
+    "DocsRef": "654"
+  },
+  {
+    "IdRegAsientoDiario": "2332",
+    "NºAsiento": "273",
+    "FechaAsientoDiario": "03/09/10 19:26:11",
+    "Concepto": "Fra. 278126A Multipetroleos",
+    "DocsRef": "655"
+  },
+  {
+    "IdRegAsientoDiario": "2333",
+    "NºAsiento": "274",
+    "FechaAsientoDiario": "03/09/10 19:30:11",
+    "Concepto": "Fra. 53015-53159-53180-53191 Rest. Goyo",
+    "DocsRef": "656"
+  },
+  {
+    "IdRegAsientoDiario": "2334",
+    "NºAsiento": "275",
+    "FechaAsientoDiario": "03/09/10 19:36:34",
+    "Concepto": "Fra. 034460/D/10/000597 Repsol",
+    "DocsRef": "657"
+  },
+  {
+    "IdRegAsientoDiario": "2335",
+    "NºAsiento": "276",
+    "FechaAsientoDiario": "03/09/10 19:38:23",
+    "Concepto": "Fra. 19213545 F. Benito",
+    "DocsRef": "658"
+  },
+  {
+    "IdRegAsientoDiario": "2336",
+    "NºAsiento": "277",
+    "FechaAsientoDiario": "03/09/10 19:40:55",
+    "Concepto": "Fra. 7247 La Boteria",
+    "DocsRef": "659"
+  },
+  {
+    "IdRegAsientoDiario": "2337",
+    "NºAsiento": "278",
+    "FechaAsientoDiario": "03/09/10 19:42:23",
+    "Concepto": "Fra. 809961 La Esquinita",
+    "DocsRef": "660"
+  },
+  {
+    "IdRegAsientoDiario": "2338",
+    "NºAsiento": "279",
+    "FechaAsientoDiario": "03/09/10 19:44:21",
+    "Concepto": "Fra. A/0/18236 ES Miguel Esteban",
+    "DocsRef": "661"
+  },
+  {
+    "IdRegAsientoDiario": "2339",
+    "NºAsiento": "280",
+    "FechaAsientoDiario": "03/09/10 19:47:02",
+    "Concepto": "Fra. 53204-53192-53158 Rest. Goyo",
+    "DocsRef": "662"
+  },
+  {
+    "IdRegAsientoDiario": "2340",
+    "NºAsiento": "281",
+    "FechaAsientoDiario": "03/09/10 19:52:30",
+    "Concepto": "Fra. 002498-000584-000580-000568 Repsol",
+    "DocsRef": "663"
+  },
+  {
+    "IdRegAsientoDiario": "2341",
+    "NºAsiento": "282",
+    "FechaAsientoDiario": "03/09/10 19:56:07",
+    "Concepto": "Fra. 100117 F. Benito",
+    "DocsRef": "664"
+  },
+  {
+    "IdRegAsientoDiario": "2342",
+    "NºAsiento": "283",
+    "FechaAsientoDiario": "03/09/10 19:56:26",
+    "Concepto": "Fra. 60168F1000000630 BP",
+    "DocsRef": "665"
+  },
+  {
+    "IdRegAsientoDiario": "2343",
+    "NºAsiento": "284",
+    "FechaAsientoDiario": "03/09/10 20:00:36",
+    "Concepto": "Fra. 7054 La Boteria",
+    "DocsRef": "666"
+  },
+  {
+    "IdRegAsientoDiario": "2344",
+    "NºAsiento": "285",
+    "FechaAsientoDiario": "03/09/10 20:03:29",
+    "Concepto": "Fra. 53157-53181 Rest. Goyo",
+    "DocsRef": "667"
+  },
+  {
+    "IdRegAsientoDiario": "2345",
+    "NºAsiento": "286",
+    "FechaAsientoDiario": "03/10/10 12:02:38",
+    "Concepto": "Seguro RC Mapfre",
+    "DocsRef": "670"
+  },
+  {
+    "IdRegAsientoDiario": "2346",
+    "NºAsiento": "287",
+    "FechaAsientoDiario": "03/10/10 12:26:35",
+    "Concepto": "Cobro socios",
+    "DocsRef": "671"
+  },
+  {
+    "IdRegAsientoDiario": "2347",
+    "NºAsiento": "288",
+    "FechaAsientoDiario": "03/10/10 12:33:17",
+    "Concepto": "Fra. H/20 ValentinGarcimartin",
+    "DocsRef": "672"
+  },
+  {
+    "IdRegAsientoDiario": "2348",
+    "NºAsiento": "289",
+    "FechaAsientoDiario": "03/16/10 10:28:34",
+    "Concepto": "Fra. 01100310545111 Gas Natural SUR SDG",
+    "DocsRef": "679"
+  },
+  {
+    "IdRegAsientoDiario": "2349",
+    "NºAsiento": "290",
+    "FechaAsientoDiario": "03/16/10 10:34:42",
+    "Concepto": "Fra. 20100308010579338 Iberdrola",
+    "DocsRef": "680"
+  },
+  {
+    "IdRegAsientoDiario": "2350",
+    "NºAsiento": "291",
+    "FechaAsientoDiario": "03/16/10 11:22:09",
+    "Concepto": "Fra. Varias Rest. Goyo",
+    "DocsRef": "683"
+  },
+  {
+    "IdRegAsientoDiario": "2351",
+    "NºAsiento": "292",
+    "FechaAsientoDiario": "03/16/10 11:31:29",
+    "Concepto": "Fra. 000675-000649-000659-000631-000642 Repsol",
+    "DocsRef": "684"
+  },
+  {
+    "IdRegAsientoDiario": "2352",
+    "NºAsiento": "293",
+    "FechaAsientoDiario": "03/16/10 11:38:29",
+    "Concepto": "Fra. 1049-1046-1043-1010-1016 Alcasum",
+    "DocsRef": "685"
+  },
+  {
+    "IdRegAsientoDiario": "2353",
+    "NºAsiento": "294",
+    "FechaAsientoDiario": "03/16/10 11:44:24",
+    "Concepto": "Fra. Varias La Esquinita",
+    "DocsRef": "686"
+  },
+  {
+    "IdRegAsientoDiario": "2354",
+    "NºAsiento": "295",
+    "FechaAsientoDiario": "03/16/10 11:46:59",
+    "Concepto": "Fra. Varias La Boteria",
+    "DocsRef": "687"
+  },
+  {
+    "IdRegAsientoDiario": "2355",
+    "NºAsiento": "296",
+    "FechaAsientoDiario": "03/16/10 11:55:06",
+    "Concepto": "Fra. A/0/18318 ES Miguel Esteban",
+    "DocsRef": "688"
+  },
+  {
+    "IdRegAsientoDiario": "2356",
+    "NºAsiento": "297",
+    "FechaAsientoDiario": "03/16/10 11:57:35",
+    "Concepto": "Fra. 81584470 Cepsa",
+    "DocsRef": "689"
+  },
+  {
+    "IdRegAsientoDiario": "2357",
+    "NºAsiento": "298",
+    "FechaAsientoDiario": "03/18/10 11:08:38",
+    "Concepto": "Fra. 101708292 Canal",
+    "DocsRef": "692"
+  },
+  {
+    "IdRegAsientoDiario": "2358",
+    "NºAsiento": "299",
+    "FechaAsientoDiario": "03/18/10 11:11:30",
+    "Concepto": "Fra. TA3ET0294893 Telefonica",
+    "DocsRef": "693"
+  },
+  {
+    "IdRegAsientoDiario": "2359",
+    "NºAsiento": "300",
+    "FechaAsientoDiario": "03/18/10 11:16:38",
+    "Concepto": "Fra. 014/03 Cimentalia",
+    "DocsRef": "694"
+  },
+  {
+    "IdRegAsientoDiario": "2360",
+    "NºAsiento": "301",
+    "FechaAsientoDiario": "03/22/10 16:21:06",
+    "Concepto": "Fra. 201003-00047 Iberinform",
+    "DocsRef": "699"
+  },
+  {
+    "IdRegAsientoDiario": "2361",
+    "NºAsiento": "302",
+    "FechaAsientoDiario": "03/22/10 16:24:26",
+    "Concepto": "Fra. 201003-00048 Iberinform",
+    "DocsRef": "700"
+  },
+  {
+    "IdRegAsientoDiario": "2362",
+    "NºAsiento": "303",
+    "FechaAsientoDiario": "03/22/10 16:29:17",
+    "Concepto": "Fra. 000743-000727-000755-000777 Repsol",
+    "DocsRef": "701"
+  },
+  {
+    "IdRegAsientoDiario": "2363",
+    "NºAsiento": "304",
+    "FechaAsientoDiario": "03/22/10 16:33:28",
+    "Concepto": "Fra. 003862/D/10/003480 Campsa",
+    "DocsRef": "702"
+  },
+  {
+    "IdRegAsientoDiario": "2364",
+    "NºAsiento": "305",
+    "FechaAsientoDiario": "03/22/10 16:39:36",
+    "Concepto": "Fra. Varias Rest. Goyo",
+    "DocsRef": "703"
+  },
+  {
+    "IdRegAsientoDiario": "2365",
+    "NºAsiento": "306",
+    "FechaAsientoDiario": "03/22/10 16:42:02",
+    "Concepto": "Fra. A/0/18372 ES Miguel Esteban",
+    "DocsRef": "704"
+  },
+  {
+    "IdRegAsientoDiario": "2366",
+    "NºAsiento": "307",
+    "FechaAsientoDiario": "03/22/10 16:44:36",
+    "Concepto": "Fra. 7186-7188 La Boteria",
+    "DocsRef": "705"
+  },
+  {
+    "IdRegAsientoDiario": "2367",
+    "NºAsiento": "308",
+    "FechaAsientoDiario": "03/22/10 16:47:35",
+    "Concepto": "Fra. Varias La Esquinita",
+    "DocsRef": "706"
+  },
+  {
+    "IdRegAsientoDiario": "2368",
+    "NºAsiento": "309",
+    "FechaAsientoDiario": "03/22/10 16:49:42",
+    "Concepto": "Fra. 010-1057 Alcasum",
+    "DocsRef": "707"
+  },
+  {
+    "IdRegAsientoDiario": "2369",
+    "NºAsiento": "310",
+    "FechaAsientoDiario": "03/26/10 10:22:05",
+    "Concepto": "Fra. 19/2010 Jose M Cuenca",
+    "DocsRef": "711"
+  },
+  {
+    "IdRegAsientoDiario": "2370",
+    "NºAsiento": "311",
+    "FechaAsientoDiario": "03/30/10 16:21:42",
+    "Concepto": "Fra. Varias La Esquinita",
+    "DocsRef": "716"
+  },
+  {
+    "IdRegAsientoDiario": "2371",
+    "NºAsiento": "312",
+    "FechaAsientoDiario": "03/30/10 16:36:51",
+    "Concepto": "Fra. 7299-7300 La Boteria",
+    "DocsRef": "717"
+  },
+  {
+    "IdRegAsientoDiario": "2372",
+    "NºAsiento": "313",
+    "FechaAsientoDiario": "03/30/10 16:39:21",
+    "Concepto": "Fra. Varias Rest. Goyo",
+    "DocsRef": "718"
+  },
+  {
+    "IdRegAsientoDiario": "2373",
+    "NºAsiento": "314",
+    "FechaAsientoDiario": "03/30/10 16:40:53",
+    "Concepto": "Fra. 003862/D/10/004109_4053 Campsa",
+    "DocsRef": "719"
+  },
+  {
+    "IdRegAsientoDiario": "2374",
+    "NºAsiento": "315",
+    "FechaAsientoDiario": "03/30/10 16:43:41",
+    "Concepto": "Fra. 000850-000866-000875 Repsol",
+    "DocsRef": "720"
+  },
+  {
+    "IdRegAsientoDiario": "2375",
+    "NºAsiento": "316",
+    "FechaAsientoDiario": "03/30/10 16:50:38",
+    "Concepto": "Fra. 20100256 Huprecesa",
+    "DocsRef": "721"
+  },
+  {
+    "IdRegAsientoDiario": "2376",
+    "NºAsiento": "317",
+    "FechaAsientoDiario": "03/30/10 17:00:23",
+    "Concepto": "Fra. 2100161 Gruas Fraile II",
+    "DocsRef": "722"
+  },
+  {
+    "IdRegAsientoDiario": "2377",
+    "NºAsiento": "318",
+    "FechaAsientoDiario": "04/05/10 11:55:06",
+    "Concepto": "Fra. 1_2010 Obiur",
+    "DocsRef": "726"
+  },
+  {
+    "IdRegAsientoDiario": "2378",
+    "NºAsiento": "319",
+    "FechaAsientoDiario": "04/05/10 12:12:38",
+    "Concepto": "Fra. Varias Rest. Goyo",
+    "DocsRef": "727"
+  },
+  {
+    "IdRegAsientoDiario": "2379",
+    "NºAsiento": "320",
+    "FechaAsientoDiario": "04/05/10 12:14:40",
+    "Concepto": "Fra. 000939-000952 Repsol",
+    "DocsRef": "728"
+  },
+  {
+    "IdRegAsientoDiario": "2380",
+    "NºAsiento": "321",
+    "FechaAsientoDiario": "04/05/10 12:18:03",
+    "Concepto": "Fra. 7331-7333 La Boteria",
+    "DocsRef": "729"
+  },
+  {
+    "IdRegAsientoDiario": "2381",
+    "NºAsiento": "322",
+    "FechaAsientoDiario": "04/05/10 12:23:45",
+    "Concepto": "Fra. Varias La Esquinita",
+    "DocsRef": "730"
+  },
+  {
+    "IdRegAsientoDiario": "2382",
+    "NºAsiento": "323",
+    "FechaAsientoDiario": "04/05/10 12:29:52",
+    "Concepto": "Fra. 010-4938 Alcasum",
+    "DocsRef": "731"
+  },
+  {
+    "IdRegAsientoDiario": "2383",
+    "NºAsiento": "324",
+    "FechaAsientoDiario": "04/05/10 12:38:17",
+    "Concepto": "Pago Tasa Certif. 7 Alcorlo",
+    "DocsRef": "732"
+  },
+  {
+    "IdRegAsientoDiario": "2384",
+    "NºAsiento": "325",
+    "FechaAsientoDiario": "04/05/10 12:40:07",
+    "Concepto": "Pago Tasa Camara Comercio IAE 2008",
+    "DocsRef": "733"
+  },
+  {
+    "IdRegAsientoDiario": "2385",
+    "NºAsiento": "326",
+    "FechaAsientoDiario": "04/05/10 12:43:39",
+    "Concepto": "Nomina Marzo Mangeles 2010",
+    "DocsRef": "734"
+  },
+  {
+    "IdRegAsientoDiario": "2386",
+    "NºAsiento": "327",
+    "FechaAsientoDiario": "04/05/10 12:44:36",
+    "Concepto": "Nomina Marzo Luis 2010",
+    "DocsRef": "735"
+  },
+  {
+    "IdRegAsientoDiario": "2387",
+    "NºAsiento": "328",
+    "FechaAsientoDiario": "04/05/10 12:49:22",
+    "Concepto": "Nomina Marzo Jesus 2010",
+    "DocsRef": "736"
+  },
+  {
+    "IdRegAsientoDiario": "2388",
+    "NºAsiento": "329",
+    "FechaAsientoDiario": "04/05/10 12:50:45",
+    "Concepto": "Nomina Marzo Antonio 2010",
+    "DocsRef": "737"
+  },
+  {
+    "IdRegAsientoDiario": "2389",
+    "NºAsiento": "330",
+    "FechaAsientoDiario": "04/06/10 10:43:55",
+    "Concepto": "Pago Seguros Sociales",
+    "DocsRef": "739"
+  },
+  {
+    "IdRegAsientoDiario": "2390",
+    "NºAsiento": "331",
+    "FechaAsientoDiario": "04/06/10 11:18:37",
+    "Concepto": "Fras consumos ValentinGarcimartin",
+    "DocsRef": "740"
+  },
+  {
+    "IdRegAsientoDiario": "2391",
+    "NºAsiento": "332",
+    "FechaAsientoDiario": "04/06/10 11:31:53",
+    "Concepto": "Cargo cobro servicios",
+    "DocsRef": "741"
+  },
+  {
+    "IdRegAsientoDiario": "2392",
+    "NºAsiento": "333",
+    "FechaAsientoDiario": "04/07/10 11:20:18",
+    "Concepto": "Fra.  5613201068000102 Trabit",
+    "DocsRef": "747"
+  },
+  {
+    "IdRegAsientoDiario": "2393",
+    "NºAsiento": "334",
+    "FechaAsientoDiario": "04/12/10 11:21:40",
+    "Concepto": "Fra. 04/10  Ima2000",
+    "DocsRef": "754"
+  },
+  {
+    "IdRegAsientoDiario": "2394",
+    "NºAsiento": "335",
+    "FechaAsientoDiario": "04/12/10 11:27:35",
+    "Concepto": "Liquidacion IVA 1T_2010",
+    "DocsRef": "755"
+  },
+  {
+    "IdRegAsientoDiario": "2395",
+    "NºAsiento": "336",
+    "FechaAsientoDiario": "04/13/10 10:22:57",
+    "Concepto": "Fra. E10028030 Fualsa",
+    "DocsRef": "762"
+  },
+  {
+    "IdRegAsientoDiario": "2396",
+    "NºAsiento": "337",
+    "FechaAsientoDiario": "04/13/10 10:25:44",
+    "Concepto": "Fra. 2010003146 Prefabri",
+    "DocsRef": "763"
+  },
+  {
+    "IdRegAsientoDiario": "2397",
+    "NºAsiento": "338",
+    "FechaAsientoDiario": "04/13/10 10:28:37",
+    "Concepto": "Fra. 10000757 Sedano",
+    "DocsRef": "764"
+  },
+  {
+    "IdRegAsientoDiario": "2398",
+    "NºAsiento": "339",
+    "FechaAsientoDiario": "04/13/10 10:33:13",
+    "Concepto": "Fra. 006707/D/10/003183 Repsol",
+    "DocsRef": "765"
+  },
+  {
+    "IdRegAsientoDiario": "2399",
+    "NºAsiento": "340",
+    "FechaAsientoDiario": "04/13/10 10:35:07",
+    "Concepto": "Fra. 60527-60528 ES. Hnos Navamuel",
+    "DocsRef": "766"
+  },
+  {
+    "IdRegAsientoDiario": "2400",
+    "NºAsiento": "341",
+    "FechaAsientoDiario": "04/13/10 10:38:02",
+    "Concepto": "Fra. Varias Rest. Goyo",
+    "DocsRef": "767"
+  },
+  {
+    "IdRegAsientoDiario": "2401",
+    "NºAsiento": "342",
+    "FechaAsientoDiario": "04/13/10 10:39:49",
+    "Concepto": "Fra. 4926-4927 Casla",
+    "DocsRef": "768"
+  },
+  {
+    "IdRegAsientoDiario": "2402",
+    "NºAsiento": "343",
+    "FechaAsientoDiario": "04/13/10 10:41:17",
+    "Concepto": "Fra. Varias Hnos. Chana",
+    "DocsRef": "769"
+  },
+  {
+    "IdRegAsientoDiario": "2403",
+    "NºAsiento": "344",
+    "FechaAsientoDiario": "04/13/10 10:43:40",
+    "Concepto": "Fra. A/0/18519 ES Miguel Esteban",
+    "DocsRef": "770"
+  },
+  {
+    "IdRegAsientoDiario": "2404",
+    "NºAsiento": "345",
+    "FechaAsientoDiario": "04/13/10 10:45:23",
+    "Concepto": "Fra. 56611830 Cepsa",
+    "DocsRef": "771"
+  },
+  {
+    "IdRegAsientoDiario": "2405",
+    "NºAsiento": "346",
+    "FechaAsientoDiario": "04/20/10 17:20:08",
+    "Concepto": "Fra. TA3HG0298121 Telefonica",
+    "DocsRef": "783"
+  },
+  {
+    "IdRegAsientoDiario": "2406",
+    "NºAsiento": "347",
+    "FechaAsientoDiario": "04/20/10 17:26:46",
+    "Concepto": "Fra. 2_2010 Obiur",
+    "DocsRef": "784"
+  },
+  {
+    "IdRegAsientoDiario": "2407",
+    "NºAsiento": "348",
+    "FechaAsientoDiario": "04/20/10 17:31:15",
+    "Concepto": "Fra. MO/177 Guadauto",
+    "DocsRef": "785"
+  },
+  {
+    "IdRegAsientoDiario": "2408",
+    "NºAsiento": "349",
+    "FechaAsientoDiario": "04/20/10 17:36:12",
+    "Concepto": "Fra. 034460/D/10/001158-001177 Repsol",
+    "DocsRef": "786"
+  },
+  {
+    "IdRegAsientoDiario": "2409",
+    "NºAsiento": "350",
+    "FechaAsientoDiario": "04/20/10 18:46:30",
+    "Concepto": "Fra. 005678/D/10/000270 Campsa",
+    "DocsRef": "787"
+  },
+  {
+    "IdRegAsientoDiario": "2410",
+    "NºAsiento": "351",
+    "FechaAsientoDiario": "04/20/10 18:50:55",
+    "Concepto": "Fra. 5945T El Llagaron",
+    "DocsRef": "788"
+  },
+  {
+    "IdRegAsientoDiario": "2411",
+    "NºAsiento": "352",
+    "FechaAsientoDiario": "04/20/10 18:54:17",
+    "Concepto": "Fra. 8119-8120 La Boteria",
+    "DocsRef": "789"
+  },
+  {
+    "IdRegAsientoDiario": "2412",
+    "NºAsiento": "353",
+    "FechaAsientoDiario": "04/20/10 18:58:24",
+    "Concepto": "Fra. Varias Rest. Goyo",
+    "DocsRef": "790"
+  },
+  {
+    "IdRegAsientoDiario": "2413",
+    "NºAsiento": "354",
+    "FechaAsientoDiario": "04/20/10 19:01:31",
+    "Concepto": "Fra. Varias La Esquinita",
+    "DocsRef": "791"
+  },
+  {
+    "IdRegAsientoDiario": "2414",
+    "NºAsiento": "355",
+    "FechaAsientoDiario": "04/20/10 19:03:51",
+    "Concepto": "Fra. 00034213-00034212 ES Sacedon",
+    "DocsRef": "792"
+  },
+  {
+    "IdRegAsientoDiario": "2415",
+    "NºAsiento": "356",
+    "FechaAsientoDiario": "04/20/10 19:07:37",
+    "Concepto": "Fra. 276  ES Hontanilla",
+    "DocsRef": "793"
+  },
+  {
+    "IdRegAsientoDiario": "2416",
+    "NºAsiento": "357",
+    "FechaAsientoDiario": "04/20/10 19:11:21",
+    "Concepto": "Fra. Varias R. Valladolid",
+    "DocsRef": "794"
+  },
+  {
+    "IdRegAsientoDiario": "2417",
+    "NºAsiento": "358",
+    "FechaAsientoDiario": "04/20/10 19:13:45",
+    "Concepto": "Fra. 23/10 Politol",
+    "DocsRef": "795"
+  },
+  {
+    "IdRegAsientoDiario": "2418",
+    "NºAsiento": "359",
+    "FechaAsientoDiario": "04/20/10 19:15:23",
+    "Concepto": "Fra. 4970 Canta",
+    "DocsRef": "796"
+  },
+  {
+    "IdRegAsientoDiario": "2419",
+    "NºAsiento": "360",
+    "FechaAsientoDiario": "04/26/10 10:53:18",
+    "Concepto": "Fra. 002491-001557-006761 Repsol",
+    "DocsRef": "799"
+  },
+  {
+    "IdRegAsientoDiario": "2420",
+    "NºAsiento": "361",
+    "FechaAsientoDiario": "04/26/10 11:00:09",
+    "Concepto": "Fra. Varias La Esquinita",
+    "DocsRef": "800"
+  },
+  {
+    "IdRegAsientoDiario": "2421",
+    "NºAsiento": "362",
+    "FechaAsientoDiario": "04/26/10 11:02:41",
+    "Concepto": "Fra. 8146-8147 La Boteria",
+    "DocsRef": "801"
+  },
+  {
+    "IdRegAsientoDiario": "2422",
+    "NºAsiento": "363",
+    "FechaAsientoDiario": "04/26/10 11:05:49",
+    "Concepto": "Fra. Varias Rest. Goyo",
+    "DocsRef": "802"
+  },
+  {
+    "IdRegAsientoDiario": "2423",
+    "NºAsiento": "364",
+    "FechaAsientoDiario": "04/26/10 11:07:31",
+    "Concepto": "Fra. A/0/18701 ES Miguel Esteban",
+    "DocsRef": "803"
+  },
+  {
+    "IdRegAsientoDiario": "2424",
+    "NºAsiento": "365",
+    "FechaAsientoDiario": "04/26/10 11:09:39",
+    "Concepto": "Fra. 180100006006 Explotacion EESS",
+    "DocsRef": "804"
+  },
+  {
+    "IdRegAsientoDiario": "2425",
+    "NºAsiento": "366",
+    "FechaAsientoDiario": "04/26/10 11:15:20",
+    "Concepto": "Fra. 1942 Fereteria Cezon",
+    "DocsRef": "805"
+  },
+  {
+    "IdRegAsientoDiario": "2426",
+    "NºAsiento": "367",
+    "FechaAsientoDiario": "04/26/10 11:23:32",
+    "Concepto": "Fra. 26440 Sumifer",
+    "DocsRef": "806"
+  },
+  {
+    "IdRegAsientoDiario": "2427",
+    "NºAsiento": "368",
+    "FechaAsientoDiario": "04/27/10 10:34:20",
+    "Concepto": "Fra. 01100410730239 Gas Natural SUR SDG",
+    "DocsRef": "811"
+  },
+  {
+    "IdRegAsientoDiario": "2428",
+    "NºAsiento": "369",
+    "FechaAsientoDiario": "04/27/10 10:38:40",
+    "Concepto": "Fra. 10000961 Sedano",
+    "DocsRef": "812"
+  },
+  {
+    "IdRegAsientoDiario": "2429",
+    "NºAsiento": "370",
+    "FechaAsientoDiario": "04/27/10 10:50:52",
+    "Concepto": "Fra. 10 000193 Lopez Santos",
+    "DocsRef": "813"
+  },
+  {
+    "IdRegAsientoDiario": "2430",
+    "NºAsiento": "371",
+    "FechaAsientoDiario": "04/28/10 15:54:43",
+    "Concepto": "Anticipo gastos",
+    "DocsRef": "818"
+  },
+  {
+    "IdRegAsientoDiario": "2431",
+    "NºAsiento": "372",
+    "FechaAsientoDiario": "04/28/10 16:11:15",
+    "Concepto": "Liquidacion IRPF 1T 2010",
+    "DocsRef": "819"
+  },
+  {
+    "IdRegAsientoDiario": "2432",
+    "NºAsiento": "373",
+    "FechaAsientoDiario": "04/28/10 16:15:00",
+    "Concepto": "Pago fraccionado IP 1P 2010",
+    "DocsRef": "820"
+  },
+  {
+    "IdRegAsientoDiario": "2433",
+    "NºAsiento": "374",
+    "FechaAsientoDiario": "04/28/10 16:21:50",
+    "Concepto": "Fra. 100580 Dywidag",
+    "DocsRef": "821"
+  },
+  {
+    "IdRegAsientoDiario": "2434",
+    "NºAsiento": "375",
+    "FechaAsientoDiario": "04/28/10 18:08:35",
+    "Concepto": "Liquidacion intereses ICO",
+    "DocsRef": "822"
+  },
+  {
+    "IdRegAsientoDiario": "2435",
+    "NºAsiento": "376",
+    "FechaAsientoDiario": "05/04/10 10:39:48",
+    "Concepto": "Fra. 034460/D/10/001335 Repsol",
+    "DocsRef": "835"
+  },
+  {
+    "IdRegAsientoDiario": "2436",
+    "NºAsiento": "377",
+    "FechaAsientoDiario": "05/04/10 10:42:14",
+    "Concepto": "Fra. 05/10 CHT",
+    "DocsRef": "836"
+  },
+  {
+    "IdRegAsientoDiario": "2437",
+    "NºAsiento": "378",
+    "FechaAsientoDiario": "05/04/10 10:44:17",
+    "Concepto": "Fra. 06/10 CHT",
+    "DocsRef": "837"
+  },
+  {
+    "IdRegAsientoDiario": "2438",
+    "NºAsiento": "379",
+    "FechaAsientoDiario": "05/04/10 11:45:41",
+    "Concepto": "Nomina Abril Jesus 2010",
+    "DocsRef": "842"
+  },
+  {
+    "IdRegAsientoDiario": "2439",
+    "NºAsiento": "380",
+    "FechaAsientoDiario": "05/04/10 11:46:59",
+    "Concepto": "Nomina Abril Luis 2010",
+    "DocsRef": "843"
+  },
+  {
+    "IdRegAsientoDiario": "2440",
+    "NºAsiento": "381",
+    "FechaAsientoDiario": "05/04/10 11:49:41",
+    "Concepto": "Nomina Abril Mangeles 2010",
+    "DocsRef": "844"
+  },
+  {
+    "IdRegAsientoDiario": "2441",
+    "NºAsiento": "382",
+    "FechaAsientoDiario": "05/05/10 10:44:42",
+    "Concepto": "Fra. TA3HH0299888 Telefonica",
+    "DocsRef": "849"
+  },
+  {
+    "IdRegAsientoDiario": "2442",
+    "NºAsiento": "383",
+    "FechaAsientoDiario": "05/05/10 10:47:13",
+    "Concepto": "Pago efecto Repsol InCiv",
+    "DocsRef": "850"
+  },
+  {
+    "IdRegAsientoDiario": "2443",
+    "NºAsiento": "384",
+    "FechaAsientoDiario": "05/05/10 17:53:34",
+    "Concepto": "Traspaso saldo cuenta",
+    "DocsRef": "851"
+  },
+  {
+    "IdRegAsientoDiario": "2444",
+    "NºAsiento": "385",
+    "FechaAsientoDiario": "05/10/10 10:23:33",
+    "Concepto": "Fra. E10037843 Fualsa",
+    "DocsRef": "854"
+  },
+  {
+    "IdRegAsientoDiario": "2445",
+    "NºAsiento": "386",
+    "FechaAsientoDiario": "05/10/10 10:36:41",
+    "Concepto": "Fra. 002201-001341-003649 Repsol",
+    "DocsRef": "855"
+  },
+  {
+    "IdRegAsientoDiario": "2446",
+    "NºAsiento": "387",
+    "FechaAsientoDiario": "05/10/10 10:42:33",
+    "Concepto": "Fra. 28710490 Cepsa",
+    "DocsRef": "856"
+  },
+  {
+    "IdRegAsientoDiario": "2447",
+    "NºAsiento": "388",
+    "FechaAsientoDiario": "05/10/10 10:44:49",
+    "Concepto": "Fra. 994-1008 Carburantes Higuera",
+    "DocsRef": "857"
+  },
+  {
+    "IdRegAsientoDiario": "2448",
+    "NºAsiento": "389",
+    "FechaAsientoDiario": "05/10/10 10:52:52",
+    "Concepto": "Fra. Varias Hernandez",
+    "DocsRef": "858"
+  },
+  {
+    "IdRegAsientoDiario": "2449",
+    "NºAsiento": "390",
+    "FechaAsientoDiario": "05/10/10 10:55:57",
+    "Concepto": "Fra. 02 Las Cupulas",
+    "DocsRef": "859"
+  },
+  {
+    "IdRegAsientoDiario": "2450",
+    "NºAsiento": "391",
+    "FechaAsientoDiario": "05/10/10 10:58:18",
+    "Concepto": "Fra. Varias Hotel Fregenal",
+    "DocsRef": "860"
+  },
+  {
+    "IdRegAsientoDiario": "2451",
+    "NºAsiento": "392",
+    "FechaAsientoDiario": "05/10/10 11:01:23",
+    "Concepto": "Fra. 0080008000099 Saras Energia",
+    "DocsRef": "861"
+  },
+  {
+    "IdRegAsientoDiario": "2452",
+    "NºAsiento": "393",
+    "FechaAsientoDiario": "05/10/10 11:06:26",
+    "Concepto": "Fra. 00014237101 AutoRes",
+    "DocsRef": "862"
+  },
+  {
+    "IdRegAsientoDiario": "2453",
+    "NºAsiento": "394",
+    "FechaAsientoDiario": "05/10/10 11:08:11",
+    "Concepto": "Recarga movil",
+    "DocsRef": "863"
+  },
+  {
+    "IdRegAsientoDiario": "2454",
+    "NºAsiento": "395",
+    "FechaAsientoDiario": "05/12/10 11:26:08",
+    "Concepto": "Fra. 195/10 AUZ",
+    "DocsRef": "868"
+  },
+  {
+    "IdRegAsientoDiario": "2455",
+    "NºAsiento": "396",
+    "FechaAsientoDiario": "05/12/10 11:32:16",
+    "Concepto": "Fra. FV/947/10 Tecnoseñal",
+    "DocsRef": "869"
+  },
+  {
+    "IdRegAsientoDiario": "2456",
+    "NºAsiento": "397",
+    "FechaAsientoDiario": "05/12/10 11:38:35",
+    "Concepto": "Fra. 2100299 Gruas Fraile II",
+    "DocsRef": "870"
+  },
+  {
+    "IdRegAsientoDiario": "2457",
+    "NºAsiento": "398",
+    "FechaAsientoDiario": "05/12/10 18:43:31",
+    "Concepto": "Fra. 10 000295 Lopez Santos",
+    "DocsRef": "875"
+  },
+  {
+    "IdRegAsientoDiario": "2458",
+    "NºAsiento": "399",
+    "FechaAsientoDiario": "05/13/10 17:19:13",
+    "Concepto": "Fra. 32 Never's Abogados, S.L.",
+    "DocsRef": "882"
+  },
+  {
+    "IdRegAsientoDiario": "2459",
+    "NºAsiento": "400",
+    "FechaAsientoDiario": "05/18/10 17:43:10",
+    "Concepto": "Fra. 001521-000708-001375-008493 Repsol",
+    "DocsRef": "885"
+  },
+  {
+    "IdRegAsientoDiario": "2460",
+    "NºAsiento": "401",
+    "FechaAsientoDiario": "05/19/10 12:00:36",
+    "Concepto": "Fra. Varias Cepsa",
+    "DocsRef": "890"
+  },
+  {
+    "IdRegAsientoDiario": "2461",
+    "NºAsiento": "402",
+    "FechaAsientoDiario": "05/19/10 12:03:57",
+    "Concepto": "Fra. 1063-1087 Carburantes Higuera",
+    "DocsRef": "891"
+  },
+  {
+    "IdRegAsientoDiario": "2462",
+    "NºAsiento": "403",
+    "FechaAsientoDiario": "05/19/10 12:10:34",
+    "Concepto": "Fra. Varias Hotel Fregenal",
+    "DocsRef": "892"
+  },
+  {
+    "IdRegAsientoDiario": "2463",
+    "NºAsiento": "404",
+    "FechaAsientoDiario": "05/19/10 12:13:56",
+    "Concepto": "Fra. Varias Hernandez",
+    "DocsRef": "893"
+  },
+  {
+    "IdRegAsientoDiario": "2464",
+    "NºAsiento": "405",
+    "FechaAsientoDiario": "05/20/10 18:39:33",
+    "Concepto": "Fra. 103051663 Canal",
+    "DocsRef": "898"
+  },
+  {
+    "IdRegAsientoDiario": "2465",
+    "NºAsiento": "406",
+    "FechaAsientoDiario": "05/20/10 18:49:15",
+    "Concepto": "Fra. 01100510484140 Gas Natural SUR SDG",
+    "DocsRef": "899"
+  },
+  {
+    "IdRegAsientoDiario": "2466",
+    "NºAsiento": "407",
+    "FechaAsientoDiario": "05/20/10 18:54:14",
+    "Concepto": "Fra. 20100514010456638 Iberdrola",
+    "DocsRef": "900"
+  },
+  {
+    "IdRegAsientoDiario": "2467",
+    "NºAsiento": "408",
+    "FechaAsientoDiario": "05/25/10 12:15:29",
+    "Concepto": "Fra. 2587 R. Currito",
+    "DocsRef": "907"
+  },
+  {
+    "IdRegAsientoDiario": "2468",
+    "NºAsiento": "409",
+    "FechaAsientoDiario": "05/26/10 15:45:47",
+    "Concepto": "Nomina Mayo Mangeles 2010",
+    "DocsRef": "911"
+  },
+  {
+    "IdRegAsientoDiario": "2469",
+    "NºAsiento": "410",
+    "FechaAsientoDiario": "05/26/10 15:46:32",
+    "Concepto": "Nomina Mayo Luis 2010",
+    "DocsRef": "912"
+  },
+  {
+    "IdRegAsientoDiario": "2470",
+    "NºAsiento": "411",
+    "FechaAsientoDiario": "05/26/10 15:49:27",
+    "Concepto": "Nomina Mayo Jesus 2010",
+    "DocsRef": "913"
+  },
+  {
+    "IdRegAsientoDiario": "2471",
+    "NºAsiento": "412",
+    "FechaAsientoDiario": "05/27/10 11:23:16",
+    "Concepto": "IBI 6034321VJ1953S0001GX",
+    "DocsRef": "916"
+  },
+  {
+    "IdRegAsientoDiario": "2472",
+    "NºAsiento": "413",
+    "FechaAsientoDiario": "05/27/10 11:25:34",
+    "Concepto": "IBI 6034321VJ1953S0001YX",
+    "DocsRef": "917"
+  },
+  {
+    "IdRegAsientoDiario": "2473",
+    "NºAsiento": "414",
+    "FechaAsientoDiario": "05/31/10 10:50:45",
+    "Concepto": "Fra.1304-1326-1313-1317-1323-1396-1227-1318-754-924 Repsol",
+    "DocsRef": "920"
+  },
+  {
+    "IdRegAsientoDiario": "2474",
+    "NºAsiento": "415",
+    "FechaAsientoDiario": "05/31/10 11:18:46",
+    "Concepto": "Fra. varias Cepsa",
+    "DocsRef": "921"
+  },
+  {
+    "IdRegAsientoDiario": "2475",
+    "NºAsiento": "416",
+    "FechaAsientoDiario": "05/31/10 11:24:45",
+    "Concepto": "Fra. Varias Stigi",
+    "DocsRef": "922"
+  },
+  {
+    "IdRegAsientoDiario": "2476",
+    "NºAsiento": "417",
+    "FechaAsientoDiario": "05/31/10 11:29:17",
+    "Concepto": "Fra. Billetes Renfe",
+    "DocsRef": "923"
+  },
+  {
+    "IdRegAsientoDiario": "2477",
+    "NºAsiento": "418",
+    "FechaAsientoDiario": "06/01/10 10:10:05",
+    "Concepto": "Recarga movil",
+    "DocsRef": "926"
+  },
+  {
+    "IdRegAsientoDiario": "2478",
+    "NºAsiento": "419",
+    "FechaAsientoDiario": "06/04/10 16:20:27",
+    "Concepto": "Fra. E10040218 Fualsa",
+    "DocsRef": "931"
+  },
+  {
+    "IdRegAsientoDiario": "2479",
+    "NºAsiento": "420",
+    "FechaAsientoDiario": "06/04/10 16:23:26",
+    "Concepto": "Fra. E10039818 Fualsa",
+    "DocsRef": "932"
+  },
+  {
+    "IdRegAsientoDiario": "2480",
+    "NºAsiento": "421",
+    "FechaAsientoDiario": "06/07/10 12:23:36",
+    "Concepto": "Fra. Mayo Credito y Caución",
+    "DocsRef": "935"
+  },
+  {
+    "IdRegAsientoDiario": "2481",
+    "NºAsiento": "422",
+    "FechaAsientoDiario": "06/07/10 12:25:43",
+    "Concepto": "Fra. E10047894 Fualsa",
+    "DocsRef": "936"
+  },
+  {
+    "IdRegAsientoDiario": "2482",
+    "NºAsiento": "423",
+    "FechaAsientoDiario": "06/08/10 16:04:52",
+    "Concepto": "Transferencia para gastos",
+    "DocsRef": "943"
+  },
+  {
+    "IdRegAsientoDiario": "2483",
+    "NºAsiento": "424",
+    "FechaAsientoDiario": "06/08/10 17:31:31",
+    "Concepto": "Liquidacion cuenta",
+    "DocsRef": "944"
+  },
+  {
+    "IdRegAsientoDiario": "2484",
+    "NºAsiento": "425",
+    "FechaAsientoDiario": "06/08/10 17:33:20",
+    "Concepto": "Liquidacion contrato tarjeta",
+    "DocsRef": "945"
+  },
+  {
+    "IdRegAsientoDiario": "2485",
+    "NºAsiento": "426",
+    "FechaAsientoDiario": "06/08/10 17:41:11",
+    "Concepto": "Pago recibos prestamo InCiv",
+    "DocsRef": "946"
+  },
+  {
+    "IdRegAsientoDiario": "2486",
+    "NºAsiento": "427",
+    "FechaAsientoDiario": "06/08/10 18:52:00",
+    "Concepto": "Liquidacion cuenta",
+    "DocsRef": "947"
+  },
+  {
+    "IdRegAsientoDiario": "2487",
+    "NºAsiento": "428",
+    "FechaAsientoDiario": "06/10/10 16:00:17",
+    "Concepto": "Prestamo ICO BBVA hipotecario",
+    "DocsRef": "952"
+  },
+  {
+    "IdRegAsientoDiario": "2488",
+    "NºAsiento": "429",
+    "FechaAsientoDiario": "06/10/10 16:04:20",
+    "Concepto": "Pago liquidacion deudas cuentas BBVA InCiv",
+    "DocsRef": "953"
+  },
+  {
+    "IdRegAsientoDiario": "2489",
+    "NºAsiento": "430",
+    "FechaAsientoDiario": "06/10/10 19:46:00",
+    "Concepto": "Fra. 28124980 Lema",
+    "DocsRef": "958"
+  },
+  {
+    "IdRegAsientoDiario": "2490",
+    "NºAsiento": "431",
+    "FechaAsientoDiario": "06/10/10 19:50:53",
+    "Concepto": "Fra. 004736 R. Faro Vidio",
+    "DocsRef": "959"
+  },
+  {
+    "IdRegAsientoDiario": "2491",
+    "NºAsiento": "432",
+    "FechaAsientoDiario": "06/10/10 19:53:47",
+    "Concepto": "Fra. 05100180690659 Worten",
+    "DocsRef": "960"
+  },
+  {
+    "IdRegAsientoDiario": "2492",
+    "NºAsiento": "433",
+    "FechaAsientoDiario": "06/11/10 10:31:02",
+    "Concepto": "Pago InCiv",
+    "DocsRef": "963"
+  },
+  {
+    "IdRegAsientoDiario": "2493",
+    "NºAsiento": "434",
+    "FechaAsientoDiario": "06/14/10 16:10:27",
+    "Concepto": "Pago Tasa Certif. Final Alcorlo",
+    "DocsRef": "966"
+  },
+  {
+    "IdRegAsientoDiario": "2494",
+    "NºAsiento": "435",
+    "FechaAsientoDiario": "06/14/10 16:11:55",
+    "Concepto": "Pago Tasa Certif. 1 Estribo Puente",
+    "DocsRef": "967"
+  },
+  {
+    "IdRegAsientoDiario": "2495",
+    "NºAsiento": "436",
+    "FechaAsientoDiario": "06/14/10 18:42:10",
+    "Concepto": "Fra.1464-1502-1550-1522-1521-5769-1475-1493 Repsol",
+    "DocsRef": "970"
+  },
+  {
+    "IdRegAsientoDiario": "2496",
+    "NºAsiento": "437",
+    "FechaAsientoDiario": "06/14/10 18:46:31",
+    "Concepto": "Fra. Varias Cepsa",
+    "DocsRef": "971"
+  },
+  {
+    "IdRegAsientoDiario": "2497",
+    "NºAsiento": "438",
+    "FechaAsientoDiario": "06/14/10 18:49:26",
+    "Concepto": "Fra. Varias Stigi",
+    "DocsRef": "972"
+  },
+  {
+    "IdRegAsientoDiario": "2498",
+    "NºAsiento": "439",
+    "FechaAsientoDiario": "06/14/10 18:53:00",
+    "Concepto": "Fra. Hostal Hernandez",
+    "DocsRef": "973"
+  },
+  {
+    "IdRegAsientoDiario": "2499",
+    "NºAsiento": "440",
+    "FechaAsientoDiario": "06/14/10 18:54:35",
+    "Concepto": "Fra. Billetes Renfe",
+    "DocsRef": "974"
+  },
+  {
+    "IdRegAsientoDiario": "2500",
+    "NºAsiento": "441",
+    "FechaAsientoDiario": "06/14/10 18:56:49",
+    "Concepto": "Recarga movil",
+    "DocsRef": "975"
+  },
+  {
+    "IdRegAsientoDiario": "2501",
+    "NºAsiento": "442",
+    "FechaAsientoDiario": "06/16/10 13:08:12",
+    "Concepto": "Fra. 01100610714955 Gas Natural SUR SDG",
+    "DocsRef": "980"
+  },
+  {
+    "IdRegAsientoDiario": "2502",
+    "NºAsiento": "443",
+    "FechaAsientoDiario": "06/16/10 13:11:37",
+    "Concepto": "Fra. TA3MB0302777 Telefonica",
+    "DocsRef": "981"
+  },
+  {
+    "IdRegAsientoDiario": "2503",
+    "NºAsiento": "444",
+    "FechaAsientoDiario": "06/28/10 17:33:11",
+    "Concepto": "Fra. E10049813 Fualsa",
+    "DocsRef": "987"
+  },
+  {
+    "IdRegAsientoDiario": "2504",
+    "NºAsiento": "445",
+    "FechaAsientoDiario": "06/28/10 17:39:20",
+    "Concepto": "Fra. 20100622010473482 Iberdrola",
+    "DocsRef": "988"
+  },
+  {
+    "IdRegAsientoDiario": "2505",
+    "NºAsiento": "446",
+    "FechaAsientoDiario": "06/28/10 17:43:20",
+    "Concepto": "Fra. F000558 Rafael Bonardell",
+    "DocsRef": "989"
+  },
+  {
+    "IdRegAsientoDiario": "2506",
+    "NºAsiento": "447",
+    "FechaAsientoDiario": "06/28/10 17:46:31",
+    "Concepto": "Fra. F000532 Rafael Bonardell",
+    "DocsRef": "990"
+  },
+  {
+    "IdRegAsientoDiario": "2507",
+    "NºAsiento": "448",
+    "FechaAsientoDiario": "06/28/10 17:55:45",
+    "Concepto": "Fra.2031-1703-1713-1677-558-1585-1640-1661-1102-1714-2274-1608-1609-1618 Repsol",
+    "DocsRef": "991"
+  },
+  {
+    "IdRegAsientoDiario": "2508",
+    "NºAsiento": "449",
+    "FechaAsientoDiario": "06/28/10 18:02:26",
+    "Concepto": "Fra. Varias Stigi",
+    "DocsRef": "992"
+  },
+  {
+    "IdRegAsientoDiario": "2509",
+    "NºAsiento": "450",
+    "FechaAsientoDiario": "06/28/10 18:02:55",
+    "Concepto": "Fra. 39921370 Cepsa",
+    "DocsRef": "993"
+  },
+  {
+    "IdRegAsientoDiario": "2510",
+    "NºAsiento": "451",
+    "FechaAsientoDiario": "06/28/10 18:09:31",
+    "Concepto": "Fra. 00014447806 AutoRes",
+    "DocsRef": "994"
+  },
+  {
+    "IdRegAsientoDiario": "2511",
+    "NºAsiento": "452",
+    "FechaAsientoDiario": "06/28/10 18:13:03",
+    "Concepto": "Fra. IMP/2010/19891 RMM",
+    "DocsRef": "995"
+  },
+  {
+    "IdRegAsientoDiario": "2512",
+    "NºAsiento": "453",
+    "FechaAsientoDiario": "06/30/10 13:46:10",
+    "Concepto": "Nomina Junio y Paga Jesus 2010",
+    "DocsRef": "1000"
+  },
+  {
+    "IdRegAsientoDiario": "2513",
+    "NºAsiento": "454",
+    "FechaAsientoDiario": "06/30/10 13:52:34",
+    "Concepto": "Nomina Junio y Paga Luis 2010",
+    "DocsRef": "1001"
+  },
+  {
+    "IdRegAsientoDiario": "2514",
+    "NºAsiento": "455",
+    "FechaAsientoDiario": "06/30/10 13:55:52",
+    "Concepto": "Nomina Junio y Paga Mangeles 2010",
+    "DocsRef": "1002"
+  }
+]

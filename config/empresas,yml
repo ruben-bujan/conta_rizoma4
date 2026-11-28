@@ -1,0 +1,43 @@
+# config/empresas.yaml.example
+# Copia a config/empresas.yaml y adapta. NO versionar el real.
+# Cambios: editar + reiniciar servicio. Sin endpoint de edición.
+
+version: 1
+moneda_grupo: EUR
+marco_contable_default: PGC_ES
+
+marcos_contables:
+  PGC_ES:  { nombre: "PGC (España)",   pais: ES,   moneda_default: EUR }
+  NIIF:    { nombre: "NIIF",            pais: INTL, moneda_default: EUR }
+  US_GAAP: { nombre: "US GAAP",         pais: US,   moneda_default: USD }
+
+empresas:
+  - empresa_id: "default"
+    nombre: "Empresa demo"
+    moneda_funcional: EUR
+    marco_contable: PGC_ES
+    pais: ES
+    grupo: "GRUPO_DEMO"
+    participacion_matriz: 100.0
+    ejercicio_fiscal: { inicio: "01-01", fin: "12-31" }
+
+  - empresa_id: "matriz"
+    nombre: "ACME Matriz SL"
+    moneda_funcional: EUR
+    marco_contable: PGC_ES
+    pais: ES
+    grupo: "GRUPO_DEMO"
+    participacion_matriz: 100.0
+    ejercicio_fiscal: { inicio: "01-01", fin: "12-31" }
+
+  - empresa_id: "filial_a"
+    nombre: "ACME Filial A SL"
+    moneda_funcional: EUR
+    marco_contable: PGC_ES
+    pais: ES
+    grupo: "GRUPO_DEMO"
+    participacion_matriz: 100.0
+    ejercicio_fiscal: { inicio: "01-01", fin: "12-31" }
+
+tipos_cambio_manuales:
+  "2025-12-31": { USD_EUR: 0.92, GBP_EUR: 1.17 }

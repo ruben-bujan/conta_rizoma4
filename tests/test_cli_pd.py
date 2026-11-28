@@ -3,16 +3,17 @@
 import pytest
 
 from conta_rizoma4.cli import main
-from conta_rizoma4.partida_doble import borrar_asiento, RepositorioAsiento
+from conta_rizoma4.partida_doble import RepositorioAsiento
+from test_helpers_db import limpiar_asiento_prueba
 
 
 @pytest.fixture
 def limpio():
     for i in (7000, 7001, 7002):
-        borrar_asiento(i)
+        limpiar_asiento_prueba(i)
     yield
     for i in (7000, 7001, 7002):
-        borrar_asiento(i)
+        limpiar_asiento_prueba(i)
 
 
 class TestCatalogo:
@@ -47,7 +48,7 @@ class TestCrear:
         assert d is not None
         assert len(d["lineas"]) == 3
         # Limpiar
-        borrar_asiento(indice)
+        limpiar_asiento_prueba(indice)
 
     def test_crear_codigo_invalido(self, capsys):
         rc = main([

@@ -1,0 +1,23 @@
+"""Adaptador de repositorio en memoria para el dominio formal."""
+from __future__ import annotations
+
+from datetime import datetime
+from typing import Any, Optional
+
+from ..puertos.repositorio import RepositorioDominio
+from ..servicios.nucleo import NucleoEpistemicoContable
+
+
+class RepositorioMemoriaDominio(RepositorioDominio):
+    def __init__(self, nucleo: NucleoEpistemicoContable) -> None:
+        self.nucleo = nucleo
+        self._objetos: dict[tuple[str, str], Any] = {}
+
+    def guardar(self, tipo: str, identidad: str, objeto: Any) -> None:
+        self._objetos[(tipo, identidad)] = objeto
+
+    def obtener(self, tipo: str, identidad: str) -> Optional[Any]:
+        return self._objetos.get((tipo, identidad))
+
+    def reconstruir(self, fecha_epistemica: datetime) -> dict[str, Any]:
+        return self.nucleo.reconstruir(fecha_epistemica)

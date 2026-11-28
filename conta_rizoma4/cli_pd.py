@@ -18,7 +18,7 @@ from decimal import Decimal, InvalidOperation
 
 from .actos.catalogo import CATALOGO, listar_grupos, listar_por_grupo, obtener
 from .partida_doble import (
-    crear_asiento, guardar_asiento, borrar_asiento, RepositorioAsiento,
+    crear_asiento, guardar_asiento, RepositorioAsiento,
     ReporteCadenaAsientos,
     listar_diario, totales_diario,
     mayor, balance_comprobacion,
@@ -236,20 +236,9 @@ def _cmd_pd_verificar(args) -> int:
 
 
 def _cmd_pd_reset(args) -> int:
-    """Borra todos los asientos y líneas (partida doble)."""
-    import psycopg
-    from .partida_doble.persistencia import PG_URL
-    if not args.yes:
-        print("ADVERTENCIA: esto borra TODOS los asientos y líneas.")
-        print("Para confirmar: conta pd-reset --yes")
-        return 1
-    with psycopg.connect(PG_URL) as conn:
-        with conn.cursor() as cur:
-            cur.execute("DELETE FROM linea_asiento")
-            cur.execute("DELETE FROM asiento_contable")
-        conn.commit()
-    print("Base de datos de partida doble limpia.")
-    return 0
+    """Comando retirado: los asientos se corrigen con reversiones append-only."""
+    print("pd-reset está deshabilitado; usa asientos de reversión para corregir registros.")
+    return 2
 
 
 def _cmd_pd_balance_formateado(args) -> int:
@@ -392,6 +381,6 @@ def registrar_subcomandos(sub) -> None:
     p_v.add_argument("--hasta", type=int)
     p_v.set_defaults(handler=_cmd_pd_verificar)
 
-    p_r = sub.add_parser("pd-reset", help="Borra todos los asientos (partida doble)")
+    p_r = sub.add_parser("pd-reset", help="Retirado: los asientos se corrigen por reversión")
     p_r.add_argument("--yes", action="store_true", help="Confirmar borrado")
     p_r.set_defaults(handler=_cmd_pd_reset)

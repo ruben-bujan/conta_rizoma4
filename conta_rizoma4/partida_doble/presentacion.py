@@ -1,23 +1,9 @@
 # -*- coding: utf-8 -*-
-"""Presentación formateada del balance y PyG por grupos PGC.
-
-A diferencia de `cuentas_anuales.py` (que agrupa por naturaleza y da
-subtotales), esta presentación muestra los asientos agrupados por
-grupos 1-5 del PGC (balance) y 6-7 (PyG), con subtotales por grupo
-y totales globales.
-
-Formato de salida:
-  BALANCE DE SITUACIÓN (agrupado por grupos PGC)
-  ACTIVO:
-    Grupo 1 - Financiación básica: ...
-    Grupo 2 - Inmovilizado: ...
-    ...
-  PASIVO + PN:
-    ...
-  Resultado del ejercicio: ...
-"""
+"""Presentación formateada del balance y PyG por grupos PGC con soporte de fechas (H-09)."""
 from __future__ import annotations
 
+from datetime import date
+from typing import Optional
 from .libro_mayor import mayor
 
 
@@ -42,22 +28,15 @@ def _es_corrector(cuenta: str) -> bool:
     return any(cuenta.startswith(p) for p in _CORRECTORES_ACTIVO)
 
 
-def balance_formateado(repo, desde=None, hasta=None):
-    """Balance agrupado por grupos 1-5 del PGC.
-
-    Devuelve:
-      {
-        "activo": {grupo_num: {cuenta: importe_centimos}},
-        "pasivo": {grupo_num: {cuenta: importe_centimos}},
-        "correctores": {cuenta: importe_centimos},
-        "resultado_ejercicio": int,
-        "total_activo": int,
-        "total_pasivo": int,
-        "total_pasivo_mas_resultado": int,
-        "cuadra": bool,
-      }
-    """
-    mayor_data = mayor(repo, desde, hasta)
+def balance_formateado(
+    repo, 
+    desde: Optional[int] = None, 
+    hasta: Optional[int] = None,
+    fecha_desde: Optional[date] = None,
+    fecha_hasta: Optional[date] = None,
+):
+    """Balance agrupado por grupos 1-5 del PGC con soporte de fechas."""
+    mayor_data = mayor(repo, desde=desde, hasta=hasta, fecha_desde=fecha_desde, fecha_hasta=fecha_hasta)
     activo = {1: {}, 2: {}, 3: {}, 4: {}, 5: {}}
     pasivo = {1: {}, 2: {}, 3: {}, 4: {}, 5: {}}
     correctores = {}
@@ -102,19 +81,15 @@ def balance_formateado(repo, desde=None, hasta=None):
     }
 
 
-def pyg_formateado(repo, desde=None, hasta=None):
-    """PyG agrupada por grupos 6-7 del PGC.
-
-    Devuelve:
-      {
-        "gastos": {cuenta: importe_centimos},
-        "ingresos": {cuenta: importe_centimos},
-        "total_gastos": int,
-        "total_ingresos": int,
-        "resultado": int,
-      }
-    """
-    mayor_data = mayor(repo, desde, hasta)
+def pyg_formateado(
+    repo, 
+    desde: Optional[int] = None, 
+    hasta: Optional[int] = None,
+    fecha_desde: Optional[date] = None,
+    fecha_hasta: Optional[date] = None,
+):
+    """PyG agrupada por grupos 6-7 del PGC con soporte de fechas."""
+    mayor_data = mayor(repo, desde=desde, hasta=hasta, fecha_desde=fecha_desde, fecha_hasta=fecha_hasta)
     gastos = {}
     ingresos = {}
     for cuenta, datos in mayor_data.items():

@@ -1,0 +1,54 @@
+[
+  {
+    "IdRegForTran": "13",
+    "DesForRec": "Fax"
+  },
+  {
+    "IdRegForTran": "14",
+    "DesForRec": "Burofax"
+  },
+  {
+    "IdRegForTran": "15",
+    "DesForRec": "Correo certificado con acuse de recibo"
+  },
+  {
+    "IdRegForTran": "16",
+    "DesForRec": "Correo certificado sin acuse de recibo"
+  },
+  {
+    "IdRegForTran": "26",
+    "DesForRec": "Correo normal"
+  },
+  {
+    "IdRegForTran": "27",
+    "DesForRec": "Telegrama"
+  },
+  {
+    "IdRegForTran": "28",
+    "DesForRec": "Paquetería"
+  },
+  {
+    "IdRegForTran": "29",
+    "DesForRec": "Requerimiento en mano"
+  },
+  {
+    "IdRegForTran": "30",
+    "DesForRec": "Anulación de poder en mano"
+  },
+  {
+    "IdRegForTran": "31",
+    "DesForRec": "Varios, en mano"
+  },
+  {
+    "IdRegForTran": "32",
+    "DesForRec": "Correo electrónico"
+  },
+  {
+    "IdRegForTran": "33",
+    "DesForRec": "Red local, dominio IC"
+  },
+  {
+    "IdRegForTran": "34",
+    "DesForRec": "Ninguna"
+  }
+]

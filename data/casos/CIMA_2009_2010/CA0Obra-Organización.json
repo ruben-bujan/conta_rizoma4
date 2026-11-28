@@ -1,0 +1,50 @@
+[
+  {
+    "IdObraOrganización": "2",
+    "IdObra": "247",
+    "IdÁrea": "161",
+    "IdGrupObra": "5"
+  },
+  {
+    "IdObraOrganización": "4",
+    "IdObra": "247",
+    "IdÁrea": "162",
+    "IdGrupObra": "5"
+  },
+  {
+    "IdObraOrganización": "7",
+    "IdObra": "247",
+    "IdÁrea": "163",
+    "IdGrupObra": "5"
+  },
+  {
+    "IdObraOrganización": "10",
+    "IdObra": "248",
+    "IdÁrea": "161",
+    "IdGrupObra": "6"
+  },
+  {
+    "IdObraOrganización": "11",
+    "IdObra": "248",
+    "IdÁrea": "162",
+    "IdGrupObra": "6"
+  },
+  {
+    "IdObraOrganización": "12",
+    "IdObra": "248",
+    "IdÁrea": "163",
+    "IdGrupObra": "6"
+  },
+  {
+    "IdObraOrganización": "13",
+    "IdObra": "248",
+    "IdÁrea": "164",
+    "IdGrupObra": "6"
+  },
+  {
+    "IdObraOrganización": "14",
+    "IdObra": "248",
+    "IdÁrea": "165",
+    "IdGrupObra": "6"
+  }
+]

@@ -1,0 +1,17 @@
+DesFormato,IdRegForFis
+"10 Cajón A3",1
+"09 Cajón A4",2
+"13 Encuadernado A3",3
+"14 Encuadernado A4",4
+"11 Encarpetado A3",5
+"12 Encarpetado A4",6
+"06 AZ A3",7
+"04 AZ A4",8
+"03 Hojas sueltas A3",9
+"01 Hojas sueltas A4",10
+"08 CD;DVD",11
+"07 E-Mile;E-Fax",13
+"00 SisIC",14
+"99 Sin formato físico",15
+"02 Hojas sueltas A5",16
+"05 Hojas sueltas Menor",17

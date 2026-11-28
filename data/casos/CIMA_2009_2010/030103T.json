@@ -1,0 +1,86 @@
+[
+  {
+    "IDRPA": "20",
+    "IDRCA": "11",
+    "Activo?": "1",
+    "Transacción": "Recibir+VºVºFormal",
+    "Orden": "1"
+  },
+  {
+    "IDRPA": "22",
+    "IDRCA": "11",
+    "Activo?": "1",
+    "Transacción": "VºBºContractual",
+    "Orden": "2"
+  },
+  {
+    "IDRPA": "24",
+    "IDRCA": "11",
+    "Activo?": "1",
+    "Transacción": "VºBºCuantitativo",
+    "Orden": "3"
+  },
+  {
+    "IDRPA": "25",
+    "IDRCA": "11",
+    "Activo?": "1",
+    "Transacción": "VºBºEstratégico",
+    "Orden": "4"
+  },
+  {
+    "IDRPA": "26",
+    "IDRCA": "11",
+    "Activo?": "1",
+    "Transacción": "VºBªDefinitivo",
+    "Orden": "5"
+  },
+  {
+    "IDRPA": "28",
+    "IDRCA": "11",
+    "Activo?": "1",
+    "Transacción": "RecibirConstataciónPago",
+    "Orden": "6"
+  },
+  {
+    "IDRPA": "30",
+    "IDRCA": "821",
+    "Activo?": "1",
+    "Transacción": "Recibir+VºVºFormal",
+    "Orden": "1"
+  },
+  {
+    "IDRPA": "31",
+    "IDRCA": "821",
+    "Activo?": "1",
+    "Transacción": "VºBºContractual",
+    "Orden": "2"
+  },
+  {
+    "IDRPA": "32",
+    "IDRCA": "821",
+    "Activo?": "1",
+    "Transacción": "VºBºCuantitativo",
+    "Orden": "3"
+  },
+  {
+    "IDRPA": "33",
+    "IDRCA": "821",
+    "Activo?": "1",
+    "Transacción": "VºBºEstratégico",
+    "Orden": "4"
+  },
+  {
+    "IDRPA": "34",
+    "IDRCA": "821",
+    "Activo?": "1",
+    "Transacción": "VºBªDefinitivo",
+    "Orden": "5"
+  },
+  {
+    "IDRPA": "35",
+    "IDRCA": "821",
+    "Activo?": "1",
+    "Transacción": "RecibirConstataciónPago",
+    "Orden": "6"
+  }
+]

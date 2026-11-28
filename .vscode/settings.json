@@ -1,0 +1,10 @@
+{
+    "workbench.editor.autoLockGroups": {
+        "dbcode.dataFileViewer": true,
+        "dbclient.dbFile": true,
+        "sqlite-viewer.view": true,
+        "workbench.editor.chatSession": true,
+        "sqlite-viewer.readonly": true,
+        "sqlite-viewer.option": true
+    }
+}

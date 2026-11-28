@@ -1,0 +1,62 @@
+[
+  {
+    "IDDepartamento": "1",
+    "NºO": "2",
+    "IdCentral": "1",
+    "Departamento": "Oficina Técnica"
+  },
+  {
+    "IDDepartamento": "3",
+    "NºO": "6",
+    "IdCentral": "1",
+    "Departamento": "Administración"
+  },
+  {
+    "IDDepartamento": "4",
+    "NºO": "5",
+    "IdCentral": "1",
+    "Departamento": "Jurídico"
+  },
+  {
+    "IDDepartamento": "5",
+    "NºO": "7",
+    "IdCentral": "1",
+    "Departamento": "Tecnología"
+  },
+  {
+    "IDDepartamento": "6",
+    "NºO": "3",
+    "IdCentral": "1",
+    "Departamento": "Producción"
+  },
+  {
+    "IDDepartamento": "7",
+    "NºO": "1",
+    "IdCentral": "1",
+    "Departamento": "Dirección"
+  },
+  {
+    "IDDepartamento": "8",
+    "NºO": "4",
+    "IdCentral": "1",
+    "Departamento": "Control"
+  },
+  {
+    "IDDepartamento": "9",
+    "NºO": "1",
+    "IdCentral": "6",
+    "Departamento": "Gestión"
+  },
+  {
+    "IDDepartamento": "23",
+    "NºO": "1",
+    "IdCentral": "7",
+    "Departamento": "Gestión"
+  },
+  {
+    "IDDepartamento": "24",
+    "NºO": "2",
+    "IdCentral": "7",
+    "Departamento": "Oficina Técnica"
+  }
+]

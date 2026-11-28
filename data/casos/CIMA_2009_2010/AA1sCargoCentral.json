@@ -1,0 +1,32 @@
+[
+  {
+    "IDCargoCentral": "5",
+    "IdCentral": "1",
+    "IdTrabajoCentral": "11",
+    "IdPueTra": "2"
+  },
+  {
+    "IDCargoCentral": "6",
+    "IdCentral": "1",
+    "IdTrabajoCentral": "12",
+    "IdPueTra": "2"
+  },
+  {
+    "IDCargoCentral": "7",
+    "IdCentral": "1",
+    "IdTrabajoCentral": "13",
+    "IdPueTra": "2"
+  },
+  {
+    "IDCargoCentral": "8",
+    "IdCentral": "1",
+    "IdTrabajoCentral": "14",
+    "IdPueTra": "2"
+  },
+  {
+    "IDCargoCentral": "9",
+    "IdCentral": "1",
+    "IdTrabajoCentral": "15",
+    "IdPueTra": "2"
+  }
+]

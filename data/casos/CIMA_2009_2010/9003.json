@@ -1,0 +1,34 @@
+[
+  {
+    "IdRegForLeg": "22",
+    "DesForRec": "Original"
+  },
+  {
+    "IdRegForLeg": "23",
+    "DesForRec": "Fotocopia"
+  },
+  {
+    "IdRegForLeg": "24",
+    "DesForRec": "Copia legítimada"
+  },
+  {
+    "IdRegForLeg": "26",
+    "DesForRec": "Copia compulsada"
+  },
+  {
+    "IdRegForLeg": "27",
+    "DesForRec": "Escritura notarial copia simple"
+  },
+  {
+    "IdRegForLeg": "29",
+    "DesForRec": "Escritura notarial copia autorizada"
+  },
+  {
+    "IdRegForLeg": "30",
+    "DesForRec": "Escritura notarial original"
+  },
+  {
+    "IdRegForLeg": "31",
+    "DesForRec": "Sin formato legal"
+  }
+]

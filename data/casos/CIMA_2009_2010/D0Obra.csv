@@ -1,0 +1,10 @@
+IdObra,IDDivisión,IDGrupObra,TipObra,SubObra,NomCorObra,Nombrelargo,SuClaveObra,SuExpdteObra
+164,68,,"CentroTrabajo",1,"BP67InCiv","CentroTrabajoBP67",,
+245,66,4,"Construcción.Carretera.UnaCalzada",2,"Aranjuez","Variante de la carretera M-501 en Aranjuez Norte","06-CO-22.0/2004",
+246,70,,"CentroTrabajo",3,"BP69Ima","ImaTodasTodas",,
+254,69,,"CentroTrabajo",4,"BP69Cima","CimaTodasTodas",,
+255,66,5,,5,"El Greco","El Greco",,
+256,66,6,"Construcción.Carretera.Autovía",6,"A2","Mejora del Trazado A-2 (Alama-Azteca) Zzaragoza",,
+257,9,,"2008.Todas.Contable",7,"2008","InCiv. Obra virtual para el cirre de 2008 de",,
+258,69,,"2008.Todas.Contable",8,"2008","Imav. Obra virtual para el cirre de 2008 de",,
+259,69,,"2008.Todas.Contable",9,"2008","Cima. Obra virtual para el cirre de 2008 de",,

@@ -1,0 +1,127 @@
+[
+  {
+    "IDDivisión": "9",
+    "IDDepartamento": "1",
+    "División": "Producción"
+  },
+  {
+    "IDDivisión": "10",
+    "IDDepartamento": "1",
+    "División": "Jurídico"
+  },
+  {
+    "IDDivisión": "29",
+    "IDDepartamento": "3",
+    "División": "Oficina Técnica"
+  },
+  {
+    "IDDivisión": "30",
+    "IDDepartamento": "3",
+    "División": "Producción"
+  },
+  {
+    "IDDivisión": "32",
+    "IDDepartamento": "3",
+    "División": "Jurídico"
+  },
+  {
+    "IDDivisión": "33",
+    "IDDepartamento": "3",
+    "División": "Tramitación"
+  },
+  {
+    "IDDivisión": "34",
+    "IDDepartamento": "3",
+    "División": "Expediente"
+  },
+  {
+    "IDDivisión": "37",
+    "IDDepartamento": "4",
+    "División": "Producción"
+  },
+  {
+    "IDDivisión": "38",
+    "IDDepartamento": "4",
+    "División": "Administración"
+  },
+  {
+    "IDDivisión": "39",
+    "IDDepartamento": "4",
+    "División": "Tecnología"
+  },
+  {
+    "IDDivisión": "55",
+    "IDDepartamento": "1",
+    "División": "Oferta"
+  },
+  {
+    "IDDivisión": "56",
+    "IDDepartamento": "1",
+    "División": "Proyecto"
+  },
+  {
+    "IDDivisión": "59",
+    "IDDepartamento": "5",
+    "División": "Informática"
+  },
+  {
+    "IDDivisión": "60",
+    "IDDepartamento": "5",
+    "División": "Medio Ambiente"
+  },
+  {
+    "IDDivisión": "61",
+    "IDDepartamento": "4",
+    "División": "Civil"
+  },
+  {
+    "IDDivisión": "62",
+    "IDDepartamento": "4",
+    "División": "Mercantil"
+  },
+  {
+    "IDDivisión": "63",
+    "IDDepartamento": "4",
+    "División": "Administración"
+  },
+  {
+    "IDDivisión": "64",
+    "IDDepartamento": "4",
+    "División": "Laboral"
+  },
+  {
+    "IDDivisión": "65",
+    "IDDepartamento": "4",
+    "División": "Penal"
+  },
+  {
+    "IDDivisión": "66",
+    "IDDepartamento": "6",
+    "División": "Carretera"
+  },
+  {
+    "IDDivisión": "67",
+    "IDDepartamento": "6",
+    "División": "Obra Hidráulica"
+  },
+  {
+    "IDDivisión": "68",
+    "IDDepartamento": "6",
+    "División": "CentroTécnico"
+  },
+  {
+    "IDDivisión": "69",
+    "IDDepartamento": "9",
+    "División": "Gestión"
+  },
+  {
+    "IDDivisión": "70",
+    "IDDepartamento": "23",
+    "División": "Gestión"
+  },
+  {
+    "IDDivisión": "71",
+    "IDDepartamento": "23",
+    "División": "OficinaTécnica"
+  }
+]

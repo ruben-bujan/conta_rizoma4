@@ -1,0 +1,470 @@
+[
+  {
+    "IdFase2": "5",
+    "NºO": "1",
+    "IdFase1": "1",
+    "DesFase2": "Idea"
+  },
+  {
+    "IdFase2": "6",
+    "NºO": "3",
+    "IdFase1": "1",
+    "DesFase2": "Boceto"
+  },
+  {
+    "IdFase2": "7",
+    "NºO": "4",
+    "IdFase1": "1",
+    "DesFase2": "Borrador"
+  },
+  {
+    "IdFase2": "8",
+    "NºO": "6",
+    "IdFase1": "1",
+    "DesFase2": "EstudioPrevio"
+  },
+  {
+    "IdFase2": "9",
+    "NºO": "7",
+    "IdFase1": "1",
+    "DesFase2": "Anteproyecto"
+  },
+  {
+    "IdFase2": "10",
+    "NºO": "8",
+    "IdFase1": "1",
+    "DesFase2": "Solución"
+  },
+  {
+    "IdFase2": "12",
+    "NºO": "9",
+    "IdFase1": "1",
+    "DesFase2": "Versión"
+  },
+  {
+    "IdFase2": "14",
+    "NºO": "10",
+    "IdFase1": "1",
+    "DesFase2": "Maqueta"
+  },
+  {
+    "IdFase2": "15",
+    "NºO": "11",
+    "IdFase1": "1",
+    "DesFase2": "Controlado"
+  },
+  {
+    "IdFase2": "16",
+    "NºO": "12",
+    "IdFase1": "1",
+    "DesFase2": "Entrega"
+  },
+  {
+    "IdFase2": "17",
+    "NºO": "1",
+    "IdFase1": "2",
+    "DesFase2": "Previo"
+  },
+  {
+    "IdFase2": "18",
+    "NºO": "2",
+    "IdFase1": "2",
+    "DesFase2": "Preparación"
+  },
+  {
+    "IdFase2": "19",
+    "NºO": "3",
+    "IdFase1": "2",
+    "DesFase2": "Aranque"
+  },
+  {
+    "IdFase2": "20",
+    "NºO": "4",
+    "IdFase1": "2",
+    "DesFase2": "Aceleración"
+  },
+  {
+    "IdFase2": "21",
+    "NºO": "5",
+    "IdFase1": "2",
+    "DesFase2": "Crucero"
+  },
+  {
+    "IdFase2": "22",
+    "NºO": "6",
+    "IdFase1": "2",
+    "DesFase2": "Frenada"
+  },
+  {
+    "IdFase2": "24",
+    "NºO": "7",
+    "IdFase1": "2",
+    "DesFase2": "Deceleración"
+  },
+  {
+    "IdFase2": "25",
+    "NºO": "8",
+    "IdFase1": "2",
+    "DesFase2": "Parada"
+  },
+  {
+    "IdFase2": "26",
+    "NºO": "9",
+    "IdFase1": "2",
+    "DesFase2": "Fín"
+  },
+  {
+    "IdFase2": "27",
+    "NºO": "10",
+    "IdFase1": "2",
+    "DesFase2": "Extinción"
+  },
+  {
+    "IdFase2": "37",
+    "NºO": "1",
+    "IdFase1": "3",
+    "DesFase2": "Idea"
+  },
+  {
+    "IdFase2": "47",
+    "NºO": "1",
+    "IdFase1": "4",
+    "DesFase2": "Oferta"
+  },
+  {
+    "IdFase2": "48",
+    "NºO": "2",
+    "IdFase1": "4",
+    "DesFase2": "Presentación"
+  },
+  {
+    "IdFase2": "49",
+    "NºO": "3",
+    "IdFase1": "4",
+    "DesFase2": "Evaluación"
+  },
+  {
+    "IdFase2": "50",
+    "NºO": "4",
+    "IdFase1": "4",
+    "DesFase2": "Subsanación"
+  },
+  {
+    "IdFase2": "51",
+    "NºO": "5",
+    "IdFase1": "4",
+    "DesFase2": "Evaluación"
+  },
+  {
+    "IdFase2": "52",
+    "NºO": "6",
+    "IdFase1": "4",
+    "DesFase2": "Adjudicación"
+  },
+  {
+    "IdFase2": "54",
+    "NºO": "7",
+    "IdFase1": "4",
+    "DesFase2": "Contratación"
+  },
+  {
+    "IdFase2": "56",
+    "NºO": "8",
+    "IdFase1": "4",
+    "DesFase2": "Anulación"
+  },
+  {
+    "IdFase2": "57",
+    "NºO": "9",
+    "IdFase1": "4",
+    "DesFase2": "Inicio"
+  },
+  {
+    "IdFase2": "58",
+    "NºO": "10",
+    "IdFase1": "4",
+    "DesFase2": "Ejecución"
+  },
+  {
+    "IdFase2": "72",
+    "NºO": "11",
+    "IdFase1": "4",
+    "DesFase2": "Certificación"
+  },
+  {
+    "IdFase2": "73",
+    "NºO": "12",
+    "IdFase1": "4",
+    "DesFase2": "RevisiónDePrecios"
+  },
+  {
+    "IdFase2": "74",
+    "NºO": "13",
+    "IdFase1": "4",
+    "DesFase2": "AnticipoDeMaquinaria"
+  },
+  {
+    "IdFase2": "75",
+    "NºO": "14",
+    "IdFase1": "4",
+    "DesFase2": "AnticipoDeMateriales"
+  },
+  {
+    "IdFase2": "76",
+    "NºO": "15",
+    "IdFase1": "4",
+    "DesFase2": "Modificación"
+  },
+  {
+    "IdFase2": "77",
+    "NºO": "16",
+    "IdFase1": "4",
+    "DesFase2": "Suspensión"
+  },
+  {
+    "IdFase2": "78",
+    "NºO": "17",
+    "IdFase1": "4",
+    "DesFase2": "Finalización"
+  },
+  {
+    "IdFase2": "79",
+    "NºO": "18",
+    "IdFase1": "4",
+    "DesFase2": "Recepción"
+  },
+  {
+    "IdFase2": "80",
+    "NºO": "19",
+    "IdFase1": "4",
+    "DesFase2": "CertificaciónFinal"
+  },
+  {
+    "IdFase2": "81",
+    "NºO": "20",
+    "IdFase1": "4",
+    "DesFase2": "Garantía"
+  },
+  {
+    "IdFase2": "82",
+    "NºO": "21",
+    "IdFase1": "4",
+    "DesFase2": "Final"
+  },
+  {
+    "IdFase2": "83",
+    "NºO": "22",
+    "IdFase1": "4",
+    "DesFase2": "LiquidaciónDefinitiva"
+  },
+  {
+    "IdFase2": "84",
+    "NºO": "23",
+    "IdFase1": "4",
+    "DesFase2": "Extinción"
+  },
+  {
+    "IdFase2": "85",
+    "NºO": "1",
+    "IdFase1": "5",
+    "DesFase2": "Conceptual"
+  },
+  {
+    "IdFase2": "86",
+    "NºO": "2",
+    "IdFase1": "5",
+    "DesFase2": "Ejecutiva"
+  },
+  {
+    "IdFase2": "87",
+    "NºO": "3",
+    "IdFase1": "5",
+    "DesFase2": "Control"
+  },
+  {
+    "IdFase2": "88",
+    "NºO": "4",
+    "IdFase1": "5",
+    "DesFase2": "Seguimiento"
+  },
+  {
+    "IdFase2": "89",
+    "NºO": "5",
+    "IdFase1": "5",
+    "DesFase2": "Evaluación"
+  },
+  {
+    "IdFase2": "90",
+    "NºO": "6",
+    "IdFase1": "5",
+    "DesFase2": "Decisión"
+  },
+  {
+    "IdFase2": "94",
+    "NºO": "1",
+    "IdFase1": "8",
+    "DesFase2": "Conceptual"
+  },
+  {
+    "IdFase2": "95",
+    "NºO": "2",
+    "IdFase1": "8",
+    "DesFase2": "Ejecutiva"
+  },
+  {
+    "IdFase2": "96",
+    "NºO": "3",
+    "IdFase1": "8",
+    "DesFase2": "RecogidaRegistro"
+  },
+  {
+    "IdFase2": "97",
+    "NºO": "4",
+    "IdFase1": "8",
+    "DesFase2": "Seguimiento"
+  },
+  {
+    "IdFase2": "98",
+    "NºO": "5",
+    "IdFase1": "8",
+    "DesFase2": "Evaluación"
+  },
+  {
+    "IdFase2": "99",
+    "NºO": "6",
+    "IdFase1": "8",
+    "DesFase2": "Informe"
+  },
+  {
+    "IdFase2": "100",
+    "NºO": "2",
+    "IdFase1": "1",
+    "DesFase2": "Documentado"
+  },
+  {
+    "IdFase2": "101",
+    "NºO": "5",
+    "IdFase1": "1",
+    "DesFase2": "Edición"
+  },
+  {
+    "IdFase2": "102",
+    "NºO": "2",
+    "IdFase1": "3",
+    "DesFase2": "Instada"
+  },
+  {
+    "IdFase2": "103",
+    "NºO": "2",
+    "IdFase1": "3",
+    "DesFase2": "Borrador"
+  },
+  {
+    "IdFase2": "104",
+    "NºO": "3",
+    "IdFase1": "3",
+    "DesFase2": "Editada"
+  },
+  {
+    "IdFase2": "105",
+    "NºO": "4",
+    "IdFase1": "3",
+    "DesFase2": "Entregada"
+  },
+  {
+    "IdFase2": "106",
+    "NºO": "5",
+    "IdFase1": "3",
+    "DesFase2": "Requerimiento1"
+  },
+  {
+    "IdFase2": "112",
+    "NºO": "6",
+    "IdFase1": "3",
+    "DesFase2": "Subsanación1"
+  },
+  {
+    "IdFase2": "114",
+    "NºO": "7",
+    "IdFase1": "3",
+    "DesFase2": "Evaluación1"
+  },
+  {
+    "IdFase2": "118",
+    "NºO": "8",
+    "IdFase1": "3",
+    "DesFase2": "Requerimiento2"
+  },
+  {
+    "IdFase2": "119",
+    "NºO": "9",
+    "IdFase1": "3",
+    "DesFase2": "Subsanación2"
+  },
+  {
+    "IdFase2": "120",
+    "NºO": "10",
+    "IdFase1": "3",
+    "DesFase2": "Evaluación2"
+  },
+  {
+    "IdFase2": "122",
+    "NºO": "11",
+    "IdFase1": "3",
+    "DesFase2": "Requerimiento3"
+  },
+  {
+    "IdFase2": "123",
+    "NºO": "12",
+    "IdFase1": "3",
+    "DesFase2": "Subsanación3"
+  },
+  {
+    "IdFase2": "124",
+    "NºO": "13",
+    "IdFase1": "3",
+    "DesFase2": "Evaluación3"
+  },
+  {
+    "IdFase2": "125",
+    "NºO": "14",
+    "IdFase1": "3",
+    "DesFase2": "Requerimiento4"
+  },
+  {
+    "IdFase2": "126",
+    "NºO": "15",
+    "IdFase1": "3",
+    "DesFase2": "Subsanación4"
+  },
+  {
+    "IdFase2": "127",
+    "NºO": "16",
+    "IdFase1": "3",
+    "DesFase2": "Evaluación4"
+  },
+  {
+    "IdFase2": "128",
+    "NºO": "14",
+    "IdFase1": "3",
+    "DesFase2": "Requerimiento5"
+  },
+  {
+    "IdFase2": "129",
+    "NºO": "15",
+    "IdFase1": "3",
+    "DesFase2": "Subsanación5"
+  },
+  {
+    "IdFase2": "130",
+    "NºO": "16",
+    "IdFase1": "3",
+    "DesFase2": "Evaluación5"
+  },
+  {
+    "IdFase2": "131",
+    "NºO": "17",
+    "IdFase1": "3",
+    "DesFase2": "Decisión"
+  }
+]

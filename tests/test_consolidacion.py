@@ -7,7 +7,6 @@ import pytest
 
 from conta_rizoma4.partida_doble import (
     RepositorioAsiento, crear_asiento, guardar_asiento, Linea,
-    borrar_asiento,
 )
 from conta_rizoma4.partida_doble.persistencia import PG_URL
 from conta_rizoma4.operativo.asiento import GENESIS

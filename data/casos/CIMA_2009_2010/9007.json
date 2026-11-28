@@ -1,0 +1,26 @@
+[
+  {
+    "IdFormaPago": "1",
+    "FormaPago": "Efectivo"
+  },
+  {
+    "IdFormaPago": "2",
+    "FormaPago": "Cheque"
+  },
+  {
+    "IdFormaPago": "3",
+    "FormaPago": "Efectos a pagar 30 dias"
+  },
+  {
+    "IdFormaPago": "4",
+    "FormaPago": "Efectos a pagar 60 dias"
+  },
+  {
+    "IdFormaPago": "5",
+    "FormaPago": "Efectos a pagar 90 dias"
+  },
+  {
+    "IdFormaPago": "6",
+    "FormaPago": "Efectos a apagar 120 dias"
+  }
+]

@@ -1,0 +1,9 @@
+# Fiscalidad versionada en memoria
+
+`ReglaFiscal` es un dato inmutable con ámbito, versión, intervalo de vigencia efectiva y fecha de registro. Los intervalos son semiabiertos: incluyen `vigente_desde` y excluyen `vigente_hasta`. Los parámetros son pares inmutables nombre/valor, y el registro impide ramas de corrección sobre una misma versión. `RegistroFiscalMemoria` conserva las reglas agregadas y permite resolver según fecha de aplicación y fecha de conocimiento.
+
+Una corrección se agrega como nueva regla con `reemplaza_regla_id`; la regla anterior no se edita ni se elimina. Por ello se puede consultar qué regla estaba disponible antes de conocer la corrección. Los solapamientos sin una sustitución inequívoca producen error. `documentar_aplicacion` fija versión, identificador y parámetros en el resultado.
+
+`calcular_importe_con_regla` aplica un parámetro explícito `tipo_pct` a una base en céntimos y devuelve tanto el importe como la versión seleccionada. `calcular_modelo_200_versionado` utiliza esa selección temporal para la cuota simplificada de IS, y `calcular_modelo_303_versionado` permite seleccionar reglas separadas para las bases repercutida y soportada. Los resultados conservan los IDs/versiones usados. `Modelo200` ya no presupone un tipo por defecto. El redondeo es decimal comercial a céntimo.
+
+Este bloque no contiene un catálogo oficial, no verifica la fuente citada y no rellena deducibilidad, ajustes, deducciones ni plazos legales. Los cálculos de modelos 200/303 no constituyen declaraciones oficiales; el cálculo 303 versionado solo resuelve dos bases y tipos explícitos. La elección de regla, su evidencia oficial y la validación de elegibilidad por entidad, régimen y periodo quedan pendientes. Para IS, el tipo depende del período y de características de cada contribuyente; consultar la [Ley 27/2014, artículo 29, en su redacción vigente](https://www.boe.es/eli/es/l/2014/11/27/27/con) antes de cargar reglas aplicables.

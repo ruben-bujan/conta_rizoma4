@@ -42,6 +42,7 @@ class BalanceConsolidado:
     fecha_cierre: date
     empresas_incluidas: list[str]
     activo: dict[str, dict[str, int]] = field(default_factory=dict)
+    correctores: dict[str, dict[str, int]] = field(default_factory=dict)
     pasivo: dict[str, dict[str, int]] = field(default_factory=dict)
     resultado_grupo: int = 0
     resultado_atribuible_matriz: int = 0

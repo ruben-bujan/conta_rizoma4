@@ -1,0 +1,206 @@
+[
+  {
+    "IdRegN02": "110",
+    "IdRegClaN02": "1",
+    "IdRegN01": "16",
+    "N1": "Contable"
+  },
+  {
+    "IdRegN02": "183",
+    "IdRegClaN02": "1",
+    "IdRegN01": "23",
+    "N1": "Carretera.Explanación"
+  },
+  {
+    "IdRegN02": "187",
+    "IdRegClaN02": "1",
+    "IdRegN01": "25",
+    "N1": "Infraestructura"
+  },
+  {
+    "IdRegN02": "254",
+    "IdRegClaN02": "2",
+    "IdRegN01": "16",
+    "N1": "NoContable"
+  },
+  {
+    "IdRegN02": "269",
+    "IdRegClaN02": "1",
+    "IdRegN01": "32",
+    "N1": "FINANCIACION BASICA"
+  },
+  {
+    "IdRegN02": "270",
+    "IdRegClaN02": "2",
+    "IdRegN01": "32",
+    "N1": "INMOVILIZADO"
+  },
+  {
+    "IdRegN02": "271",
+    "IdRegClaN02": "3",
+    "IdRegN01": "32",
+    "N1": "EXISTENCIAS"
+  },
+  {
+    "IdRegN02": "272",
+    "IdRegClaN02": "4",
+    "IdRegN01": "32",
+    "N1": "ACREEDORES Y DEUDORES POR OPERACIONES COMERCIALES"
+  },
+  {
+    "IdRegN02": "273",
+    "IdRegClaN02": "5",
+    "IdRegN01": "32",
+    "N1": "CUENTAS FINANCIERAS"
+  },
+  {
+    "IdRegN02": "274",
+    "IdRegClaN02": "6",
+    "IdRegN01": "32",
+    "N1": "COMPRAS Y GASTOS"
+  },
+  {
+    "IdRegN02": "275",
+    "IdRegClaN02": "7",
+    "IdRegN01": "32",
+    "N1": "VENTAS E INGRESOS"
+  },
+  {
+    "IdRegN02": "276",
+    "IdRegClaN02": "8",
+    "IdRegN01": "32",
+    "N1": "GASTOS IMPUTADOS AL PATRIMONIO NETO"
+  },
+  {
+    "IdRegN02": "277",
+    "IdRegClaN02": "9",
+    "IdRegN01": "32",
+    "N1": "INGRESOS IMPUTADOS AL PATRIMONIO NETO"
+  },
+  {
+    "IdRegN02": "302",
+    "IdRegClaN02": "2",
+    "IdRegN01": "25",
+    "N1": "Superestructura"
+  },
+  {
+    "IdRegN02": "303",
+    "IdRegClaN02": "3",
+    "IdRegN01": "25",
+    "N1": "ObraComplementaria"
+  },
+  {
+    "IdRegN02": "304",
+    "IdRegClaN02": "4",
+    "IdRegN01": "25",
+    "N1": "IntegraciónMedioambiental"
+  },
+  {
+    "IdRegN02": "306",
+    "IdRegClaN02": "1",
+    "IdRegN01": "46",
+    "N1": "Transacción"
+  },
+  {
+    "IdRegN02": "307",
+    "IdRegClaN02": "2",
+    "IdRegN01": "46",
+    "N1": "Acción"
+  },
+  {
+    "IdRegN02": "310",
+    "IdRegClaN02": "1",
+    "IdRegN01": "50",
+    "N1": "Central"
+  },
+  {
+    "IdRegN02": "311",
+    "IdRegClaN02": "2",
+    "IdRegN01": "50",
+    "N1": "Madrid"
+  },
+  {
+    "IdRegN02": "312",
+    "IdRegClaN02": "3",
+    "IdRegN01": "50",
+    "N1": "Aragón"
+  },
+  {
+    "IdRegN02": "315",
+    "IdRegClaN02": "1",
+    "IdRegN01": "51",
+    "N1": "¿Sistema¿"
+  },
+  {
+    "IdRegN02": "316",
+    "IdRegClaN02": "2",
+    "IdRegN01": "51",
+    "N1": "¿Proveedor¿"
+  },
+  {
+    "IdRegN02": "317",
+    "IdRegClaN02": "3",
+    "IdRegN01": "51",
+    "N1": "¿Deudor¿"
+  },
+  {
+    "IdRegN02": "318",
+    "IdRegClaN02": "4",
+    "IdRegN01": "51",
+    "N1": "¿Acreedor¿"
+  },
+  {
+    "IdRegN02": "319",
+    "IdRegClaN02": "5",
+    "IdRegN01": "51",
+    "N1": "¿Tesorero¿"
+  },
+  {
+    "IdRegN02": "320",
+    "IdRegClaN02": "6",
+    "IdRegN01": "51",
+    "N1": "¿Cliente¿"
+  },
+  {
+    "IdRegN02": "321",
+    "IdRegClaN02": "7",
+    "IdRegN01": "51",
+    "N1": "¿NtroPersonal¿"
+  },
+  {
+    "IdRegN02": "322",
+    "IdRegClaN02": "8",
+    "IdRegN01": "51",
+    "N1": "¿SuPersonal¿"
+  },
+  {
+    "IdRegN02": "323",
+    "IdRegClaN02": "9",
+    "IdRegN01": "51",
+    "N1": "¿OrgOficialGestor¿"
+  },
+  {
+    "IdRegN02": "324",
+    "IdRegClaN02": "10",
+    "IdRegN01": "51",
+    "N1": "¿SeguridadPublica¿"
+  },
+  {
+    "IdRegN02": "325",
+    "IdRegClaN02": "11",
+    "IdRegN01": "51",
+    "N1": "¿PoderJuridico¿"
+  },
+  {
+    "IdRegN02": "326",
+    "IdRegClaN02": "12",
+    "IdRegN01": "51",
+    "N1": "¿3ºDeInteres¿"
+  },
+  {
+    "IdRegN02": "327",
+    "IdRegClaN02": "13",
+    "IdRegN01": "51",
+    "N1": "¿Nuestra¿"
+  }
+]

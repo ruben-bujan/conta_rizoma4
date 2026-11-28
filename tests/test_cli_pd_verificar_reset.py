@@ -1,9 +1,19 @@
 # -*- coding: utf-8 -*-
 """Tests de pd-verificar y pd-reset."""
 import pytest
+import psycopg
 
 from conta_rizoma4.cli import main
-from conta_rizoma4.partida_doble import borrar_asiento, RepositorioAsiento
+from conta_rizoma4.partida_doble.persistencia import PG_URL
+
+
+@pytest.fixture(autouse=True)
+def cadena_vacia():
+    with psycopg.connect(PG_URL) as conn:
+        with conn.cursor() as cur:
+            cur.execute("DELETE FROM linea_asiento WHERE empresa_id = 'default'")
+            cur.execute("DELETE FROM asiento_contable WHERE empresa_id = 'default'")
+        conn.commit()
 
 
 class TestVerificar:
@@ -19,30 +29,15 @@ class TestReset:
     def test_reset_sin_yes_pide_confirmacion(self, capsys):
         rc = main(["pd-reset"])
         out = capsys.readouterr().out
-        assert rc == 1
-        assert "ADVERTENCIA" in out
-        assert "pd-reset --yes" in out
+        assert rc == 2
+        assert "deshabilitado" in out
 
-    def test_reset_con_yes_limpia(self, capsys):
-        repo = RepositorioAsiento('default')
-        # Crear un asiento si no hay ninguno
-        from datetime import date
-        from conta_rizoma4.actos.facturacion import fact_emit_serv_nac_sin_ret
-        from conta_rizoma4.operativo.asiento import GENESIS
-        from conta_rizoma4.partida_doble import guardar_asiento
-
-        indice = repo.ultimo_indice() + 1
-        a = fact_emit_serv_nac_sin_ret(
-            indice=indice, hash_previo=GENESIS, fecha=date(2025, 1, 1),
-            base_centimos=100_000, iva_pct=21,
-            cliente_nif="B1", concepto="Test reset",
+    def test_reset_con_yes_tampoco_conecta_a_la_base(self, capsys, monkeypatch):
+        monkeypatch.setattr(
+            psycopg, "connect",
+            lambda *a, **kw: (_ for _ in ()).throw(AssertionError("no debe conectar")),
         )
-        guardar_asiento(a)
-        assert repo.contar() >= 1
-
-        # Reset
         rc = main(["pd-reset", "--yes"])
         out = capsys.readouterr().out
-        assert rc == 0
-        assert "limpia" in out
-        assert repo.contar() == 0
+        assert rc == 2
+        assert "deshabilitado" in out

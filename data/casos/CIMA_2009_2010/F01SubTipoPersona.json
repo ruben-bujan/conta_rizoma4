@@ -1,0 +1,82 @@
+[
+  {
+    "IDSTPersona": "1",
+    "IdTPersona": "1",
+    "TContrato": "Subcontata"
+  },
+  {
+    "IDSTPersona": "2",
+    "IdTPersona": "1",
+    "TContrato": "Suministro"
+  },
+  {
+    "IDSTPersona": "3",
+    "IdTPersona": "1",
+    "TContrato": "Arendamiento.Mq"
+  },
+  {
+    "IDSTPersona": "4",
+    "IdTPersona": "1",
+    "TContrato": "Arendamiento.Utillaje"
+  },
+  {
+    "IDSTPersona": "8",
+    "IdTPersona": "2",
+    "TContrato": "Arendamiento.Vehículo"
+  },
+  {
+    "IDSTPersona": "9",
+    "IdTPersona": "2",
+    "TContrato": "Arendamiento.Inmueble.Finca"
+  },
+  {
+    "IDSTPersona": "10",
+    "IdTPersona": "2",
+    "TContrato": "Arendamiento.Inmueble.Edificac"
+  },
+  {
+    "IDSTPersona": "16",
+    "IdTPersona": "2",
+    "TContrato": "Servicio.Mantenimiento"
+  },
+  {
+    "IDSTPersona": "17",
+    "IdTPersona": "2",
+    "TContrato": "Servicio.Reparación"
+  },
+  {
+    "IDSTPersona": "18",
+    "IdTPersona": "2",
+    "TContrato": "Repuesto.SuSede"
+  },
+  {
+    "IDSTPersona": "19",
+    "IdTPersona": "2",
+    "TContrato": "Combustible.SuSede"
+  },
+  {
+    "IDSTPersona": "20",
+    "IdTPersona": "2",
+    "TContrato": "Fungible.SuSede"
+  },
+  {
+    "IDSTPersona": "21",
+    "IdTPersona": "7",
+    "TContrato": "Técnico"
+  },
+  {
+    "IDSTPersona": "22",
+    "IdTPersona": "7",
+    "TContrato": "Operario"
+  },
+  {
+    "IDSTPersona": "23",
+    "IdTPersona": "3",
+    "TContrato": "ObraCivilPública"
+  },
+  {
+    "IDSTPersona": "24",
+    "IdTPersona": "3",
+    "TContrato": "ObraCivilPrivada"
+  }
+]

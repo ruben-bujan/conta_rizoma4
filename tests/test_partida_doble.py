@@ -7,16 +7,24 @@ import pytest
 
 from conta_rizoma4.partida_doble import (
     Asiento, Linea, PartidaDobleError,
-    crear_asiento, guardar_asiento, borrar_asiento,
+    crear_asiento, guardar_asiento,
     RepositorioAsiento,
 )
 from conta_rizoma4.partida_doble.persistencia import PG_URL
+from test_helpers_db import limpiar_asiento_prueba
 
 
 class TestLinea:
     def test_debe_ok(self):
         l = Linea("430", debe_centimos=1000)
         assert l.debe_centimos == 1000 and l.haber_centimos == 0
+        assert l.parrafo_pgc_id is None
+        assert "PGC §" not in str(l)
+
+    def test_parrafo_pgc_explicito_se_conserva(self):
+        l = Linea("430", debe_centimos=1000, parrafo_pgc_id=42)
+        assert l.parrafo_pgc_id == 42
+        assert "PGC §42" in str(l)
 
     def test_haber_ok(self):
         l = Linea("705", haber_centimos=1000)
@@ -80,9 +88,9 @@ class TestAsiento:
 class TestPersistencia:
     @pytest.fixture(autouse=True)
     def cleanup(self):
-        borrar_asiento(9500); borrar_asiento(9501)
+        limpiar_asiento_prueba(9500); limpiar_asiento_prueba(9501)
         yield
-        borrar_asiento(9500); borrar_asiento(9501)
+        limpiar_asiento_prueba(9500); limpiar_asiento_prueba(9501)
 
     def test_guardar_y_leer(self):
         a = crear_asiento(
@@ -123,10 +131,10 @@ class TestRepositorio:
     @pytest.fixture(autouse=True)
     def cleanup(self):
         for i in (9600, 9601):
-            borrar_asiento(i)
+            limpiar_asiento_prueba(i)
         yield
         for i in (9600, 9601):
-            borrar_asiento(i)
+            limpiar_asiento_prueba(i)
 
     def test_cadena_encadenada(self):
         a0 = crear_asiento(
@@ -149,9 +157,9 @@ class TestRepositorio:
 class TestFiscal:
     @pytest.fixture(autouse=True)
     def cleanup(self):
-        borrar_asiento(9700)
+        limpiar_asiento_prueba(9700)
         yield
-        borrar_asiento(9700)
+        limpiar_asiento_prueba(9700)
 
     def test_liquidacion_iva_303(self):
         # 477=2100 D, 472=1500 H, 4750=600 H → cuadra

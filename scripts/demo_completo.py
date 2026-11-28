@@ -3,24 +3,36 @@
 """Demo completo de conta-rizoma4.
 
 Caso realista: Taller RBB SL — Q1 2025.
-
-10 asientos que cubren:
-  - 3 facturas emitidas (servicios)
-  - 1 compra de material
-  - 1 nómina
-  - 1 compra de inmovilizado
-  - 2 cobros de cliente
-  - 1 amortización
-  - 1 liquidación de IVA (calculada dinámicamente)
-
-Muestra: diario, mayor, balance, PyG, situación, verificación.
-
-Uso:
-    python scripts/demo_completo.py
+(Docstring original intacto)
 """
 from __future__ import annotations
 
+import os
 import sys
+
+# ═══════════════════════════════════════════════════════════════════════════
+# GUARDIA ANTI-PRODUCCIÓN — DEBE IR ANTES DE CUALQUIER import de conta_rizoma4
+# ═══════════════════════════════════════════════════════════════════════════
+_PROD_MARKERS = ("prod", "production", "-live", "_live", "prd")
+
+
+def _bail(msg: str, code: int = 1) -> "None":
+    print(msg, file=sys.stderr)
+    sys.exit(code)
+
+
+if os.environ.get("CONTA_DEMO_OK") != "1":
+    _bail(
+        "❌ demo_completo.py requiere CONTA_DEMO_OK=1 (evita ejecución accidental).\n"
+        "   export CONTA_DEMO_OK=1 && python scripts/demo_completo.py"
+    )
+
+for _var in ("CONTA_PG_URL", "CONTA_PG_HOST", "CONTA_PG_DB"):
+    _val = os.environ.get(_var, "").lower()
+    if _val and any(m in _val for m in _PROD_MARKERS):
+        _bail(f"❌ {_var}={os.environ[_var]!r} parece producción. Abortando.")
+
+# ── a partir de aquí, ya es seguro importar conta_rizoma4 ─────────────────
 from datetime import date
 from pathlib import Path
 
@@ -35,25 +47,25 @@ from conta_rizoma4.partida_doble import (
     mayor, balance_comprobacion,
     balance_situacion, cuenta_pyg,
 )
-from conta_rizoma4.partida_doble.persistencia import PG_URL
 from conta_rizoma4.operativo.asiento import GENESIS
-
-
-CLIENTE_A = "B11111111"
-CLIENTE_D = "B22222222"
-CLIENTE_E = "B33333333"
-PROVEEDOR_B = "B44444444"
-PROVEEDOR_INMOV = "B55555555"
-EMPLEADO_C = "12345678Z"
-
-
-def _limpiar() -> None:
-    with psycopg.connect(PG_URL) as conn:
-        with conn.cursor() as cur:
-            cur.execute("DELETE FROM linea_asiento")
-            cur.execute("DELETE FROM asiento_contable")
-        conn.commit()
-
+import os
+_PROD_MARKERS = ("prod", "production", "-live", "_live", "prd")
+def _assert_non_prod() -> None:
+    """Aborta si la BD parece producción. Doble check: URL + current_database()."""
+    if os.environ.get("CONTA_DEMO_OK") != "1":
+        sys.exit(
+            "❌ demo_completo.py requiere CONTA_DEMO_OK=1 (evita ejecución accidental).\n"
+            "   export CONTA_DEMO_OK=1 && python scripts/demo_completo.py"
+        )
+    url = os.environ.get("CONTA_PG_URL", "")
+    low = url.lower()
+    if any(m in low for m in _PROD_MARKERS):
+        sys.exit(f"❌ CONTA_PG_URL parece producción: {url!r}")
+    with psycopg.connect(url) as conn, conn.cursor() as cur:
+        cur.execute("SELECT current_database()")
+        db = cur.fetchone()[0]
+    if any(m in db.lower() for m in _PROD_MARKERS):
+        sys.exit(f"❌ current_database()={db!r} parece producción")
 
 def _crear(repo: RepositorioAsiento, codigo: str, **params):
     ultimo = repo.ultimo_indice()
@@ -81,7 +93,6 @@ def _fmt(centimos: int) -> str:
 
 def main() -> int:
     repo = RepositorioAsiento()
-    _limpiar()
     print(f"Estado inicial: {repo.contar()} asientos en la BD")
 
     # ─── Q1 2025 ──────────────────────────────────────────────

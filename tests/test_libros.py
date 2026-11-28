@@ -14,7 +14,7 @@ from datetime import date
 import pytest
 
 from conta_rizoma4.partida_doble import (
-    Linea, crear_asiento, guardar_asiento, borrar_asiento,
+    Linea, crear_asiento, guardar_asiento,
     RepositorioAsiento,
     listar_diario, totales_diario,
     mayor, balance_comprobacion,
@@ -23,6 +23,7 @@ from conta_rizoma4.partida_doble import (
 from conta_rizoma4.actos.facturacion import (
     fact_emit_serv_nac_sin_ret, fact_rec_gasto_nac, cobro_cliente_transf,
 )
+from test_helpers_db import limpiar_asiento_prueba
 
 
 GENESIS = "0" * 64
@@ -35,7 +36,7 @@ def caso_limpio():
     repo = RepositorioAsiento('default')
     # Limpiar cualquier residuo
     for i in (8000, 8001, 8002):
-        borrar_asiento(i)
+        limpiar_asiento_prueba(i)
     # Datos
     a0 = fact_emit_serv_nac_sin_ret(
         indice=8000, hash_previo=GENESIS, fecha=FECHA,
@@ -57,7 +58,7 @@ def caso_limpio():
         guardar_asiento(a)
     yield repo
     for i in (8000, 8001, 8002):
-        borrar_asiento(i)
+        limpiar_asiento_prueba(i)
 
 
 class TestLibroDiario:

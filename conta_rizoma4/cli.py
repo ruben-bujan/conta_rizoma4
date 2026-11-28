@@ -281,20 +281,9 @@ def _cmd_pendientes(args) -> int:
 
 
 def _cmd_reset(args) -> int:
-    """Borra todos los actos y justificaciones (con confirmación)."""
-    import psycopg
-    from .operativo.acto_economico import PG_URL
-    if not args.yes:
-        print("ADVERTENCIA: esto borra TODOS los actos y justificaciones.")
-        print("Para confirmar: conta reset --yes")
-        return 1
-    with psycopg.connect(PG_URL) as conn:
-        with conn.cursor() as cur:
-            cur.execute("DELETE FROM acto_economico")
-            cur.execute("DELETE FROM justificacion_interna")
-        conn.commit()
-    print("Base de datos operativa limpia.")
-    return 0
+    """Comando retirado: el ledger se conserva y se corrige append-only."""
+    print("reset está deshabilitado; los registros contables no se borran físicamente.")
+    return 2
 
 
 # ─── Parser ────────────────────────────────────────────────────────
@@ -368,7 +357,7 @@ def _construir_parser() -> argparse.ArgumentParser:
     sp.set_defaults(handler=_cmd_pendientes)
 
     # reset
-    sp = sub.add_parser("reset", help="[DEPRECATED] Usa pd-reset")
+    sp = sub.add_parser("reset", help="Retirado: no borra datos contables")
     sp.add_argument("--yes", action="store_true", help="Confirmar borrado")
     sp.set_defaults(handler=_cmd_reset)
 

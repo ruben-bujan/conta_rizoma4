@@ -1,42 +1,107 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Seed del PGC en Postgres para conta-rizoma4.
+Migración del PGC desde MariaDB a PostgreSQL para conta-rizoma4.
 
-Lee de MariaDB (Contabilidad) y escribe en Postgres (conta_rizoma4).
-Tres tablas:
-  - pgc_cuenta: 906 cuentas (id, grupo, cuenta, descripcion)
-  - pgc_texto: 3251 párrafos del texto legal del PGC
-  - pgc_jerarquia: Nivel1..Nivel9 (jerarquía de 9 niveles)
+Modo predeterminado:
+    Validación del origen. No escribe en PostgreSQL.
 
-Uso:
-    export MARIADB_PASSWORD='...'
-    export CONTA_PG_URL='postgresql://rizoma:rizoma_dev@localhost:5433/conta_rizoma4'
-    python scripts/seed_pgc.py
+Ejecución efectiva:
+    python scripts/seed_pgc.py --apply --backup-to backups/pgc_YYYY-MM-DD
+
+Variables necesarias:
+    MARIADB_USER
+    MARIADB_PASSWORD
+    CONTA_PG_URL (solo para --apply; se carga desde .env si existe)
+
+Opcionales:
+    MARIADB_HOST
+    MARIADB_PORT
+    MARIADB_DB
 """
+
 from __future__ import annotations
 
+import argparse
 import os
 import sys
+from datetime import datetime                    # ← §3.4: necesario para _backup_tablas
+from pathlib import Path
 
 import pymysql
 import psycopg
 
 
+# ═══════════════════════════════════════════════════════════════════════════
+# cargar_env() — SIN CAMBIOS. Cópiala verbatim del original.
+# ═══════════════════════════════════════════════════════════════════════════
+def cargar_env(ruta: Path | None = None) -> None:
+    """Carga un .env sencillo sin sobrescribir variables ya existentes."""
+    if ruta is None:
+        ruta = Path(__file__).resolve().parent.parent / ".env"
+    if not ruta.is_file():
+        return
+    for numero, linea in enumerate(
+        ruta.read_text(encoding="utf-8").splitlines(), start=1
+    ):
+        texto = linea.strip()
+        if not texto or texto.startswith("#"):
+            continue
+        if texto.startswith("export "):
+            texto = texto[7:].strip()
+        if "=" not in texto:
+            raise RuntimeError(
+                f"Formato inválido en {ruta}, línea {numero}: falta '='."
+            )
+        clave, valor = texto.split("=", 1)
+        clave = clave.strip()
+        valor = valor.strip()
+        if not clave:
+            raise RuntimeError(
+                f"Nombre de variable vacío en {ruta}, línea {numero}."
+            )
+        if len(valor) >= 2 and valor[0] == valor[-1] and valor[0] in ("'", '"'):
+            valor = valor[1:-1]
+        os.environ.setdefault(clave, valor)
+
+
+cargar_env()
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# §3.2 — MARIADB_CONFIG (M4: sin default "root")
+# ═══════════════════════════════════════════════════════════════════════════
 MARIADB_CONFIG = {
     "host": os.environ.get("MARIADB_HOST", "localhost"),
     "port": int(os.environ.get("MARIADB_PORT", "3306")),
-    "user": os.environ.get("MARIADB_USER", "root"),
+    "user": os.environ.get("MARIADB_USER", ""),      # ← era "root"
     "password": os.environ.get("MARIADB_PASSWORD", ""),
     "database": os.environ.get("MARIADB_DB", "Contabilidad"),
 }
 
-PG_URL = os.environ.get(
-    "CONTA_PG_URL",
-    "postgresql://rizoma:rizoma_dev@localhost:5433/conta_rizoma4",
-)
+PG_URL = os.environ.get("CONTA_PG_URL", "")
+PG_DATABASE_DESTINO = "conta_rizoma4"
+
+PGC_HEADER_ID = 131
+NIVEL2_HEADER_ID = 81
+NIVEL4_EXCLUDED_IDS = (11, 12, 13, 14)
+
+EXPECTED = {
+    "PGC": 906,
+    "PGC_OPERATIVO": 905,
+    "NuevaTabla_3": 3251,
+    "Nivel1": 77,
+    "Nivel2": 416,
+    "Nivel3": 397,
+    "Nivel4_VALIDO": 10,
+    "Nivel5_EXCLUIDO": 12,
+    "Nivel6_EXCLUIDO": 11,
+}
 
 
+# ═══════════════════════════════════════════════════════════════════════════
+# §3.3 — DDL (M2: sin los 2 ALTER TABLE; movidos a migrations/001_*.sql)
+# ═══════════════════════════════════════════════════════════════════════════
 DDL = """
 CREATE TABLE IF NOT EXISTS pgc_cuenta (
     id INTEGER PRIMARY KEY,
@@ -58,145 +123,447 @@ CREATE TABLE IF NOT EXISTS pgc_jerarquia (
     id INTEGER NOT NULL,
     codigo VARCHAR(20) NOT NULL,
     nombre VARCHAR(255) NOT NULL,
+    grupo INTEGER,
+    tipo_registro VARCHAR(20) NOT NULL DEFAULT 'cuenta',
     PRIMARY KEY (nivel, id)
 );
 
-CREATE INDEX IF NOT EXISTS idx_pgc_cuenta_cuenta ON pgc_cuenta(cuenta);
-CREATE INDEX IF NOT EXISTS idx_pgc_texto_jerarquia ON pgc_texto(jerarquia);
-CREATE INDEX IF NOT EXISTS idx_pgc_jerarquia_nivel ON pgc_jerarquia(nivel);
+CREATE TABLE IF NOT EXISTS pgc_jerarquia_relacion (
+    origen_nivel VARCHAR(20) NOT NULL,
+    origen_id INTEGER NOT NULL,
+    campo_origen VARCHAR(30) NOT NULL,
+    destino_nivel VARCHAR(20) NOT NULL,
+    destino_id INTEGER NOT NULL,
+    metodo VARCHAR(30) NOT NULL,
+    PRIMARY KEY (origen_nivel, origen_id, campo_origen)
+);
+
+CREATE INDEX IF NOT EXISTS idx_pgc_cuenta_cuenta
+    ON pgc_cuenta(cuenta);
+
+CREATE INDEX IF NOT EXISTS idx_pgc_texto_jerarquia
+    ON pgc_texto(jerarquia);
+
+CREATE INDEX IF NOT EXISTS idx_pgc_jerarquia_nivel
+    ON pgc_jerarquia(nivel);
+
+CREATE INDEX IF NOT EXISTS idx_pgc_relacion_destino
+    ON pgc_jerarquia_relacion(destino_nivel, destino_id);
 """
 
 
-def _seed_cuentas(src_cur, dst_cur) -> int:
-    """906 cuentas del PGC."""
-    src_cur.execute("SELECT Id, grupo, cuenta, descripcion FROM PGC")
-    rows = src_cur.fetchall()
-    if not rows:
-        print("  [aviso] PGC vacío")
-        return 0
-    dst_cur.executemany(
-        "INSERT INTO pgc_cuenta (id, grupo, cuenta, descripcion) "
-        "VALUES (%s, %s, %s, %s) "
-        "ON CONFLICT (id) DO NOTHING",
-        rows,
+def comprobar(condicion: bool, mensaje: str) -> None:
+    if not condicion:
+        raise RuntimeError(mensaje)
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# leer_origen() — SIN CAMBIOS (≈220 líneas). Cópiala verbatim del original.
+# Es la función que valida MariaDB contra EXPECTED. No la toques.
+# ═══════════════════════════════════════════════════════════════════════════
+def leer_origen(cur) -> dict:
+    """Lee y valida los datos MariaDB sin modificarlos."""
+
+    datos = {}
+
+    # PGC
+    cur.execute("""
+        SELECT Id, grupo, cuenta, descripcion
+        FROM PGC
+        ORDER BY Id
+    """)
+    pgc = cur.fetchall()
+
+    comprobar(
+        len(pgc) == EXPECTED["PGC"],
+        f"PGC: se esperaban 906 registros y hay {len(pgc)}"
     )
-    return len(rows)
 
+    cabecera = [r for r in pgc if r[0] == PGC_HEADER_ID]
 
-def _seed_texto(src_cur, dst_cur) -> int:
-    """3251 párrafos del texto legal del PGC."""
-    src_cur.execute(
-        "SELECT id, Jerarquia, N_pg, N_linea, Texto FROM NuevaTabla_3"
+    comprobar(
+        len(cabecera) == 1
+        and str(cabecera[0][3]).startswith("23."),
+        "No se reconoce la cabecera PGC.Id=131 auditada."
     )
-    rows = src_cur.fetchall()
-    if not rows:
-        print("  [aviso] NuevaTabla_3 vacía")
-        return 0
-    dst_cur.executemany(
-        "INSERT INTO pgc_texto (id, jerarquia, n_pg, n_linea, texto) "
-        "VALUES (%s, %s, %s, %s, %s) "
-        "ON CONFLICT (id) DO NOTHING",
-        rows,
+
+    cuentas = [r for r in pgc if r[0] != PGC_HEADER_ID]
+    claves = [(int(r[1]), str(r[2])) for r in cuentas]
+
+    comprobar(
+        len(claves) == len(set(claves)),
+        "Hay códigos PGC duplicados por grupo + cuenta."
     )
-    return len(rows)
 
+    datos["cuentas"] = [
+        (int(r[0]), int(r[1]), str(r[2]), str(r[3]))
+        for r in cuentas
+    ]
 
-def _seed_jerarquia(src_cur, dst_cur) -> dict[str, int]:
-    """Nivel1..Nivel9. Detecta columnas dinámicamente (id/new_id, cuenta/codigo, descripcion/nombre)."""
-    resultado = {}
-    for nivel in range(1, 10):
-        tabla = f"Nivel{nivel}"
+    # TEXTO DEL PGC
+    cur.execute("""
+        SELECT id, Jerarquia, N_pg, N_linea, Texto
+        FROM NuevaTabla_3
+        ORDER BY id
+    """)
+    textos = cur.fetchall()
 
-        # 1. ¿Existe la tabla?
-        try:
-            src_cur.execute(f"SHOW COLUMNS FROM {tabla}")
-            columnas = {row[0].lower() for row in src_cur.fetchall()}
-        except pymysql.err.ProgrammingError:
-            resultado[tabla] = -1
-            continue
+    comprobar(
+        len(textos) == EXPECTED["NuevaTabla_3"],
+        f"NuevaTabla_3: se esperaban 3251 registros y hay {len(textos)}"
+    )
 
-        # 2. Detectar columna de ID (id o new_id)
-        col_id = next(
-            (c for c in ("id", "new_id", "id_nivel", "nivel_id") if c in columnas),
-            None,
+    ids_texto = [r[0] for r in textos]
+    ubicaciones = [(r[2], r[3]) for r in textos]
+
+    comprobar(
+        len(ids_texto) == len(set(ids_texto)),
+        "NuevaTabla_3 contiene identificadores duplicados."
+    )
+
+    comprobar(
+        len(ubicaciones) == len(set(ubicaciones)),
+        "NuevaTabla_3 contiene ubicaciones documentales duplicadas."
+    )
+
+    comprobar(
+        all(
+            r[1] is not None
+            and r[2] is not None
+            and r[3] is not None
+            and r[4] is not None
+            and str(r[4]) != ""
+            for r in textos
+        ),
+        "NuevaTabla_3 contiene campos incompletos."
+    )
+
+    datos["textos"] = textos
+
+    # NIVEL 1
+    cur.execute("""
+        SELECT id, grupo, cuenta, descripcion
+        FROM Nivel1
+        ORDER BY id
+    """)
+    nivel1 = cur.fetchall()
+
+    comprobar(
+        len(nivel1) == EXPECTED["Nivel1"],
+        "El número de registros de Nivel1 ha cambiado."
+    )
+
+    # NIVEL 2
+    cur.execute("""
+        SELECT id, grupo, cuenta, descripcion, id_nivel3
+        FROM Nivel2
+        ORDER BY id
+    """)
+    nivel2 = cur.fetchall()
+
+    comprobar(
+        len(nivel2) == EXPECTED["Nivel2"],
+        "El número de registros de Nivel2 ha cambiado."
+    )
+
+    comprobar(
+        any(r[0] == NIVEL2_HEADER_ID for r in nivel2),
+        "No se encuentra Nivel2.id=81, encabezado acordado."
+    )
+
+    # NIVEL 3
+    cur.execute("""
+        SELECT new_id, grupo, cuenta, descripcion, id_nivel2
+        FROM Nivel3
+        ORDER BY new_id
+    """)
+    nivel3 = cur.fetchall()
+
+    comprobar(
+        len(nivel3) == EXPECTED["Nivel3"],
+        "El número de registros de Nivel3 ha cambiado."
+    )
+
+    ids_nivel2 = {r[0] for r in nivel2}
+    ids_nivel3 = {r[0] for r in nivel3}
+
+    comprobar(
+        all(r[4] in ids_nivel3 for r in nivel2),
+        "Nivel2 contiene referencias inválidas a Nivel3."
+    )
+
+    comprobar(
+        all(r[4] in ids_nivel2 for r in nivel3),
+        "Nivel3 contiene referencias inválidas a Nivel2."
+    )
+
+    # NIVEL 4: reconstrucción por prefijo de código
+    cur.execute("""
+        SELECT
+            n4.id,
+            n4.grupo,
+            n4.cuenta,
+            n4.descripcion,
+            n3.new_id
+        FROM Nivel4 n4
+        INNER JOIN Nivel3 n3
+            ON n3.grupo = n4.grupo
+           AND n3.cuenta = LEFT(n4.cuenta, 4)
+        WHERE n4.id NOT IN (11, 12, 13, 14)
+        ORDER BY n4.id
+    """)
+    nivel4 = cur.fetchall()
+
+    comprobar(
+        len(nivel4) == EXPECTED["Nivel4_VALIDO"],
+        "La reconstrucción de Nivel4 no devuelve exactamente 10 relaciones."
+    )
+
+    comprobar(
+        len({r[0] for r in nivel4}) == len(nivel4),
+        "La reconstrucción de Nivel4 produce identificadores duplicados."
+    )
+
+    datos["jerarquia"] = []
+
+    for r in nivel1:
+        datos["jerarquia"].append(
+            ("nivel1", r[0], str(r[2]), str(r[3]), int(r[1]), "cuenta")
         )
-        if col_id is None:
-            resultado[tabla] = -1
-            print(f"  {tabla}: sin columna ID, omitido")
-            continue
 
-        # 3. Detectar columnas de código y nombre
-        col_codigo = next(
-            (c for c in ("cuenta", "codigo", "codigo_cuenta") if c in columnas),
-            None,
+    for r in nivel2:
+        tipo = "epigrafe" if r[0] == NIVEL2_HEADER_ID else "cuenta"
+        datos["jerarquia"].append(
+            ("nivel2", r[0], str(r[2]), str(r[3]), int(r[1]), tipo)
         )
-        col_nombre = next(
-            (c for c in ("descripcion", "nombre", "desc") if c in columnas),
-            None,
+
+    for r in nivel3:
+        datos["jerarquia"].append(
+            ("nivel3", r[0], str(r[2]), str(r[3]), int(r[1]), "cuenta")
         )
-        if col_codigo is None or col_nombre is None:
-            resultado[tabla] = -1
-            print(f"  {tabla}: columnas faltantes (código={col_codigo}, nombre={col_nombre})")
-            continue
 
-        # 4. Extraer
-        src_cur.execute(f"SELECT {col_id}, {col_codigo}, {col_nombre} FROM {tabla}")
-        rows = src_cur.fetchall()
-        if not rows:
-            resultado[tabla] = 0
-            continue
-
-        # 5. Insertar en Postgres
-        dst_cur.executemany(
-            "INSERT INTO pgc_jerarquia (nivel, id, codigo, nombre) "
-            "VALUES (%s, %s, %s, %s) "
-            "ON CONFLICT (nivel, id) DO NOTHING",
-            [(f"nivel{nivel}", r[0], r[1], r[2]) for r in rows],
+    for r in nivel4:
+        datos["jerarquia"].append(
+            ("nivel4", r[0], str(r[2]), str(r[3]), int(r[1]), "cuenta")
         )
-        resultado[tabla] = len(rows)
-    return resultado
+
+    # RELACIONES: se conservan las referencias sin atribuirles
+    # una semántica de padre/hijo que no esté acreditada.
+    relaciones = []
+
+    for r in nivel2:
+        relaciones.append(
+            ("nivel2", r[0], "id_nivel3", "nivel3", r[4],
+             "referencia_origen")
+        )
+
+    for r in nivel3:
+        relaciones.append(
+            ("nivel3", r[0], "id_nivel2", "nivel2", r[4],
+             "referencia_origen")
+        )
+
+    for r in nivel4:
+        relaciones.append(
+            ("nivel4", r[0], "prefijo_codigo", "nivel3", r[4],
+             "prefijo_codigo")
+        )
+
+    datos["relaciones"] = relaciones
+
+    # Nivel5 y Nivel6 se excluyen según las decisiones acordadas.
+    cur.execute("SELECT COUNT(*) FROM Nivel5")
+    datos["nivel5_excluidos"] = cur.fetchone()[0]
+
+    cur.execute("SELECT COUNT(*) FROM Nivel6")
+    datos["nivel6_excluidos"] = cur.fetchone()[0]
+
+    return datos
 
 
+def mostrar_resumen(datos: dict) -> None:
+    print("\n===== VALIDACIÓN DEL ORIGEN =====")
+    print(f"pgc_cuenta:               {len(datos['cuentas'])}")
+    print(f"pgc_texto:                {len(datos['textos'])}")
+    print(f"pgc_jerarquia:            {len(datos['jerarquia'])}")
+    print(f"pgc_jerarquia_relacion:   {len(datos['relaciones'])}")
+    print(f"Nivel5 excluido:          {datos['nivel5_excluidos']}")
+    print(f"Nivel6 excluido:          {datos['nivel6_excluidos']}")
+    print("\nValidación completada sin modificar MariaDB.")
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# §3.4 — NUEVA FUNCIÓN _backup_tablas (A1)
+# Insertar ENTRE mostrar_resumen() y aplicar_migracion()
+# ═══════════════════════════════════════════════════════════════════════════
+def _backup_tablas(conn, out_dir: Path) -> None:
+    """A1: vuelca tablas pgc_* a CSV antes de cualquier operación destructiva."""
+    out_dir.mkdir(parents=True, exist_ok=True)
+    ts = datetime.now().strftime("%Y%m%d_%H%M%S")
+    tablas = ("pgc_cuenta", "pgc_texto", "pgc_jerarquia", "pgc_jerarquia_relacion")
+    with conn.cursor() as cur:
+        for t in tablas:
+            cur.execute("SELECT to_regclass(%s)", (f"public.{t}",))
+            if cur.fetchone()[0] is None:
+                continue
+            out = out_dir / f"{t}_{ts}.csv"
+            with cur.copy(f"COPY {t} TO STDOUT WITH CSV HEADER") as cp, \
+                 out.open("wb") as f:
+                for chunk in cp:
+                    f.write(chunk)
+            print(f"   💾 {t} → {out}")
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# §3.5 — REEMPLAZO COMPLETO de aplicar_migracion() (A1)
+# Cambios: firma acepta backup_to, hace backup, DELETEs acotados, no wipe.
+# ═══════════════════════════════════════════════════════════════════════════
+def aplicar_migracion(datos: dict, backup_to: Path) -> None:
+    """A1: backup obligatorio + DELETE acotado (no wipe total)."""
+    if not PG_URL:
+        raise RuntimeError("Falta la variable CONTA_PG_URL.")
+    if backup_to is None:
+        raise RuntimeError("--backup-to es obligatorio con --apply.")
+
+    with psycopg.connect(PG_URL) as dst:
+        with dst.cursor() as cur:
+            cur.execute("SELECT current_database()")
+            base = cur.fetchone()[0]
+            comprobar(
+                base == PG_DATABASE_DESTINO,
+                "Destino PostgreSQL incorrecto: "
+                f"esperado '{PG_DATABASE_DESTINO}', conexión a '{base}'. "
+                "No se ha escrito nada.",
+            )
+
+            print("💾 Backup previo:")
+            _backup_tablas(dst, backup_to)
+
+            cur.execute(DDL)
+            cur.execute("DELETE FROM pgc_cuenta WHERE id = %s", (PGC_HEADER_ID,))
+            cur.execute("""
+                CREATE UNIQUE INDEX IF NOT EXISTS uq_pgc_cuenta_grupo_cuenta
+                ON pgc_cuenta(grupo, cuenta)
+            """)
+
+            # A1: DELETE acotado a niveles excluidos por auditoría (igual que el original).
+            cur.execute("""
+                DELETE FROM pgc_jerarquia
+                WHERE (nivel IN ('nivel5','nivel6','nivel7','nivel8','nivel9'))
+                   OR (nivel = 'nivel4' AND id IN (11, 12, 13, 14))
+            """)
+
+            cur.executemany("""
+                INSERT INTO pgc_cuenta (id, grupo, cuenta, descripcion)
+                VALUES (%s, %s, %s, %s)
+                ON CONFLICT (id) DO UPDATE SET
+                    grupo = EXCLUDED.grupo, cuenta = EXCLUDED.cuenta,
+                    descripcion = EXCLUDED.descripcion
+            """, datos["cuentas"])
+
+            cur.executemany("""
+                INSERT INTO pgc_texto (id, jerarquia, n_pg, n_linea, texto)
+                VALUES (%s, %s, %s, %s, %s)
+                ON CONFLICT (id) DO UPDATE SET
+                    jerarquia = EXCLUDED.jerarquia, n_pg = EXCLUDED.n_pg,
+                    n_linea = EXCLUDED.n_linea, texto = EXCLUDED.texto
+            """, datos["textos"])
+
+            cur.executemany("""
+                INSERT INTO pgc_jerarquia
+                    (nivel, id, codigo, nombre, grupo, tipo_registro)
+                VALUES (%s, %s, %s, %s, %s, %s)
+                ON CONFLICT (nivel, id) DO UPDATE SET
+                    codigo = EXCLUDED.codigo, nombre = EXCLUDED.nombre,
+                    grupo = EXCLUDED.grupo,
+                    tipo_registro = EXCLUDED.tipo_registro
+            """, datos["jerarquia"])
+
+            # A1: NO wipe total. Solo borra las filas que este script va a reinsertar.
+            cur.execute(
+                "DELETE FROM pgc_jerarquia_relacion WHERE metodo IN (%s, %s)",
+                ("prefijo_codigo", "referencia_origen"),
+            )
+            cur.executemany("""
+                INSERT INTO pgc_jerarquia_relacion
+                    (origen_nivel, origen_id, campo_origen,
+                     destino_nivel, destino_id, metodo)
+                VALUES (%s, %s, %s, %s, %s, %s)
+                ON CONFLICT (origen_nivel, origen_id, campo_origen)
+                DO UPDATE SET
+                    destino_nivel = EXCLUDED.destino_nivel,
+                    destino_id = EXCLUDED.destino_id,
+                    metodo = EXCLUDED.metodo
+            """, datos["relaciones"])
+        dst.commit()
+
+    print("\nMigración PostgreSQL completada correctamente.")
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# §3.6 — REEMPLAZO COMPLETO de main() (M4 + A1: --backup-to obligatorio)
+# ═══════════════════════════════════════════════════════════════════════════
 def main() -> int:
+    parser = argparse.ArgumentParser(
+        description="Validación y migración del PGC a PostgreSQL."
+    )
+    parser.add_argument(
+        "--apply",
+        action="store_true",
+        help="Ejecutar la escritura en PostgreSQL. Sin esta opción solo valida."
+    )
+    parser.add_argument(
+        "--backup-to",
+        type=Path,
+        default=None,
+        help="Directorio para CSV previos. OBLIGATORIO con --apply.",
+    )
+    args = parser.parse_args()
+
+    if not MARIADB_CONFIG["user"]:                    # M4
+        print("ERROR: falta MARIADB_USER", file=sys.stderr)
+        return 1
     if not MARIADB_CONFIG["password"]:
         print("ERROR: falta MARIADB_PASSWORD", file=sys.stderr)
         return 1
+    if args.apply and not PG_URL:
+        print("ERROR: falta CONTA_PG_URL", file=sys.stderr)
+        return 1
+    if args.apply and args.backup_to is None:         # A1
+        print("ERROR: --apply requiere --backup-to DIR", file=sys.stderr)
+        return 2
 
-    print(f"MariaDB:  {MARIADB_CONFIG['user']}@{MARIADB_CONFIG['host']}:"
-          f"{MARIADB_CONFIG['port']}/{MARIADB_CONFIG['database']}")
-    print(f"Postgres: {PG_URL}")
+    print(
+        f"MariaDB: {MARIADB_CONFIG['user']}@"
+        f"{MARIADB_CONFIG['host']}:"
+        f"{MARIADB_CONFIG['port']}/"
+        f"{MARIADB_CONFIG['database']}"
+    )
+    if args.apply:
+        print(f"Modo: MIGRACIÓN hacia PostgreSQL/{PG_DATABASE_DESTINO}")
+        print(f"Backup: {args.backup_to}")
+    else:
+        print("Modo: VALIDACIÓN (sin escritura)")
 
-    src = pymysql.connect(**MARIADB_CONFIG)
-    src_cur = src.cursor()
-
+    src = None
     try:
-        with psycopg.connect(PG_URL) as dst:
-            with dst.cursor() as dst_cur:
-                dst_cur.execute(DDL)
-                print("DDL OK")
-
-                n = _seed_cuentas(src_cur, dst_cur)
-                print(f"pgc_cuenta: {n} filas")
-
-                n = _seed_texto(src_cur, dst_cur)
-                print(f"pgc_texto: {n} filas")
-
-                jer = _seed_jerarquia(src_cur, dst_cur)
-                for tabla, n in jer.items():
-                    if n == -1:
-                        print(f"  {tabla}: no existe (omitido)")
-                    elif n == 0:
-                        print(f"  {tabla}: 0 filas")
-                    else:
-                        print(f"  {tabla}: {n} filas")
-
-                dst.commit()
-                print("Seed completado")
+        src = pymysql.connect(**MARIADB_CONFIG)
+        with src.cursor() as src_cur:
+            datos = leer_origen(src_cur)
+        mostrar_resumen(datos)
+        if args.apply:
+            aplicar_migracion(datos, backup_to=args.backup_to)
+        else:
+            print("\nNo se ha conectado a PostgreSQL ni se ha escrito en él.")
+            print("Para autorizar la escritura:")
+            print("  python scripts/seed_pgc.py --apply --backup-to backups/pgc_$(date +%F)")
+        return 0
+    except Exception as exc:
+        print(f"\nERROR: {exc}", file=sys.stderr)
+        return 1
     finally:
-        src_cur.close()
-        src.close()
-
-    return 0
+        if src is not None:
+            src.close()
 
 
 if __name__ == "__main__":

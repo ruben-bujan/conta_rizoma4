@@ -1,0 +1,387 @@
+[
+  {
+    "IDÁrea": "1",
+    "IDDivisión": "29",
+    "Área": "Oferta"
+  },
+  {
+    "IDÁrea": "2",
+    "IDDivisión": "29",
+    "Área": "Control Costes"
+  },
+  {
+    "IDÁrea": "3",
+    "IDDivisión": "29",
+    "Área": "Seguridad y Salud"
+  },
+  {
+    "IDÁrea": "4",
+    "IDDivisión": "29",
+    "Área": "Calidad"
+  },
+  {
+    "IDÁrea": "5",
+    "IDDivisión": "29",
+    "Área": "Medio Ambiente"
+  },
+  {
+    "IDÁrea": "6",
+    "IDDivisión": "29",
+    "Área": "I+D+i"
+  },
+  {
+    "IDÁrea": "9",
+    "IDDivisión": "29",
+    "Área": "Activo.Explotación"
+  },
+  {
+    "IDÁrea": "88",
+    "IDDivisión": "33",
+    "Área": "Obra Pública"
+  },
+  {
+    "IDÁrea": "89",
+    "IDDivisión": "33",
+    "Área": "Segurida y Salud"
+  },
+  {
+    "IDÁrea": "90",
+    "IDDivisión": "33",
+    "Área": "Calidad"
+  },
+  {
+    "IDÁrea": "91",
+    "IDDivisión": "33",
+    "Área": "Medio Ambiente"
+  },
+  {
+    "IDÁrea": "92",
+    "IDDivisión": "33",
+    "Área": "Contractual Privado"
+  },
+  {
+    "IDÁrea": "106",
+    "IDDivisión": "32",
+    "Área": "Societario"
+  },
+  {
+    "IDÁrea": "110",
+    "IDDivisión": "30",
+    "Área": "Control Costes"
+  },
+  {
+    "IDÁrea": "111",
+    "IDDivisión": "30",
+    "Área": "Seguridad y Salud"
+  },
+  {
+    "IDÁrea": "112",
+    "IDDivisión": "30",
+    "Área": "Calidad"
+  },
+  {
+    "IDÁrea": "113",
+    "IDDivisión": "30",
+    "Área": "Medio Ambiente"
+  },
+  {
+    "IDÁrea": "114",
+    "IDDivisión": "30",
+    "Área": "Activo. Explotación"
+  },
+  {
+    "IDÁrea": "120",
+    "IDDivisión": "32",
+    "Área": "Mercantil"
+  },
+  {
+    "IDÁrea": "121",
+    "IDDivisión": "32",
+    "Área": "Jurídico"
+  },
+  {
+    "IDÁrea": "124",
+    "IDDivisión": "33",
+    "Área": "Compra"
+  },
+  {
+    "IDÁrea": "125",
+    "IDDivisión": "33",
+    "Área": "Venta"
+  },
+  {
+    "IDÁrea": "126",
+    "IDDivisión": "33",
+    "Área": "Laboral"
+  },
+  {
+    "IDÁrea": "127",
+    "IDDivisión": "33",
+    "Área": "Fiscal"
+  },
+  {
+    "IDÁrea": "128",
+    "IDDivisión": "33",
+    "Área": "Financiero"
+  },
+  {
+    "IDÁrea": "129",
+    "IDDivisión": "33",
+    "Área": "Caución"
+  },
+  {
+    "IDÁrea": "130",
+    "IDDivisión": "33",
+    "Área": "Seguro"
+  },
+  {
+    "IDÁrea": "131",
+    "IDDivisión": "33",
+    "Área": "Jurídico"
+  },
+  {
+    "IDÁrea": "132",
+    "IDDivisión": "33",
+    "Área": "Contable"
+  },
+  {
+    "IDÁrea": "133",
+    "IDDivisión": "33",
+    "Área": "Societario"
+  },
+  {
+    "IDÁrea": "134",
+    "IDDivisión": "33",
+    "Área": "Mercantil"
+  },
+  {
+    "IDÁrea": "135",
+    "IDDivisión": "33",
+    "Área": "Concesional"
+  },
+  {
+    "IDÁrea": "136",
+    "IDDivisión": "33",
+    "Área": "Sancionador"
+  },
+  {
+    "IDÁrea": "137",
+    "IDDivisión": "33",
+    "Área": "Activo"
+  },
+  {
+    "IDÁrea": "138",
+    "IDDivisión": "34",
+    "Área": "Obra Pública"
+  },
+  {
+    "IDÁrea": "139",
+    "IDDivisión": "34",
+    "Área": "Segurida y Salud"
+  },
+  {
+    "IDÁrea": "140",
+    "IDDivisión": "34",
+    "Área": "Calidad"
+  },
+  {
+    "IDÁrea": "141",
+    "IDDivisión": "34",
+    "Área": "Medio Ambiente"
+  },
+  {
+    "IDÁrea": "142",
+    "IDDivisión": "34",
+    "Área": "Contractual Privado"
+  },
+  {
+    "IDÁrea": "143",
+    "IDDivisión": "34",
+    "Área": "Compra"
+  },
+  {
+    "IDÁrea": "144",
+    "IDDivisión": "34",
+    "Área": "Venta"
+  },
+  {
+    "IDÁrea": "145",
+    "IDDivisión": "34",
+    "Área": "Laboral"
+  },
+  {
+    "IDÁrea": "146",
+    "IDDivisión": "34",
+    "Área": "Fiscal"
+  },
+  {
+    "IDÁrea": "147",
+    "IDDivisión": "34",
+    "Área": "Financiero"
+  },
+  {
+    "IDÁrea": "148",
+    "IDDivisión": "34",
+    "Área": "Caución"
+  },
+  {
+    "IDÁrea": "149",
+    "IDDivisión": "34",
+    "Área": "Seguro"
+  },
+  {
+    "IDÁrea": "150",
+    "IDDivisión": "34",
+    "Área": "Jurídico"
+  },
+  {
+    "IDÁrea": "151",
+    "IDDivisión": "34",
+    "Área": "Contable"
+  },
+  {
+    "IDÁrea": "152",
+    "IDDivisión": "34",
+    "Área": "Societario"
+  },
+  {
+    "IDÁrea": "153",
+    "IDDivisión": "34",
+    "Área": "Mercantil"
+  },
+  {
+    "IDÁrea": "154",
+    "IDDivisión": "34",
+    "Área": "Concesional"
+  },
+  {
+    "IDÁrea": "155",
+    "IDDivisión": "34",
+    "Área": "Sancionador"
+  },
+  {
+    "IDÁrea": "156",
+    "IDDivisión": "34",
+    "Área": "Activo"
+  },
+  {
+    "IDÁrea": "157",
+    "IDDivisión": "37",
+    "Área": "NtroContrato"
+  },
+  {
+    "IDÁrea": "158",
+    "IDDivisión": "37",
+    "Área": "SuContrato"
+  },
+  {
+    "IDÁrea": "159",
+    "IDDivisión": "37",
+    "Área": "Incidencia"
+  },
+  {
+    "IDÁrea": "160",
+    "IDDivisión": "37",
+    "Área": "Problema"
+  },
+  {
+    "IDÁrea": "161",
+    "IDDivisión": "9",
+    "Área": "Control Costes"
+  },
+  {
+    "IDÁrea": "162",
+    "IDDivisión": "9",
+    "Área": "Seguridad y Salud"
+  },
+  {
+    "IDÁrea": "163",
+    "IDDivisión": "9",
+    "Área": "Calidad"
+  },
+  {
+    "IDÁrea": "164",
+    "IDDivisión": "9",
+    "Área": "Medio Ambiente"
+  },
+  {
+    "IDÁrea": "165",
+    "IDDivisión": "9",
+    "Área": "I+D+i"
+  },
+  {
+    "IDÁrea": "166",
+    "IDDivisión": "9",
+    "Área": "Activo"
+  },
+  {
+    "IDÁrea": "167",
+    "IDDivisión": "9",
+    "Área": "Concesión Administrativa"
+  },
+  {
+    "IDÁrea": "168",
+    "IDDivisión": "9",
+    "Área": "Oferta"
+  },
+  {
+    "IDÁrea": "169",
+    "IDDivisión": "9",
+    "Área": "Proyecto"
+  },
+  {
+    "IDÁrea": "170",
+    "IDDivisión": "9",
+    "Área": "Estudio Técnico"
+  },
+  {
+    "IDÁrea": "171",
+    "IDDivisión": "9",
+    "Área": "Planeamiento"
+  },
+  {
+    "IDÁrea": "176",
+    "IDDivisión": "59",
+    "Área": "Sistema directorio controlado"
+  },
+  {
+    "IDÁrea": "177",
+    "IDDivisión": "59",
+    "Área": "Sistema de gestión integrado en intranet"
+  },
+  {
+    "IDÁrea": "178",
+    "IDDivisión": "59",
+    "Área": "Movilidad. Fe de estado"
+  },
+  {
+    "IDÁrea": "179",
+    "IDDivisión": "59",
+    "Área": "Movilidad. Fe de actuante"
+  },
+  {
+    "IDÁrea": "180",
+    "IDDivisión": "59",
+    "Área": "Movilidad. Fe de Acto"
+  },
+  {
+    "IDÁrea": "181",
+    "IDDivisión": "59",
+    "Área": "Movilidad. Control de obra"
+  },
+  {
+    "IDÁrea": "183",
+    "IDDivisión": "59",
+    "Área": "Sistema de gestión integrado intranet - movilidad"
+  },
+  {
+    "IDÁrea": "184",
+    "IDDivisión": "60",
+    "Área": "Pista libre"
+  },
+  {
+    "IDÁrea": "185",
+    "IDDivisión": "60",
+    "Área": "Corte cepellón"
+  }
+]
