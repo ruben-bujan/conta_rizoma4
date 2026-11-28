@@ -14,7 +14,6 @@ Endpoints:
     GET  /asientos?empresa_id=...       — listado de asientos
     GET  /asientos/{indice}?empresa_id= — obtener un asiento
     POST /asientos                      — crear asiento (desde acto)
-    DELETE /asientos/{indice}?empresa_id= — borrar asiento
     POST /verificar                     — verificar cadena hash
 """
 from __future__ import annotations
@@ -26,7 +25,7 @@ from fastapi.staticfiles import StaticFiles
 from fastapi.middleware.cors import CORSMiddleware
 
 from ..config import get_config
-from .routers import asientos, empresas, verificar, leases, obras, operarios, documentos, auth, corpus_forense
+from .routers import asientos, empresas, verificar, leases, obras, operarios, documentos, auth, corpus_forense, config
 
 
 app = FastAPI(
@@ -38,13 +37,19 @@ app = FastAPI(
     version="0.9.0",
 )
 
-# CORS (para que rizoma4 o el frontend puedan consumir la API)
+# El frontend servido por esta misma API no requiere CORS. Los clientes
+# externos deben declarar orígenes concretos; no hay comodín por defecto.
+_cors_origins = [
+    origen.strip()
+    for origen in os.environ.get("CONTA_API_CORS_ORIGINS", "").split(",")
+    if origen.strip()
+]
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=os.environ.get("CONTA_API_CORS_ORIGINS", "*").split(","),
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
+    allow_origins=_cors_origins,
+    allow_credentials=False,
+    allow_methods=["GET", "POST", "DELETE"],
+    allow_headers=["Authorization", "Content-Type"],
 )
 
 app.include_router(asientos.router)
@@ -56,6 +61,7 @@ app.include_router(leases.router)
 app.include_router(obras.router)
 app.include_router(operarios.router)
 app.include_router(documentos.router)
+app.include_router(config.router)
 
 
 # Servir el frontend estático
