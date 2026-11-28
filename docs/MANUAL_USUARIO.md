@@ -13,3 +13,6 @@
 
 ## Configuración de usuario
 Variables: CONTA_API_URL, CONTA_HTTP_URL, CONTA_DEMO_OK, CONTA_SINTETICO_OK.
+
+## API de configuración
+GET /config, POST /config/visa/admin, POST /config/visa/user

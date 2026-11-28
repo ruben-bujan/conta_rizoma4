@@ -6,3 +6,6 @@ Variables de runtime:
 - CONTA_DEMO_OK, CONTA_SINTETICO_OK
 
 No requieren visado; se leen en arranque.
+
+## API de configuración
+GET /config, POST /config/visa/admin, POST /config/visa/user
